@@ -1,16 +1,36 @@
 {
   "schemaVersion": 1,
   "ticket": "Etdev2/sweet-potato#21",
-  "sourceDigest": "sha256:8be13c18d8b9c1effe7e8148a0c76074bc548296d766611665387f2f3b571591",
-  "capturedAt": "2026-10-11T19:53:31Z",
+  "sourceDigest": "sha256:78c53e4b5cdc6dfcd7fd979e25f9980eb0b8f13ae7c72b5223b06b9e1c169f38",
+  "capturedAt": "2026-10-11T20:51:44Z",
   "result": "PASS",
   "verification": {
     "command": "bash -n scripts/claude-launcher-wizard.sh",
-    "fixture": "scripts/claude-launcher-wizard.sh, parsed but not run, because it blocks on browser sign-in"
+    "fixture": "scripts/claude-launcher-wizard.sh through its non-interactive entry points. The interactive stages need a browser sign-in and were not run."
   },
   "commands": [
     {
       "command": "bash -n scripts/claude-launcher-wizard.sh",
+      "exitCode": 0
+    },
+    {
+      "command": "diff <(sed \"/^run_wizard() {/q\" .claude/skills/wizard/template.sh) <(sed \"/^run_wizard() {/q\" scripts/claude-launcher-wizard.sh)",
+      "exitCode": 0
+    },
+    {
+      "command": "bash scripts/claude-launcher-wizard.sh --plan",
+      "exitCode": 0
+    },
+    {
+      "command": "bash scripts/claude-launcher-wizard.sh </dev/null; test $? -eq 2",
+      "exitCode": 0
+    },
+    {
+      "command": "bash scripts/claude-launcher-wizard.sh --install; test $? -eq 2",
+      "exitCode": 0
+    },
+    {
+      "command": "bash scripts/verify-dashboard-tools.sh",
       "exitCode": 0
     },
     {
@@ -27,7 +47,7 @@
     {
       "path": "proof/verification.txt",
       "kind": "terminal",
-      "shows": "The wizard parses and the control-room checks pass. Nobody has run the wizard end to end."
+      "shows": "The library equals the pinned Wizard template, the plan prints three stages, and a run without a terminal or with an unknown option exits 2 before any browser or network action."
     }
   ],
   "noBehaviorReason": "Adds a setup script a person runs by hand. No application or workflow changes."

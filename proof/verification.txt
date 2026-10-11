@@ -1,6 +1,49 @@
 $ bash -n scripts/claude-launcher-wizard.sh
 [exit 0]
 
+$ diff <(sed "/^run_wizard() {/q" .claude/skills/wizard/template.sh) <(sed "/^run_wizard() {/q" scripts/claude-launcher-wizard.sh)
+[exit 0]
+
+$ bash scripts/claude-launcher-wizard.sh --plan
+1. Install the Claude GitHub App: in the browser, on Etdev2/sweet-potato and Etdev2/sweet-potato-fried-test.
+2. Create the subscription token: "claude setup-token" opens a browser sign-in and prints the token.
+3. Store the token: pasted hidden, saved as the CLAUDE_CODE_OAUTH_TOKEN Actions secret in both repositories.
+The token is never written to a file. This plan installs nothing and contacts no service.
+[exit 0]
+
+$ bash scripts/claude-launcher-wizard.sh </dev/null; test $? -eq 2
+This wizard needs an interactive terminal for the browser sign-in. Use --plan to print the steps.
+[exit 0]
+
+$ bash scripts/claude-launcher-wizard.sh --install; test $? -eq 2
+Usage: claude-launcher-wizard.sh [--plan]
+[exit 0]
+
+$ bash scripts/verify-dashboard-tools.sh
+test_expected_page_is_readiness_only (__main__.Tools.test_expected_page_is_readiness_only) ... ok
+test_invalid_port_is_refused (__main__.Tools.test_invalid_port_is_refused) ... ok
+test_matching_pinned_skills_and_resources (__main__.Tools.test_matching_pinned_skills_and_resources) ... ok
+test_noninteractive_run_refuses_before_browser_or_writes (__main__.Tools.test_noninteractive_run_refuses_before_browser_or_writes) ... ok
+test_oversized_page_is_refused (__main__.Tools.test_oversized_page_is_refused) ... ok
+test_redirect_is_not_followed (__main__.Tools.test_redirect_is_not_followed) ... ok
+test_syntax_and_plan_preserve_state (__main__.Tools.test_syntax_and_plan_preserve_state) ... ok
+test_unauthorized_page_is_inconclusive (__main__.Tools.test_unauthorized_page_is_inconclusive) ... ok
+test_unknown_option_refused (__main__.Tools.test_unknown_option_refused) ... ok
+test_unmodified_wizard_library (__main__.Tools.test_unmodified_wizard_library) ... ok
+test_wrong_page_is_inconclusive_and_not_printed (__main__.Tools.test_wrong_page_is_inconclusive_and_not_printed) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 3.179s
+
+OK
+1. Console connection: open the local management page; enter the management key in the browser only.
+2. One provider login: use OAuth Login and complete the approved provider flow in the browser.
+3. Quota inspection: open Quota Management and capture masked provider quota/reset evidence.
+No values are written to .env or GitHub secrets by this wizard.
+Live acceptance remains INCONCLUSIVE until separate real-artifact verification.
+PASS: preparation helpers. Live dashboard acceptance remains INCONCLUSIVE.
+[exit 0]
+
 $ bash scripts/check-control-room.sh
 roster.json is valid. Active builders: 0 of 1.
 projects.json is valid.
