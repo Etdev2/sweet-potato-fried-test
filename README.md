@@ -8,6 +8,10 @@ The goal is the same as the template's. An agent has one obvious path, invalid s
 
 Automatic merge is out of scope. Et merges every pull request.
 
+## Dashboard skill trial
+
+[The skill trial](docs/skill-trial.md) applies the pinned Wizard and create-verification-skill to repeatable dashboard preparation helpers. Run `bash scripts/verify-dashboard-tools.sh` to check the helpers, or `bash scripts/dashboard-wizard.sh --plan` to inspect the procedure. Matching skills are available under `.agents/skills` and `.claude/skills`. Live dashboard login and quota acceptance remain separate.
+
 ## What differs from the template
 
 - The template's proof bundle is gone. It proved a Sweet Potato pull request, not anything in this repo. The first pull request here writes a new one with `scripts/write-proof.sh`.
