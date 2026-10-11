@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "ticket": "Etdev2/sweet-potato#21",
-  "sourceDigest": "sha256:78c53e4b5cdc6dfcd7fd979e25f9980eb0b8f13ae7c72b5223b06b9e1c169f38",
-  "capturedAt": "2026-10-11T20:51:44Z",
+  "sourceDigest": "sha256:498e81aec466405b6ad28eb187d4e7f6579430190efa4b5768dea42f5a6a4ece",
+  "capturedAt": "2026-10-11T22:28:31Z",
   "result": "PASS",
   "verification": {
-    "command": "bash -n scripts/claude-launcher-wizard.sh",
-    "fixture": "scripts/claude-launcher-wizard.sh through its non-interactive entry points. The interactive stages need a browser sign-in and were not run."
+    "command": "bash scripts/verify-claude-launcher-wizard.sh",
+    "fixture": "scripts/claude-launcher-wizard.sh run in a pseudo-terminal against stub gh, claude and browser commands with a fake token. No real sign-in, browser or secret write happened. Live account setup is INCONCLUSIVE until Et runs the wizard."
   },
   "commands": [
     {
@@ -18,15 +18,7 @@
       "exitCode": 0
     },
     {
-      "command": "bash scripts/claude-launcher-wizard.sh --plan",
-      "exitCode": 0
-    },
-    {
-      "command": "bash scripts/claude-launcher-wizard.sh </dev/null; test $? -eq 2",
-      "exitCode": 0
-    },
-    {
-      "command": "bash scripts/claude-launcher-wizard.sh --install; test $? -eq 2",
+      "command": "bash scripts/verify-claude-launcher-wizard.sh",
       "exitCode": 0
     },
     {
@@ -42,13 +34,12 @@
       "exitCode": 0
     }
   ],
-  "behaviorChanged": false,
+  "behaviorChanged": true,
   "evidence": [
     {
       "path": "proof/verification.txt",
       "kind": "terminal",
-      "shows": "The library equals the pinned Wizard template, the plan prints three stages, and a run without a terminal or with an unknown option exits 2 before any browser or network action."
+      "shows": "The table of observed runs. The wizard reports Setup complete only when both secret writes succeed. A failed upload to either or both repositories exits 1 even while an old secret name is still listed. A failed sign-in, an empty token or a token with a space exits 1 with no write attempt. Any argument other than a single --plan exits 2 before any command runs. The library equals the pinned Wizard template."
     }
-  ],
-  "noBehaviorReason": "Adds a setup script a person runs by hand. No application or workflow changes."
+  ]
 }

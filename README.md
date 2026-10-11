@@ -16,6 +16,12 @@ Automatic merge is out of scope. Et merges every pull request.
 
 [The skill trial](docs/skill-trial.md) applies the pinned Wizard and create-verification-skill to repeatable dashboard preparation helpers. Run `bash scripts/verify-dashboard-tools.sh` to check the helpers, or `bash scripts/dashboard-wizard.sh --plan` to inspect the procedure. Matching skills are available under `.agents/skills` and `.claude/skills`. Live dashboard login and quota acceptance remain separate.
 
+## Claude launcher setup
+
+[scripts/claude-launcher-wizard.sh](scripts/claude-launcher-wizard.sh) is the repeatable setup for the Claude GitHub launcher in [Sweet Potato #21](https://github.com/Etdev2/sweet-potato/issues/21). It walks Et through installing the Claude GitHub App on `Etdev2/sweet-potato` and this repo, then stores a subscription token as the `CLAUDE_CODE_OAUTH_TOKEN` Actions secret in both. Run `bash scripts/claude-launcher-wizard.sh` in a real terminal, or `bash scripts/claude-launcher-wizard.sh --plan` to print the steps without contacting any service.
+
+The wizard prepares account access only. It adds no workflow and activates none. It reports success only after GitHub confirms both secret writes. Run `bash scripts/verify-claude-launcher-wizard.sh` to check its success and failure paths against stub commands. A live setup stays unproven until Et runs it.
+
 ## What differs from the template
 
 - The template's proof bundle is gone. It proved a Sweet Potato pull request, not anything in this repo. The first pull request here writes a new one with `scripts/write-proof.sh`.

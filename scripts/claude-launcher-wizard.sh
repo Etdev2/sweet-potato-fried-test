@@ -201,22 +201,27 @@ finish() {
 run_wizard() {
 local repos=("Etdev2/sweet-potato" "Etdev2/sweet-potato-fried-test")
 local secret_name="CLAUDE_CODE_OAUTH_TOKEN"
-local claude_bin repo
+local usage='Usage: claude-launcher-wizard.sh [--plan]'
+local claude_bin repo before
+local stored=() failed=()
 # This wizard never writes the token to a file, so don't offer a saved value.
 ENV_FILE=/dev/null
 
-case "${1:-}" in
-  --plan)
-    [[ $# -eq 1 ]] || { printf '%s\n' 'Usage: claude-launcher-wizard.sh [--plan]' >&2; return 2; }
-    printf '%s\n' \
-      '1. Install the Claude GitHub App: in the browser, on Etdev2/sweet-potato and Etdev2/sweet-potato-fried-test.' \
-      '2. Create the subscription token: "claude setup-token" opens a browser sign-in and prints the token.' \
-      '3. Store the token: pasted hidden, saved as the CLAUDE_CODE_OAUTH_TOKEN Actions secret in both repositories.' \
-      'The token is never written to a file. This plan installs nothing and contacts no service.'
-    return 0 ;;
-  '') ;;
-  *) printf '%s\n' 'Usage: claude-launcher-wizard.sh [--plan]' >&2; return 2 ;;
-esac
+# Exactly no arguments, or exactly --plan. An empty first argument is still an
+# argument, so it is refused like any other.
+if [[ $# -gt 1 || ( $# -eq 1 && "$1" != --plan ) ]]; then
+  printf '%s\n' "$usage" >&2
+  return 2
+fi
+if [[ $# -eq 1 ]]; then
+  printf '%s\n' \
+    '1. Install the Claude GitHub App: in the browser, on Etdev2/sweet-potato and Etdev2/sweet-potato-fried-test.' \
+    '2. Create the subscription token: "claude setup-token" opens a browser sign-in and prints the token.' \
+    '3. Store the token: pasted hidden, saved as the CLAUDE_CODE_OAUTH_TOKEN Actions secret in both repositories.' \
+    'The token is never written to a file. This plan installs nothing and contacts no service.' \
+    'The wizard prepares account access only. It adds and activates no workflow.'
+  return 0
+fi
 if [[ ! -t 0 || ! -t 1 ]]; then
   printf '%s\n' 'This wizard needs an interactive terminal for the browser sign-in. Use --plan to print the steps.' >&2
   return 2
@@ -255,34 +260,53 @@ say "Next, Claude Code opens your browser so you can sign in with your Claude su
 say "It then prints a long token in this window. Copy the whole token."
 note "The token is a password. Do not paste it into a chat or an issue."
 pause "Press Enter to start the sign-in"
-"$claude_bin" setup-token || warn "The sign-in command reported a problem. If you have no token, press Ctrl-C and run this again."
+if ! "$claude_bin" setup-token; then
+  printf '\n'
+  warn "Setup is not complete. The sign-in command failed, so there is no token to store."
+  note "Nothing was sent to GitHub. Run this again when the sign-in works."
+  return 1
+fi
 printf '\n'
 pause "Copy the token now, then press Enter. The screen will clear."
 
 stage "Store the token as a GitHub secret"
 say "Paste the token here. It stays hidden, and it goes straight to GitHub's secret store."
 local CLAUDE_TOKEN_VALUE=""
-ask_secret CLAUDE_TOKEN_VALUE "Paste the token:"
+ask_secret CLAUDE_TOKEN_VALUE "Paste the token:" || CLAUDE_TOKEN_VALUE=""
+if [[ -z "$CLAUDE_TOKEN_VALUE" || "$CLAUDE_TOKEN_VALUE" == *[[:space:]]* ]]; then
+  CLAUDE_TOKEN_VALUE=""
+  warn "Setup is not complete. The pasted value was empty or contained a space."
+  note "Nothing was sent to GitHub. Run this again and paste the whole token."
+  return 1
+fi
 if [[ "$CLAUDE_TOKEN_VALUE" != sk-ant-* ]]; then
   warn "That does not look like a Claude token, which starts with sk-ant-."
   confirm "Store it anyway?" || { CLAUDE_TOKEN_VALUE=""; return 1; }
 fi
+# set_secret returns 0 even when the write fails, and records the failure as a
+# skipped item. It appends to WRITTEN_SECRET only after gh reports the write
+# succeeded, so the count is the proof for each repository.
 for repo in "${repos[@]}"; do
   note "$repo"
+  before=${#WRITTEN_SECRET[@]}
   GH_REPO="$repo" set_secret "$secret_name" "$CLAUDE_TOKEN_VALUE"
+  if (( ${#WRITTEN_SECRET[@]} > before )); then stored+=("$repo"); else failed+=("$repo"); fi
 done
 CLAUDE_TOKEN_VALUE=""
+if (( ${#failed[@]} )); then
+  printf '\n'
+  warn "Setup is not complete. GitHub did not confirm $secret_name for:"
+  for repo in "${failed[@]}"; do note "    $repo"; done
+  if (( ${#stored[@]} )); then note "Stored for: ${stored[*]}"; fi
+  note "A secret with that name from an earlier run may still be listed there. This run did not replace it."
+  note "Check 'gh auth status' and your admin access to the repository, then run this again."
+  return 1
+fi
 printf '\n'
-for repo in "${repos[@]}"; do
-  if gh secret list --repo "$repo" 2>/dev/null | grep -q "^$secret_name"; then
-    printf '  %s✓%s %s has %s\n' "$GREEN" "$RESET" "$repo" "$secret_name"
-  else
-    warn "$repo does not list $secret_name"
-  fi
-done
 pause "Press Enter to finish"
 
 finish
+note "This prepared account access only. No workflow is active yet."
 note "Tell Claude the setup is done. Claude will check the secrets and prepare the workflow."
 printf '\n'
 }
