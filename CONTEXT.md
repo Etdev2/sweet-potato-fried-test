@@ -36,6 +36,9 @@ Adding a bot to the roster after Et approves its one-job contract.
 **Cap**
 The most builders allowed to run at the same time.
 
+**Handshake**
+The first confirmed two-way exchange between Et's bots through GitHub. One bot posts a request in an issue, the other answers with a comment and a draft pull request, and the first confirms receipt on that pull request. Run one whenever a new agent joins, before it receives work. It grants no authority to start work. Et named it on 2026-10-11 after the first handshake between Claude and Codex (issue #1, pull request #3).
+
 ## Work
 
 **Outer loop**
