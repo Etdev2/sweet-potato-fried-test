@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "last Friday",
+  "credentials": [
+    {
+      "id": "claude-1",
+      "provider": "claude",
+      "account": {
+        "kind": "email",
+        "email": "tess@lumen.example"
+      },
+      "plan": "Max",
+      "state": "loaded",
+      "limits": [
+        {
+          "id": "seven-day-model",
+          "label": "7-day Fable 5",
+          "remaining": {
+            "status": "measured",
+            "percent": 140
+          },
+          "reset": {
+            "status": "none"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gemini-1",
+      "provider": "gemini",
+      "account": {
+        "kind": "email",
+        "email": "gus@grove.example"
+      },
+      "plan": null,
+      "state": "loaded",
+      "limits": [
+        {
+          "id": "weekly",
+          "label": "Weekly limit",
+          "remaining": {
+            "status": "measured",
+            "percent": "12"
+          }
+        }
+      ]
+    }
+  ]
+}

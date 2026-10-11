@@ -1,12 +1,108 @@
+$ QUOTA_PROOF_DIR="$PWD/proof" bash scripts/verify-quota-console.sh
+
+== Typecheck
+
+== Lint with type information, zero warnings
+
+== Unit and contract tests
+
+ RUN  v4.1.11 /Users/et/dev/sweet-potato-fried-test/apps/quota-console
+
+
+ Test Files  6 passed (6)
+      Tests  43 passed (43)
+   Start at  12:32:16
+   Duration  243ms (transform 212ms, setup 0ms, import 489ms, tests 77ms, environment 0ms)
+
+
+== Production build
+vite v6.4.4 building for production...
+transforming...
+node_modules/zod/v4/core/util.js (400:0): A comment
+
+"// Wrapped in a `@__PURE__` IIFE: esbuild never tree-shakes a top-level initializer that contains a member access on `Number`, so the bare object literal survived into every bundle."
+
+in "node_modules/zod/v4/core/util.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/zod/v4/core/regexes.js (74:0): A comment
+
+"/** Anchors a pattern source. The interpolation lives here rather than at the call site because
+ * esbuild will not drop a `@__PURE__` call whose own argument interpolates a variable, but it
+ * will drop `anchor(dateSource)`. Keeping it inline pinned `date` into every bundle. */"
+
+in "node_modules/zod/v4/core/regexes.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+✓ 136 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.46 kB │ gzip:   0.29 kB
+dist/assets/index-C-vDMYPu.css    7.66 kB │ gzip:   2.35 kB
+dist/assets/index-DPZE0qIa.js   333.72 kB │ gzip: 101.53 kB
+✓ built in 780ms
+
+== Browser tests against the production build
+
+Running 23 tests using 5 workers
+
+  ✓  4 [chromium] › quota-page.spec.ts:31:3 › layout from the committed sample › tabs carry per-provider counts (460ms)
+  ✓  5 [chromium] › quota-page.spec.ts:22:3 › layout from the committed sample › sidebar lists the four groups with Quota Management selected (464ms)
+  ✓  2 [chromium] › proof.spec.ts:18:3 › proof screenshots › the page from the sample data (570ms)
+  ✓  1 [chromium] › proof.spec.ts:33:3 › proof screenshots › the error for malformed data (605ms)
+  ✓  6 [chromium] › quota-page.spec.ts:37:3 › layout from the committed sample › one summary card per provider that has credentials (183ms)
+  ✓  3 [chromium] › proof.spec.ts:24:3 › proof screenshots › emails shown and the Claude card expanded (710ms)
+  ✓  7 [chromium] › quota-page.spec.ts:55:3 › layout from the committed sample › a card bar has one segment per credential, each as wide as its percentage (244ms)
+  ✓  9 [chromium] › quota-page.spec.ts:68:3 › layout from the committed sample › a missing measurement reads as unavailable, not as zero (172ms)
+  ✓  8 [chromium] › quota-page.spec.ts:96:3 › layout from the committed sample › the summary card expands to show the other limits (254ms)
+  ✓  10 [chromium] › quota-page.spec.ts:78:3 › layout from the committed sample › each Claude credential row shows three limits and a refresh action (254ms)
+  ✓  11 [chromium] › quota-page.spec.ts:120:3 › tabs › filter the cards and the credential rows (319ms)
+  ✓  12 [chromium] › quota-page.spec.ts:109:3 › layout from the committed sample › the sidebar collapses and expands (301ms)
+  ✓  14 [chromium] › quota-page.spec.ts:174:3 › values come from the data › different data gives different counts, card totals and bar widths (261ms)
+  ✓  13 [chromium] › quota-page.spec.ts:147:3 › Show emails › reveals the fake addresses and hides them again (345ms)
+  ✓  15 [chromium] › quota-page.spec.ts:218:3 › Refresh › reads the file again and shows the new values (340ms)
+  ✓  16 [chromium] › quota-page.spec.ts:244:3 › Refresh › shows a clear error when the refreshed file is bad, and recovers on retry (335ms)
+  ✓  17 [chromium] › quota-page.spec.ts:263:3 › Refresh quota on one row › updates that credential only (298ms)
+  ✓  18 [chromium] › quota-page.spec.ts:283:3 › Refresh quota on one row › reports a failed refresh on the row and keeps the old values (248ms)
+  ✓  22 [chromium] › quota-page.spec.ts:328:3 › bad data fails with a clear error › the built site answers 404 for a data file that does not exist (17ms)
+  ✓  19 [chromium] › quota-page.spec.ts:294:3 › Refresh quota on one row › says so when the credential has gone from the data (259ms)
+  ✓  20 [chromium] › quota-page.spec.ts:305:3 › bad data fails with a clear error › the committed malformed fixture names every fault (168ms)
+  ✓  21 [chromium] › quota-page.spec.ts:320:3 › bad data fails with a clear error › a missing file reports its HTTP status (131ms)
+  ✓  23 [chromium] › quota-page.spec.ts:333:3 › bad data fails with a clear error › an unknown source name is refused without a request (128ms)
+
+  23 passed (3.3s)
+
+== Verification skill copies match
+
+PASS: quota console.
+[exit 0]
+
 $ bash scripts/check-control-room.sh
 roster.json is valid. Active builders: 0 of 1.
 projects.json is valid.
 Control-room data is valid.
 [exit 0]
 
-$ git diff --check
+$ bash scripts/verify-dashboard-tools.sh
+test_expected_page_is_readiness_only (__main__.Tools.test_expected_page_is_readiness_only) ... ok
+test_invalid_port_is_refused (__main__.Tools.test_invalid_port_is_refused) ... ok
+test_matching_pinned_skills_and_resources (__main__.Tools.test_matching_pinned_skills_and_resources) ... ok
+test_noninteractive_run_refuses_before_browser_or_writes (__main__.Tools.test_noninteractive_run_refuses_before_browser_or_writes) ... ok
+test_oversized_page_is_refused (__main__.Tools.test_oversized_page_is_refused) ... ok
+test_redirect_is_not_followed (__main__.Tools.test_redirect_is_not_followed) ... ok
+test_syntax_and_plan_preserve_state (__main__.Tools.test_syntax_and_plan_preserve_state) ... ok
+test_unauthorized_page_is_inconclusive (__main__.Tools.test_unauthorized_page_is_inconclusive) ... ok
+test_unknown_option_refused (__main__.Tools.test_unknown_option_refused) ... ok
+test_unmodified_wizard_library (__main__.Tools.test_unmodified_wizard_library) ... ok
+test_wrong_page_is_inconclusive_and_not_printed (__main__.Tools.test_wrong_page_is_inconclusive_and_not_printed) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 3.178s
+
+OK
+1. Console connection: open the local management page; enter the management key in the browser only.
+2. One provider login: use OAuth Login and complete the approved provider flow in the browser.
+3. Quota inspection: open Quota Management and capture masked provider quota/reset evidence.
+No values are written to .env or GitHub secrets by this wizard.
+Live acceptance remains INCONCLUSIVE until separate real-artifact verification.
+PASS: preparation helpers. Live dashboard acceptance remains INCONCLUSIVE.
 [exit 0]
 
-$ grep -c "^\*\*Handshake\*\*$" CONTEXT.md
-1
+$ git diff --cached --check origin/main
 [exit 0]

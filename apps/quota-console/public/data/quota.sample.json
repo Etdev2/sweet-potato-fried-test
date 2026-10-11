@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-11T20:00:00Z",
+  "credentials": [
+    {
+      "id": "claude-1",
+      "provider": "claude",
+      "account": {
+        "kind": "email",
+        "email": "tess@lumen.example"
+      },
+      "plan": "Max",
+      "state": "loaded",
+      "limits": [
+        {
+          "id": "seven-day-model",
+          "label": "7-day Fable 5",
+          "remaining": {
+            "status": "measured",
+            "percent": 58
+          },
+          "reset": {
+            "status": "scheduled",
+            "at": "2026-09-13T13:00:00Z"
+          }
+        },
+        {
+          "id": "five-hour",
+          "label": "5-hour limit",
+          "remaining": {
+            "status": "measured",
+            "percent": 100
+          },
+          "reset": {
+            "status": "none"
+          }
+        },
+        {
+          "id": "seven-day",
+          "label": "7-day limit",
+          "remaining": {
+            "status": "measured",
+            "percent": 79
+          },
+          "reset": {
+            "status": "scheduled",
+            "at": "2026-09-13T13:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "claude-2",
+      "provider": "claude",
+      "account": {
+        "kind": "email",
+        "email": "tom@prism.example"
+      },
+      "plan": "Max",
+      "state": "loaded",
+      "limits": [
+        {
+          "id": "seven-day-model",
+          "label": "7-day Fable 5",
+          "remaining": {
+            "status": "measured",
+            "percent": 100
+          },
+          "reset": {
+            "status": "scheduled",
+            "at": "2026-09-15T22:00:00Z"
+          }
+        },
+        {
+          "id": "five-hour",
+          "label": "5-hour limit",
+          "remaining": {
+            "status": "measured",
+            "percent": 100
+          },
+          "reset": {
+            "status": "none"
+          }
+        },
+        {
+          "id": "seven-day",
+          "label": "7-day limit",
+          "remaining": {
+            "status": "measured",
+            "percent": 100
+          },
+          "reset": {
+            "status": "scheduled",
+            "at": "2026-09-15T22:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "claude-3",
+      "provider": "claude",
+      "account": {
+        "kind": "email",
+        "email": "tara@tidal.example"
+      },
+      "plan": "Max",
+      "state": "loaded",
+      "limits": [
+        {
+          "id": "seven-day-model",
+          "label": "7-day Fable 5",
+          "remaining": {
+            "status": "measured",
+            "percent": 100
+          },
+          "reset": {
+            "status": "scheduled",
+            "at": "2026-09-16T14:00:00Z"
+          }
+        },
+        {
+          "id": "five-hour",
+          "label": "5-hour limit",
+          "remaining": {
+            "status": "measured",
+            "percent": 100
+          },
+          "reset": {
+            "status": "none"
+          }
+        },
+        {
+          "id": "seven-day",
+          "label": "7-day limit",
+          "remaining": {
+            "status": "measured",
+            "percent": 100
+          },
+          "reset": {
+            "status": "scheduled",
+            "at": "2026-09-16T14:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "claude-4",
+      "provider": "claude",
+      "account": {
+        "kind": "email",
+        "email": "theo@tundra.example"
+      },
+      "plan": "Max",
+      "state": "loaded",
+      "limits": [
+        {
+          "id": "seven-day-model",
+          "label": "7-day Fable 5",
+          "remaining": {
+            "status": "measured",
+            "percent": 51
+          },
+          "reset": {
+            "status": "scheduled",
+            "at": "2026-09-12T23:00:00Z"
+          }
+        },
+        {
+          "id": "five-hour",
+          "label": "5-hour limit",
+          "remaining": {
+            "status": "measured",
+            "percent": 99
+          },
+          "reset": {
+            "status": "scheduled",
+            "at": "2026-09-11T23:30:00Z"
+          }
+        },
+        {
+          "id": "seven-day",
+          "label": "7-day limit",
+          "remaining": {
+            "status": "measured",
+            "percent": 75
+          },
+          "reset": {
+            "status": "scheduled",
+            "at": "2026-09-12T23:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "claude-5",
+      "provider": "claude",
+      "account": {
+        "kind": "email",
+        "email": "tilly@tango.example"
+      },
+      "plan": "Max",
+      "state": "loaded",
+      "limits": [
+        {
+          "id": "seven-day-model",
+          "label": "7-day Fable 5",
+          "remaining": {
+            "status": "measured",
+            "percent": 100
+          },
+          "reset": {
+            "status": "scheduled",
+            "at": "2026-09-17T09:00:00Z"
+          }
+        },
+        {
+          "id": "five-hour",
+          "label": "5-hour limit",
+          "remaining": {
+            "status": "measured",
+            "percent": 100
+          },
+          "reset": {
+            "status": "none"
+          }
+        },
+        {
+          "id": "seven-day",
+          "label": "7-day limit",
+          "remaining": {
+            "status": "measured",
+            "percent": 100
+          },
+          "reset": {
+            "status": "scheduled",
+            "at": "2026-09-17T09:00:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "codex-1",
+      "provider": "codex",
+      "account": {
+        "kind": "email",
+        "email": "cal@copper.example"
+      },
+      "plan": "Plus",
+      "state": "loaded",
+      "limits": [
+        {
+          "id": "weekly",
+          "label": "Weekly limit",
+          "remaining": {
+            "status": "measured",
+            "percent": 17
+          },
+          "reset": {
+            "status": "scheduled",
+            "at": "2026-09-14T18:23:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "codex-2",
+      "provider": "codex",
+      "account": {
+        "kind": "email",
+        "email": "cora@cinder.example"
+      },
+      "plan": "Plus",
+      "state": "loaded",
+      "limits": [
+        {
+          "id": "weekly",
+          "label": "Weekly limit",
+          "remaining": {
+            "status": "measured",
+            "percent": 0
+          },
+          "reset": {
+            "status": "scheduled",
+            "at": "2026-09-15T08:10:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "codex-3",
+      "provider": "codex",
+      "account": {
+        "kind": "email",
+        "email": "cy@cobalt.example"
+      },
+      "plan": "Plus",
+      "state": "loaded",
+      "limits": [
+        {
+          "id": "weekly",
+          "label": "Weekly limit",
+          "remaining": {
+            "status": "measured",
+            "percent": 0
+          },
+          "reset": {
+            "status": "scheduled",
+            "at": "2026-09-16T11:45:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "xai-1",
+      "provider": "xai",
+      "account": {
+        "kind": "email",
+        "email": "xena@xylo.example"
+      },
+      "plan": null,
+      "state": "loaded",
+      "limits": [
+        {
+          "id": "weekly",
+          "label": "Weekly limit",
+          "remaining": {
+            "status": "unavailable"
+          },
+          "reset": {
+            "status": "scheduled",
+            "at": "2026-09-17T17:29:00Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kimi-1",
+      "provider": "kimi",
+      "account": {
+        "kind": "email",
+        "email": "kit@kelp.example"
+      },
+      "plan": null,
+      "state": "loaded",
+      "limits": [
+        {
+          "id": "weekly",
+          "label": "Weekly limit",
+          "remaining": {
+            "status": "measured",
+            "percent": 100
+          },
+          "reset": {
+            "status": "scheduled",
+            "at": "2026-09-17T15:56:00Z"
+          }
+        }
+      ]
+    }
+  ]
+}

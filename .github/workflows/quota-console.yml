@@ -1,0 +1,31 @@
+name: Quota console
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  quota-console:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: apps/quota-console/package-lock.json
+      - name: Install dependencies from the lockfile
+        working-directory: apps/quota-console
+        run: npm ci --no-audit --no-fund
+      - name: Install the browser the tests drive
+        working-directory: apps/quota-console
+        run: npx playwright install --with-deps chromium
+      # The registered verification command: typecheck, lint, unit tests,
+      # production build, then browser tests against that build.
+      - name: Verify the quota console
+        run: bash scripts/verify-quota-console.sh
