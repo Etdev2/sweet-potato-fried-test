@@ -1,21 +1,31 @@
-# Sweet Potato
+# Sweet Potato fried test
 
-Sweet Potato is Et's reusable control room for AI-assisted software projects. Grok Bot runs the outer loop, Potato Architect maps unclear work, Claude builds one ready ticket at a time, Codex reviews independently, and Et decides what merges.
+This repo is a pop quiz for Et's bots. It is a copy of the [Sweet Potato](https://github.com/Etdev2/sweet-potato) control room at commit `7a010d5`. Et posts tasks as GitHub issues. Claude and ChatGPT complete them with the skills, concepts and goals the template defines.
 
-The goal is not the largest bot roster. The goal is a repository where an agent has one obvious path, invalid states fail early, and every change carries proof from the real application.
+The quiz material includes screenshots of a dashboard template from Theo. Et adds them with the tasks.
 
-Automatic merge is out of scope. Et merges every pull request until a later decision changes that authority.
+The goal is the same as the template's. An agent has one obvious path, invalid states fail early, and every change carries proof from the real application.
+
+Automatic merge is out of scope. Et merges every pull request.
+
+## What differs from the template
+
+- The template's proof bundle is gone. It proved a Sweet Potato pull request, not anything in this repo. The first pull request here writes a new one with `scripts/write-proof.sh`.
+- [projects.json](projects.json) still lists Money Machine, the template's only project. The quiz has no entry yet. The registry accepts two lanes, `rust-service` and `typescript-web`, and Et has not chosen one for the quiz.
+- Sweet Potato's issues, work queue and pull requests stay in the template repo. Only the files came across.
+
+Everything else matches the template, including the rules in [AGENTS.md](AGENTS.md) and the language in [CONTEXT.md](CONTEXT.md).
 
 ## How work moves
 
-1. Sweet Potato collects a request, bug report or code signal through the outer loop.
-2. If the route is unclear or larger than one run, Potato Architect creates a Wayfinder map of decision tickets.
-3. Potato Architect turns a resolved map into a spec and small, blocked tickets. Sweet Potato writes the ticket directly when the route is already clear.
-4. Either bot may propose a ticket as ready. Et marks it ready and names the builder.
-5. Claude takes that one ticket, works on its own branch and attaches proof.
-6. Codex reviews the fixed diff on two separate axes: repository standards and the originating spec.
-7. Et reads the proof and review, then merges or sends the work back.
-8. Repeated corrections become architecture, types, lint rules or CI checks through pstack's `correct` discipline.
+1. Et posts a task as an issue.
+2. Et marks the ticket ready with `ready-for-agent` and names its builder.
+3. The builder takes that one ticket, works on its own branch and commits a proof bundle with the change.
+4. A reviewer from a different model family checks the fixed diff on two separate axes, repository standards and the originating ticket.
+5. Et reads the proof and the review, then merges or sends the work back.
+6. Repeated corrections become architecture, types, lint rules or CI checks through pstack's `correct` discipline.
+
+The template names Claude as builder and Codex as reviewer. Et can name a different builder on any ticket.
 
 ## Foundation files
 
@@ -32,11 +42,11 @@ Automatic merge is out of scope. Et merges every pull request until a later deci
 | [bots/claude-builder.md](bots/claude-builder.md) | Builder job description |
 | [bots/codex-reviewer.md](bots/codex-reviewer.md) | Two-axis reviewer job description |
 | [docs/poteto-playbook.md](docs/poteto-playbook.md) | Lauren Tan's trust and verification approach |
-| [AGENTS.md](AGENTS.md) | Rules every bot follows in this control room |
+| [AGENTS.md](AGENTS.md) | Rules every bot follows in this repo |
 
 ## Skill composition
 
-Sweet Potato does not install every public skill. The registry composes a smaller workflow:
+This repo inherits Sweet Potato's skill registry. It does not install every public skill. The registry composes a smaller workflow:
 
 - Matt Pocock skills for grilling, Wayfinder planning, specs, tickets, domain modeling and two-axis review.
 - Pstack skills for architecture, verification, type discipline, blast radius, correction, decision trails and plain writing.
@@ -51,7 +61,7 @@ Every project chooses a lane before its first build:
 - `rust-service` for correctness-critical services, CLIs and workers where Rust's type system can make illegal states difficult to express.
 - `typescript-web` for Next.js and product UI, with strict TypeScript, typed boundaries, architecture lint and browser verification.
 
-Rust is an option, not a rewrite mandate. Money Machine remains in its TypeScript lane unless a separate architecture decision proves that moving a bounded component to Rust reduces total risk.
+Rust is an option, not a rewrite mandate.
 
 ## Spending and authority
 
@@ -61,19 +71,3 @@ Rust is an option, not a rewrite mandate. Money Machine remains in its TypeScrip
 - One builder runs at a time.
 - Project production writes, migrations and paid model runs remain disabled until the project registry explicitly allows them.
 - Et merges every pull request.
-
-## First pilot
-
-Money Machine is the first candidate project. It stays at `stage-0-unverified` until it has a project-local verification skill, a feature map, a known fixture and CI that rejects a pull request without its required proof.
-
-## Setup sequence
-
-- [x] Create the control room.
-- [x] Define the agent environment, strict lanes and pinned skill registry.
-- [x] Add Potato Architect as a proposed Grok Bot.
-- [ ] Resolve the open Wayfinder decisions.
-- [ ] Install and test the selected skills through official provider tools.
-- [ ] Create Money Machine's verification skill and proof check.
-- [ ] Connect Claude and Codex to Money Machine.
-- [ ] Run one reversible ticket through the complete supervised workflow.
-- [ ] Measure rework, proof quality, review time and provider usage before adding a second builder.
