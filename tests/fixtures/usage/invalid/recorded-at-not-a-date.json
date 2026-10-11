@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "eventId": "evt-fixture",
+  "recordedAt": "definitely-not-a-date",
+  "runId": "run-fixture",
+  "agent": "Claude builder",
+  "provider": "anthropic",
+  "model": "fixture-model",
+  "projectRepository": "Etdev2/moneyMachine",
+  "ticket": "Etdev2/moneyMachine#1",
+  "outcome": "pull-request",
+  "standing": "estimated",
+  "source": {
+    "kind": "manual-estimate",
+    "method": "characters divided by four, priced at the published list price"
+  },
+  "usage": {
+    "inputTokens": 9000,
+    "estimatedCostUsd": 0.3
+  }
+}

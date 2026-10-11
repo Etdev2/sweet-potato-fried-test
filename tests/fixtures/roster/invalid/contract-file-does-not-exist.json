@@ -1,0 +1,39 @@
+{
+  "cap": {
+    "buildersAtOnce": 1
+  },
+  "bots": [
+    {
+      "name": "Sweet Potato",
+      "role": "executive-chef",
+      "runsOn": "Grok Bot, on Et's Grok plan",
+      "job": "Runs the outer loop by routing incoming signals into mapped decisions or proposed tickets and reporting what needs Et.",
+      "status": "hiring",
+      "contract": "bots/sweet-potato.md"
+    },
+    {
+      "name": "Potato Architect",
+      "role": "architect",
+      "runsOn": "Grok Bot, on Et's Grok plan",
+      "job": "Turns unclear or multi-session work into a Wayfinder map, an agreed architecture sketch, a spec and blocked tickets without implementing application code.",
+      "status": "hiring",
+      "contract": "bots/potato-architect.md"
+    },
+    {
+      "name": "Claude builder",
+      "role": "builder",
+      "runsOn": "Claude Code in GitHub Actions, on Claude Pro",
+      "job": "Builds one ready ticket at a time, captures proof by running the real artifact, and opens a pull request.",
+      "status": "not-connected",
+      "contract": "bots/claude-builder.md"
+    },
+    {
+      "name": "Codex reviewer",
+      "role": "reviewer",
+      "runsOn": "Codex code review on GitHub, on ChatGPT",
+      "job": "Reviews a fixed pull-request diff separately for repository standards and compliance with the originating ticket or spec.",
+      "status": "not-connected",
+      "contract": "bots/codex-reviewer-v2.md"
+    }
+  ]
+}

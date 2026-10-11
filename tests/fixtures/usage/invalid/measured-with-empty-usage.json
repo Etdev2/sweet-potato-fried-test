@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "eventId": "evt-fixture",
+  "recordedAt": "2026-10-11T12:00:00Z",
+  "runId": "run-fixture",
+  "agent": "Claude builder",
+  "provider": "anthropic",
+  "model": "fixture-model",
+  "projectRepository": "Etdev2/moneyMachine",
+  "ticket": "Etdev2/moneyMachine#1",
+  "outcome": "pull-request",
+  "standing": "measured",
+  "source": {
+    "kind": "provider-report"
+  },
+  "usage": {}
+}

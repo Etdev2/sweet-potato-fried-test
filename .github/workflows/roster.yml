@@ -1,0 +1,34 @@
+name: Control room
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  contracts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      # The proof digest must match the pull request's own head commit, not
+      # GitHub's synthetic merge ref (ADR 0005). Pushes to main use github.sha.
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - run: bash scripts/check-control-room.sh
+      - name: Install the pinned JSON Schema validator
+        run: |
+          python3 -m venv "$RUNNER_TEMP/venv"
+          "$RUNNER_TEMP/venv/bin/pip" install --quiet jsonschema==4.26.0 rfc3339-validator==0.1.4
+          echo "$RUNNER_TEMP/venv/bin" >> "$GITHUB_PATH"
+      - run: bash scripts/test-control-room.sh
+      - run: bash scripts/test-proof-gate.sh
+      # The proof gate on this pull request's own bundle. It runs on pull
+      # requests only: once main has moved, the merged tree differs from the
+      # reviewed candidate, so its bundle would read as stale by design.
+      - name: Check this pull request's proof bundle
+        if: github.event_name == 'pull_request'
+        run: bash scripts/check-proof.sh .

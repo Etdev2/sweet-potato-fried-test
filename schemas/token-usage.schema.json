@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Etdev2/sweet-potato/schemas/token-usage.schema.json",
+  "title": "Agent usage event",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "eventId",
+    "recordedAt",
+    "runId",
+    "agent",
+    "provider",
+    "projectRepository",
+    "standing",
+    "source",
+    "outcome"
+  ],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "eventId": { "type": "string", "minLength": 1 },
+    "recordedAt": { "type": "string", "format": "date-time" },
+    "runId": { "type": "string", "minLength": 1 },
+    "agent": { "type": "string", "minLength": 1 },
+    "provider": { "type": "string", "enum": ["anthropic", "openai", "xai", "other"] },
+    "model": { "type": "string", "minLength": 1 },
+    "projectRepository": { "type": "string", "pattern": "^[^/]+/[^/]+$" },
+    "ticket": { "type": "string", "minLength": 1 },
+    "standing": { "type": "string", "enum": ["measured", "estimated", "unavailable"] },
+    "usage": {
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "inputTokens": { "type": "integer", "minimum": 0 },
+        "cachedInputTokens": { "type": "integer", "minimum": 0 },
+        "outputTokens": { "type": "integer", "minimum": 0 },
+        "billedCostUsd": { "type": "number", "minimum": 0 },
+        "estimatedCostUsd": { "type": "number", "minimum": 0 },
+        "durationSeconds": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind"],
+      "properties": {
+        "kind": { "type": "string", "enum": ["provider-report", "official-client", "manual-estimate", "unavailable"] },
+        "locator": { "type": "string", "minLength": 1 },
+        "method": { "type": "string", "minLength": 1 }
+      }
+    },
+    "outcome": {
+      "type": "string",
+      "enum": ["open", "pull-request", "merged-candidate", "trusted-after-7-days", "rework", "failed", "inconclusive"]
+    }
+  },
+  "allOf": [
+    {
+      "description": "Measured usage comes from the provider or its official client and carries a measured token count or billed cost.",
+      "if": { "properties": { "standing": { "const": "measured" } }, "required": ["standing"] },
+      "then": {
+        "required": ["usage"],
+        "properties": {
+          "source": {
+            "properties": { "kind": { "enum": ["provider-report", "official-client"] } }
+          },
+          "usage": {
+            "anyOf": [
+              { "required": ["inputTokens"] },
+              { "required": ["cachedInputTokens"] },
+              { "required": ["outputTokens"] },
+              { "required": ["billedCostUsd"] }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "description": "Estimated usage names its method, carries an estimated token count or cost, and never carries a billed cost.",
+      "if": { "properties": { "standing": { "const": "estimated" } }, "required": ["standing"] },
+      "then": {
+        "required": ["usage"],
+        "properties": {
+          "source": {
+            "properties": { "kind": { "const": "manual-estimate" } },
+            "required": ["kind", "method"]
+          },
+          "usage": {
+            "properties": { "billedCostUsd": false },
+            "anyOf": [
+              { "required": ["inputTokens"] },
+              { "required": ["cachedInputTokens"] },
+              { "required": ["outputTokens"] },
+              { "required": ["estimatedCostUsd"] }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "description": "Unavailable usage records that nothing was exposed, so it carries no usage values.",
+      "if": { "properties": { "standing": { "const": "unavailable" } }, "required": ["standing"] },
+      "then": {
+        "properties": {
+          "source": {
+            "properties": { "kind": { "const": "unavailable" } },
+            "required": ["kind"]
+          },
+          "usage": false
+        }
+      }
+    }
+  ]
+}

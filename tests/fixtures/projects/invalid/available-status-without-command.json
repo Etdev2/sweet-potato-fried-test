@@ -1,0 +1,21 @@
+{
+  "projects": [
+    {
+      "name": "Fixture App",
+      "repository": "Etdev2/fixture-app",
+      "lane": "typescript-web",
+      "trustStage": "stage-0-unverified",
+      "mergeAuthority": "Et",
+      "verification": {
+        "status": "available",
+        "command": null
+      },
+      "requiredChecks": [],
+      "productionAuthority": {
+        "writesAllowed": false,
+        "migrationsAllowed": false,
+        "paidModelRunsAllowed": false
+      }
+    }
+  ]
+}

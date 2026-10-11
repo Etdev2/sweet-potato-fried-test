@@ -1,0 +1,48 @@
+{
+  "projects": [
+    {
+      "name": "Fixture App",
+      "repository": "Etdev2/fixture-app",
+      "lane": "typescript-web",
+      "trustStage": "stage-1-supervised",
+      "mergeAuthority": "Et",
+      "verification": {
+        "status": "available",
+        "command": "npm run verify"
+      },
+      "requiredChecks": [
+        "ci / typecheck",
+        "ci / verify"
+      ],
+      "productionAuthority": {
+        "writesAllowed": false,
+        "migrationsAllowed": false,
+        "paidModelRunsAllowed": false
+      }
+    }
+  ]
+}
+{
+  "projects": [
+    {
+      "name": "Fixture App",
+      "repository": "Etdev2/fixture-app",
+      "lane": "typescript-web",
+      "trustStage": "stage-2-proven",
+      "mergeAuthority": "Et",
+      "verification": {
+        "status": "available",
+        "command": "npm run verify"
+      },
+      "requiredChecks": [
+        "ci / typecheck",
+        "ci / verify"
+      ],
+      "productionAuthority": {
+        "writesAllowed": false,
+        "migrationsAllowed": false,
+        "paidModelRunsAllowed": false
+      }
+    }
+  ]
+}
