@@ -1,24 +1,32 @@
 {
   "schemaVersion": 1,
-  "ticket": "Etdev2/sweet-potato-fried-test#6",
-  "sourceDigest": "sha256:8b2f2bba203c4b6b02db4a594db79a0c6d4e5ce5fec220d676ee21350ed37711",
-  "capturedAt": "2026-10-11T19:32:25Z",
+  "ticket": "Etdev2/sweet-potato#21",
+  "sourceDigest": "sha256:498e81aec466405b6ad28eb187d4e7f6579430190efa4b5768dea42f5a6a4ece",
+  "capturedAt": "2026-10-11T22:28:31Z",
   "result": "PASS",
   "verification": {
-    "command": "QUOTA_PROOF_DIR=\"$PWD/proof\" bash scripts/verify-quota-console.sh",
-    "fixture": "apps/quota-console/public/data: quota.sample.json (ten fake credentials with .example addresses) and quota.malformed.json"
+    "command": "bash scripts/verify-claude-launcher-wizard.sh",
+    "fixture": "scripts/claude-launcher-wizard.sh run in a pseudo-terminal against stub gh, claude and browser commands with a fake token. No real sign-in, browser or secret write happened. Live account setup is INCONCLUSIVE until Et runs the wizard."
   },
   "commands": [
     {
-      "command": "QUOTA_PROOF_DIR=\"$PWD/proof\" bash scripts/verify-quota-console.sh",
+      "command": "bash -n scripts/claude-launcher-wizard.sh",
       "exitCode": 0
     },
     {
-      "command": "bash scripts/check-control-room.sh",
+      "command": "diff <(sed \"/^run_wizard() {/q\" .claude/skills/wizard/template.sh) <(sed \"/^run_wizard() {/q\" scripts/claude-launcher-wizard.sh)",
+      "exitCode": 0
+    },
+    {
+      "command": "bash scripts/verify-claude-launcher-wizard.sh",
       "exitCode": 0
     },
     {
       "command": "bash scripts/verify-dashboard-tools.sh",
+      "exitCode": 0
+    },
+    {
+      "command": "bash scripts/check-control-room.sh",
       "exitCode": 0
     },
     {
@@ -31,22 +39,7 @@
     {
       "path": "proof/verification.txt",
       "kind": "terminal",
-      "shows": "Typecheck, lint, unit tests, the production build and every browser test against that build exit 0."
-    },
-    {
-      "path": "proof/screenshots/quota-all.png",
-      "kind": "screenshot",
-      "shows": "The running page from the sample data: sidebar, header counts, provider tabs, four summary cards and all ten credential rows with masked addresses."
-    },
-    {
-      "path": "proof/screenshots/quota-claude-emails-shown.png",
-      "kind": "screenshot",
-      "shows": "After clicking Show emails, the Claude tab and Show on the Claude card: fake addresses in full, five Claude rows, and the card listing its other two limits."
-    },
-    {
-      "path": "proof/screenshots/quota-malformed-error.png",
-      "kind": "screenshot",
-      "shows": "The page opened with ?source=malformed: an error panel that names the file and each of its five faults, and no quota values."
+      "shows": "The table of observed runs. The wizard reports Setup complete only when both secret writes succeed. A failed upload to either or both repositories exits 1 even while an old secret name is still listed. A failed sign-in, an empty token or a token with a space exits 1 with no write attempt. Any argument other than a single --plan exits 2 before any command runs. The library equals the pinned Wizard template."
     }
   ]
 }

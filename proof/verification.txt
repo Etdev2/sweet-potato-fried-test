@@ -1,82 +1,65 @@
-$ QUOTA_PROOF_DIR="$PWD/proof" bash scripts/verify-quota-console.sh
-
-== Typecheck
-
-== Lint with type information, zero warnings
-
-== Unit and contract tests
-
- RUN  v4.1.11 /Users/et/dev/sweet-potato-fried-test/apps/quota-console
-
-
- Test Files  6 passed (6)
-      Tests  43 passed (43)
-   Start at  12:32:16
-   Duration  243ms (transform 212ms, setup 0ms, import 489ms, tests 77ms, environment 0ms)
-
-
-== Production build
-vite v6.4.4 building for production...
-transforming...
-node_modules/zod/v4/core/util.js (400:0): A comment
-
-"// Wrapped in a `@__PURE__` IIFE: esbuild never tree-shakes a top-level initializer that contains a member access on `Number`, so the bare object literal survived into every bundle."
-
-in "node_modules/zod/v4/core/util.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
-node_modules/zod/v4/core/regexes.js (74:0): A comment
-
-"/** Anchors a pattern source. The interpolation lives here rather than at the call site because
- * esbuild will not drop a `@__PURE__` call whose own argument interpolates a variable, but it
- * will drop `anchor(dateSource)`. Keeping it inline pinned `date` into every bundle. */"
-
-in "node_modules/zod/v4/core/regexes.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
-✓ 136 modules transformed.
-rendering chunks...
-computing gzip size...
-dist/index.html                   0.46 kB │ gzip:   0.29 kB
-dist/assets/index-C-vDMYPu.css    7.66 kB │ gzip:   2.35 kB
-dist/assets/index-DPZE0qIa.js   333.72 kB │ gzip: 101.53 kB
-✓ built in 780ms
-
-== Browser tests against the production build
-
-Running 23 tests using 5 workers
-
-  ✓  4 [chromium] › quota-page.spec.ts:31:3 › layout from the committed sample › tabs carry per-provider counts (460ms)
-  ✓  5 [chromium] › quota-page.spec.ts:22:3 › layout from the committed sample › sidebar lists the four groups with Quota Management selected (464ms)
-  ✓  2 [chromium] › proof.spec.ts:18:3 › proof screenshots › the page from the sample data (570ms)
-  ✓  1 [chromium] › proof.spec.ts:33:3 › proof screenshots › the error for malformed data (605ms)
-  ✓  6 [chromium] › quota-page.spec.ts:37:3 › layout from the committed sample › one summary card per provider that has credentials (183ms)
-  ✓  3 [chromium] › proof.spec.ts:24:3 › proof screenshots › emails shown and the Claude card expanded (710ms)
-  ✓  7 [chromium] › quota-page.spec.ts:55:3 › layout from the committed sample › a card bar has one segment per credential, each as wide as its percentage (244ms)
-  ✓  9 [chromium] › quota-page.spec.ts:68:3 › layout from the committed sample › a missing measurement reads as unavailable, not as zero (172ms)
-  ✓  8 [chromium] › quota-page.spec.ts:96:3 › layout from the committed sample › the summary card expands to show the other limits (254ms)
-  ✓  10 [chromium] › quota-page.spec.ts:78:3 › layout from the committed sample › each Claude credential row shows three limits and a refresh action (254ms)
-  ✓  11 [chromium] › quota-page.spec.ts:120:3 › tabs › filter the cards and the credential rows (319ms)
-  ✓  12 [chromium] › quota-page.spec.ts:109:3 › layout from the committed sample › the sidebar collapses and expands (301ms)
-  ✓  14 [chromium] › quota-page.spec.ts:174:3 › values come from the data › different data gives different counts, card totals and bar widths (261ms)
-  ✓  13 [chromium] › quota-page.spec.ts:147:3 › Show emails › reveals the fake addresses and hides them again (345ms)
-  ✓  15 [chromium] › quota-page.spec.ts:218:3 › Refresh › reads the file again and shows the new values (340ms)
-  ✓  16 [chromium] › quota-page.spec.ts:244:3 › Refresh › shows a clear error when the refreshed file is bad, and recovers on retry (335ms)
-  ✓  17 [chromium] › quota-page.spec.ts:263:3 › Refresh quota on one row › updates that credential only (298ms)
-  ✓  18 [chromium] › quota-page.spec.ts:283:3 › Refresh quota on one row › reports a failed refresh on the row and keeps the old values (248ms)
-  ✓  22 [chromium] › quota-page.spec.ts:328:3 › bad data fails with a clear error › the built site answers 404 for a data file that does not exist (17ms)
-  ✓  19 [chromium] › quota-page.spec.ts:294:3 › Refresh quota on one row › says so when the credential has gone from the data (259ms)
-  ✓  20 [chromium] › quota-page.spec.ts:305:3 › bad data fails with a clear error › the committed malformed fixture names every fault (168ms)
-  ✓  21 [chromium] › quota-page.spec.ts:320:3 › bad data fails with a clear error › a missing file reports its HTTP status (131ms)
-  ✓  23 [chromium] › quota-page.spec.ts:333:3 › bad data fails with a clear error › an unknown source name is refused without a request (128ms)
-
-  23 passed (3.3s)
-
-== Verification skill copies match
-
-PASS: quota console.
+$ bash -n scripts/claude-launcher-wizard.sh
 [exit 0]
 
-$ bash scripts/check-control-room.sh
-roster.json is valid. Active builders: 0 of 1.
-projects.json is valid.
-Control-room data is valid.
+$ diff <(sed "/^run_wizard() {/q" .claude/skills/wizard/template.sh) <(sed "/^run_wizard() {/q" scripts/claude-launcher-wizard.sh)
+[exit 0]
+
+$ bash scripts/verify-claude-launcher-wizard.sh
+test_app_not_installed_stops_before_the_sign_in (__main__.Launcher.test_app_not_installed_stops_before_the_sign_in) ... ok
+test_empty_or_spaced_token_sends_nothing (__main__.Launcher.test_empty_or_spaced_token_sends_nothing) ... ok
+test_failed_sign_in_sends_nothing (__main__.Launcher.test_failed_sign_in_sends_nothing) ... ok
+test_failed_uploads_are_not_reported_as_complete (__main__.Launcher.test_failed_uploads_are_not_reported_as_complete) ... ok
+test_invalid_arguments_exit_2_before_any_action (__main__.Launcher.test_invalid_arguments_exit_2_before_any_action) ... ok
+test_library_is_the_pinned_template (__main__.Launcher.test_library_is_the_pinned_template) ... ok
+test_missing_claude_command_stops_before_the_browser (__main__.Launcher.test_missing_claude_command_stops_before_the_browser) ... ok
+test_plan_prints_the_steps_and_calls_nothing (__main__.Launcher.test_plan_prints_the_steps_and_calls_nothing) ... ok
+test_run_without_a_terminal_exits_2_before_any_action (__main__.Launcher.test_run_without_a_terminal_exits_2_before_any_action) ... ok
+test_signed_out_gh_stops_before_the_browser (__main__.Launcher.test_signed_out_gh_stops_before_the_browser) ... ok
+test_success_stores_the_token_in_both_repositories (__main__.Launcher.test_success_stores_the_token_in_both_repositories) ... ok
+test_unusual_token_needs_a_yes (__main__.Launcher.test_unusual_token_needs_a_yes) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 6.820s
+
+OK
+
+Observed runs against the stub commands:
+case                                               exit  complete  write attempts  browser  sign-in
+app not installed                                     1  no                     0        1        0
+empty token                                           1  no                     0        1        1
+token of one space                                    1  no                     0        1        1
+token with a space inside                             1  no                     0        1        1
+setup-token fails                                     1  no                     0        1        1
+both uploads fail, old secret listed                  1  no                     2        1        1
+first upload fails, old secret listed                 1  no                     2        1        1
+second upload fails, old secret listed                1  no                     2        1        1
+arguments [''], terminal                              2  no                     0        0        0
+arguments [''], no terminal                           2  no                     0        0        0
+arguments ['--install'], terminal                     2  no                     0        0        0
+arguments ['--install'], no terminal                  2  no                     0        0        0
+arguments ['', '--install'], terminal                 2  no                     0        0        0
+arguments ['', '--install'], no terminal              2  no                     0        0        0
+arguments ['', ''], terminal                          2  no                     0        0        0
+arguments ['', ''], no terminal                       2  no                     0        0        0
+arguments ['--plan', 'extra'], terminal               2  no                     0        0        0
+arguments ['--plan', 'extra'], no terminal            2  no                     0        0        0
+arguments ['--plan', '--plan'], terminal              2  no                     0        0        0
+arguments ['--plan', '--plan'], no terminal           2  no                     0        0        0
+arguments ['', '--plan'], terminal                    2  no                     0        0        0
+arguments ['', '--plan'], no terminal                 2  no                     0        0        0
+claude command missing                                1  no                     0        0        0
+--plan                                                0  no                     0        0        0
+no arguments, no terminal                             2  no                     0        0        0
+gh signed out                                         1  no                     0        0        0
+both uploads succeed                                  0  yes                    2        1        1
+unusual token, declined                               1  no                     0        1        1
+unusual token, accepted                               0  yes                    2        1        1
+1. Install the Claude GitHub App: in the browser, on Etdev2/sweet-potato and Etdev2/sweet-potato-fried-test.
+2. Create the subscription token: "claude setup-token" opens a browser sign-in and prints the token.
+3. Store the token: pasted hidden, saved as the CLAUDE_CODE_OAUTH_TOKEN Actions secret in both repositories.
+The token is never written to a file. This plan installs nothing and contacts no service.
+The wizard prepares account access only. It adds and activates no workflow.
+PASS: launcher wizard against stub commands. Live account setup remains INCONCLUSIVE.
 [exit 0]
 
 $ bash scripts/verify-dashboard-tools.sh
@@ -93,7 +76,7 @@ test_unmodified_wizard_library (__main__.Tools.test_unmodified_wizard_library) .
 test_wrong_page_is_inconclusive_and_not_printed (__main__.Tools.test_wrong_page_is_inconclusive_and_not_printed) ... ok
 
 ----------------------------------------------------------------------
-Ran 11 tests in 3.178s
+Ran 11 tests in 3.199s
 
 OK
 1. Console connection: open the local management page; enter the management key in the browser only.
@@ -102,6 +85,12 @@ OK
 No values are written to .env or GitHub secrets by this wizard.
 Live acceptance remains INCONCLUSIVE until separate real-artifact verification.
 PASS: preparation helpers. Live dashboard acceptance remains INCONCLUSIVE.
+[exit 0]
+
+$ bash scripts/check-control-room.sh
+roster.json is valid. Active builders: 0 of 1.
+projects.json is valid.
+Control-room data is valid.
 [exit 0]
 
 $ git diff --cached --check origin/main
