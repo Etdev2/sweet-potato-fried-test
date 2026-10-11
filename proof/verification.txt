@@ -7,6 +7,6 @@ Control-room data is valid.
 $ git diff --check
 [exit 0]
 
-$ cat handshake/codex.txt
-codex was here
+$ grep -c "^\*\*Handshake\*\*$" CONTEXT.md
+1
 [exit 0]

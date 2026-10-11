@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "ticket": "Etdev2/sweet-potato-fried-test#1",
-  "sourceDigest": "sha256:ce33550efa8e5663f6e91688a4cd2660227e44b9b9f968fa117b29328f19191b",
-  "capturedAt": "2026-10-11T19:05:14Z",
+  "sourceDigest": "sha256:508851dd617f491536fedda3bd49eebb86495388a98e8627fbd5d69de8422a77",
+  "capturedAt": "2026-10-11T19:05:32Z",
   "result": "PASS",
   "verification": {
     "command": "bash scripts/check-control-room.sh",
-    "fixture": "The requested one-line handshake/codex.txt marker, on main at 75698da"
+    "fixture": "CONTEXT.md with the Handshake entry, on main at 75698da plus the Codex handshake marker from #3"
   },
   "commands": [
     {
@@ -18,7 +18,7 @@
       "exitCode": 0
     },
     {
-      "command": "cat handshake/codex.txt",
+      "command": "grep -c \"^\\*\\*Handshake\\*\\*$\" CONTEXT.md",
       "exitCode": 0
     }
   ],
@@ -27,8 +27,8 @@
     {
       "path": "proof/verification.txt",
       "kind": "terminal",
-      "shows": "The marker exists and the inherited control-room checks pass after merging main."
+      "shows": "The control-room checks pass and CONTEXT.md holds exactly one Handshake entry."
     }
   ],
-  "noBehaviorReason": "A coordination marker adds no application behavior."
+  "noBehaviorReason": "A vocabulary entry in CONTEXT.md changes no application behavior."
 }
