@@ -1,45 +1,34 @@
 {
   "schemaVersion": 1,
-  "ticket": "Etdev2/sweet-potato-fried-test#2",
-  "sourceDigest": "sha256:247ab62d1cc890a5d0a11055183d733baf46373c61b6958a1beb9dd3a13de454",
-  "capturedAt": "2026-10-11T18:40:21Z",
+  "ticket": "Etdev2/sweet-potato-fried-test#1",
+  "sourceDigest": "sha256:ce33550efa8e5663f6e91688a4cd2660227e44b9b9f968fa117b29328f19191b",
+  "capturedAt": "2026-10-11T19:05:14Z",
   "result": "PASS",
   "verification": {
-    "command": "command -v mktemp; python3 --version",
-    "fixture": "CLI preparation helpers and disposable loopback HTTP responses; pinned Python environment and documented macOS temporary-file adapter; no provider accounts"
+    "command": "bash scripts/check-control-room.sh",
+    "fixture": "The requested one-line handshake/codex.txt marker, on main at 75698da"
   },
   "commands": [
-    {
-      "command": "command -v mktemp; python3 --version",
-      "exitCode": 0
-    },
-    {
-      "command": "bash scripts/verify-dashboard-tools.sh",
-      "exitCode": 0
-    },
     {
       "command": "bash scripts/check-control-room.sh",
       "exitCode": 0
     },
     {
-      "command": "bash scripts/test-control-room.sh",
-      "exitCode": 0
-    },
-    {
-      "command": "bash scripts/test-proof-gate.sh",
-      "exitCode": 0
-    },
-    {
       "command": "git diff --check",
+      "exitCode": 0
+    },
+    {
+      "command": "cat handshake/codex.txt",
       "exitCode": 0
     }
   ],
-  "behaviorChanged": true,
+  "behaviorChanged": false,
   "evidence": [
     {
       "path": "proof/verification.txt",
       "kind": "terminal",
-      "shows": "Actual helper outputs and inherited contract checks; matching skill packages and refusal cases; live acceptance remains INCONCLUSIVE"
+      "shows": "The marker exists and the inherited control-room checks pass after merging main."
     }
-  ]
+  ],
+  "noBehaviorReason": "A coordination marker adds no application behavior."
 }
