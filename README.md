@@ -8,6 +8,10 @@ The goal is the same as the template's. An agent has one obvious path, invalid s
 
 Automatic merge is out of scope. Et merges every pull request.
 
+## Quiz 1: the quota console
+
+[apps/quota-console](apps/quota-console/README.md) is a Quota Management page for a CLI proxy console, built from a screenshot for [issue #6](https://github.com/Etdev2/sweet-potato-fried-test/issues/6). It reads fake, committed JSON. Run `bash scripts/verify-quota-console.sh` to check it. The steps for driving it by hand are in [the verification skill](.claude/skills/verify-quota-console/SKILL.md).
+
 ## Dashboard skill trial
 
 [The skill trial](docs/skill-trial.md) applies the pinned Wizard and create-verification-skill to repeatable dashboard preparation helpers. Run `bash scripts/verify-dashboard-tools.sh` to check the helpers, or `bash scripts/dashboard-wizard.sh --plan` to inspect the procedure. Matching skills are available under `.agents/skills` and `.claude/skills`. Live dashboard login and quota acceptance remain separate.
@@ -15,7 +19,7 @@ Automatic merge is out of scope. Et merges every pull request.
 ## What differs from the template
 
 - The template's proof bundle is gone. It proved a Sweet Potato pull request, not anything in this repo. The first pull request here writes a new one with `scripts/write-proof.sh`.
-- [projects.json](projects.json) still lists Money Machine, the template's only project. The quiz has no entry yet. The registry accepts two lanes, `rust-service` and `typescript-web`, and Et has not chosen one for the quiz.
+- [projects.json](projects.json) still lists Money Machine, the template's only project. It also lists Quota Console, the Quiz 1 page, in the `typescript-web` lane with its verification command and required checks.
 - Sweet Potato's issues, work queue and pull requests stay in the template repo. Only the files came across.
 
 Everything else matches the template, including the rules in [AGENTS.md](AGENTS.md) and the language in [CONTEXT.md](CONTEXT.md).

@@ -1,34 +1,52 @@
 {
   "schemaVersion": 1,
-  "ticket": "Etdev2/sweet-potato-fried-test#1",
-  "sourceDigest": "sha256:508851dd617f491536fedda3bd49eebb86495388a98e8627fbd5d69de8422a77",
-  "capturedAt": "2026-10-11T19:05:32Z",
+  "ticket": "Etdev2/sweet-potato-fried-test#6",
+  "sourceDigest": "sha256:8b2f2bba203c4b6b02db4a594db79a0c6d4e5ce5fec220d676ee21350ed37711",
+  "capturedAt": "2026-10-11T19:32:25Z",
   "result": "PASS",
   "verification": {
-    "command": "bash scripts/check-control-room.sh",
-    "fixture": "CONTEXT.md with the Handshake entry, on main at 75698da plus the Codex handshake marker from #3"
+    "command": "QUOTA_PROOF_DIR=\"$PWD/proof\" bash scripts/verify-quota-console.sh",
+    "fixture": "apps/quota-console/public/data: quota.sample.json (ten fake credentials with .example addresses) and quota.malformed.json"
   },
   "commands": [
+    {
+      "command": "QUOTA_PROOF_DIR=\"$PWD/proof\" bash scripts/verify-quota-console.sh",
+      "exitCode": 0
+    },
     {
       "command": "bash scripts/check-control-room.sh",
       "exitCode": 0
     },
     {
-      "command": "git diff --check",
+      "command": "bash scripts/verify-dashboard-tools.sh",
       "exitCode": 0
     },
     {
-      "command": "grep -c \"^\\*\\*Handshake\\*\\*$\" CONTEXT.md",
+      "command": "git diff --cached --check origin/main",
       "exitCode": 0
     }
   ],
-  "behaviorChanged": false,
+  "behaviorChanged": true,
   "evidence": [
     {
       "path": "proof/verification.txt",
       "kind": "terminal",
-      "shows": "The control-room checks pass and CONTEXT.md holds exactly one Handshake entry."
+      "shows": "Typecheck, lint, unit tests, the production build and every browser test against that build exit 0."
+    },
+    {
+      "path": "proof/screenshots/quota-all.png",
+      "kind": "screenshot",
+      "shows": "The running page from the sample data: sidebar, header counts, provider tabs, four summary cards and all ten credential rows with masked addresses."
+    },
+    {
+      "path": "proof/screenshots/quota-claude-emails-shown.png",
+      "kind": "screenshot",
+      "shows": "After clicking Show emails, the Claude tab and Show on the Claude card: fake addresses in full, five Claude rows, and the card listing its other two limits."
+    },
+    {
+      "path": "proof/screenshots/quota-malformed-error.png",
+      "kind": "screenshot",
+      "shows": "The page opened with ?source=malformed: an error panel that names the file and each of its five faults, and no quota values."
     }
-  ],
-  "noBehaviorReason": "A vocabulary entry in CONTEXT.md changes no application behavior."
+  ]
 }

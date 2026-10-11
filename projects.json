@@ -16,6 +16,26 @@
         "migrationsAllowed": false,
         "paidModelRunsAllowed": false
       }
+    },
+    {
+      "name": "Quota Console",
+      "repository": "Etdev2/sweet-potato-fried-test",
+      "lane": "typescript-web",
+      "trustStage": "stage-1-supervised",
+      "mergeAuthority": "Et",
+      "verification": {
+        "status": "available",
+        "command": "bash scripts/verify-quota-console.sh"
+      },
+      "requiredChecks": [
+        "contracts",
+        "quota-console"
+      ],
+      "productionAuthority": {
+        "writesAllowed": false,
+        "migrationsAllowed": false,
+        "paidModelRunsAllowed": false
+      }
     }
   ]
 }
