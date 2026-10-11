@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "ticket": "Etdev2/sweet-potato-fried-test#2",
+  "sourceDigest": "sha256:247ab62d1cc890a5d0a11055183d733baf46373c61b6958a1beb9dd3a13de454",
+  "capturedAt": "2026-10-11T18:40:21Z",
+  "result": "PASS",
+  "verification": {
+    "command": "command -v mktemp; python3 --version",
+    "fixture": "CLI preparation helpers and disposable loopback HTTP responses; pinned Python environment and documented macOS temporary-file adapter; no provider accounts"
+  },
+  "commands": [
+    {
+      "command": "command -v mktemp; python3 --version",
+      "exitCode": 0
+    },
+    {
+      "command": "bash scripts/verify-dashboard-tools.sh",
+      "exitCode": 0
+    },
+    {
+      "command": "bash scripts/check-control-room.sh",
+      "exitCode": 0
+    },
+    {
+      "command": "bash scripts/test-control-room.sh",
+      "exitCode": 0
+    },
+    {
+      "command": "bash scripts/test-proof-gate.sh",
+      "exitCode": 0
+    },
+    {
+      "command": "git diff --check",
+      "exitCode": 0
+    }
+  ],
+  "behaviorChanged": true,
+  "evidence": [
+    {
+      "path": "proof/verification.txt",
+      "kind": "terminal",
+      "shows": "Actual helper outputs and inherited contract checks; matching skill packages and refusal cases; live acceptance remains INCONCLUSIVE"
+    }
+  ]
+}

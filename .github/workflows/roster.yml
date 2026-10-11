@@ -26,6 +26,8 @@ jobs:
           echo "$RUNNER_TEMP/venv/bin" >> "$GITHUB_PATH"
       - run: bash scripts/test-control-room.sh
       - run: bash scripts/test-proof-gate.sh
+      - name: Verify dashboard preparation helpers
+        run: bash scripts/verify-dashboard-tools.sh
       # The proof gate on this pull request's own bundle. It runs on pull
       # requests only: once main has moved, the merged tree differs from the
       # reviewed candidate, so its bundle would read as stale by design.

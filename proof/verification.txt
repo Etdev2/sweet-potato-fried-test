@@ -1,0 +1,132 @@
+$ command -v mktemp; python3 --version
+/private/tmp/sweet-potato-skill-trial/bin/mktemp
+Python 3.11.4
+[exit 0]
+
+$ bash scripts/verify-dashboard-tools.sh
+test_expected_page_is_readiness_only (__main__.Tools.test_expected_page_is_readiness_only) ... ok
+test_invalid_port_is_refused (__main__.Tools.test_invalid_port_is_refused) ... ok
+test_matching_pinned_skills_and_resources (__main__.Tools.test_matching_pinned_skills_and_resources) ... ok
+test_noninteractive_run_refuses_before_browser_or_writes (__main__.Tools.test_noninteractive_run_refuses_before_browser_or_writes) ... ok
+test_oversized_page_is_refused (__main__.Tools.test_oversized_page_is_refused) ... ok
+test_redirect_is_not_followed (__main__.Tools.test_redirect_is_not_followed) ... ok
+test_syntax_and_plan_preserve_state (__main__.Tools.test_syntax_and_plan_preserve_state) ... ok
+test_unauthorized_page_is_inconclusive (__main__.Tools.test_unauthorized_page_is_inconclusive) ... ok
+test_unknown_option_refused (__main__.Tools.test_unknown_option_refused) ... ok
+test_unmodified_wizard_library (__main__.Tools.test_unmodified_wizard_library) ... ok
+test_wrong_page_is_inconclusive_and_not_printed (__main__.Tools.test_wrong_page_is_inconclusive_and_not_printed) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 3.145s
+
+OK
+1. Console connection: open the local management page; enter the management key in the browser only.
+2. One provider login: use OAuth Login and complete the approved provider flow in the browser.
+3. Quota inspection: open Quota Management and capture masked provider quota/reset evidence.
+No values are written to .env or GitHub secrets by this wizard.
+Live acceptance remains INCONCLUSIVE until separate real-artifact verification.
+PASS: preparation helpers. Live dashboard acceptance remains INCONCLUSIVE.
+[exit 0]
+
+$ bash scripts/check-control-room.sh
+roster.json is valid. Active builders: 0 of 1.
+projects.json is valid.
+Control-room data is valid.
+[exit 0]
+
+$ bash scripts/test-control-room.sh
+ok   tests/fixtures/projects/valid/stage-0-with-verification-available.json passes
+ok   tests/fixtures/projects/valid/stage-0-without-verification.json passes
+ok   tests/fixtures/projects/valid/stage-1-supervised.json passes
+ok   tests/fixtures/projects/valid/stage-2-proven.json passes
+ok   tests/fixtures/usage/valid/estimated-with-method.json passes
+ok   tests/fixtures/usage/valid/measured-from-provider-report.json passes
+ok   tests/fixtures/usage/valid/measured-tokens-with-estimated-cost.json passes
+ok   tests/fixtures/usage/valid/unavailable.json passes
+ok   projects.json passes
+ok   roster.json passes
+ok   tests/fixtures/projects/invalid/stage-1-empty-checks-and-missing-verification.json fails: is stage-1-supervised but requiredChecks is empty
+ok   tests/fixtures/projects/invalid/stage-2-empty-checks-and-missing-verification.json fails: is stage-2-proven but verification.status is not available
+ok   tests/fixtures/projects/invalid/stage-1-empty-required-checks.json fails: is stage-1-supervised but requiredChecks is empty
+ok   tests/fixtures/projects/invalid/stage-1-verification-missing.json fails: is stage-1-supervised but verification.status is not available
+ok   tests/fixtures/projects/invalid/stage-1-blank-command.json fails: status is available but command is not a non-blank string
+ok   tests/fixtures/projects/invalid/stage-1-blank-required-check.json fails: requiredChecks entries must be non-blank strings
+ok   tests/fixtures/projects/invalid/stage-1-duplicate-required-check.json fails: requiredChecks lists a check more than once
+ok   tests/fixtures/projects/invalid/stage-1-required-checks-not-a-list.json fails: requiredChecks must be an array
+ok   tests/fixtures/projects/invalid/missing-status-with-command.json fails: status is missing but a command is set
+ok   tests/fixtures/projects/invalid/available-status-without-command.json fails: status is available but command is not a non-blank string
+ok   tests/fixtures/projects/invalid/unknown-verification-status.json fails: verification.status must be one of: missing, available
+ok   tests/fixtures/projects/invalid/verification-not-an-object.json fails: verification must be an object
+ok   tests/fixtures/projects/invalid/empty-file.json fails: must hold exactly one JSON document, but it holds 0
+ok   tests/fixtures/projects/invalid/two-documents.json fails: must hold exactly one JSON document, but it holds 2
+ok   tests/fixtures/projects/invalid/empty-projects-array.json fails: projects must be a non-empty array
+ok   tests/fixtures/roster/invalid/bot-without-contract.json fails: bots[2] has no contract
+ok   tests/fixtures/roster/invalid/contract-file-does-not-exist.json fails: names contract bots/codex-reviewer-v2.md, which does not exist
+ok   tests/fixtures/roster/invalid/contract-outside-bots.json fails: Point it to a job contract file in bots/
+ok   tests/fixtures/roster/invalid/two-bots-share-a-contract.json fails: Two bots share contract bots/claude-builder.md
+ok   tests/fixtures/roster/invalid/contract-names-another-bot.json fails: whose first line is not "# Sweet Potato"
+ok   tests/fixtures/roster/invalid/empty-file.json fails: must hold exactly one JSON document, but it holds 0
+ok   tests/fixtures/roster/invalid/two-documents.json fails: must hold exactly one JSON document, but it holds 2
+ok   tests/fixtures/usage/invalid/measured-from-unavailable-source.json fails: allOf/0/then/properties/source/properties/kind/enum
+ok   tests/fixtures/usage/invalid/unavailable-with-usage.json fails: (schema rule: allOf/2/then/properties)
+ok   tests/fixtures/usage/invalid/measured-from-manual-estimate.json fails: allOf/0/then/properties/source/properties/kind/enum
+ok   tests/fixtures/usage/invalid/estimated-with-billed-cost.json fails: allOf/1/then/properties/usage/properties
+ok   tests/fixtures/usage/invalid/measured-with-empty-usage.json fails: properties/usage/minProperties
+ok   tests/fixtures/usage/invalid/measured-with-only-estimated-cost.json fails: allOf/0/then/properties/usage/anyOf
+ok   tests/fixtures/usage/invalid/estimated-without-method.json fails: 'method' is a required property
+ok   tests/fixtures/usage/invalid/estimated-without-usage.json fails: 'usage' is a required property (schema rule: allOf/1/then/required)
+ok   tests/fixtures/usage/invalid/unavailable-from-provider-report.json fails: allOf/2/then/properties/source/properties/kind/const
+ok   tests/fixtures/usage/invalid/measured-without-usage.json fails: 'usage' is a required property (schema rule: allOf/0/then/required)
+ok   tests/fixtures/usage/invalid/estimated-from-provider-report.json fails: allOf/1/then/properties/source/properties/kind/const
+ok   tests/fixtures/usage/invalid/estimated-with-only-duration.json fails: allOf/1/then/properties/usage/anyOf
+ok   tests/fixtures/usage/invalid/recorded-at-not-a-date.json fails: /recordedAt: 'definitely-not-a-date' is not a 'date-time'
+All control-room fixture cases behave as specified.
+[exit 0]
+
+$ bash scripts/test-proof-gate.sh
+ok   passing bundle from the real artifact
+     evidence captured:
+       roster.json is valid. Active builders: 0 of 1.
+       projects.json is valid.
+       Control-room data is valid.
+ok   missing proof fails
+ok   code changed after proof fails as stale
+ok   INCONCLUSIVE result fails
+ok   PASS claimed while a check exited non-zero fails
+ok   evidence missing from the commit fails
+ok   evidence outside proof/ fails
+ok   proof over 5 MB fails
+ok   symlinked evidence fails
+ok   evidence named by a pattern fails
+ok   evidence naming a directory fails
+ok   evidence through a symlinked directory fails
+ok   evidence filename with a space passes
+ok   uncommitted manifest fails
+ok   symlinked manifest fails
+ok   uncommitted manifest edits are ignored
+ok   evidence path with a newline fails
+ok   non-ASCII evidence filename passes
+ok   helper-written bundle passes
+ok   helper records a failing command as FAIL
+ok   helper's FAIL bundle is rejected
+ok   helper replaces the previous bundle
+ok   replaced bundle passes
+ok   helper bundle for a no-behavior change passes
+ok   helper refuses when verification changes the code
+ok   helper refuses when a command replaces proof-digest.sh
+ok   helper refuses a symlinked proof/ and writes nothing outside
+ok   helper refuses when a command dirties a submodule
+ok   helper refuses when a command hides a change with assume-unchanged
+ok   helper finds a flagged file in a large index
+ok   helper writes nothing outside when a command swaps proof/ (last)
+ok   helper writes nothing outside when a command swaps proof/ (then-log)
+ok   helper replaces links a command planted in proof/
+ok   helper refuses a TMPDIR inside the repository
+ok   helper keeps its log when a command relinks the log path
+ok   digest ignores core.quotePath
+ok   editing only proof/ keeps the digest
+All proof-gate cases behave as specified.
+[exit 0]
+
+$ git diff --check
+[exit 0]
