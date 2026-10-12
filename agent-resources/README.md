@@ -22,7 +22,7 @@ Do this as your last commit, including when you stop early.
    - `finished/handoff`: the work continues with someone else. Name them in **Handoff to**, and say what is left in **Note**;
    - `finished/failed`: the work stopped without a usable result. Say why in **Note**.
 3. Report tokens with a standing, the same way [the token cockpit](../docs/token-cockpit.md) does:
-   - `measured`: the provider or its official client reported it. A Claude Code cloud session can read its own `usage` from the `get_session` tool;
+   - `measured`: the provider or its official client reported it. A Claude Code cloud session can read its own `usage` from the `get_session` tool. That figure updates only when a turn ends, so it leaves out the turn you clock out in. Write `measured, partial` and say which turns it covers in **Note**;
    - `estimated`: you calculated it. Name the method in **Note**;
    - `unavailable`: nothing exposed it. Leave **Tokens** blank. Missing is not zero.
 4. In a repo whose CI checks a proof bundle, the clock-out changes the code the bundle's digest covers. Clock out, then regenerate the proof bundle and push both together.

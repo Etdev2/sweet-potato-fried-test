@@ -35,7 +35,7 @@ I did not take part in the test. Other Claude sessions on Et's Mac did the Claud
 ## For the workflow
 
 - **Authority lived in chats.** Et's "auto merge" and "activation approved" were given in VS Code, ChatGPT and phone chats, then relayed by the bots. `AGENTS.md` still says Et is the only merge authority. If delegated merges are wanted in the test repo, write that into its rules. Otherwise agents end up quoting each other's reports of what Et said.
-- **Measured usage is available in cloud sessions.** Every report in the test said usage was unavailable. A Claude Code cloud session can read its own token counts from `get_session`, so cloud builders should report `measured`.
+- **Measured usage is available in cloud sessions.** Every report in the test said usage was unavailable. A Claude Code cloud session can read its own token counts from `get_session`, so cloud builders should report `measured`. The count updates only at the end of a turn, so a clock-out written mid-turn is partial and should say so.
 - **The Mac differs from CI.** Bash 3.2, Node 22.11, low disk space, `claude` missing from `PATH`, and permission refusals on local session logs all surfaced on the Mac and not on Linux CI. A short host check before verification would surface these at the start of a run.
 - **Rushing showed in merge timing, not in code quality.** The code that broke had been checked against its happy path only. The fixes that worked came from a reviewer who ran the failure cases.
 

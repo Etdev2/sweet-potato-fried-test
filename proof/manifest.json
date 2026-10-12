@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "ticket": "Etdev2/sweet-potato#25",
-  "sourceDigest": "sha256:9b64836da878104be5f2a106827bb7439ccc2e57d005f1ace0063b50143be442",
-  "capturedAt": "2026-10-12T13:06:48Z",
+  "sourceDigest": "sha256:518ce2b51e6d4d4b1d136b4ab8a68c8623e9e2353f2057ca346eef9392f54b6f",
+  "capturedAt": "2026-10-12T13:09:00Z",
   "result": "PASS",
   "verification": {
     "command": "bash scripts/check-control-room.sh",
