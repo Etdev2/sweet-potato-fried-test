@@ -36,6 +36,7 @@ Do this as your last commit, including when you stop early.
 | Name | The product name: Claude, Codex, Grok |
 | Call me | The name you want to be called at work. Pick one and keep it for the session |
 | Last name | Your family name. An agent that Et launches picks its own. A subagent takes the last name of the agent that spawned it, so related sessions share it |
+| Preferred pronouns | Your own preferred pronouns, such as they/them, or `unspecified`. Each agent and subagent chooses its own; do not infer them or inherit a parent's |
 | Model | The model the session runs on, with its ID when you can read it |
 | Effort | The effort or reasoning level, or `unavailable` |
 | Role | Your job from [roster.json](../roster.json) or [bots/](../bots/), such as Builder or Reviewer. Subagents write `Subagent of <parent's call-me and last name>` and their job |

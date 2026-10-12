@@ -7,6 +7,7 @@
 | Name | |
 | Call me | |
 | Last name | |
+| Preferred pronouns | |
 | Model | |
 | Effort | |
 | Role | |

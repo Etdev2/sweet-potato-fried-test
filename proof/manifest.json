@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "ticket": "Etdev2/sweet-potato#25",
-  "sourceDigest": "sha256:0ea6ea25685104538ee0e51562d0ae98af981287c4111289bfa11e3749aad147",
-  "capturedAt": "2026-10-12T13:38:24Z",
+  "sourceDigest": "sha256:d76bd7ab58d74333c7bb8136f6c0ccfe29da0f03d19fbc0b2eec1e183a0d6c56",
+  "capturedAt": "2026-10-12T14:00:11Z",
   "result": "PASS",
   "verification": {
     "command": "bash scripts/check-control-room.sh",
-    "fixture": "Docs-only change on Fried Test main 29ad414: Agent Resources time card with last names and token coverage, Fried Test debrief folder, one AGENTS.md rule, one CONTEXT.md term"
+    "fixture": "Agent Resources preferred-pronouns field appended to companion reviewed head cc1848d"
   },
   "commands": [
     {
@@ -39,8 +39,8 @@
     {
       "path": "proof/verification.txt",
       "kind": "terminal",
-      "shows": "Control-room contracts, both regression suites, the dashboard and launcher helper checks, and the whitespace check pass with the new docs."
+      "shows": "Control-room checks, both regression suites, dashboard preparation helpers, launcher failure-path checks and whitespace check pass."
     }
   ],
-  "noBehaviorReason": "Adds Markdown documents and one soft rule. No script, app, schema, workflow or registry changes."
+  "noBehaviorReason": "Only the time-card template and field instructions change; no executable, schema or application behavior changes."
 }
