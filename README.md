@@ -56,6 +56,7 @@ The template names Claude as builder and Codex as reviewer. Et can name a differ
 | [bots/claude-builder.md](bots/claude-builder.md) | Builder job description |
 | [bots/codex-reviewer.md](bots/codex-reviewer.md) | Two-axis reviewer job description |
 | [docs/poteto-playbook.md](docs/poteto-playbook.md) | Lauren Tan's trust and verification approach |
+| [agent-resources/](agent-resources/README.md) | Time cards: who worked, on what, for how long and at what token cost |
 | [AGENTS.md](AGENTS.md) | Rules every bot follows in this repo |
 
 ## Skill composition

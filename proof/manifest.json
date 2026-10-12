@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "ticket": "Etdev2/sweet-potato#21",
-  "sourceDigest": "sha256:498e81aec466405b6ad28eb187d4e7f6579430190efa4b5768dea42f5a6a4ece",
-  "capturedAt": "2026-10-11T22:28:31Z",
+  "ticket": "Etdev2/sweet-potato#25",
+  "sourceDigest": "sha256:9b64836da878104be5f2a106827bb7439ccc2e57d005f1ace0063b50143be442",
+  "capturedAt": "2026-10-12T13:06:48Z",
   "result": "PASS",
   "verification": {
-    "command": "bash scripts/verify-claude-launcher-wizard.sh",
-    "fixture": "scripts/claude-launcher-wizard.sh run in a pseudo-terminal against stub gh, claude and browser commands with a fake token. No real sign-in, browser or secret write happened. Live account setup is INCONCLUSIVE until Et runs the wizard."
+    "command": "bash scripts/check-control-room.sh",
+    "fixture": "Docs-only change on Fried Test main 29ad414: Agent Resources time card, Fried Test debrief folder, one AGENTS.md rule, one CONTEXT.md term"
   },
   "commands": [
     {
-      "command": "bash -n scripts/claude-launcher-wizard.sh",
+      "command": "bash scripts/check-control-room.sh",
       "exitCode": 0
     },
     {
-      "command": "diff <(sed \"/^run_wizard() {/q\" .claude/skills/wizard/template.sh) <(sed \"/^run_wizard() {/q\" scripts/claude-launcher-wizard.sh)",
+      "command": "bash scripts/test-control-room.sh",
       "exitCode": 0
     },
     {
-      "command": "bash scripts/verify-claude-launcher-wizard.sh",
+      "command": "bash scripts/test-proof-gate.sh",
       "exitCode": 0
     },
     {
@@ -26,20 +26,21 @@
       "exitCode": 0
     },
     {
-      "command": "bash scripts/check-control-room.sh",
+      "command": "bash scripts/verify-claude-launcher-wizard.sh",
       "exitCode": 0
     },
     {
-      "command": "git diff --cached --check origin/main",
+      "command": "git diff --cached --check",
       "exitCode": 0
     }
   ],
-  "behaviorChanged": true,
+  "behaviorChanged": false,
   "evidence": [
     {
       "path": "proof/verification.txt",
       "kind": "terminal",
-      "shows": "The table of observed runs. The wizard reports Setup complete only when both secret writes succeed. A failed upload to either or both repositories exits 1 even while an old secret name is still listed. A failed sign-in, an empty token or a token with a space exits 1 with no write attempt. Any argument other than a single --plan exits 2 before any command runs. The library equals the pinned Wizard template."
+      "shows": "Control-room contracts, both regression suites, the dashboard and launcher helper checks, and the whitespace check pass with the new docs."
     }
-  ]
+  ],
+  "noBehaviorReason": "Adds Markdown documents and one soft rule. No script, app, schema, workflow or registry changes."
 }

@@ -22,6 +22,7 @@ Before changing the control room:
 | A different model family reviews the builder's pull request. | Soft rule: roster and pull-request review |
 | Reviews separate standards compliance from spec compliance. | Soft rule: pull-request template and [Codex reviewer contract](bots/codex-reviewer.md) |
 | Every roster bot has a one-job contract in `bots/`. | `scripts/check-roster.sh` in CI |
+| Every agent and subagent clocks in on an [Agent Resources](agent-resources/README.md) time card before work and clocks out after, with its outcome and token standing. | Soft rule: review. A card with no clock-out marks the session's status as unknown |
 | Repeated corrections become hard checks at the highest useful level. | Pstack `correct`; rule table updated in the affected project |
 | Active builders do not exceed `cap.buildersAtOnce`. | `scripts/check-roster.sh` in CI |
 | Upstream skills use reviewed, pinned commits. | `skills/registry.json` and `scripts/check-control-room.sh` |

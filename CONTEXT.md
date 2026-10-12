@@ -33,6 +33,9 @@ The source-of-truth list of hired bots and the builder cap.
 **Hire**
 Adding a bot to the roster after Et approves its one-job contract.
 
+**Time card**
+One session's record in `agent-resources/timecards/`. The agent writes its clock-in before work and its clock-out, outcome and token usage after. Subagents keep their own cards. A card with no clock-out means the session's status is unknown.
+
 **Cap**
 The most builders allowed to run at the same time.
 
