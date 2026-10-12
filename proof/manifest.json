@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "ticket": "Etdev2/sweet-potato#25",
-  "sourceDigest": "sha256:a5161b363937f4a529ed27745abe4924947080789847ccda51e3382d3f88f45c",
-  "capturedAt": "2026-10-12T13:30:40Z",
+  "sourceDigest": "sha256:0ea6ea25685104538ee0e51562d0ae98af981287c4111289bfa11e3749aad147",
+  "capturedAt": "2026-10-12T13:38:24Z",
   "result": "PASS",
   "verification": {
     "command": "bash scripts/check-control-room.sh",
-    "fixture": "Docs-only change on Fried Test main 29ad414: Agent Resources time card with last names, Fried Test debrief folder, one AGENTS.md rule, one CONTEXT.md term"
+    "fixture": "Docs-only change on Fried Test main 29ad414: Agent Resources time card with last names and token coverage, Fried Test debrief folder, one AGENTS.md rule, one CONTEXT.md term"
   },
   "commands": [
     {

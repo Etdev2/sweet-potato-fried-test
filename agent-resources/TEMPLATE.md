@@ -26,5 +26,6 @@
 | Pull requests | |
 | Tokens | |
 | Token standing | measured, estimated or unavailable |
+| Token coverage | complete or partial |
 | Handoff to | |
 | Note | |

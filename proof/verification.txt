@@ -112,7 +112,7 @@ test_unmodified_wizard_library (__main__.Tools.test_unmodified_wizard_library) .
 test_wrong_page_is_inconclusive_and_not_printed (__main__.Tools.test_wrong_page_is_inconclusive_and_not_printed) ... ok
 
 ----------------------------------------------------------------------
-Ran 11 tests in 3.313s
+Ran 11 tests in 3.394s
 
 OK
 1. Console connection: open the local management page; enter the management key in the browser only.
@@ -138,7 +138,7 @@ test_success_stores_the_token_in_both_repositories (__main__.Launcher.test_succe
 test_unusual_token_needs_a_yes (__main__.Launcher.test_unusual_token_needs_a_yes) ... ok
 
 ----------------------------------------------------------------------
-Ran 12 tests in 1.701s
+Ran 12 tests in 1.731s
 
 OK
 

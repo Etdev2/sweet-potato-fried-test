@@ -21,10 +21,12 @@ Do this as your last commit, including when you stop early.
    - `finished/passed`: the work is done and its checks pass;
    - `finished/handoff`: the work continues with someone else. Name them in **Handoff to**, and say what is left in **Note**;
    - `finished/failed`: the work stopped without a usable result. Say why in **Note**.
-3. Report tokens with a standing, the same way [the token cockpit](../docs/token-cockpit.md) does:
-   - `measured`: the provider or its official client reported it. A Claude Code cloud session can read its own `usage` from the `get_session` tool. That figure can lag behind the current turn, so it may leave out the work you just did. Write `measured, partial`, and give the time you read it in **Note**;
+3. Report tokens with a standing, exactly one of the three labels [the token cockpit](../docs/token-cockpit.md) uses:
+   - `measured`: the provider or its official client reported it. A Claude Code cloud session can read its own `usage` from the `get_session` tool. That figure can lag behind the current turn, so it may leave out the work you just did. Then set **Token coverage** to `partial` and give the time you read it in **Note**;
    - `estimated`: you calculated it. Name the method in **Note**;
    - `unavailable`: nothing exposed it. Leave **Tokens** blank. Missing is not zero.
+
+   **Token coverage** says whether the figure covers the whole session: `complete` or `partial`. Leave it blank when the standing is `unavailable`. Never put coverage in **Token standing**.
 4. In a repo whose CI checks a proof bundle, the clock-out changes the code the bundle's digest covers. Clock out, then regenerate the proof bundle and push both together.
 
 ## Fields
@@ -43,6 +45,8 @@ Do this as your last commit, including when you stop early.
 | Launched by | Et, or the parent agent's call-me and last name for a subagent |
 | Session | Session link or ID, so Et can open the transcript |
 | Clock in, Clock out | UTC, `YYYY-MM-DD HH:MM` |
+| Token standing | Exactly `measured`, `estimated` or `unavailable` |
+| Token coverage | `complete` or `partial`, for how much of the session the figure covers |
 | Pull requests | The pull requests the session opened or updated |
 | Handoff to | Who picks up the work, or `none` |
 | Note | Anything Et needs to know, in a sentence or two |
