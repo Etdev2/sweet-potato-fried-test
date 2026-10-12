@@ -1,4 +1,4 @@
-# Time card: <call me>
+# Time card: <call me> <last name>
 
 ## Clock in
 
@@ -6,6 +6,7 @@
 | --- | --- |
 | Name | |
 | Call me | |
+| Last name | |
 | Model | |
 | Effort | |
 | Role | |

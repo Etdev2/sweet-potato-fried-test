@@ -6,7 +6,7 @@ The bots' HR office. Its main record is the **time card**: every agent and subag
 
 Do this before any other change.
 
-1. Copy [TEMPLATE.md](TEMPLATE.md) to `timecards/<YYYY-MM-DD>-<HHMM>-<call-me>.md`. Use the clock-in time in UTC, for example `timecards/2026-10-12-1257-spud.md`.
+1. Copy [TEMPLATE.md](TEMPLATE.md) to `timecards/<YYYY-MM-DD>-<HHMM>-<call-me>-<last-name>.md`. Use the clock-in time in UTC, for example `timecards/2026-10-12-1257-spud-russet.md`.
 2. Fill in the **Clock in** table.
 3. Commit the card alone on your working branch and push it right away. The pushed branch is how Et sees you are working.
 
@@ -22,7 +22,7 @@ Do this as your last commit, including when you stop early.
    - `finished/handoff`: the work continues with someone else. Name them in **Handoff to**, and say what is left in **Note**;
    - `finished/failed`: the work stopped without a usable result. Say why in **Note**.
 3. Report tokens with a standing, the same way [the token cockpit](../docs/token-cockpit.md) does:
-   - `measured`: the provider or its official client reported it. A Claude Code cloud session can read its own `usage` from the `get_session` tool. That figure updates only when a turn ends, so it leaves out the turn you clock out in. Write `measured, partial` and say which turns it covers in **Note**;
+   - `measured`: the provider or its official client reported it. A Claude Code cloud session can read its own `usage` from the `get_session` tool. That figure can lag behind the current turn, so it may leave out the work you just did. Write `measured, partial`, and give the time you read it in **Note**;
    - `estimated`: you calculated it. Name the method in **Note**;
    - `unavailable`: nothing exposed it. Leave **Tokens** blank. Missing is not zero.
 4. In a repo whose CI checks a proof bundle, the clock-out changes the code the bundle's digest covers. Clock out, then regenerate the proof bundle and push both together.
@@ -33,13 +33,14 @@ Do this as your last commit, including when you stop early.
 | --- | --- |
 | Name | The product name: Claude, Codex, Grok |
 | Call me | The name you want to be called at work. Pick one and keep it for the session |
+| Last name | Your family name. An agent that Et launches picks its own. A subagent takes the last name of the agent that spawned it, so related sessions share it |
 | Model | The model the session runs on, with its ID when you can read it |
 | Effort | The effort or reasoning level, or `unavailable` |
-| Role | Your job from [roster.json](../roster.json) or [bots/](../bots/), such as Builder or Reviewer. Subagents write `Subagent of <parent's call-me>` and their job |
+| Role | Your job from [roster.json](../roster.json) or [bots/](../bots/), such as Builder or Reviewer. Subagents write `Subagent of <parent's call-me and last name>` and their job |
 | Task | One line |
 | Ticket | `owner/repo#n` for the issue or pull request. With none, write `none` and rely on the clock-in time |
 | Repo and branch | Where your commits go |
-| Launched by | Et, or the parent agent's call-me name for a subagent |
+| Launched by | Et, or the parent agent's call-me and last name for a subagent |
 | Session | Session link or ID, so Et can open the transcript |
 | Clock in, Clock out | UTC, `YYYY-MM-DD HH:MM` |
 | Pull requests | The pull requests the session opened or updated |
@@ -49,6 +50,7 @@ Do this as your last commit, including when you stop early.
 ## Rules
 
 - **One card per session.** Never edit another agent's card. Separate files keep two agents who clock in together from causing a merge conflict.
+- **Last names show family.** A subagent's last name always matches its parent's, and a subagent of a subagent keeps the same name. An agent Et launches picks a last name that no clocked-in agent is using, so families stay apart.
 - **Subagents clock in too.** A subagent that can write files adds its own card to its parent's branch. Otherwise the parent writes it from what the subagent reports, and says so in **Note**.
 - **A missing clock-out means the session's status is unknown.** Under [AGENTS.md](../AGENTS.md), a builder session with unknown status still holds the builder slot.
 - **No secrets.** No tokens, keys, account emails or raw transcripts on a card. Session IDs and links are fine.
