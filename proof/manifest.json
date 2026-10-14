@@ -1,20 +1,16 @@
 {
   "schemaVersion": 1,
-  "ticket": "Etdev2/sweet-potato-fried-test#11",
-  "sourceDigest": "sha256:59e19876d522bf1c59f48db62beae05c8067748ed151cd605900594855cff722",
-  "capturedAt": "2026-10-14T01:06:37Z",
+  "ticket": "Etdev2/sweet-potato-fried-test#14",
+  "sourceDigest": "sha256:5519ed5fc74170372a96bc84b8ab99c96fda66ff68e84d133a6ef19995c7483a",
+  "capturedAt": "2026-10-14T01:32:38Z",
   "result": "PASS",
   "verification": {
-    "command": "/private/tmp/st1-presentation-venv/bin/python ST-1/verify-exports.py",
-    "fixture": "Final accepted ST-1 inputs and isolated release after metadata closeout; same Mac fonts and pinned libraries"
+    "command": "ST1_PROOF_DIR=\"$PWD/proof\" bash scripts/verify-st1-site.sh",
+    "fixture": "The real ST-1 files on this branch: deck-content.json, finance.json, the three Markdown files and the six deck exports. The production build served by next start on 127.0.0.1."
   },
   "commands": [
     {
-      "command": "/private/tmp/st1-presentation-venv/bin/python ST-1/verify-exports.py",
-      "exitCode": 0
-    },
-    {
-      "command": "python3 ST-1/audit-finance.py --finance ST-1/finance.json --report ST-1/financial-report.md",
+      "command": "ST1_PROOF_DIR=\"$PWD/proof\" bash scripts/verify-st1-site.sh",
       "exitCode": 0
     },
     {
@@ -22,7 +18,7 @@
       "exitCode": 0
     },
     {
-      "command": "git diff --cached --check -- . ':(top,exclude)proof'",
+      "command": "git diff --cached --check origin/main",
       "exitCode": 0
     }
   ],
@@ -31,7 +27,47 @@
     {
       "path": "proof/verification.txt",
       "kind": "terminal",
-      "shows": "Real CLI reproduces three ten-slide PPTX/PDF pairs; independent finance audit passes 51 arithmetic comparisons and 48 report cells; control-room configuration valid. Visual QA and initial/focused Claude review recorded in ST-1. Inherited fixtures captured at earlier reviewed head and rerun by exact-head CI. Unattended wake unproved; pending Grok receipts disclosed."
+      "shows": "Typecheck, lint, unit tests, the production build and every browser test against that build, at desktop and phone sizes, exit 0."
+    },
+    {
+      "path": "proof/screenshots/home-desktop.png",
+      "kind": "screenshot",
+      "shows": "The home page: the four contract figures read from finance.json, the three deck cards with PDF and PowerPoint links, and the fiction tag on the Greg versus Fred card."
+    },
+    {
+      "path": "proof/screenshots/home-phone.png",
+      "kind": "screenshot",
+      "shows": "The same home page at a 390 pixel phone width, with nothing cut off."
+    },
+    {
+      "path": "proof/screenshots/owner-chart-desktop.png",
+      "kind": "screenshot",
+      "shows": "Owner deck slide 5 after hovering the 2034 bar: the payment chart with its tooltip reading 2034 and $68m, and the slide numbered 5 / 10."
+    },
+    {
+      "path": "proof/screenshots/owner-chart-phone.png",
+      "kind": "screenshot",
+      "shows": "The same slide at phone width after tapping the 2034 bar. The chart scrolls inside its own box."
+    },
+    {
+      "path": "proof/screenshots/internal-deck-desktop.png",
+      "kind": "screenshot",
+      "shows": "The Greg versus Fred deck: the fiction notice above the slides and the FICTIONAL SATIRE label in the first slide footer."
+    },
+    {
+      "path": "proof/screenshots/internal-deck-phone.png",
+      "kind": "screenshot",
+      "shows": "The same deck at phone width, with the fiction notice above the first slide."
+    },
+    {
+      "path": "proof/screenshots/report-desktop.png",
+      "kind": "screenshot",
+      "shows": "The finance report rendered from financial-report.md."
+    },
+    {
+      "path": "proof/screenshots/report-phone.png",
+      "kind": "screenshot",
+      "shows": "The finance report at phone width."
     }
   ]
 }

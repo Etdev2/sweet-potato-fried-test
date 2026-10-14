@@ -16,6 +16,10 @@ The [ST-1 brief](ST-1/PROMPT.md) defines the now-started six-role sports-agency 
 
 [apps/quota-console](apps/quota-console/README.md) is a Quota Management page for a CLI proxy console, built from a screenshot for [issue #6](https://github.com/Etdev2/sweet-potato-fried-test/issues/6). It reads fake, committed JSON. Run `bash scripts/verify-quota-console.sh` to check it. The steps for driving it by hand are in [the verification skill](.claude/skills/verify-quota-console/SKILL.md).
 
+## ST-1 site
+
+[apps/st1-site](apps/st1-site/README.md) is a Next.js site that presents the [ST-1 deliverables](ST-1/README.md): the three decks as web slides, the finance report, the fictional story and the decisions record. It is generated from the files in `ST-1/` and keeps no second copy. Run `bash scripts/verify-st1-site.sh` to check it. It needs Node 22.13 or newer.
+
 ## Dashboard skill trial
 
 [The skill trial](docs/skill-trial.md) applies the pinned Wizard and create-verification-skill to repeatable dashboard preparation helpers. Run `bash scripts/verify-dashboard-tools.sh` to check the helpers, or `bash scripts/dashboard-wizard.sh --plan` to inspect the procedure. Matching skills are available under `.agents/skills` and `.claude/skills`. Live dashboard login and quota acceptance remain separate.

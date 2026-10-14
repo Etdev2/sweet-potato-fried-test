@@ -36,6 +36,26 @@
         "migrationsAllowed": false,
         "paidModelRunsAllowed": false
       }
+    },
+    {
+      "name": "ST-1 Site",
+      "repository": "Etdev2/sweet-potato-fried-test",
+      "lane": "typescript-web",
+      "trustStage": "stage-1-supervised",
+      "mergeAuthority": "Et",
+      "verification": {
+        "status": "available",
+        "command": "bash scripts/verify-st1-site.sh"
+      },
+      "requiredChecks": [
+        "contracts",
+        "st1-site"
+      ],
+      "productionAuthority": {
+        "writesAllowed": false,
+        "migrationsAllowed": false,
+        "paidModelRunsAllowed": false
+      }
     }
   ]
 }
