@@ -44,6 +44,7 @@ All characters are realistic people with made-up faces. None is based on a real 
 | ELLIOTT | a realistic CFO in his late 30s to 40s with an invented face, neat short hair, navy suit, open collar, calm |
 | CAROLINA | a realistic woman in her late 30s with an invented face, dark shoulder-length hair, cream blazer, minimal gold jewelry, warm and sharp |
 | MARKUS | a realistic man in his 60s with an invented face, fictional owner Markus Schultz, silver hair, charcoal suit, no tie |
+| BRIAN | a realistic man in his 40s with an invented face, generic and not based on anyone, tanned, neatly styled hair, open-collar linen shirt, expensive watch, easy smile, smooth talker |
 | ANGELS EXEC | a realistic former team executive in his 60s with an invented face, bald, grey suit, red tie, tired |
 | ANALYST | a realistic analyst in his 30s with an invented face, short curly hair, rolled shirtsleeves, green tie |
 | COLLEAGUE | a realistic woman in her 50s with an invented face, reading glasses on a chain, oatmeal cardigan, holding a mug |
@@ -56,7 +57,7 @@ Interview setup for every talking head: YouTube-style sit-down, lav mic visible 
 
 Rooms: ELLIOTT = a glass-walled conference room. MARKUS = a home study with a window. ANALYST = a home office with a bookshelf. CAROLINA = a bright home office with mood boards. COLLEAGUE = her home kitchen. FRED = a desk in a quiet home office. Archive material is phone footage, old phone photos, screen recordings and security-camera clips, not VHS. Every ballpark is generic, with no signage text. Captions, cards and lower-thirds go in during editing.
 
-## Part 1 shot list: Part One: The Memo (52 shots, 8:34, 934 words)
+## Part 1 shot list: Part One: The Memo (61 shots, 9:56, 1090 words)
 
 ### Cold open (0:00)
 
@@ -174,264 +175,329 @@ Rooms: ELLIOTT = a glass-walled conference room. MARKUS = a home study with a wi
 - Audio: FRED: "It was the first recorded instance of Greg missing an important update. It would not be the last."
 - Sound and score: Low electronic hum.
 
-### I. The signing (2:07)
+### The Brian deal (2:07)
 
-**P1-S17** | 2:07 | 4s
+**P1-S17** | 2:07 | 3s
+- Prompt: Black card. White text fades up.
+- Camera: Static.
+- Graphics (add in edit): Card: "THE BRIAN DEAL"
+- Audio: none
+- Sound and score: Room tone.
+
+**P1-S18** | 2:10 | 10s
+- Prompt: Phone footage: a Long Beach marina on a bright morning, rows of small rental boats, palm trees along the path.
+- Camera: Handheld walking shot, natural daylight.
+- Graphics (add in edit): Lower note: "Long Beach"
+- Audio: NARRATOR: "Greg landed in Long Beach. He took a bookkeeping job near the water and, within a year, met Brian."
+- Sound and score: Gulls, halyards clinking.
+
+**P1-S19** | 2:20 | 12s
+- Prompt: YouTube-style interview: COLLEAGUE in her home kitchen, lav mic, window light, a measured look.
+- Camera: Medium close-up, slight handheld.
+- Graphics (add in edit): none
+- Audio: COLLEAGUE: "Brian was very easy to like. He always picked up the check. His family's money came from somewhere nobody asked about, and nobody did."
+- Sound and score: Kitchen room tone.
+
+**P1-S20** | 2:32 | 13s
+- Prompt: Phone photo, close-up: BRIAN's glossy business card on a café table. It shows only the name "Brian" and a small anchor graphic, no phone number.
+- Camera: Slow digital zoom on the photo.
+- Graphics (add in edit): Insert: card reads "BRIAN" and nothing else
+- Audio: NARRATOR: "Brian had a plan for a boat-rental business in the marina. Greg put in his savings on a handshake. Brian's business card had no phone number."
+- Sound and score: Café ambience.
+
+**P1-S21** | 2:45 | 8s
+- Prompt: FRED's desk terminal, screen glowing blue; beside it a photo of a single yellow sticky note.
+- Camera: Static, eye level.
+- Graphics (add in edit): Insert: sticky note reads "Brian, solid." underlined twice
+- Audio: FRED: "Greg's due diligence was a single sticky note. It said 'Brian, solid.' It was underlined twice."
+- Sound and score: Low electronic hum.
+
+**P1-S22** | 2:53 | 7s
+- Prompt: Old phone clip: GREG and BRIAN at a marina picnic table, shot by a friend; GREG gestures confidently at a printed page while BRIAN smiles and checks his watch.
+- Camera: Handheld phone, slightly shaky.
+- Graphics (add in edit): Caption: "Phone clip, Long Beach"
+- Audio: GREG: "I've seen the numbers. The numbers are fine. Brian is a numbers guy."
+- Sound and score: Phone audio, wind.
+
+**P1-S23** | 3:00 | 10s
+- Prompt: Phone footage: the same marina slips, now empty, a single padlocked chain across the dock gate and a faded notice taped to it.
+- Camera: Handheld, slow pan.
+- Graphics (add in edit): none
+- Audio: NARRATOR: "The boats were leased. The lease was not paid. By spring, the business was gone, and so were Greg's savings."
+- Sound and score: Wind, a loose rope tapping.
+
+**P1-S24** | 3:10 | 14s
+- Prompt: YouTube-style interview: COLLEAGUE, kitchen, quiet.
+- Camera: Close-up, slight handheld.
+- Graphics (add in edit): none
+- Audio: COLLEAGUE: "Greg was always certain. Later, with the Dodgers, he was certain a great deal was a bad one. With Brian, he was certain a bad deal was a good one."
+- Sound and score: Kitchen room tone.
+
+**P1-S25** | 3:24 | 5s
+- Prompt: FRED's desk terminal, screen steady blue.
+- Camera: Static, eye level.
+- Graphics (add in edit): none
+- Audio: FRED: "Greg audited everyone except the people he liked."
+- Sound and score: Hum, then silence.
+
+### I. The signing (3:29)
+
+**P1-S26** | 3:29 | 4s
 - Prompt: Black card. White text fades up.
 - Camera: Static.
 - Graphics (add in edit): Card: "I. THE SIGNING"
 - Audio: none
 - Sound and score: Room tone.
 
-**P1-S18** | 2:11 | 15s
+**P1-S27** | 3:33 | 15s
 - Prompt: Phone footage from the stands: STAR, backlit, at home plate under stadium lights, swings; the ball rises into a dark sky.
 - Camera: Handheld phone, follows the ball up.
 - Graphics (add in edit): Lower note: "2024: 54 HR, 59 SB. 2025: 55 HR (E16)"
 - Audio: NARRATOR: "Shohei Ohtani arrived as a hitter and a pitcher. In 2024 he hit 54 home runs and stole 59 bases. In 2025 he hit 55 more, and he returned to the mound."
 - Sound and score: Muffled crowd, strings enter.
 
-**P1-S19** | 2:26 | 7s
+**P1-S28** | 3:48 | 7s
 - Prompt: Phone footage from the stands: STAR, seen from behind on the mound at dusk, winds up.
 - Camera: Handheld phone, zoomed in.
 - Graphics (add in edit): Lower note: "4 MVP awards, all unanimous (E17)"
 - Audio: NARRATOR: "He has won four Most Valuable Player awards. All four votes were unanimous."
 - Sound and score: Strings hold.
 
-**P1-S20** | 2:33 | 11s
+**P1-S29** | 3:55 | 11s
 - Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: MARKUS in a wood-panelled study, window light, a closed leather folio on his knee.
 - Camera: Medium close-up, static.
 - Graphics (add in edit): Lower-third: "MARKUS SCHULTZ / Owner (fictional)"
 - Audio: MARKUS: "You don't get many chances at a player like that. When one comes, you find a way to make the numbers work."
 - Sound and score: Room tone.
 
-**P1-S21** | 2:44 | 10s
+**P1-S30** | 4:06 | 10s
 - Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: ANALYST in the LIBRARY set.
 - Camera: Medium close-up, slight handheld drift.
 - Graphics (add in edit): Lower-third: "THE ANALYST / Baseball economics"
 - Audio: ANALYST: "The headline was seven hundred million. The structure was the story. Almost nobody read past the headline that week."
 - Sound and score: Room tone, faint clock.
 
-### II. The memo (2:54)
+### II. The memo (4:16)
 
-**P1-S22** | 2:54 | 4s
+**P1-S31** | 4:16 | 4s
 - Prompt: Black card. White text fades up.
 - Camera: Static.
 - Graphics (add in edit): Card: "II. THE MEMO"
 - Audio: none
 - Sound and score: Room tone.
 
-**P1-S23** | 2:58 | 11s
+**P1-S32** | 4:20 | 11s
 - Prompt: Phone-footage recreation: GREG at his desk late at night, desk lamp, a mug of cold coffee, typing with total focus.
 - Camera: Medium, slight handheld drift.
 - Graphics (add in edit): Overlay: "RECREATION"
 - Audio: NARRATOR: "Greg had been a Dodgers accountant for nine years. He was careful, quick and well liked. That week, he wrote a two-page memo."
 - Sound and score: Keyboard, clock.
 
-**P1-S24** | 3:09 | 11s
+**P1-S33** | 4:31 | 11s
 - Prompt: Extreme close-up of a printed memo sliding out of an office printer.
 - Camera: Close-up, handheld.
 - Graphics (add in edit): Memo text: "Recommendation: do not proceed."
 - Audio: GREG: "Seven hundred million dollars for one player. I can't find a version of this that works. My recommendation is that we walk away."
 - Sound and score: Printer whir.
 
-**P1-S25** | 3:20 | 11s
+**P1-S34** | 4:42 | 11s
 - Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: COLLEAGUE in the KITCHEN set, holding a mug in both hands.
 - Camera: Medium close-up, static.
 - Graphics (add in edit): Lower-third: "FORMER COLLEAGUE OF GREG"
 - Audio: COLLEAGUE: "Greg believed in that memo. He printed it twice. He kept one copy on his own desk, so he'd see it every morning."
 - Sound and score: Kitchen ambience.
 
-**P1-S26** | 3:31 | 11s
+**P1-S35** | 4:53 | 11s
 - Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: ELLIOTT, OFFICE set.
 - Camera: Close-up, slight handheld drift.
 - Graphics (add in edit): none
 - Audio: ELLIOTT: "I read it on a Sunday night. It was clear, and it was confident. It only covered page one of the deal."
 - Sound and score: Room tone.
 
-**P1-S27** | 3:42 | 6s
+**P1-S36** | 5:04 | 6s
 - Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: MARKUS, study set, a small nod.
 - Camera: Close-up, static.
 - Graphics (add in edit): none
 - Audio: MARKUS: "I thanked him for it. Then we signed the player."
 - Sound and score: Silence after the line.
 
-### III. Page two (3:48)
+### III. Page two (5:10)
 
-**P1-S28** | 3:48 | 4s
+**P1-S37** | 5:10 | 4s
 - Prompt: Black card. White text fades up.
 - Camera: Static.
 - Graphics (add in edit): Card: "III. PAGE TWO"
 - Audio: none
 - Sound and score: Room tone.
 
-**P1-S29** | 3:52 | 17s (generate 15s, then extend 2s)
+**P1-S38** | 5:14 | 17s (generate 15s, then extend 2s)
 - Prompt: Top-down slow pan along a typed contract page, a pencil timeline drawn across the margin from 2024 to 2043.
 - Camera: Top-down, slow drift.
 - Graphics (add in edit): Graphic: "$680M deferred. $2M a year while playing. $68M a year, 2034 to 2043. No interest. (E01, E02)"
 - Audio: NARRATOR: "Page two said this. Ohtani deferred $680 million of the $700 million. He is paid $2 million a year while he plays. The rest arrives in $68 million payments from 2034 to 2043, with no interest."
 - Sound and score: Piano arpeggio.
 
-**P1-S30** | 4:09 | 16s (generate 15s, then extend 1s)
+**P1-S39** | 5:31 | 16s (generate 15s, then extend 1s)
 - Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: ANALYST leans forward, elbows on knees.
 - Camera: Close-up, slight handheld drift.
 - Graphics (add in edit): Graphic: "Present value, AP luxury-tax method: about $461M. Luxury-tax charge: about $46M a year. (E03, E04)"
 - Audio: ANALYST: "Money paid in 2043 costs less than money paid today. On the luxury-tax books, the deal is worth about $461 million in present value. It counts about $46 million a year, not seventy."
 - Sound and score: Room tone.
 
-**P1-S31** | 4:25 | 13s
+**P1-S40** | 5:47 | 13s
 - Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: ANALYST raises one hand, making a fair point.
 - Camera: Medium close-up, static.
 - Graphics (add in edit): Lower note: "Deferred pay must be funded in advance (E05)"
 - Audio: ANALYST: "It isn't free. The labor agreement makes the club fund deferred pay in advance. That's real cash, set aside early. Greg's memo didn't mention it either way."
 - Sound and score: Room tone.
 
-**P1-S32** | 4:38 | 13s
+**P1-S41** | 6:00 | 13s
 - Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: ELLIOTT, OFFICE set.
 - Camera: Close-up, static.
 - Graphics (add in edit): none
 - Audio: ELLIOTT: "Greg saw seventy million a year. The tax sees forty-six. The player sees two. All three numbers are true. Only one of them was in his memo."
 - Sound and score: Long pause, piano returns.
 
-### IV. The audit (4:51)
+### IV. The audit (6:13)
 
-**P1-S33** | 4:51 | 4s
+**P1-S42** | 6:13 | 4s
 - Prompt: Black card. White text fades up.
 - Camera: Static.
 - Graphics (add in edit): Card: "IV. THE AUDIT"
 - Audio: none
 - Sound and score: Room tone.
 
-**P1-S34** | 4:55 | 14s
+**P1-S43** | 6:17 | 14s
 - Prompt: A small office at night. Someone sets FRED's desk terminal on a desk and plugs it in; the screen lights up blue.
 - Camera: Handheld, eye level.
 - Graphics (add in edit): none
 - Audio: NARRATOR: "Six months later, the club brought in a new controller to audit the year's largest decisions. His name was Fred. Fred is an accounting system. He does not take weekends."
 - Sound and score: Server hum, piano in a higher register.
 
-**P1-S35** | 5:09 | 14s
+**P1-S44** | 6:31 | 14s
 - Prompt: FRED's desk terminal on a home-office desk, screen glowing blue, desk lamp on.
 - Camera: Medium close-up, slight handheld drift.
 - Graphics (add in edit): Lower-third: "FRED / Controller"
 - Audio: FRED: "I was asked to review the memo. It was well formatted. It had one input, the total. It had no discount rate, no payment schedule and no estimate of wins."
 - Sound and score: Low electronic hum.
 
-**P1-S36** | 5:23 | 9s
+**P1-S45** | 6:45 | 9s
 - Prompt: FRED's desk terminal, screen steady blue.
 - Camera: Close-up, static.
 - Graphics (add in edit): none
 - Audio: FRED: "I don't fault the conclusion for being bold. I fault it for being finished before the work started."
 - Sound and score: Hum.
 
-**P1-S37** | 5:32 | 12s
+**P1-S46** | 6:54 | 12s
 - Prompt: Screen recording of FRED's display: a blue spreadsheet scrolling slowly.
 - Camera: Screen capture, static.
 - Graphics (add in edit): Graphic: "$13.9M per win, 2025 (FanGraphs, E18). 2025: 9.4 WAR, best in the NL (E17)."
 - Audio: FRED: "FanGraphs puts the 2025 price of a win at about $13.9 million. Ohtani produced 9.4 wins above replacement, the best in the National League."
 - Sound and score: Soft clicks.
 
-**P1-S38** | 5:44 | 15s
+**P1-S47** | 7:06 | 15s
 - Prompt: Screen recording: a simple bar chart builds in a spreadsheet app, one tall bar and one short bar.
 - Camera: Static, slight handheld drift.
 - Graphics (add in edit): Graphic: "9.4 x $13.9M = about $131M. Illustrative, pending controller sign-off. Luxury-tax charge: about $46M a year."
 - Audio: FRED: "That is about $131 million of on-field value in one season, against about $46 million a year on the tax. It is an illustration. I have not signed off on it yet."
 - Sound and score: Strings, slow.
 
-**P1-S39** | 5:59 | 11s
+**P1-S48** | 7:21 | 11s
 - Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: ANALYST, LIBRARY set, measured.
 - Camera: Medium close-up, static.
 - Graphics (add in edit): none
 - Audio: ANALYST: "Fred's math is a sketch. Wins aren't cash in a bank. Cut his number in half and it still clears forty-six."
 - Sound and score: Room tone.
 
-**P1-S40** | 6:10 | 13s
+**P1-S49** | 7:32 | 13s
 - Prompt: FRED's desk terminal, screen glowing blue.
 - Camera: Close-up, static.
 - Graphics (add in edit): none
 - Audio: FRED: "Greg's memo used one number. My file uses forty. Most of them are smaller and less exciting. That is usually how you know they are right."
 - Sound and score: Hum.
 
-### V. The brand (6:23)
+### V. The brand (7:45)
 
-**P1-S41** | 6:23 | 4s
+**P1-S50** | 7:45 | 4s
 - Prompt: Black card. White text fades up.
 - Camera: Static.
 - Graphics (add in edit): Card: "V. THE BRAND"
 - Audio: none
 - Sound and score: Room tone.
 
-**P1-S42** | 6:27 | 15s
+**P1-S51** | 7:49 | 15s
 - Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: CAROLINA in a bright CREATIVE STUDIO set, mood boards out of focus behind her.
 - Camera: Medium close-up, slight handheld drift.
 - Graphics (add in edit): Lower-third: "CAROLINA / Creative Strategist and Brand Architect"
 - Audio: CAROLINA: "I've spent more than ten years in digital media and brand work. You learn to separate attention from money. With Ohtani, the attention was enormous. So I went looking for the money."
 - Sound and score: Soft studio ambience.
 
-**P1-S43** | 6:42 | 14s
+**P1-S52** | 8:04 | 14s
 - Prompt: Slow pan along a ballpark concourse wall of blank sponsor panels in muted colors, no text, no logos.
 - Camera: Handheld walking pan.
 - Graphics (add in edit): Graphic: "12 Japan-based partners, about $70M, 2024. Secondhand estimate (E10)."
 - Audio: CAROLINA: "In 2024 the club added 12 Japan-based partners. One research firm estimated about $70 million in new sponsorship revenue. That estimate reached us secondhand, so we treat it with care."
 - Sound and score: Concourse ambience.
 
-**P1-S44** | 6:56 | 10s
+**P1-S53** | 8:18 | 10s
 - Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: CAROLINA, CREATIVE STUDIO set.
 - Camera: Close-up, static.
 - Graphics (add in edit): Graphic: "Japan-based companies: 16 of 115 partners, 2025 (E11)"
 - Audio: CAROLINA: "By 2025, Japan-based companies were 16 of the club's 115 partners. That's a second market, sitting inside our ballpark."
 - Sound and score: Room tone.
 
-**P1-S45** | 7:06 | 13s
+**P1-S54** | 8:28 | 13s
 - Prompt: A full generic ballpark at golden hour, slow pan across a blurred crowd.
 - Camera: Slow pan.
 - Graphics (add in edit): Graphic: "4,012,470 home attendance, 2025 (E13). 12.9M viewers in Japan, 2024 NLDS Game 5 (E15)."
 - Audio: NARRATOR: "In 2025 the Dodgers drew 4,012,470 fans at home, a franchise record and the most in baseball. In Japan, 12.9 million people watched one 2024 playoff game."
 - Sound and score: Muffled crowd, piano.
 
-**P1-S46** | 7:19 | 18s (generate 15s, then extend 3s)
+**P1-S55** | 8:41 | 18s (generate 15s, then extend 3s)
 - Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: CAROLINA, slightly firmer.
 - Camera: Close-up, slight handheld drift.
 - Graphics (add in edit): Graphic: "About $125M, 2026, worldwide estimate. Player income, not Dodgers revenue (E07, E08)."
 - Audio: CAROLINA: "One thing I kept repeating in meetings: his endorsement income is his. Forbes and Sportico estimate about $125 million worldwide for 2026. None of that is Dodgers revenue. Our part is the partners, the tickets and the audience."
 - Sound and score: Room tone.
 
-**P1-S47** | 7:37 | 12s
+**P1-S56** | 8:59 | 12s
 - Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: CAROLINA, a small, dry smile.
 - Camera: Medium close-up, static.
 - Graphics (add in edit): none
 - Audio: CAROLINA: "Greg's memo treated him as a cost line. My job was to show the room what he did for the brand. Those are different spreadsheets."
 - Sound and score: Piano returns.
 
-**P1-S48** | 7:49 | 9s
+**P1-S57** | 9:11 | 9s
 - Prompt: Slow pan across a shop window of plain white jerseys with the number 17, no team names or logos, warm street light.
 - Camera: Handheld walking pan.
 - Graphics (add in edit): Lower note: "Led MLBShop.com jersey sales, 2024 (E14)"
 - Audio: NARRATOR: "In his first Dodgers season, his jersey led all players in sales on the league's online shop."
 - Sound and score: Street ambience.
 
-**P1-S49** | 7:58 | 21s (generate 15s, then extend 6s)
+**P1-S58** | 9:20 | 21s (generate 15s, then extend 6s)
 - Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: CAROLINA, CREATIVE STUDIO set.
 - Camera: Medium close-up, static.
 - Graphics (add in edit): Lower note: "Personal deals, fees undisclosed (E09)"
 - Audio: CAROLINA: "The personal deals tell you the American audience is there too. New Balance gave him a signature line and a pop-up in Texas. Topps and Fanatics signed him to an exclusive card deal. We don't see their fees, and we don't count them as ours."
 - Sound and score: Room tone.
 
-### VI. The conversation (8:19)
+### VI. The conversation (9:41)
 
-**P1-S50** | 8:19 | 4s
+**P1-S59** | 9:41 | 4s
 - Prompt: Black card. White text fades up.
 - Camera: Static.
 - Graphics (add in edit): Card: "VI. THE CONVERSATION"
 - Audio: none
 - Sound and score: Room tone.
 
-**P1-S51** | 8:23 | 6s
+**P1-S60** | 9:45 | 6s
 - Prompt: An empty office corridor at early morning, one office door ajar, lamp light spilling out.
 - Camera: Handheld walk-in down the corridor.
 - Graphics (add in edit): none
 - Audio: NARRATOR: "In the spring, Elliott asked Greg to come to his office."
 - Sound and score: Footsteps, HVAC, piano very low.
 
-**P1-S52** | 8:29 | 5s
+**P1-S61** | 9:51 | 5s
 - Prompt: Black card. White text fades up.
 - Camera: Static.
 - Graphics (add in edit): Card: "End of Part One"
@@ -822,6 +888,6 @@ Rooms: ELLIOTT = a glass-walled conference room. MARKUS = a home study with a wi
 5. Gossip clip (Part 2, chapter XI): the only bright, fast segment. Use a generic pink-and-yellow web template with no site name or logo, then cut straight back to the plain documentary look.
 6. Cards: plain white sans-serif text on black, one-second fades. Use the generic card "a documentary" only. No network or series logos.
 7. Lower-thirds and captions: clean YouTube-style sans-serif, bottom left, four seconds on screen. Burn in captions for all dialogue.
-8. Disclaimer card (end of each part, or the video description): "Fictional parody. Greg (invented face, not based on any real person), Fred, Elliott as CFO, Carolina, Markus Schultz and every other character, plus the memo, buyback, Ohio rumor, mail room scene, gossip clip, Catalina incident and Harbor Point Medical Center, are invented. These are not real team executives, and the real Dodgers ownership is not depicted. Contract, statistics and commercial figures are real and cited in ST-1/research/evidence.md (E01 to E05, E07 to E11, E13 to E18). Endorsement figures are worldwide estimates of Ohtani's personal income, not Dodgers revenue. The $131 million figure is illustrative pending Fred's sign-off. E10 is a secondhand estimate."
+8. Disclaimer card (end of each part, or the video description): "Fictional parody. Greg (invented face, not based on any real person), Brian, Fred, Elliott as CFO, Carolina, Markus Schultz and every other character, plus the Brian deal, the memo, buyback, Ohio rumor, mail room scene, gossip clip, Catalina incident and Harbor Point Medical Center, are invented. These are not real team executives, and the real Dodgers ownership is not depicted. Contract, statistics and commercial figures are real and cited in ST-1/research/evidence.md (E01 to E05, E07 to E11, E13 to E18). Endorsement figures are worldwide estimates of Ohtani's personal income, not Dodgers revenue. The $131 million figure is illustrative pending Fred's sign-off. E10 is a secondhand estimate."
 9. Before publishing, check every clip for real logos, team wordmarks or real faces, and regenerate any that has one.
 10. The early-life chapter jokes about Greg's lateness and hypocrisy only. Show the Pride flag, the neighbors and the meeting respectfully.
