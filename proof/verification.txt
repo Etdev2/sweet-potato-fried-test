@@ -1,8 +1,133 @@
+$ /private/tmp/st1-presentation-venv/bin/python ST-1/verify-exports.py
+{
+  "output": "/var/folders/f7/tj24jgz97dzbms4zsqjgjh840000gn/T/st1-export-replay-q1qvha4q",
+  "decks": [
+    {
+      "id": "owner",
+      "slides": 10,
+      "pptx": "st1-owner-agency.pptx",
+      "pdf": "st1-owner-agency.pdf"
+    },
+    {
+      "id": "advertiser",
+      "slides": 10,
+      "pptx": "st1-us-advertiser.pptx",
+      "pdf": "st1-us-advertiser.pdf"
+    },
+    {
+      "id": "internal",
+      "slides": 10,
+      "pptx": "st1-greg-versus-fred.pptx",
+      "pdf": "st1-greg-versus-fred.pdf"
+    }
+  ]
+}
+PASS: byte-identical real CLI replay: st1-greg-versus-fred.pptx
+PASS: byte-identical real CLI replay: st1-owner-agency.pptx
+PASS: byte-identical real CLI replay: st1-us-advertiser.pptx
+PASS: byte-identical real CLI replay: st1-greg-versus-fred.pdf
+PASS: byte-identical real CLI replay: st1-owner-agency.pdf
+PASS: byte-identical real CLI replay: st1-us-advertiser.pdf
+PASS: six release files and producer input hashes; same installed fonts/libraries
+[exit 0]
+
+$ python3 ST-1/audit-finance.py --finance ST-1/finance.json --report ST-1/financial-report.md
+PASS: 20 payment indexes, years, amounts and $700m total; 51 JSON arithmetic comparisons; 48 Markdown monetary cells; ledger exclusions and CBT flags; advertiser $5m/25% and $5m/$40.
+Maximum JSON recomputation error in USD or dimensionless annuity factor: 2.6405191270754443751942427136141032E-7
+Rate 0.03 PV USD 448674903.284 annual hurdle USD 52598386.213
+Rate 0.05 PV USD 337795797.967 annual hurdle USD 43746101.241
+Rate 0.07 PV USD 256836586.994 annual hurdle USD 36567751.865
+At 5% $100m receipts, 100% attribution, 40% margin: balance USD -28926400.79912877
+[exit 0]
+
 $ bash scripts/check-control-room.sh
 roster.json is valid. Active builders: 0 of 1.
 projects.json is valid.
 Control-room data is valid.
 [exit 0]
 
-$ git diff --cached --check
+$ bash scripts/verify-dashboard-tools.sh
+test_expected_page_is_readiness_only (__main__.Tools.test_expected_page_is_readiness_only) ... ok
+test_invalid_port_is_refused (__main__.Tools.test_invalid_port_is_refused) ... ok
+test_matching_pinned_skills_and_resources (__main__.Tools.test_matching_pinned_skills_and_resources) ... ok
+test_noninteractive_run_refuses_before_browser_or_writes (__main__.Tools.test_noninteractive_run_refuses_before_browser_or_writes) ... ok
+test_oversized_page_is_refused (__main__.Tools.test_oversized_page_is_refused) ... ok
+test_redirect_is_not_followed (__main__.Tools.test_redirect_is_not_followed) ... ok
+test_syntax_and_plan_preserve_state (__main__.Tools.test_syntax_and_plan_preserve_state) ... ok
+test_unauthorized_page_is_inconclusive (__main__.Tools.test_unauthorized_page_is_inconclusive) ... ok
+test_unknown_option_refused (__main__.Tools.test_unknown_option_refused) ... ok
+test_unmodified_wizard_library (__main__.Tools.test_unmodified_wizard_library) ... ok
+test_wrong_page_is_inconclusive_and_not_printed (__main__.Tools.test_wrong_page_is_inconclusive_and_not_printed) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 3.108s
+
+OK
+1. Console connection: open the local management page; enter the management key in the browser only.
+2. One provider login: use OAuth Login and complete the approved provider flow in the browser.
+3. Quota inspection: open Quota Management and capture masked provider quota/reset evidence.
+No values are written to .env or GitHub secrets by this wizard.
+Live acceptance remains INCONCLUSIVE until separate real-artifact verification.
+PASS: preparation helpers. Live dashboard acceptance remains INCONCLUSIVE.
+[exit 0]
+
+$ bash -n scripts/claude-launcher-wizard.sh && bash scripts/verify-claude-launcher-wizard.sh
+test_app_not_installed_stops_before_the_sign_in (__main__.Launcher.test_app_not_installed_stops_before_the_sign_in) ... ok
+test_empty_or_spaced_token_sends_nothing (__main__.Launcher.test_empty_or_spaced_token_sends_nothing) ... ok
+test_failed_sign_in_sends_nothing (__main__.Launcher.test_failed_sign_in_sends_nothing) ... ok
+test_failed_uploads_are_not_reported_as_complete (__main__.Launcher.test_failed_uploads_are_not_reported_as_complete) ... ok
+test_invalid_arguments_exit_2_before_any_action (__main__.Launcher.test_invalid_arguments_exit_2_before_any_action) ... ok
+test_library_is_the_pinned_template (__main__.Launcher.test_library_is_the_pinned_template) ... ok
+test_missing_claude_command_stops_before_the_browser (__main__.Launcher.test_missing_claude_command_stops_before_the_browser) ... ok
+test_plan_prints_the_steps_and_calls_nothing (__main__.Launcher.test_plan_prints_the_steps_and_calls_nothing) ... ok
+test_run_without_a_terminal_exits_2_before_any_action (__main__.Launcher.test_run_without_a_terminal_exits_2_before_any_action) ... ok
+test_signed_out_gh_stops_before_the_browser (__main__.Launcher.test_signed_out_gh_stops_before_the_browser) ... ok
+test_success_stores_the_token_in_both_repositories (__main__.Launcher.test_success_stores_the_token_in_both_repositories) ... ok
+test_unusual_token_needs_a_yes (__main__.Launcher.test_unusual_token_needs_a_yes) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 12.613s
+
+OK
+
+Observed runs against the stub commands:
+case                                               exit  complete  write attempts  browser  sign-in
+app not installed                                     1  no                     0        1        0
+empty token                                           1  no                     0        1        1
+token of one space                                    1  no                     0        1        1
+token with a space inside                             1  no                     0        1        1
+setup-token fails                                     1  no                     0        1        1
+both uploads fail, old secret listed                  1  no                     2        1        1
+first upload fails, old secret listed                 1  no                     2        1        1
+second upload fails, old secret listed                1  no                     2        1        1
+arguments [''], terminal                              2  no                     0        0        0
+arguments [''], no terminal                           2  no                     0        0        0
+arguments ['--install'], terminal                     2  no                     0        0        0
+arguments ['--install'], no terminal                  2  no                     0        0        0
+arguments ['', '--install'], terminal                 2  no                     0        0        0
+arguments ['', '--install'], no terminal              2  no                     0        0        0
+arguments ['', ''], terminal                          2  no                     0        0        0
+arguments ['', ''], no terminal                       2  no                     0        0        0
+arguments ['--plan', 'extra'], terminal               2  no                     0        0        0
+arguments ['--plan', 'extra'], no terminal            2  no                     0        0        0
+arguments ['--plan', '--plan'], terminal              2  no                     0        0        0
+arguments ['--plan', '--plan'], no terminal           2  no                     0        0        0
+arguments ['', '--plan'], terminal                    2  no                     0        0        0
+arguments ['', '--plan'], no terminal                 2  no                     0        0        0
+claude command missing                                1  no                     0        0        0
+--plan                                                0  no                     0        0        0
+no arguments, no terminal                             2  no                     0        0        0
+gh signed out                                         1  no                     0        0        0
+both uploads succeed                                  0  yes                    2        1        1
+unusual token, declined                               1  no                     0        1        1
+unusual token, accepted                               0  yes                    2        1        1
+1. Install the Claude GitHub App: in the browser, on Etdev2/sweet-potato and Etdev2/sweet-potato-fried-test.
+2. Create the subscription token: "claude setup-token" opens a browser sign-in and prints the token.
+3. Store the token: pasted hidden, saved as the CLAUDE_CODE_OAUTH_TOKEN Actions secret in both repositories.
+The token is never written to a file. This plan installs nothing and contacts no service.
+The wizard prepares account access only. It adds and activates no workflow.
+PASS: launcher wizard against stub commands. Live account setup remains INCONCLUSIVE.
+[exit 0]
+
+$ git diff --cached --check -- . ':(top,exclude)proof'
 [exit 0]

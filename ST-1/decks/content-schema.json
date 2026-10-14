@@ -1,0 +1,444 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/st1/deck-content.schema.json",
+  "title": "ST-1 presentation content",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "sources",
+    "decks"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "sources": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "decks": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "$ref": "#/$defs/deck"
+      },
+      "allOf": [
+        {
+          "contains": {
+            "properties": {
+              "id": {
+                "const": "owner"
+              }
+            },
+            "required": [
+              "id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "id": {
+                "const": "advertiser"
+              }
+            },
+            "required": [
+              "id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": {
+              "id": {
+                "const": "internal"
+              }
+            },
+            "required": [
+              "id"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      ]
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": [
+        "title",
+        "url"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string"
+        },
+        "limit": {
+          "type": "string"
+        }
+      }
+    },
+    "deck": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "slides"
+      ],
+      "properties": {
+        "id": {
+          "enum": [
+            "owner",
+            "advertiser",
+            "internal"
+          ]
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "subtitle": {
+          "type": "string"
+        },
+        "filename": {
+          "type": "string"
+        },
+        "slides": {
+          "type": "array",
+          "minItems": 8,
+          "maxItems": 10,
+          "items": {
+            "$ref": "#/$defs/slide"
+          },
+          "contains": {
+            "properties": {
+              "layout": {
+                "const": "sources"
+              }
+            },
+            "required": [
+              "layout"
+            ]
+          }
+        }
+      }
+    },
+    "slide": {
+      "type": "object",
+      "required": [
+        "title",
+        "layout"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "kicker": {
+          "type": "string"
+        },
+        "subtitle": {
+          "type": "string"
+        },
+        "callout": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "layout": {
+          "enum": [
+            "cover",
+            "bullets",
+            "cards",
+            "chart",
+            "table",
+            "sources"
+          ]
+        },
+        "bullets": {
+          "type": "array",
+          "maxItems": 4,
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        },
+        "cards": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 4,
+          "items": {
+            "type": "object",
+            "required": [
+              "label",
+              "value"
+            ],
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "value": {
+                "type": "string"
+              },
+              "detail": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "chart": {
+          "$ref": "#/$defs/chart"
+        },
+        "table": {
+          "$ref": "#/$defs/table"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "layout": {
+                "const": "cards"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "cards"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "layout": {
+                "const": "chart"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "chart"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "layout": {
+                "const": "table"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "table"
+            ]
+          }
+        }
+      ]
+    },
+    "chart": {
+      "type": "object",
+      "properties": {
+        "finance": {
+          "enum": [
+            "payment_schedule",
+            "pv_sensitivity",
+            "contribution_sensitivity"
+          ]
+        },
+        "type": {
+          "enum": [
+            "bar",
+            "line"
+          ]
+        },
+        "title": {
+          "type": "string"
+        },
+        "unit": {
+          "type": "string"
+        },
+        "caption": {
+          "type": "string"
+        },
+        "labels": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "series": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "required": [
+              "name",
+              "values"
+            ],
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "values": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "number"
+                }
+              }
+            }
+          }
+        }
+      },
+      "anyOf": [
+        {
+          "required": [
+            "finance"
+          ]
+        },
+        {
+          "required": [
+            "labels",
+            "series",
+            "unit"
+          ]
+        }
+      ]
+    },
+    "table": {
+      "type": "object",
+      "required": [
+        "headers",
+        "rows"
+      ],
+      "properties": {
+        "headers": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 5,
+          "items": {
+            "type": "string"
+          }
+        },
+        "rows": {
+          "type": "array",
+          "maxItems": 7,
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  "examples": [
+    {
+      "schema_version": 1,
+      "sources": {
+        "SOURCE_ID": {
+          "title": "Source title",
+          "url": "https://example.org/primary",
+          "date": "YYYY-MM-DD",
+          "limit": "Disclosure limit"
+        }
+      },
+      "decks": [
+        {
+          "id": "owner|advertiser|internal",
+          "title": "Deck title",
+          "subtitle": "Audience and decision",
+          "filename": "optional-distinct-basename",
+          "slides": [
+            {
+              "layout": "cover|bullets|cards|chart|table|sources",
+              "title": "Slide claim or decision",
+              "kicker": "Optional section",
+              "subtitle": "Optional context",
+              "bullets": [
+                "Up to four strings"
+              ],
+              "callout": "Optional conclusion or limitation",
+              "source_ids": [
+                "SOURCE_ID"
+              ],
+              "notes": "Full speaker notes including factual boundaries",
+              "cards": [
+                {
+                  "label": "Label",
+                  "value": "Short headline",
+                  "detail": "Supporting detail"
+                }
+              ],
+              "chart": {
+                "type": "bar|line",
+                "title": "Chart title",
+                "labels": [
+                  "A",
+                  "B"
+                ],
+                "series": [
+                  {
+                    "name": "Series",
+                    "values": [
+                      1,
+                      2
+                    ]
+                  }
+                ],
+                "unit": "USD millions",
+                "finance": "Optional payment_schedule|pv_sensitivity|contribution_sensitivity"
+              },
+              "table": {
+                "headers": [
+                  "Header",
+                  "Header"
+                ],
+                "rows": [
+                  [
+                    "Cell",
+                    "Cell"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "rules": [
+        "Exactly owner, advertiser and internal decks; 8-10 slides each including source appendix.",
+        "Every substantive slide lists source_ids where evidence is used. Scenario labels and limitations remain visible.",
+        "Finance shortcuts read st1-finance.json and produce USD millions. Fiction footer is automatic on every internal slide.",
+        "URLs and full notes appear in speaker notes, per-slide source lines, notes.md and sources.json."
+      ]
+    }
+  ],
+  "description": "Sources retain full URLs, dates and limits. Internal fiction footer is automatic. Finance shortcuts use the supplied model in USD millions. Chart and card bullets also appear in notes."
+}

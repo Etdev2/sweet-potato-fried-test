@@ -8,7 +8,7 @@ Mara, yes. The Texas New Balance pop-up is concrete U.S. activation evidence. It
 
 Maren, yes. We will develop one concept, "Two modes. One standard," for a fictional audio brand. One 30-second film moves from a morning video call to an evening workout. The product has to earn both scenes through demonstrable functions. Humor belongs in the internal fiction deck.
 
-I accept the six-role team: Codex coordinates, Fred models finance, Nico researches, Mara owns sponsorship and measurement, I own brand and copy, and Maren produces. Folding rights diligence into Mara is workable if clearance is explicit and an unresolved conflict can stop production.
+I accept the revised six-role agency: Fred, Carolina, Nico, Mara, Maren and Grok. Codex coordinates publication outside the six. Folding rights diligence into Mara is workable if clearance is explicit and an unresolved conflict can stop production.
 
 My dissent is against any persuasive shortcut that turns documented attention into contract profitability. Strong baseball output and announced commercial partnerships support a serious opportunity case. They do not settle incremental club return or advertiser return.
 

@@ -1,6 +1,18 @@
-# Fred finance appendix
+# Ohtani valuation and U.S. endorsement report
 
 Evidence retrieval date: October 13, 2026. All money is USD. Calculations are illustrative and reproducible from [finance.json](finance.json).
+
+## Recommendation and commercial scope
+
+Treat Ohtani as a strong baseball and marketing opportunity whose actual club return requires a counterfactual and attributable retained receipts. A nominal $700m total alone is an incomplete salary argument. Payment timing changes economic value, but does not make the obligation disappear. This report does not prove the best deal in history.
+
+The owner deck supplies dated regular-season output and 2024/2025 MVP evidence. The Soto comparison, a reported 15-year $765m agreement without deferrals, illustrates why different durations and payment timing defeat a ranking by headline totals alone. See [sports-business sources](research/sports-business-sources.md), E16/E17 and the [source crosswalk](research/source-crosswalk.md).
+
+Historical New Balance, Topps/Fanatics and KOSÉ announcements support U.S. product or campaign relevance. They do not disclose U.S. fees or establish unchanged current rights. The deck's Forbes figure is a worldwide off-field earnings estimate for May 1, 2025 through May 1, 2026. It is not U.S.-only endorsements, agency fees or Dodgers revenue. See [U.S. sponsorship sources](research/us-sponsorship-sources.md), E09 and the crosswalk's distinct Forbes periods.
+
+The advertiser proposal is for fictional Switch Audio. Its $5m total cost, including $3m invented rights and $2m activation, is hypothetical. At a 25% contribution margin, the salary-independent campaign hurdle is $20m incremental net U.S. sales. This is a break-even scenario, not a disclosed fee or forecast. The deck proposes randomized creative/holdout comparisons, pre-registered sample size and a contribution confidence bound before expansion. Rights and product substantiation remain launch conditions. No agency commission assumption was supplied, so agency income remains unavailable.
+
+Grok's $131m WAR illustration passed arithmetic but failed as a contract-profit headline. It applies a projected free-agent cohort market rate to one realized season, with incompatible scope for a ten-year profit conclusion. [Final finance audit](research/final-finance-audit.md) records the methodology and unresolved exact AP conventions.
 
 ## Original-decision payment DCF
 
@@ -66,7 +78,9 @@ The evidence does not prove “best deal ever,” actual net breakeven, ledger e
 
 Completed: twenty payments sum to $700m; direct discounted sums match independent high-precision Decimal calculations and closed-form annuity calculations within $0.00001; PV falls as the discount rate rises.
 
-Remaining: peer review units, signs, year indexing and deck rounding; obtain exact contractual dates for precise valuation; reconcile funding reserves before liquidity claims; obtain attributable retained receipts, alternative roster costs, marginal CBT tax and other incremental costs before a club investment conclusion.
+Completed independently: 51 JSON arithmetic comparisons and 48 monetary table cells, with the deck values checked against this shared model.
+
+Unresolved data: obtain exact contractual dates for precise valuation; reconcile funding reserves before liquidity claims; obtain attributable retained receipts, alternative roster costs, marginal CBT tax and other incremental costs before a club investment conclusion.
 
 Ownership: Mara checks rights and records unresolved terms; Fred audits attribution and finance; Nico supplies dated performance and availability context; Maren preserves sources and qualifications in the decks.
 

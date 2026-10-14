@@ -1,0 +1,39 @@
+{
+  "checks": [
+    {
+      "deck": "owner",
+      "pdf_pages": 10,
+      "expected_pages": 10,
+      "visible_text_parity": "pass",
+      "hyperlinks": 34,
+      "issues": []
+    },
+    {
+      "deck": "advertiser",
+      "pdf_pages": 10,
+      "expected_pages": 10,
+      "visible_text_parity": "pass",
+      "hyperlinks": 9,
+      "issues": []
+    },
+    {
+      "deck": "internal",
+      "pdf_pages": 10,
+      "expected_pages": 10,
+      "visible_text_parity": "pass",
+      "hyperlinks": 7,
+      "issues": []
+    }
+  ],
+  "scratch_path_scan": "pass",
+  "story_spec": "Agency termination, uninvited next-day return, drunken mailroom incident and safe exit are explicit fictional events.",
+  "input_sha256": {
+    "content": "d5462c9660e713fa1b646dbf059b5e75311b6b6973275b8e854a1111f47e94bf",
+    "finance": "6bb7b1789d63507723e769f0ceb08509403ccbf5d65d91c46d5d74e8176061b6",
+    "renderer": "ee3854651eae4679fb9eb9e7f07d8a563d9f4597dade8e336ef65fc8603999ea"
+  },
+  "manual_review": "All 30 pages inspected; final internal pages 6-8 re-inspected after narrative correction.",
+  "byte_identical_replay": true,
+  "compared_export_files": 6,
+  "owner_advertiser_unchanged_after_narrative_patch": true
+}

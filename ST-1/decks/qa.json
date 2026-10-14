@@ -1,0 +1,4682 @@
+{
+  "fixture_only": false,
+  "finance": {
+    "status": "pass",
+    "schedule_total_usd": 700000000,
+    "valuation_date": "2023-12-31",
+    "year_index": "year minus 2023",
+    "discounted_payment_sums": "pass"
+  },
+  "checks": [
+    {
+      "deck": "owner",
+      "slides": 10,
+      "bounds": "pass",
+      "text_fit": "pass",
+      "source_ids": "pass",
+      "pptx_reopen": "pass",
+      "fiction_footer": "not applicable"
+    },
+    {
+      "deck": "advertiser",
+      "slides": 10,
+      "bounds": "pass",
+      "text_fit": "pass",
+      "source_ids": "pass",
+      "pptx_reopen": "pass",
+      "fiction_footer": "not applicable"
+    },
+    {
+      "deck": "internal",
+      "slides": 10,
+      "bounds": "pass",
+      "text_fit": "pass",
+      "source_ids": "pass",
+      "pptx_reopen": "pass",
+      "fiction_footer": "pass"
+    }
+  ],
+  "text_boxes": [
+    {
+      "deck": "owner",
+      "slide": 1,
+      "text": "AGENCY LEADERSHIP | USD | EVIDENCE CUTOFF OCTOBER 13, 2026",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 1,
+      "text": "Agency leadership | Ohtani's Dodgers contract",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 1,
+      "text": "Exceptional output. A commercial opportunity to value.",
+      "font_pt": 17,
+      "lines": 1,
+      "box": [
+        48,
+        145,
+        850,
+        48
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 1,
+      "text": "An opportunity case for agency leadership",
+      "font_pt": 29,
+      "lines": 1,
+      "box": [
+        76,
+        227,
+        790,
+        80
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 1,
+      "text": "Assess the Dodgers salary commitment against an alternative roster.\nCombine baseball contribution with attributable club commercial contribution.\nEvidence cutoff: October 13, 2026. Original-decision DCF: December 31, 2023.",
+      "font_pt": 17,
+      "lines": 3,
+      "box": [
+        76,
+        320,
+        790,
+        120
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 1,
+      "text": "ORIGINAL-DECISION ILLUSTRATION | assumptions and exclusions apply",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 1,
+      "text": "01 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 2,
+      "text": "AGENCY LEADERSHIP | USD | EVIDENCE CUTOFF OCTOBER 13, 2026",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 2,
+      "text": "Performance earns the first slide",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 2,
+      "text": "The baseball case has measurable substance.",
+      "font_pt": 17,
+      "lines": 1,
+      "box": [
+        48,
+        145,
+        850,
+        48
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 2,
+      "text": "2024 regular season: 54 home runs, 59 steals, 1.036 OPS.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        205.0,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 2,
+      "text": "2025 regular season: 55 home runs, 1.014 OPS; 47 pitching innings.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        268.25,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 2,
+      "text": "Unanimous NL MVP in 2024 and 2025.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        331.5,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 2,
+      "text": "Output supports the sporting case; it does not calculate club profit.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        394.75,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 2,
+      "text": "[SAVANT] baseballsavant.mlb.com",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48.0,
+        478,
+        271.3333333333333,
+        29
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 2,
+      "text": "[MVP24] bbwaa.com",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        331.3333333333333,
+        478,
+        271.3333333333333,
+        29
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 2,
+      "text": "[MVP25] bbwaa.com",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        614.6666666666666,
+        478,
+        271.3333333333333,
+        29
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 2,
+      "text": "ORIGINAL-DECISION ILLUSTRATION | assumptions and exclusions apply",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 2,
+      "text": "02 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 3,
+      "text": "AGENCY LEADERSHIP | USD | EVIDENCE CUTOFF OCTOBER 13, 2026",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 3,
+      "text": "Commercial evidence | name the recipient",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 3,
+      "text": "Documented club partnerships expand the opportunity.",
+      "font_pt": 17,
+      "lines": 1,
+      "box": [
+        48,
+        145,
+        850,
+        48
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 3,
+      "text": "ANA announced a multiyear Dodgers partnership in April 2024.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        205.0,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 3,
+      "text": "UNIQLO announced a Dodgers partnership in March 2026.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        268.25,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 3,
+      "text": "The announcements establish agreements, not fees or sole Ohtani causation.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        331.5,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 3,
+      "text": "Player agreements and club agreements have different recipients.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        394.75,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 3,
+      "text": "[ANA1] www.anahd.co.jp",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48.0,
+        478,
+        413.0,
+        29
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 3,
+      "text": "[UNIQLO] www.fastretailing.com",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        473.0,
+        478,
+        413.0,
+        29
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 3,
+      "text": "ORIGINAL-DECISION ILLUSTRATION | assumptions and exclusions apply",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 3,
+      "text": "03 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 4,
+      "text": "AGENCY LEADERSHIP | USD | EVIDENCE CUTOFF OCTOBER 13, 2026",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 4,
+      "text": "Demand indicators | keep their limits",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 4,
+      "text": "Attention is evidence to investigate.",
+      "font_pt": 17,
+      "lines": 1,
+      "box": [
+        48,
+        145,
+        850,
+        48
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 4,
+      "text": "Ohtani led MLBShop.com Nike jersey sales in the reported 2024 period.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        205.0,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 4,
+      "text": "No purchaser geography, dollar proceeds or retained profit was disclosed.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        268.25,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 4,
+      "text": "Forbes estimated $125m worldwide off-field earnings for May 2025 to May 2026.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        331.5,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 4,
+      "text": "That estimate belongs to the athlete and is not U.S.-only or Dodgers income.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        394.75,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 4,
+      "text": "[JERSEY2024] www.mlb.com",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48.0,
+        478,
+        413.0,
+        29
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 4,
+      "text": "[FORBES2026] www.forbes.com.au",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        473.0,
+        478,
+        413.0,
+        29
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 4,
+      "text": "ORIGINAL-DECISION ILLUSTRATION | assumptions and exclusions apply",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 4,
+      "text": "04 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 5,
+      "text": "AGENCY LEADERSHIP | USD | EVIDENCE CUTOFF OCTOBER 13, 2026",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 5,
+      "text": "Contract | three different measures",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 5,
+      "text": "$700m is the nominal player commitment.",
+      "font_pt": 17,
+      "lines": 1,
+      "box": [
+        48,
+        145,
+        850,
+        48
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 5,
+      "text": "Contract payment timing",
+      "font_pt": 16,
+      "lines": 1,
+      "box": [
+        48,
+        205,
+        530,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 5,
+      "text": "USD millions",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        48,
+        233,
+        530,
+        17
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 5,
+      "text": "0",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        361.0,
+        38,
+        15
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 5,
+      "text": "20",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        336.75,
+        38,
+        15
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 5,
+      "text": "40",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        312.5,
+        38,
+        15
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 5,
+      "text": "60",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        288.25,
+        38,
+        15
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 5,
+      "text": "80",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        264.0,
+        38,
+        15
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 5,
+      "text": "2024",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        92.0,
+        376,
+        44.934999999999995,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 5,
+      "text": "2026",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        139.3,
+        376,
+        44.934999999999995,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 5,
+      "text": "2028",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        186.6,
+        376,
+        44.934999999999995,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 5,
+      "text": "2030",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        233.89999999999998,
+        376,
+        44.934999999999995,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 5,
+      "text": "2032",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        281.2,
+        376,
+        44.934999999999995,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 5,
+      "text": "2034",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        328.5,
+        376,
+        44.934999999999995,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 5,
+      "text": "2036",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        375.79999999999995,
+        376,
+        44.934999999999995,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 5,
+      "text": "2038",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        423.09999999999997,
+        376,
+        44.934999999999995,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 5,
+      "text": "2040",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        470.4,
+        376,
+        44.934999999999995,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 5,
+      "text": "2043",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        541.3499999999999,
+        376,
+        44.934999999999995,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 5,
+      "text": "Reported player payments: $2m annually in 2024-33; $68m annually in 2034-43. USD.",
+      "font_pt": 18,
+      "lines": 3,
+      "box": [
+        630,
+        217.0,
+        265,
+        88.5
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 5,
+      "text": "Reported CBT payroll charge: approximately $46m annually. Funding reserves and CBT cash tax are separate.",
+      "font_pt": 18,
+      "lines": 4,
+      "box": [
+        630,
+        323.5,
+        265,
+        88.5
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 5,
+      "text": "Illustrative calendar-year-end timing; 2024-2033 service, 2034-2043 deferred payments.",
+      "font_pt": 11,
+      "lines": 1,
+      "box": [
+        48,
+        440,
+        850,
+        35
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 5,
+      "text": "[MLB1] www.mlb.com",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48.0,
+        478,
+        838.0,
+        29
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 5,
+      "text": "ORIGINAL-DECISION ILLUSTRATION | assumptions and exclusions apply",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 5,
+      "text": "05 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 6,
+      "text": "AGENCY LEADERSHIP | USD | EVIDENCE CUTOFF OCTOBER 13, 2026",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 6,
+      "text": "Original-decision model | show the date",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 6,
+      "text": "Payment PV depends on the assumed discount rate.",
+      "font_pt": 17,
+      "lines": 1,
+      "box": [
+        48,
+        145,
+        850,
+        48
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 6,
+      "text": "Original-decision salary-payment DCF",
+      "font_pt": 16,
+      "lines": 1,
+      "box": [
+        48,
+        205,
+        530,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 6,
+      "text": "USD millions",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        48,
+        233,
+        530,
+        17
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 6,
+      "text": "0",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        361.0,
+        38,
+        15
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 6,
+      "text": "200",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        328.6666666666667,
+        38,
+        15
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 6,
+      "text": "400",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        296.3333333333333,
+        38,
+        15
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 6,
+      "text": "600",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        264.0,
+        38,
+        15
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 6,
+      "text": "448.7",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        107.76666666666665,
+        276.4642239691239,
+        126.13333333333333,
+        15
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 6,
+      "text": "337.8",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        265.43333333333334,
+        294.38967932874573,
+        126.13333333333333,
+        15
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 6,
+      "text": "256.8",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        423.09999999999997,
+        307.4780851027099,
+        126.13333333333333,
+        15
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 6,
+      "text": "3%",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        92.0,
+        376,
+        149.78333333333333,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 6,
+      "text": "5%",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        249.66666666666666,
+        376,
+        149.78333333333333,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 6,
+      "text": "7%",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        407.3333333333333,
+        376,
+        149.78333333333333,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 6,
+      "text": "December 31, 2023 illustration: nominal pretax USD, year-end payments; discount rates are assumptions.",
+      "font_pt": 18,
+      "lines": 4,
+      "box": [
+        630,
+        217.0,
+        265,
+        88.5
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 6,
+      "text": "Salary-payment model excludes CBT cash tax, funding liquidity and other club costs; not today's liability.",
+      "font_pt": 18,
+      "lines": 4,
+      "box": [
+        630,
+        323.5,
+        265,
+        88.5
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 6,
+      "text": "Illustrative value at Dec. 31, 2023. Excludes CBT cash tax, alternative roster costs and other club cash flows.",
+      "font_pt": 11,
+      "lines": 1,
+      "box": [
+        48,
+        440,
+        850,
+        35
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 6,
+      "text": "[FRED_MODEL] finance.json",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48.0,
+        478,
+        413.0,
+        29
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 6,
+      "text": "[MLB1] www.mlb.com",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        473.0,
+        478,
+        413.0,
+        29
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 6,
+      "text": "ORIGINAL-DECISION ILLUSTRATION | assumptions and exclusions apply",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 6,
+      "text": "06 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 7,
+      "text": "AGENCY LEADERSHIP | USD | EVIDENCE CUTOFF OCTOBER 13, 2026",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 7,
+      "text": "Deferral | cash timing needs a second view",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 7,
+      "text": "A $2m player payment is not the full annual burden.",
+      "font_pt": 17,
+      "lines": 1,
+      "box": [
+        48,
+        145,
+        850,
+        48
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 7,
+      "text": "CBA funding rules require present-value funding by the second July 1 after the earning season.",
+      "font_pt": 19.5,
+      "lines": 1,
+      "box": [
+        68,
+        205.0,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 7,
+      "text": "Actual reserve balances and funding records were not obtained.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        268.25,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 7,
+      "text": "Reserve allocations and later player payments must not become two compensation costs.",
+      "font_pt": 20.5,
+      "lines": 1,
+      "box": [
+        68,
+        331.5,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 7,
+      "text": "Model liquidity separately from the player-payment DCF.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        394.75,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 7,
+      "text": "[CBA1] www.mlbplayers.com",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48.0,
+        478,
+        413.0,
+        29
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 7,
+      "text": "[FRED_MODEL] finance.json",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        473.0,
+        478,
+        413.0,
+        29
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 7,
+      "text": "ORIGINAL-DECISION ILLUSTRATION | assumptions and exclusions apply",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 7,
+      "text": "07 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 8,
+      "text": "AGENCY LEADERSHIP | USD | EVIDENCE CUTOFF OCTOBER 13, 2026",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 8,
+      "text": "Club sensitivity | assumptions drive the answer",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 8,
+      "text": "Receipts must become attributable retained contribution.",
+      "font_pt": 17,
+      "lines": 1,
+      "box": [
+        48,
+        145,
+        850,
+        48
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 8,
+      "text": "HYPOTHETICAL GROSS RECEIPTS",
+      "font_pt": 10,
+      "lines": 2,
+      "box": [
+        64.0,
+        221,
+        165.5,
+        43
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 8,
+      "text": "$100m",
+      "font_pt": 28,
+      "lines": 1,
+      "box": [
+        64.0,
+        268,
+        165.5,
+        62
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 8,
+      "text": "Invented scenario",
+      "font_pt": 13,
+      "lines": 1,
+      "box": [
+        64.0,
+        333,
+        165.5,
+        27
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 8,
+      "text": "ASSUMED ATTRIBUTION",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        281.5,
+        221,
+        165.5,
+        43
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 8,
+      "text": "50%",
+      "font_pt": 28,
+      "lines": 1,
+      "box": [
+        281.5,
+        268,
+        165.5,
+        62
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 8,
+      "text": "Invented scenario",
+      "font_pt": 13,
+      "lines": 1,
+      "box": [
+        281.5,
+        333,
+        165.5,
+        27
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 8,
+      "text": "ASSUMED RETAINED MARGIN",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        499.0,
+        221,
+        165.5,
+        43
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 8,
+      "text": "40%",
+      "font_pt": 28,
+      "lines": 1,
+      "box": [
+        499.0,
+        268,
+        165.5,
+        62
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 8,
+      "text": "Invented scenario",
+      "font_pt": 13,
+      "lines": 1,
+      "box": [
+        499.0,
+        333,
+        165.5,
+        27
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 8,
+      "text": "ANNUAL CONTRIBUTION",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        716.5,
+        221,
+        165.5,
+        43
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 8,
+      "text": "$20m",
+      "font_pt": 28,
+      "lines": 1,
+      "box": [
+        716.5,
+        268,
+        165.5,
+        62
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 8,
+      "text": "Invented scenario",
+      "font_pt": 13,
+      "lines": 1,
+      "box": [
+        716.5,
+        333,
+        165.5,
+        27
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 8,
+      "text": "Result: $20m annual contribution; $154.4m ten-year PV at 5%.\nThat is $183.4m below modeled salary-payment PV before other club effects.",
+      "font_pt": 15,
+      "lines": 2,
+      "box": [
+        48,
+        378,
+        850,
+        62
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 8,
+      "text": "[FRED_MODEL] finance.json",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48.0,
+        478,
+        838.0,
+        29
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 8,
+      "text": "ORIGINAL-DECISION ILLUSTRATION | assumptions and exclusions apply",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 8,
+      "text": "08 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 9,
+      "text": "AGENCY LEADERSHIP | USD | EVIDENCE CUTOFF OCTOBER 13, 2026",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 9,
+      "text": "Leadership decision | value the alternative",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 9,
+      "text": "Advance the opportunity case; establish incremental club cash flow.",
+      "font_pt": 17,
+      "lines": 1,
+      "box": [
+        48,
+        145,
+        850,
+        48
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 9,
+      "text": "Compare attributable retained club contribution and avoided roster costs with compensation, marginal CBT tax and other incremental costs.",
+      "font_pt": 18.0,
+      "lines": 2,
+      "box": [
+        68,
+        205.0,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 9,
+      "text": "Obtain the alternative roster, attributable receipts, margins and funding records.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        268.25,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 9,
+      "text": "Count sporting benefits once; keep player endorsements outside club receipts.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        331.5,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 9,
+      "text": "Update remaining obligations for today. Current evidence does not prove net breakeven or a best-ever ranking.",
+      "font_pt": 18.0,
+      "lines": 2,
+      "box": [
+        68,
+        394.75,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 9,
+      "text": "[FRED_MODEL] finance.json",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48.0,
+        478,
+        838.0,
+        29
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 9,
+      "text": "ORIGINAL-DECISION ILLUSTRATION | assumptions and exclusions apply",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 9,
+      "text": "09 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 10,
+      "text": "EVIDENCE CUTOFF OCTOBER 13, 2026 | USD WHERE MONETARY",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 10,
+      "text": "Sources and model limits",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 10,
+      "text": "[SAVANT] MLB Baseball Savant: Shohei Ohtani regular-season statistics",
+      "font_pt": 11.5,
+      "lines": 1,
+      "box": [
+        48.0,
+        145.0,
+        404.0,
+        27
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 10,
+      "text": "baseballsavant.mlb.com | retrieved 2026-10-13",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48.0,
+        173.0,
+        404.0,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 10,
+      "text": "[MVP24] BBWAA: 2024 National League MVP result",
+      "font_pt": 12,
+      "lines": 1,
+      "box": [
+        48.0,
+        205.0,
+        404.0,
+        27
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 10,
+      "text": "bbwaa.com | 2024-11-21",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48.0,
+        233.0,
+        404.0,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 10,
+      "text": "[MVP25] BBWAA: 2025 National League MVP result",
+      "font_pt": 12,
+      "lines": 1,
+      "box": [
+        48.0,
+        265.0,
+        404.0,
+        27
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 10,
+      "text": "bbwaa.com | 2025-11-13",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48.0,
+        293.0,
+        404.0,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 10,
+      "text": "[ANA1] ANA: Dodgers partnership announcement",
+      "font_pt": 12,
+      "lines": 1,
+      "box": [
+        48.0,
+        325.0,
+        404.0,
+        27
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 10,
+      "text": "www.anahd.co.jp | 2024-04-02",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48.0,
+        353.0,
+        404.0,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 10,
+      "text": "[UNIQLO] Fast Retailing: UNIQLO Dodgers partnership announcement",
+      "font_pt": 12,
+      "lines": 1,
+      "box": [
+        48.0,
+        385.0,
+        404.0,
+        27
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 10,
+      "text": "www.fastretailing.com | 2026-03-26",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48.0,
+        413.0,
+        404.0,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 10,
+      "text": "[JERSEY2024] MLB/MLBPI: 2024 Ohtani Nike jersey-sales ranking",
+      "font_pt": 12,
+      "lines": 1,
+      "box": [
+        492.0,
+        145.0,
+        404.0,
+        27
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 10,
+      "text": "www.mlb.com | 2024-09-30",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        492.0,
+        173.0,
+        404.0,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 10,
+      "text": "[FORBES2026] Forbes: The world's highest-paid athletes, 2026",
+      "font_pt": 12,
+      "lines": 1,
+      "box": [
+        492.0,
+        205.0,
+        404.0,
+        27
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 10,
+      "text": "www.forbes.com.au | 2026-05-23",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        492.0,
+        233.0,
+        404.0,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 10,
+      "text": "[MLB1] MLB: Ohtani contract deferrals explained",
+      "font_pt": 12,
+      "lines": 1,
+      "box": [
+        492.0,
+        265.0,
+        404.0,
+        27
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 10,
+      "text": "www.mlb.com | 2023-12-12",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        492.0,
+        293.0,
+        404.0,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 10,
+      "text": "[FRED_MODEL] Fred Cedar: illustrative original-decision payment DCF",
+      "font_pt": 11.5,
+      "lines": 1,
+      "box": [
+        492.0,
+        325.0,
+        404.0,
+        27
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 10,
+      "text": "finance.json | model valuation date 2023-12-31; prepared 2026-10-13",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        492.0,
+        353.0,
+        404.0,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 10,
+      "text": "[CBA1] MLBPA: 2022-2026 Basic Agreement",
+      "font_pt": 12,
+      "lines": 1,
+      "box": [
+        492.0,
+        385.0,
+        404.0,
+        27
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 10,
+      "text": "www.mlbplayers.com | 2022-2026 agreement",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        492.0,
+        413.0,
+        404.0,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 10,
+      "text": "ORIGINAL-DECISION ILLUSTRATION | assumptions and exclusions apply",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 10,
+      "text": "10 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 1,
+      "text": "U.S. ADVERTISER PROPOSAL | SUBJECT TO CLEARANCE",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 1,
+      "text": "U.S. advertiser proposal | Switch Audio",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 1,
+      "text": "Two modes. One standard.",
+      "font_pt": 17,
+      "lines": 1,
+      "box": [
+        48,
+        145,
+        850,
+        48
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 1,
+      "text": "A proposed U.S. campaign for fictional Switch Audio",
+      "font_pt": 29,
+      "lines": 1,
+      "box": [
+        76,
+        227,
+        790,
+        80
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 1,
+      "text": "Proposed campaign for a fictional audio brand.\nOne product moves between a morning call and an evening workout.\nOhtani's participation is subject to athlete, brand and rights clearance.\nCustomer relevance and incremental contribution determine whether we scale.",
+      "font_pt": 17,
+      "lines": 4,
+      "box": [
+        76,
+        320,
+        790,
+        120
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 1,
+      "text": "PROPOSED CAMPAIGN | rights and category clearance required",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 1,
+      "text": "01 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 2,
+      "text": "U.S. ADVERTISER PROPOSAL | SUBJECT TO CLEARANCE",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 2,
+      "text": "U.S. activation | start with something documented",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 2,
+      "text": "Personal partnerships have supported concrete U.S. activity.",
+      "font_pt": 17,
+      "lines": 1,
+      "box": [
+        48,
+        145,
+        850,
+        48
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 2,
+      "text": "New Balance announced a 2024 Fort Worth pop-up for Ohtani's signature collection.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        205.0,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 2,
+      "text": "The pop-up offered access 24 hours before the announced launch.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        268.25,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 2,
+      "text": "Topps announced a global card agreement that includes U.S.-based products.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        331.5,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 2,
+      "text": "These announcements disclose neither campaign profit nor available audio rights.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        394.75,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 2,
+      "text": "[NB2024] newbalance.newsmarket.com",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48.0,
+        478,
+        413.0,
+        29
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 2,
+      "text": "[TOPPS2024] investor.fanatics.com",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        473.0,
+        478,
+        413.0,
+        29
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 2,
+      "text": "PROPOSED CAMPAIGN | rights and category clearance required",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 2,
+      "text": "02 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 3,
+      "text": "U.S. ADVERTISER PROPOSAL | SUBJECT TO CLEARANCE",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 3,
+      "text": "Commercial scope | avoid a false U.S. number",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 3,
+      "text": "U.S.-only athlete earnings remain unknown.",
+      "font_pt": 17,
+      "lines": 1,
+      "box": [
+        48,
+        145,
+        850,
+        48
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 3,
+      "text": "Scope",
+      "font_pt": 15,
+      "lines": 1,
+      "box": [
+        60.0,
+        215.0,
+        401.0,
+        34.0
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 3,
+      "text": "Evidence status",
+      "font_pt": 15,
+      "lines": 1,
+      "box": [
+        485.0,
+        215.0,
+        401.0,
+        34.0
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 3,
+      "text": "Worldwide off-field estimate",
+      "font_pt": 16,
+      "lines": 1,
+      "box": [
+        60.0,
+        265.0,
+        401.0,
+        34.0
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 3,
+      "text": "$125m; named period and estimator",
+      "font_pt": 16,
+      "lines": 1,
+      "box": [
+        485.0,
+        265.0,
+        401.0,
+        34.0
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 3,
+      "text": "U.S.-only athlete earnings",
+      "font_pt": 16,
+      "lines": 1,
+      "box": [
+        60.0,
+        315.0,
+        401.0,
+        34.0
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 3,
+      "text": "Unknown",
+      "font_pt": 16,
+      "lines": 1,
+      "box": [
+        485.0,
+        315.0,
+        401.0,
+        34.0
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 3,
+      "text": "Proposed campaign results",
+      "font_pt": 16,
+      "lines": 1,
+      "box": [
+        60.0,
+        365.0,
+        401.0,
+        34.0
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 3,
+      "text": "Unmeasured",
+      "font_pt": 16,
+      "lines": 1,
+      "box": [
+        485.0,
+        365.0,
+        401.0,
+        34.0
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 3,
+      "text": "[FORBES2026] www.forbes.com.au",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48.0,
+        478,
+        838.0,
+        29
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 3,
+      "text": "PROPOSED CAMPAIGN | rights and category clearance required",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 3,
+      "text": "03 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 4,
+      "text": "U.S. ADVERTISER PROPOSAL | SUBJECT TO CLEARANCE",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 4,
+      "text": "Buyer and product | test the connection",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 4,
+      "text": "Can one pair earn both everyday jobs?",
+      "font_pt": 17,
+      "lines": 1,
+      "box": [
+        48,
+        145,
+        850,
+        48
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 4,
+      "text": "Proposed audience: U.S. adults considering audio for work and exercise.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        205.0,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 4,
+      "text": "Verify call clarity and secure fit before making product claims.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        268.25,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 4,
+      "text": "Test whether viewers understand both uses and remember the brand.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        331.5,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 4,
+      "text": "Measure spokesperson credibility separately from celebrity recognition.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        394.75,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 4,
+      "text": "PROPOSED CAMPAIGN | rights and category clearance required",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 4,
+      "text": "04 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 5,
+      "text": "U.S. ADVERTISER PROPOSAL | SUBJECT TO CLEARANCE",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 5,
+      "text": "One film | thirty seconds",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 5,
+      "text": "The product stays in frame when the setting changes.",
+      "font_pt": 17,
+      "lines": 1,
+      "box": [
+        48,
+        145,
+        850,
+        48
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 5,
+      "text": "PROPOSED SCENE 1",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        64.0,
+        221,
+        165.5,
+        43
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 5,
+      "text": "Morning call",
+      "font_pt": 28,
+      "lines": 1,
+      "box": [
+        64.0,
+        268,
+        165.5,
+        62
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 5,
+      "text": "microphone demonstration",
+      "font_pt": 13,
+      "lines": 1,
+      "box": [
+        64.0,
+        333,
+        165.5,
+        27
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 5,
+      "text": "PROPOSED SCENE 2",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        281.5,
+        221,
+        165.5,
+        43
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 5,
+      "text": "Match cut",
+      "font_pt": 28,
+      "lines": 1,
+      "box": [
+        281.5,
+        268,
+        165.5,
+        62
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 5,
+      "text": "same product",
+      "font_pt": 13,
+      "lines": 1,
+      "box": [
+        281.5,
+        333,
+        165.5,
+        27
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 5,
+      "text": "PROPOSED SCENE 3",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        499.0,
+        221,
+        165.5,
+        43
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 5,
+      "text": "Workout",
+      "font_pt": 28,
+      "lines": 1,
+      "box": [
+        499.0,
+        268,
+        165.5,
+        62
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 5,
+      "text": "fit demonstration",
+      "font_pt": 13,
+      "lines": 1,
+      "box": [
+        499.0,
+        333,
+        165.5,
+        27
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 5,
+      "text": "PROPOSED SCENE 4",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        716.5,
+        221,
+        165.5,
+        43
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 5,
+      "text": "Product",
+      "font_pt": 28,
+      "lines": 1,
+      "box": [
+        716.5,
+        268,
+        165.5,
+        62
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 5,
+      "text": "campaign line / purchase prompt",
+      "font_pt": 11.0,
+      "lines": 1,
+      "box": [
+        716.5,
+        333,
+        165.5,
+        27
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 5,
+      "text": "Prepare six- and fifteen-second cuts from the same approved shoot.",
+      "font_pt": 15,
+      "lines": 1,
+      "box": [
+        48,
+        378,
+        850,
+        62
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 5,
+      "text": "PROPOSED CAMPAIGN | rights and category clearance required",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 5,
+      "text": "05 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 6,
+      "text": "U.S. ADVERTISER PROPOSAL | SUBJECT TO CLEARANCE",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 6,
+      "text": "Creative test | agree the standard first",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 6,
+      "text": "Recognition is the first question, not the final result.",
+      "font_pt": 17,
+      "lines": 1,
+      "box": [
+        48,
+        145,
+        850,
+        48
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 6,
+      "text": "Compare product-only, Ohtani-led and another spokesperson's ads.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        205.0,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 6,
+      "text": "Use comparable U.S. prospective buyers, exposure and media conditions.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        268.25,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 6,
+      "text": "Primary creative measures: product-benefit comprehension and brand recall.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        331.5,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 6,
+      "text": "Pre-agree thresholds, sample size and cost limits before reviewing results.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        394.75,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 6,
+      "text": "PROPOSED CAMPAIGN | rights and category clearance required",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 6,
+      "text": "06 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 7,
+      "text": "U.S. ADVERTISER PROPOSAL | SUBJECT TO CLEARANCE",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 7,
+      "text": "Sample budget | explicitly invented",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 7,
+      "text": "A $5m scenario makes the commercial hurdle visible.",
+      "font_pt": 17,
+      "lines": 1,
+      "box": [
+        48,
+        145,
+        850,
+        48
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 7,
+      "text": "Invented rights fee: $3m for a one-year U.S. campaign.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        205.0,
+        830,
+        27.75
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 7,
+      "text": "Invented media, creative and activation cost: $2m.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        250.75,
+        830,
+        27.75
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 7,
+      "text": "Total hypothetical campaign cost: $5m.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        296.5,
+        830,
+        27.75
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 7,
+      "text": "These are teaching assumptions, not Ohtani's rate, a quote or an approved budget.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        342.25,
+        830,
+        27.75
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 7,
+      "text": "Invented teaching scenario. Not a quote, forecast or guaranteed return.",
+      "font_pt": 16,
+      "lines": 1,
+      "box": [
+        66,
+        417,
+        814,
+        40
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 7,
+      "text": "PROPOSED CAMPAIGN | rights and category clearance required",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 7,
+      "text": "07 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 8,
+      "text": "U.S. ADVERTISER PROPOSAL | SUBJECT TO CLEARANCE",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 8,
+      "text": "Incrementality | contribution pays campaign costs",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 8,
+      "text": "At a 25% margin, the scenario needs $20m extra net sales.",
+      "font_pt": 17,
+      "lines": 1,
+      "box": [
+        48,
+        145,
+        850,
+        48
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 8,
+      "text": "Hypothetical breakeven incremental U.S. net sales",
+      "font_pt": 16,
+      "lines": 1,
+      "box": [
+        48,
+        205,
+        530,
+        25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 8,
+      "text": "USD millions",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        48,
+        233,
+        530,
+        17
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 8,
+      "text": "0",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        361.0,
+        38,
+        15
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 8,
+      "text": "10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        328.6666666666667,
+        38,
+        15
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 8,
+      "text": "20",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        296.3333333333333,
+        38,
+        15
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 8,
+      "text": "30",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        264.0,
+        38,
+        15
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 8,
+      "text": "25",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        107.76666666666665,
+        268.1666666666667,
+        126.13333333333333,
+        15
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 8,
+      "text": "20",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        265.43333333333334,
+        284.3333333333333,
+        126.13333333333333,
+        15
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 8,
+      "text": "12.5",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        423.09999999999997,
+        308.5833333333333,
+        126.13333333333333,
+        15
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 8,
+      "text": "20%",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        92.0,
+        376,
+        149.78333333333333,
+        25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 8,
+      "text": "25%",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        249.66666666666666,
+        376,
+        149.78333333333333,
+        25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 8,
+      "text": "40%",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        407.3333333333333,
+        376,
+        149.78333333333333,
+        25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 8,
+      "text": "Invented $5m campaign cost. At 25% contribution margin, breakeven requires $20m incremental U.S. net sales.",
+      "font_pt": 18,
+      "lines": 4,
+      "box": [
+        630,
+        217.0,
+        265,
+        88.5
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 8,
+      "text": "Estimate incrementality using a holdout. Subtract variable costs in margin; results are neither forecasts nor guaranteed returns.",
+      "font_pt": 17.5,
+      "lines": 4,
+      "box": [
+        630,
+        323.5,
+        265,
+        88.5
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 8,
+      "text": "Invented $5m total campaign cost. Contribution margins are assumptions.",
+      "font_pt": 11,
+      "lines": 1,
+      "box": [
+        48,
+        440,
+        850,
+        35
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 8,
+      "text": "PROPOSED CAMPAIGN | rights and category clearance required",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 8,
+      "text": "08 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 9,
+      "text": "U.S. ADVERTISER PROPOSAL | SUBJECT TO CLEARANCE",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 9,
+      "text": "Launch gates | clear the rights, then earn the scale",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 9,
+      "text": "Approve a test; make launch conditional.",
+      "font_pt": 17,
+      "lines": 1,
+      "box": [
+        48,
+        145,
+        850,
+        48
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 9,
+      "text": "Verify category, U.S. territory, term, channels and existing exclusivity.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        205.0,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 9,
+      "text": "Clear athlete approval, product claims and any club or league assets.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        268.25,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 9,
+      "text": "Use audience and contribution evidence to decide spending.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        331.5,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 9,
+      "text": "Reconcile repeat purchase, cannibalization and spillover within a defined horizon.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        394.75,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 9,
+      "text": "PROPOSED CAMPAIGN | rights and category clearance required",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 9,
+      "text": "09 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 10,
+      "text": "EVIDENCE CUTOFF OCTOBER 13, 2026 | USD WHERE MONETARY",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 10,
+      "text": "Sources and model limits",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 10,
+      "text": "[NB2024] New Balance: Ohtani signature collection and Texas pop-up announcement",
+      "font_pt": 12,
+      "lines": 1,
+      "box": [
+        48.0,
+        145,
+        824.0,
+        27
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 10,
+      "text": "newbalance.newsmarket.com | 2024-06-20 announcement body; 2024-06-21 page",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48.0,
+        173,
+        824.0,
+        25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 10,
+      "text": "[TOPPS2024] Fanatics: Topps Ohtani global trading-card agreement",
+      "font_pt": 12,
+      "lines": 1,
+      "box": [
+        48.0,
+        209,
+        824.0,
+        27
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 10,
+      "text": "investor.fanatics.com | 2024-08-29",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48.0,
+        237,
+        824.0,
+        25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 10,
+      "text": "[FORBES2026] Forbes: The world's highest-paid athletes, 2026",
+      "font_pt": 12,
+      "lines": 1,
+      "box": [
+        48.0,
+        273,
+        824.0,
+        27
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 10,
+      "text": "www.forbes.com.au | 2026-05-23",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48.0,
+        301,
+        824.0,
+        25
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 10,
+      "text": "PROPOSED CAMPAIGN | rights and category clearance required",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "advertiser",
+      "slide": 10,
+      "text": "10 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 1,
+      "text": "FICTIONAL PERSONNEL STORY | NO ACTUAL EMPLOYEE ALLEGATIONS",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 1,
+      "text": "Internal fiction | Greg versus Fred",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 1,
+      "text": "The forecast was confident. The spreadsheet was fictional.",
+      "font_pt": 17,
+      "lines": 1,
+      "box": [
+        48,
+        145,
+        850,
+        48
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 1,
+      "text": "An entirely fictional internal personnel story",
+      "font_pt": 29,
+      "lines": 1,
+      "box": [
+        76,
+        227,
+        790,
+        80
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 1,
+      "text": "Every personnel event and character action in this deck is invented.\nNo actual employee, allegation, firing or impairment is described.\nReal contract figures appear only as labeled teaching context.",
+      "font_pt": 17,
+      "lines": 3,
+      "box": [
+        76,
+        320,
+        790,
+        120
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 1,
+      "text": "FICTIONAL SATIRE: Greg/Fred story and dialogue invented. Real contract examples are cited.",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 1,
+      "text": "01 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 2,
+      "text": "FICTIONAL PERSONNEL STORY | NO ACTUAL EMPLOYEE ALLEGATIONS",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 2,
+      "text": "Opening balance | a confidence surplus",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 2,
+      "text": "He had a number for everything except the source.",
+      "font_pt": 17,
+      "lines": 1,
+      "box": [
+        48,
+        145,
+        850,
+        48
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 2,
+      "text": "Invented Greg pasted $700m beside 'annual expense.'",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        205.0,
+        830,
+        66.33333333333333
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 2,
+      "text": "He placed worldwide athlete earnings in a Dodgers revenue column.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        289.3333333333333,
+        830,
+        66.33333333333333
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 2,
+      "text": "He called the missing U.S. split 'close enough.'",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        373.66666666666663,
+        830,
+        66.33333333333333
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 2,
+      "text": "FICTIONAL SATIRE: Greg/Fred story and dialogue invented. Real contract examples are cited.",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 2,
+      "text": "02 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 3,
+      "text": "FICTIONAL PERSONNEL STORY | NO ACTUAL EMPLOYEE ALLEGATIONS",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 3,
+      "text": "Fred checks the units | real contract context",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 3,
+      "text": "Fred asked the cells to introduce themselves.",
+      "font_pt": 17,
+      "lines": 1,
+      "box": [
+        48,
+        145,
+        850,
+        48
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 3,
+      "text": "Real reported terms: $700m nominal; $2m annually in 2024-33.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        205.0,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 3,
+      "text": "Real reported deferred payments: $68m annually in 2034-43.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        268.25,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 3,
+      "text": "Approximately $46m annual CBT payroll charge is another measure.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        331.5,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 3,
+      "text": "The fictional argument is invented; the contract figures are sourced.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        394.75,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 3,
+      "text": "[MLB1] www.mlb.com",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48.0,
+        478,
+        838.0,
+        29
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 3,
+      "text": "FICTIONAL SATIRE: Greg/Fred story and dialogue invented. Real contract examples are cited.",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 3,
+      "text": "03 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 4,
+      "text": "FICTIONAL PERSONNEL STORY | NO ACTUAL EMPLOYEE ALLEGATIONS",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 4,
+      "text": "Three ledgers | one paste shortcut",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 4,
+      "text": "Three recipients. One Greg with a paste shortcut.",
+      "font_pt": 17,
+      "lines": 1,
+      "box": [
+        48,
+        145,
+        850,
+        48
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 4,
+      "text": "Fred gave the player, club and advertiser separate worksheets.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        205.0,
+        830,
+        66.33333333333333
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 4,
+      "text": "Greg objected that three tabs felt bureaucratic.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        289.3333333333333,
+        830,
+        66.33333333333333
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 4,
+      "text": "Fred replied, 'So does three people sharing one bank account.'",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        373.66666666666663,
+        830,
+        66.33333333333333
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 4,
+      "text": "FICTIONAL SATIRE: Greg/Fred story and dialogue invented. Real contract examples are cited.",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 4,
+      "text": "04 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 5,
+      "text": "FICTIONAL PERSONNEL STORY | NO ACTUAL EMPLOYEE ALLEGATIONS",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 5,
+      "text": "Valuation review | the date matters",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 5,
+      "text": "Fred found a date. Greg found it inconvenient.",
+      "font_pt": 17,
+      "lines": 1,
+      "box": [
+        48,
+        145,
+        850,
+        48
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 5,
+      "text": "Real illustration: modeled payment PV is $337.8m at 5%.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        205.0,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 5,
+      "text": "The model date is December 31, 2023, with year-end payments.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        268.25,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 5,
+      "text": "Fictional Greg relabeled it 'cash left today.'",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        331.5,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 5,
+      "text": "Fictional Fred restored the date and removed the victory banner.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        394.75,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 5,
+      "text": "[FRED_MODEL] finance.json",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48.0,
+        478,
+        838.0,
+        29
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 5,
+      "text": "FICTIONAL SATIRE: Greg/Fred story and dialogue invented. Real contract examples are cited.",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 5,
+      "text": "05 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 6,
+      "text": "FICTIONAL PERSONNEL STORY | NO ACTUAL EMPLOYEE ALLEGATIONS",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 6,
+      "text": "Termination | the close was final",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 6,
+      "text": "Greg was fired from the agency. He disputed the ending.",
+      "font_pt": 17,
+      "lines": 1,
+      "box": [
+        48,
+        145,
+        850,
+        48
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 6,
+      "text": "The agency terminated Greg's employment after repeated refusal to correct his work.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        205.0,
+        830,
+        66.33333333333333
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 6,
+      "text": "He arrived at reception, caused a scene and demanded that management 'restate the ending.'",
+      "font_pt": 21,
+      "lines": 2,
+      "box": [
+        68,
+        289.3333333333333,
+        830,
+        66.33333333333333
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 6,
+      "text": "He left with his mug marked 'Directionally Correct.' The agency kept the stapler.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        373.66666666666663,
+        830,
+        66.33333333333333
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 6,
+      "text": "FICTIONAL SATIRE: Greg/Fred story and dialogue invented. Real contract examples are cited.",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 6,
+      "text": "06 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 7,
+      "text": "FICTIONAL PERSONNEL STORY | NO ACTUAL EMPLOYEE ALLEGATIONS",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 7,
+      "text": "The next day | an unscheduled arrival",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 7,
+      "text": "The mailroom had signed up for parcels.",
+      "font_pt": 17,
+      "lines": 1,
+      "box": [
+        48,
+        145,
+        850,
+        48
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 7,
+      "text": "Greg returned to the agency uninvited and drunk.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        205.0,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 7,
+      "text": "He entered the mailroom and vomited beside the sorter.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        268.25,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 7,
+      "text": "A colleague stopped the equipment; others arranged a safe ride away.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        331.5,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 7,
+      "text": "Greg remained a former employee. The incident ended with a safe exit.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        394.75,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 7,
+      "text": "FICTIONAL SATIRE: Greg/Fred story and dialogue invented. Real contract examples are cited.",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 7,
+      "text": "07 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 8,
+      "text": "FICTIONAL PERSONNEL STORY | NO ACTUAL EMPLOYEE ALLEGATIONS",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 8,
+      "text": "The closeout | correct the accounts",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 8,
+      "text": "Fred repaired the model. Colleagues preserved Greg's dignity.",
+      "font_pt": 17,
+      "lines": 1,
+      "box": [
+        48,
+        145,
+        850,
+        48
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 8,
+      "text": "Colleagues helped Greg leave safely after his uninvited return.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        205.0,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 8,
+      "text": "Fred restored source labels, dates and recipient boundaries.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        268.25,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 8,
+      "text": "The agency gave its remaining team a checklist and clear review ownership.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        331.5,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 8,
+      "text": "Greg's termination stood. His worst day did not become office entertainment.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        394.75,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 8,
+      "text": "FICTIONAL SATIRE: Greg/Fred story and dialogue invented. Real contract examples are cited.",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 8,
+      "text": "08 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 9,
+      "text": "FICTIONAL PERSONNEL STORY | NO ACTUAL EMPLOYEE ALLEGATIONS",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 9,
+      "text": "Close the workbook | keep the lesson",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 9,
+      "text": "The spreadsheet can be repaired without a victory lap.",
+      "font_pt": 17,
+      "lines": 1,
+      "box": [
+        48,
+        145,
+        850,
+        48
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 9,
+      "text": "Cash timing, payroll accounting and modeled PV answer different questions.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        205.0,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 9,
+      "text": "An announced sponsorship does not disclose its price or incremental profit.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        268.25,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 9,
+      "text": "No real ledger error or personnel misconduct has been established.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        331.5,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 9,
+      "text": "All Greg and Fred dialogue, actions and workplace incidents are invented.",
+      "font_pt": 21,
+      "lines": 1,
+      "box": [
+        68,
+        394.75,
+        830,
+        45.25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 9,
+      "text": "[FRED_MODEL] finance.json",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48.0,
+        478,
+        838.0,
+        29
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 9,
+      "text": "FICTIONAL SATIRE: Greg/Fred story and dialogue invented. Real contract examples are cited.",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 9,
+      "text": "09 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 10,
+      "text": "FICTIONAL PERSONNEL STORY | REAL FIGURES ARE TEACHING CONTEXT",
+      "font_pt": 10,
+      "lines": 1,
+      "box": [
+        98,
+        26,
+        770,
+        25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 10,
+      "text": "Sources and model limits",
+      "font_pt": 32,
+      "lines": 1,
+      "box": [
+        48,
+        65,
+        850,
+        83
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 10,
+      "text": "[MLB1] MLB: Ohtani contract deferrals explained",
+      "font_pt": 12,
+      "lines": 1,
+      "box": [
+        48.0,
+        145,
+        824.0,
+        27
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 10,
+      "text": "www.mlb.com | 2023-12-12",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48.0,
+        173,
+        824.0,
+        25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 10,
+      "text": "[FRED_MODEL] Fred Cedar: illustrative original-decision payment DCF",
+      "font_pt": 12,
+      "lines": 1,
+      "box": [
+        48.0,
+        209,
+        824.0,
+        27
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 10,
+      "text": "finance.json | model valuation date 2023-12-31; prepared 2026-10-13",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48.0,
+        237,
+        824.0,
+        25
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 10,
+      "text": "FICTIONAL SATIRE: Greg/Fred story and dialogue invented. Real contract examples are cited.",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48,
+        519,
+        800,
+        14
+      ]
+    },
+    {
+      "deck": "internal",
+      "slide": 10,
+      "text": "10 / 10",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        850,
+        519,
+        48,
+        14
+      ]
+    }
+  ]
+}

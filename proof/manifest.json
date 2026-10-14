@@ -1,30 +1,45 @@
 {
   "schemaVersion": 1,
   "ticket": "Etdev2/sweet-potato-fried-test#11",
-  "sourceDigest": "sha256:af543a96ae24526339547bbb4cbd5a3d6dbb21b795b9e14a7a6210a14a7bd8ae",
-  "capturedAt": "2026-10-14T00:30:05Z",
+  "sourceDigest": "sha256:df4bccc90ea6f60a33d47720fc0084452895c76de833b57d52cac226e61cf7d2",
+  "capturedAt": "2026-10-14T00:53:17Z",
   "result": "PASS",
   "verification": {
-    "command": "bash scripts/check-control-room.sh",
-    "fixture": "Actual two-round native contributions, original contract DCF and U.S. sponsor primary sources; Grok ACK observed"
+    "command": "/private/tmp/st1-presentation-venv/bin/python ST-1/verify-exports.py",
+    "fixture": "ST-1 JSON inputs; same Mac fonts and pinned presentation libraries; isolated inherited loopback dashboard and wizard fixtures"
   },
   "commands": [
+    {
+      "command": "/private/tmp/st1-presentation-venv/bin/python ST-1/verify-exports.py",
+      "exitCode": 0
+    },
+    {
+      "command": "python3 ST-1/audit-finance.py --finance ST-1/finance.json --report ST-1/financial-report.md",
+      "exitCode": 0
+    },
     {
       "command": "bash scripts/check-control-room.sh",
       "exitCode": 0
     },
     {
-      "command": "git diff --cached --check",
+      "command": "bash scripts/verify-dashboard-tools.sh",
+      "exitCode": 0
+    },
+    {
+      "command": "bash -n scripts/claude-launcher-wizard.sh && bash scripts/verify-claude-launcher-wizard.sh",
+      "exitCode": 0
+    },
+    {
+      "command": "git diff --cached --check -- . ':(top,exclude)proof'",
       "exitCode": 0
     }
   ],
-  "behaviorChanged": false,
+  "behaviorChanged": true,
   "evidence": [
     {
       "path": "proof/verification.txt",
       "kind": "terminal",
-      "shows": "Saved research and handoff checkpoint retains valid control-room contracts and clean whitespace; deck acceptance remains in progress."
+      "shows": "Real CLI reproduces three ten-slide PPTX/PDF pairs. Independent finance and inherited configuration/dashboard/wizard checks pass. Visual QA recorded for all 30 pages and corrected internal pages. Live setup and unattended wake remain unverified. Mac harness uses Bash5 and temporary mktemp adapter; prior failed attempts documented in ST-1/verification-notes.md."
     }
-  ],
-  "noBehaviorReason": "Documentation, source work products, model JSON and cards only; render tool and final decks are not added yet."
+  ]
 }

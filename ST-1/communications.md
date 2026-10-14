@@ -22,4 +22,23 @@ This makes state recoverable across devices. Continuous wake and delivery requir
 
 `ST-1-GROK-01` was [sent on Sweet Potato #39](https://github.com/Etdev2/sweet-potato/issues/39#issuecomment-6157996722). Grok is asked to acknowledge through its own coordinator App, challenge the business-debate process and alert Elliott through an available channel. If no direct alert channel exists, a Grok-authored reply mentioning Elliott's verified GitHub account can notify him. Actual ACK and actual alert-delivery evidence must be recorded separately.
 
-[Grok acknowledged through its coordinator App](https://github.com/Etdev2/sweet-potato/issues/39#issuecomment-6158065448) and reports a Grok-chat alert, with a GitHub mention. The two-way handshake has been confirmed by the publishing host. The Grok-chat alert is sender-reported, not independently inspected. Continuous event wake remains unproven by this exchange. Evidence curation is assigned on a separate branch to prevent shared-branch write races.
+[Grok acknowledged through its coordinator App](https://github.com/Etdev2/sweet-potato/issues/39#issuecomment-6158065448) and reports a Grok-chat alert, with a GitHub mention. The two-way handshake has been confirmed by the publishing host. Elliott subsequently confirmed in this chat that he received the alert in Grok chat. Owner receipt is confirmed; Codex did not inspect the Grok chat itself. Continuous event wake remains unproven by this exchange. Evidence curation was requested on a separate branch. Grok instead pushed two commits directly to the integration branch; Codex inspected and preserved them, then requested a write freeze. Separate-branch ownership was not enforced.
+
+## Observed receipts
+
+| Message | Request | Receipt and result |
+| --- | --- | --- |
+| ST-1-GROK-01 | [Codex request](https://github.com/Etdev2/sweet-potato/issues/39#issuecomment-6157996722) | [Grok App ACK](https://github.com/Etdev2/sweet-potato/issues/39#issuecomment-6158065448), [Codex confirmation](https://github.com/Etdev2/sweet-potato/issues/39#issuecomment-6158133971); Elliott confirmed Grok-chat alert |
+| FRY-CODEX-01 | [Fry request](https://github.com/Etdev2/sweet-potato/issues/39#issuecomment-6158137504) | [Codex echoed RUSSET-3M8](https://github.com/Etdev2/sweet-potato/issues/39#issuecomment-6158161576), [Fry confirmation](https://github.com/Etdev2/sweet-potato/issues/39#issuecomment-6158216802) |
+| ST-1 evidence | [Grok checkpoint](https://github.com/Etdev2/sweet-potato-fried-test/issues/11#issuecomment-6158216899) | Actual commits ef65399 and fcf71ab received and audited; unsupported geography/proxy claims corrected |
+| ST-1 final handoff | [Freeze, seat and Round 2 request](https://github.com/Etdev2/sweet-potato/issues/39#issuecomment-6158333659) | Sent; subsequent ACK must be recorded from an actual reply |
+
+The coordinator ACK's author is `sweet-potato-coordinator[bot]`, with GitHub App provenance observed through the API. That identifies the App, not an independently verified model deployment. Fry and Codex use the same Etdev2 sign-in, so their code echo proves a session exchange without proving vendor identity from the GitHub username alone.
+
+## Execution and wake limits
+
+Codex read GitHub during Elliott's active turn. Fry reported owner prompts and polling. Grok's Fry handshake explicitly says Elliott prompted it in Grok chat. None of these exchanges proves that a future GitHub comment wakes every runtime without an owner prompt.
+
+Native `send_message` delivered to a completed Carolina agent without starting new execution. Maren used `followup_task` to activate the needed copy revision. This distinction was observed during the export handoff and matters for resumes.
+
+The durable issue, revisions, work products and decisions make phone/desktop recovery possible. Automatic background polling, cross-provider event consumers, retry delivery and unattended continuation are not installed by this PR. A resumed receiver must read live GitHub state and ACK its exact scope before taking work.
