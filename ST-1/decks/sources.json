@@ -1,0 +1,479 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "MLB1": {
+      "title": "MLB: Ohtani contract deferrals explained",
+      "url": "https://www.mlb.com/news/shohei-ohtani-dodgers-deal-deferrals-explained",
+      "date": "2023-12-12",
+      "limit": "League reporting cites an unnamed source for full terms; CBT amount approximate."
+    },
+    "CBA1": {
+      "title": "MLBPA: 2022–2026 Basic Agreement",
+      "url": "https://www.mlbplayers.com/_files/ugd/4d23dc_d6dfc2344d2042de973e37de62484da5.pdf",
+      "date": "2022–2026 agreement",
+      "limit": "Article XVI funding and Article XXIII CBT are separate; actual funding records unavailable."
+    },
+    "IRS1": {
+      "url": "https://www.irs.gov/pub/irs-drop/rr-23-18.pdf",
+      "type": "government primary",
+      "locations": "Rev. Rul. 2023-18 Table 1, October 2023 annual mid-term AFR",
+      "title": "IRS1"
+    },
+    "ANA1": {
+      "title": "ANA: Dodgers partnership announcement",
+      "url": "https://www.anahd.co.jp/group/en/pr/202404/20240402.html",
+      "date": "2024-04-02",
+      "limit": "Club partnership announced April 2, 2024; fee and isolated player attribution undisclosed."
+    },
+    "AP23": {
+      "url": "https://apnews.com/article/shohei-otani-dodgers-3fe44e39efc42674f75b5233cc01b149",
+      "type": "secondary contract reporting",
+      "limit": "4.43% report; not signed contract or official calculation.",
+      "title": "AP23"
+    },
+    "AP24": {
+      "url": "https://apnews.com/article/largest-mlb-contracts-c979a30e05e576011a9c172719eda040",
+      "type": "secondary reporting supplied by Nico",
+      "limit": "4.33% report conflicts with prescribed primary rate.",
+      "title": "AP24"
+    },
+    "SAVANT": {
+      "title": "MLB Baseball Savant: Shohei Ohtani regular-season statistics",
+      "url": "https://baseballsavant.mlb.com/savant-player/shohei-ohtani-660271",
+      "date": "retrieved 2026-10-13",
+      "limit": "Regular-season statistics retrieved October 13, 2026; dynamic source."
+    },
+    "MVP24": {
+      "title": "BBWAA: 2024 National League MVP result",
+      "url": "https://bbwaa.com/24-nl-mvp/",
+      "date": "2024-11-21",
+      "limit": "Primary source; use the stated period and scope."
+    },
+    "MVP25": {
+      "title": "BBWAA: 2025 National League MVP result",
+      "url": "https://bbwaa.com/25-nl-mvp/",
+      "date": "2025-11-13",
+      "limit": "Primary source; use the stated period and scope."
+    },
+    "UNIQLO": {
+      "title": "Fast Retailing: UNIQLO Dodgers partnership announcement",
+      "url": "https://www.fastretailing.com/eng/group/news/2603261000.html",
+      "date": "2026-03-26",
+      "limit": "Club partnership announcement, March 26, 2026; no fee or Ohtani-specific causation."
+    },
+    "JERSEY2024": {
+      "title": "MLB/MLBPI: 2024 Ohtani Nike jersey-sales ranking",
+      "url": "https://www.mlb.com/press-release/press-release-ohtani-heads-into-first-mlb-postseason-with-most-popular-player-jersey",
+      "date": "2024-09-30",
+      "limit": "MLBShop.com Nike jersey ranking since Opening Day, announced September 30, 2024; no geography, revenue or retained profit."
+    },
+    "FORBES2026": {
+      "title": "Forbes: The world’s highest-paid athletes, 2026",
+      "url": "https://www.forbes.com.au/news/sport/the-worlds-10-highest-paid-athletes-2026/",
+      "date": "2026-05-23",
+      "limit": "Worldwide estimate, May 1, 2025 to May 1, 2026; multiple off-field revenue types; no U.S. allocation."
+    },
+    "FRED_MODEL": {
+      "title": "Fred Cedar: illustrative original-decision payment DCF",
+      "url": "../finance.json",
+      "date": "model valuation date 2023-12-31; prepared 2026-10-13",
+      "limit": "Illustrative original-decision payment DCF dated December 31, 2023; nominal pretax USD, year-end timing; excludes other club costs."
+    },
+    "NB2024": {
+      "title": "New Balance: Ohtani signature collection and Texas pop-up announcement",
+      "url": "https://newbalance.newsmarket.com/athlete-and-sports-news/new-balance-and-shohei-ohtani-announce-the-superstar-s-first-signature-collection/s/87e77ac8-268c-44e7-a45e-c2f4887a0ab0",
+      "date": "2024-06-20 announcement body; 2024-06-21 page",
+      "limit": "June 2024 announcement of July launch and Texas pop-up; no results or fee."
+    },
+    "TOPPS2024": {
+      "title": "Fanatics: Topps Ohtani global trading-card agreement",
+      "url": "https://investor.fanatics.com/news/news-details/2024/Topps-and-Shohei-Ohtani-Sign-Exclusive-Long-Term-Global-Trading-Card-Deal-Features-Autograph-and-Game-Used-Memorabilia-Cards-2024-r9n8KUPtej/default.aspx",
+      "date": "2024-08-29",
+      "limit": "August 29, 2024 global card agreement includes U.S. and Japan products; no disclosed compensation."
+    },
+    "SOTO1": {
+      "title": "MLB: Soto agreement",
+      "url": "https://www.mlb.com/news/juan-soto-agrees-to-contract-with-mets",
+      "date": "2024-12-11",
+      "limit": "League reporting, not signed-contract review."
+    }
+  },
+  "decks": [
+    {
+      "id": "owner",
+      "title": "Ohtani’s Dodgers contract",
+      "slides": 10,
+      "source_ids": [
+        "SAVANT",
+        "MVP24",
+        "MVP25",
+        "ANA1",
+        "UNIQLO",
+        "JERSEY2024",
+        "FORBES2026",
+        "MLB1",
+        "FRED_MODEL",
+        "CBA1",
+        "SOTO1"
+      ],
+      "pptx": "st1-owner-agency.pptx",
+      "pdf": "st1-owner-agency.pdf",
+      "slide_sources": [
+        {
+          "slide": 1,
+          "title": "Agency leadership | Ohtani's Dodgers contract",
+          "source_ids": [],
+          "chart_data": null
+        },
+        {
+          "slide": 2,
+          "title": "Performance earns the first slide",
+          "source_ids": [
+            "SAVANT",
+            "MVP24",
+            "MVP25"
+          ],
+          "chart_data": null
+        },
+        {
+          "slide": 3,
+          "title": "Commercial evidence | name the recipient",
+          "source_ids": [
+            "ANA1",
+            "UNIQLO"
+          ],
+          "chart_data": null
+        },
+        {
+          "slide": 4,
+          "title": "Demand indicators | keep their limits",
+          "source_ids": [
+            "JERSEY2024",
+            "FORBES2026"
+          ],
+          "chart_data": null
+        },
+        {
+          "slide": 5,
+          "title": "Contract | three different measures",
+          "source_ids": [
+            "MLB1"
+          ],
+          "chart_data": {
+            "type": "bar",
+            "title": "Contract payment timing",
+            "labels": [
+              "2024",
+              "2025",
+              "2026",
+              "2027",
+              "2028",
+              "2029",
+              "2030",
+              "2031",
+              "2032",
+              "2033",
+              "2034",
+              "2035",
+              "2036",
+              "2037",
+              "2038",
+              "2039",
+              "2040",
+              "2041",
+              "2042",
+              "2043"
+            ],
+            "series": [
+              {
+                "name": "Salary paid",
+                "values": [
+                  2.0,
+                  2.0,
+                  2.0,
+                  2.0,
+                  2.0,
+                  2.0,
+                  2.0,
+                  2.0,
+                  2.0,
+                  2.0,
+                  68.0,
+                  68.0,
+                  68.0,
+                  68.0,
+                  68.0,
+                  68.0,
+                  68.0,
+                  68.0,
+                  68.0,
+                  68.0
+                ]
+              }
+            ],
+            "unit": "USD millions",
+            "caption": "Illustrative calendar-year-end timing; 2024-2033 service, 2034-2043 deferred payments."
+          }
+        },
+        {
+          "slide": 6,
+          "title": "Original-decision model | show the date",
+          "source_ids": [
+            "FRED_MODEL",
+            "MLB1"
+          ],
+          "chart_data": {
+            "type": "bar",
+            "title": "Original-decision salary-payment DCF",
+            "labels": [
+              "3%",
+              "5%",
+              "7%"
+            ],
+            "series": [
+              {
+                "name": "Salary-payment present value",
+                "values": [
+                  448.6749032837696,
+                  337.79579796652126,
+                  256.836586993547
+                ]
+              }
+            ],
+            "unit": "USD millions",
+            "caption": "Illustrative value at Dec. 31, 2023. Excludes CBT cash tax, alternative roster costs and other club cash flows."
+          }
+        },
+        {
+          "slide": 7,
+          "title": "Deferral | cash timing needs a second view",
+          "source_ids": [
+            "CBA1",
+            "FRED_MODEL"
+          ],
+          "chart_data": null
+        },
+        {
+          "slide": 8,
+          "title": "Club sensitivity | assumptions drive the answer",
+          "source_ids": [
+            "FRED_MODEL"
+          ],
+          "chart_data": null
+        },
+        {
+          "slide": 9,
+          "title": "Soto comparison | normalize before ranking",
+          "source_ids": [
+            "MLB1",
+            "SOTO1",
+            "FRED_MODEL"
+          ],
+          "chart_data": null
+        },
+        {
+          "slide": 10,
+          "title": "Sources and model limits",
+          "source_ids": [
+            "SAVANT",
+            "MVP24",
+            "MVP25",
+            "ANA1",
+            "UNIQLO",
+            "JERSEY2024",
+            "FORBES2026",
+            "MLB1",
+            "FRED_MODEL",
+            "CBA1",
+            "SOTO1"
+          ],
+          "chart_data": null
+        }
+      ]
+    },
+    {
+      "id": "advertiser",
+      "title": "Two modes. One standard.",
+      "slides": 10,
+      "source_ids": [
+        "NB2024",
+        "TOPPS2024",
+        "FORBES2026"
+      ],
+      "pptx": "st1-us-advertiser.pptx",
+      "pdf": "st1-us-advertiser.pdf",
+      "slide_sources": [
+        {
+          "slide": 1,
+          "title": "U.S. advertiser proposal | Switch Audio",
+          "source_ids": [],
+          "chart_data": null
+        },
+        {
+          "slide": 2,
+          "title": "U.S. activation | start with something documented",
+          "source_ids": [
+            "NB2024",
+            "TOPPS2024"
+          ],
+          "chart_data": null
+        },
+        {
+          "slide": 3,
+          "title": "Commercial scope | avoid a false U.S. number",
+          "source_ids": [
+            "FORBES2026"
+          ],
+          "chart_data": null
+        },
+        {
+          "slide": 4,
+          "title": "Buyer and product | test the connection",
+          "source_ids": [],
+          "chart_data": null
+        },
+        {
+          "slide": 5,
+          "title": "One film | thirty seconds",
+          "source_ids": [],
+          "chart_data": null
+        },
+        {
+          "slide": 6,
+          "title": "Creative test | agree the standard first",
+          "source_ids": [],
+          "chart_data": null
+        },
+        {
+          "slide": 7,
+          "title": "Sample budget | explicitly invented",
+          "source_ids": [],
+          "chart_data": null
+        },
+        {
+          "slide": 8,
+          "title": "Incrementality | contribution pays campaign costs",
+          "source_ids": [],
+          "chart_data": {
+            "type": "bar",
+            "title": "Hypothetical breakeven incremental U.S. net sales",
+            "labels": [
+              "20%",
+              "25%",
+              "40%"
+            ],
+            "series": [
+              {
+                "name": "Required incremental net sales",
+                "values": [
+                  25,
+                  20,
+                  12.5
+                ]
+              }
+            ],
+            "unit": "USD millions"
+          }
+        },
+        {
+          "slide": 9,
+          "title": "Launch gates | clear the rights, then earn the scale",
+          "source_ids": [],
+          "chart_data": null
+        },
+        {
+          "slide": 10,
+          "title": "Sources and model limits",
+          "source_ids": [
+            "NB2024",
+            "TOPPS2024",
+            "FORBES2026"
+          ],
+          "chart_data": null
+        }
+      ]
+    },
+    {
+      "id": "internal",
+      "title": "Greg versus Fred",
+      "slides": 10,
+      "source_ids": [
+        "MLB1",
+        "FRED_MODEL"
+      ],
+      "pptx": "st1-greg-versus-fred.pptx",
+      "pdf": "st1-greg-versus-fred.pdf",
+      "slide_sources": [
+        {
+          "slide": 1,
+          "title": "Internal fiction | Greg versus Fred",
+          "source_ids": [],
+          "chart_data": null
+        },
+        {
+          "slide": 2,
+          "title": "Opening balance | a confidence surplus",
+          "source_ids": [],
+          "chart_data": null
+        },
+        {
+          "slide": 3,
+          "title": "Meet Fred | the new controller checks the units",
+          "source_ids": [
+            "MLB1"
+          ],
+          "chart_data": null
+        },
+        {
+          "slide": 4,
+          "title": "Three ledgers | one paste shortcut",
+          "source_ids": [],
+          "chart_data": null
+        },
+        {
+          "slide": 5,
+          "title": "Valuation review | the date matters",
+          "source_ids": [
+            "FRED_MODEL"
+          ],
+          "chart_data": null
+        },
+        {
+          "slide": 6,
+          "title": "Termination | the close was final",
+          "source_ids": [],
+          "chart_data": null
+        },
+        {
+          "slide": 7,
+          "title": "The next day | an unscheduled arrival",
+          "source_ids": [],
+          "chart_data": null
+        },
+        {
+          "slide": 8,
+          "title": "The closeout | correct the accounts",
+          "source_ids": [],
+          "chart_data": null
+        },
+        {
+          "slide": 9,
+          "title": "Close the workbook | keep the lesson",
+          "source_ids": [
+            "FRED_MODEL"
+          ],
+          "chart_data": null
+        },
+        {
+          "slide": 10,
+          "title": "Sources and model limits",
+          "source_ids": [
+            "MLB1",
+            "FRED_MODEL"
+          ],
+          "chart_data": null
+        }
+      ]
+    }
+  ]
+}

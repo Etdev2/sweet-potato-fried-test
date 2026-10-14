@@ -1,0 +1,47 @@
+{
+  "standing": "measured",
+  "coverage": "Literal official-client modelUsage snapshots for initial and focused artifact-review invocations; partial experiment coverage. Counter accumulation semantics are not established, so snapshots are not summed. Native workers unavailable; final metadata confirmation is outside these snapshots.",
+  "cost_limit": "Provider reports list-price basis, not a verified subscription invoice or incremental cash charge.",
+  "snapshots": [
+    {
+      "phase": "initial artifact review",
+      "head": "f630fddfb3887c851938dfe17e4b64c4b66b90a5",
+      "modelUsage": {
+        "claude-opus-5-5": {
+          "inputTokens": 24,
+          "outputTokens": 13251,
+          "thinkingTokens": 4187,
+          "cacheReadInputTokens": 562247,
+          "cacheCreationInputTokens": 109961,
+          "webSearchRequests": 0,
+          "costUSD": 1.2572534000000002,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      }
+    },
+    {
+      "phase": "focused artifact re-review",
+      "head": "0c262b5388b72d035b13764e54c6dcb17bed0853",
+      "modelUsage": {
+        "claude-opus-5-5": {
+          "inputTokens": 38,
+          "outputTokens": 21821,
+          "thinkingTokens": 7730,
+          "cacheReadInputTokens": 1342699,
+          "cacheCreationInputTokens": 155751,
+          "webSearchRequests": 0,
+          "costUSD": 1.9511198,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      }
+    }
+  ]
+}

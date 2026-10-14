@@ -1,28 +1,20 @@
 {
   "schemaVersion": 1,
-  "ticket": "Etdev2/sweet-potato#21",
-  "sourceDigest": "sha256:498e81aec466405b6ad28eb187d4e7f6579430190efa4b5768dea42f5a6a4ece",
-  "capturedAt": "2026-10-11T22:28:31Z",
+  "ticket": "Etdev2/sweet-potato-fried-test#11",
+  "sourceDigest": "sha256:59e19876d522bf1c59f48db62beae05c8067748ed151cd605900594855cff722",
+  "capturedAt": "2026-10-14T01:06:37Z",
   "result": "PASS",
   "verification": {
-    "command": "bash scripts/verify-claude-launcher-wizard.sh",
-    "fixture": "scripts/claude-launcher-wizard.sh run in a pseudo-terminal against stub gh, claude and browser commands with a fake token. No real sign-in, browser or secret write happened. Live account setup is INCONCLUSIVE until Et runs the wizard."
+    "command": "/private/tmp/st1-presentation-venv/bin/python ST-1/verify-exports.py",
+    "fixture": "Final accepted ST-1 inputs and isolated release after metadata closeout; same Mac fonts and pinned libraries"
   },
   "commands": [
     {
-      "command": "bash -n scripts/claude-launcher-wizard.sh",
+      "command": "/private/tmp/st1-presentation-venv/bin/python ST-1/verify-exports.py",
       "exitCode": 0
     },
     {
-      "command": "diff <(sed \"/^run_wizard() {/q\" .claude/skills/wizard/template.sh) <(sed \"/^run_wizard() {/q\" scripts/claude-launcher-wizard.sh)",
-      "exitCode": 0
-    },
-    {
-      "command": "bash scripts/verify-claude-launcher-wizard.sh",
-      "exitCode": 0
-    },
-    {
-      "command": "bash scripts/verify-dashboard-tools.sh",
+      "command": "python3 ST-1/audit-finance.py --finance ST-1/finance.json --report ST-1/financial-report.md",
       "exitCode": 0
     },
     {
@@ -30,7 +22,7 @@
       "exitCode": 0
     },
     {
-      "command": "git diff --cached --check origin/main",
+      "command": "git diff --cached --check -- . ':(top,exclude)proof'",
       "exitCode": 0
     }
   ],
@@ -39,7 +31,7 @@
     {
       "path": "proof/verification.txt",
       "kind": "terminal",
-      "shows": "The table of observed runs. The wizard reports Setup complete only when both secret writes succeed. A failed upload to either or both repositories exits 1 even while an old secret name is still listed. A failed sign-in, an empty token or a token with a space exits 1 with no write attempt. Any argument other than a single --plan exits 2 before any command runs. The library equals the pinned Wizard template."
+      "shows": "Real CLI reproduces three ten-slide PPTX/PDF pairs; independent finance audit passes 51 arithmetic comparisons and 48 report cells; control-room configuration valid. Visual QA and initial/focused Claude review recorded in ST-1. Inherited fixtures captured at earlier reviewed head and rerun by exact-head CI. Unattended wake unproved; pending Grok receipts disclosed."
     }
   ]
 }

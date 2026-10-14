@@ -1,0 +1,3 @@
+# Generated presentation artifacts use their native binary formats.
+ST-1/decks/*.pdf binary
+ST-1/decks/*.pptx binary

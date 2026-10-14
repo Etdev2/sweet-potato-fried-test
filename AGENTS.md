@@ -4,6 +4,8 @@ This repo defines the environment in which Et's bots work. Application code live
 
 Before changing the control room:
 
+- For ST-1, read [ST-1/STATUS.md](ST-1/STATUS.md), its canonical issue and [decisions](ST-1/decisions.md) before resuming or assigning work.
+
 - Use the language in [CONTEXT.md](CONTEXT.md).
 - Read [docs/agent-environment.md](docs/agent-environment.md).
 - Read the ADRs before changing tools, authentication, language lanes or skill sources.

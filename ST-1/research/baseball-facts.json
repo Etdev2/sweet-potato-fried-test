@@ -1,0 +1,34 @@
+{
+  "player": "Shohei Ohtani",
+  "source_url": "https://baseballsavant.mlb.com/savant-player/shohei-ohtani-660271",
+  "source_type": "MLB primary statistics",
+  "retrieved_local_date": "2026-10-13",
+  "retrieval_timezone": "America/Los_Angeles",
+  "as_of_cutoff_local_date": "2026-10-13",
+  "publisher_updated_at": null,
+  "period": "MLB regular season only",
+  "innings_notation": "Baseball notation: 85.2 means 85 innings and two outs, not 85.2 decimal innings.",
+  "uncertainty": "Dynamic official tables may receive corrections. This is a retrieved snapshot, not an archived publisher-certified point-in-time dataset. No postseason results, future awards or medical forecast are included.",
+  "seasons": [
+    {
+      "season": 2024,
+      "period": "2024 completed regular season",
+      "batting": { "games": 159, "home_runs": 54, "stolen_bases": 59, "ops": "1.036" },
+      "pitching": null,
+      "pitching_note": "No 2024 pitching row appears in the source."
+    },
+    {
+      "season": 2025,
+      "period": "2025 completed regular season",
+      "batting": { "games": 158, "home_runs": 55, "stolen_bases": 20, "ops": "1.014" },
+      "pitching": { "starts": 14, "innings_pitched_source_notation": "47.0", "era": "2.87" }
+    },
+    {
+      "season": 2026,
+      "period": "2026 regular season as displayed on retrieval",
+      "last_batting_game_log_date": "2026-09-27",
+      "batting": { "games": 139, "home_runs": 30, "stolen_bases": 11, "ops": ".889" },
+      "pitching": { "starts": 14, "innings_pitched_source_notation": "85.2", "era": "1.79" }
+    }
+  ]
+}
