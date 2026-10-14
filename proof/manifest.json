@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "ticket": "Etdev2/sweet-potato-fried-test#11",
-  "sourceDigest": "sha256:7d96a84cd070435c6bc58d1c9ee14ba2993a65df2d3f5fc237e8beaf8e8faf77",
-  "capturedAt": "2026-10-14T00:26:37Z",
+  "sourceDigest": "sha256:af543a96ae24526339547bbb4cbd5a3d6dbb21b795b9e14a7a6210a14a7bd8ae",
+  "capturedAt": "2026-10-14T00:30:05Z",
   "result": "PASS",
   "verification": {
     "command": "bash scripts/check-control-room.sh",
-    "fixture": "Started ST-1 brief and actual early peer contributions; final decks and review still in progress"
+    "fixture": "Actual two-round native contributions, original contract DCF and U.S. sponsor primary sources; Grok ACK observed"
   },
   "commands": [
     {
@@ -23,8 +23,8 @@
     {
       "path": "proof/verification.txt",
       "kind": "terminal",
-      "shows": "Published checkpoint configuration and whitespace are valid; this is preparation evidence, not completed ST-1 acceptance."
+      "shows": "Saved research and handoff checkpoint retains valid control-room contracts and clean whitespace; deck acceptance remains in progress."
     }
   ],
-  "noBehaviorReason": "Documentation and time cards only at this checkpoint; no application or executable change."
+  "noBehaviorReason": "Documentation, source work products, model JSON and cards only; render tool and final decks are not added yet."
 }

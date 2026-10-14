@@ -22,4 +22,4 @@ This makes state recoverable across devices. Continuous wake and delivery requir
 
 `ST-1-GROK-01` was [sent on Sweet Potato #39](https://github.com/Etdev2/sweet-potato/issues/39#issuecomment-6157996722). Grok is asked to acknowledge through its own coordinator App, challenge the business-debate process and alert Elliott through an available channel. If no direct alert channel exists, a Grok-authored reply mentioning Elliott's verified GitHub account can notify him. Actual ACK and actual alert-delivery evidence must be recorded separately.
 
-Until a reply arrives, the Grok path remains `sent`, not `acknowledged`. Continue independent native-team work. Keep setup/authentication details out of this public handoff.
+[Grok acknowledged through its coordinator App](https://github.com/Etdev2/sweet-potato/issues/39#issuecomment-6158065448) and reports a Grok-chat alert, with a GitHub mention. The two-way handshake has been confirmed by the publishing host. The Grok-chat alert is sender-reported, not independently inspected. Continuous event wake remains unproven by this exchange. Evidence curation is assigned on a separate branch to prevent shared-branch write races.

@@ -1,0 +1,47 @@
+# Nico Cedar source notes
+
+Evidence cutoff and retrieval date: October 13, 2026. USD unless stated otherwise. All source facts below are paraphrases. Facts concern the indicated measurement period, not a claim of causation. Dynamic official statistics may receive corrections. No 2026 World Series result or 2026 MVP outcome is asserted.
+
+## Contract and valuation
+
+- Dodgers announcement, December 12, 2023. [Official signing release](https://www.mlb.com/press-release/press-release-dodgers-sign-two-time-mvp-shohei-ohtani). Fact: Dodgers announced a ten-year contract. Limit: the release does not disclose full payment terms.
+- MLB reporting, December 12, 2023. [Deferrals explained](https://www.mlb.com/news/shohei-ohtani-dodgers-deal-deferrals-explained). Fact: $700m total; $2m annually during contract; $680m deferred, paid $68m annually 2034–43; approximately $460m CBT value. Limit: MLB cites an unnamed source for terms.
+- AP, December 13, 2023. [Contract terms and valuations](https://apnews.com/article/shohei-otani-dodgers-3fe44e39efc42674f75b5233cc01b149). Fact: deferrals carry no interest; installments fall each July 1, 2034–43. AP reports CBT present value $460,767,685 at 4.43%, regular MLB payroll value $282,107,876 at 10%, and MLBPA value $437,830,563. Limit: contemporaneous reporting described an agreement letter before formal submission. This is reporting, not access to the signed contract.
+- AP, December 9, 2024. [Largest contracts](https://apnews.com/article/largest-mlb-contracts-c979a30e05e576011a9c172719eda040). Fact: coverage identifies Ohtani's service term as 2024–33, regular payroll annual value about $28.2m, and CBT annual value about $46.08m. Limit: it prints 4.33%, inconsistent with the earlier 4.43% report while retaining the same CBT value. Fred should reconcile the rate before displaying it. Approximately $46m is adequately corroborated by MLB.
+- MLBPA primary, 2022–26 agreement. [Basic agreement](https://www.mlbplayers.com/_files/ugd/4d23dc_d6dfc2344d2042de973e37de62484da5.pdf), printed pages 89–90 and 136–37. Fact: Article XVI permits unrestricted deferral amounts but requires present-value funding by the second July 1 after the earning season. It specifies 5% discounting for funding, subject to possible amendment. Article XXIII discounts relevant deferred salaries using the first contract year's imputed loan rate. Limit: funding and CBT are separate calculations. Actual Dodgers funding records and later amendments were not obtained. Inference: $2m player cash salary is not the club's full annual economic cost.
+
+## Baseball contribution
+
+- MLB primary, dynamic. [Baseball Savant](https://baseballsavant.mlb.com/savant-player/shohei-ohtani-660271), standard MLB batting and pitching tables, retrieved October 13, 2026. Facts:
+  - Completed 2024 regular season: 159 games, 54 home runs, 59 steals, 130 RBI, .310/.390/.646, 1.036 OPS. There is no 2024 pitching row.
+  - Completed 2025 regular season: 158 games, 55 home runs, 20 steals, 102 RBI, .282/.392/.622, 1.014 OPS. Pitching: 47 innings, 14 starts, 2.87 ERA, 62 strikeouts and nine walks.
+  - Available 2026 regular season: 139 games, 30 home runs, 11 steals, 81 RBI, .275/.377/.512, .889 OPS. Pitching: 85 and two-thirds innings, 14 starts, 1.79 ERA, 95 strikeouts. The batting game log ends September 27, 2026.
+  Limit: use season labels and regular-season labels; do not blend postseason statistics or assume an archived immutable snapshot. Stats demonstrate output, not a dollar valuation.
+- BBWAA primary, November 21, 2024. [2024 NL MVP result](https://bbwaa.com/24-nl-mvp/). Fact: Ohtani won the NL MVP unanimously as a designated hitter. Limit: an award is not a revenue or contract-return measure.
+- BBWAA primary, November 13, 2025. [2025 NL MVP result](https://bbwaa.com/25-nl-mvp/). Fact: second consecutive NL MVP; fourth career MVP; all four wins unanimous. Limit: confirms historical recognition, not future performance.
+- MLB, November 14, 2025. [MVP season analysis](https://www.mlb.com/news/2025-mlb-mvp-award-winners). Fact: combined 2025 FanGraphs WAR 9.4, highest in NL. Limit: FanGraphs and Baseball-Reference methodologies differ.
+
+## Commercial indicators and recipient boundaries
+
+- Joint MLB/MLBPI release, September 30, 2024. [Jersey ranking](https://www.mlb.com/press-release/press-release-ohtani-heads-into-first-mlb-postseason-with-most-popular-player-jersey). Fact: Ohtani led Nike jersey sales on MLBShop.com since Opening Day. Limit: no dollar proceeds, purchaser geography, or retained profit disclosed.
+- MLB, October 19, 2024. [Audience reporting](https://www.mlb.com/dodgers/news/shohei-ohtani-impact-on-dodgers-baseball). Fact: Dodgers–Padres NLDS Game 5 drew 12.9m Japan viewers; Ohtani, Yamamoto and Darvish participated. Limit: no isolated player effect or U.S. reach.
+- ANA primary, April 2, 2024. [Partnership announcement](https://www.anahd.co.jp/group/en/pr/202404/20240402.html). Fact: ANA and Dodgers announced a multiyear official Japanese-airline partnership with stadium/TV signage, giveaways and Heritage Nights. Limit: monetary terms undisclosed; club sponsorship, not proof of Ohtani personal endorsement. This confirms an actual commercial agreement, not incremental net profit or sole causation.
+- UNIQLO primary, March 26, 2026. [Dodgers partnership](https://www.fastretailing.com/eng/group/news/2603261000.html). Fact: agreement includes display of "UNIQLO Field at Dodger Stadium". Limit: primary release omits fee, term and Ohtani-specific causation. Do not import press-reported deal values into the verified-primary column or imply personal apparel rights.
+
+## Player off-field estimates, global only
+
+- Forbes, Brett Knight, May 15, 2025. [2025 athlete earnings](https://www.forbes.com.au/news/lifestyle/the-worlds-10-highest-paid-athletes-2025/). Fact: estimated Ohtani off-field earnings $100m for May 1, 2024–May 1, 2025, encompassing endorsements, appearances, memorabilia and licensing. Limit: global estimate, not audited receipts, calendar-year 2025 endorsements, U.S.-only earnings, or Dodgers revenue.
+- Forbes, Brett Knight, May 23, 2026. [2026 athlete earnings](https://www.forbes.com.au/news/sport/the-worlds-10-highest-paid-athletes-2026/). Fact: estimated $125m off-field and $127.6m total for May 1, 2025–May 1, 2026. Limit: global estimate spanning several revenue types; no U.S. allocation. This supersedes the prior ranking as current context but does not replace its distinct period.
+
+## Handoff judgments
+
+The contract deck can establish a large nominal obligation, delayed player payments, meaningful baseball output, and documented commercial attention. The evidence does not establish that Ohtani has paid for his contract through incremental Dodgers net cash flow. Club results, stadium investment, other Japanese players, postseason success, sales channels, league economics, and sponsor execution are plausible joint drivers. Label a modeled valuation as modeled; keep the counterfactual and assumptions visible.
+
+The U.S. endorsement deck needs verified rights, categories, U.S. audience metrics and campaign outcomes. Neither global player earnings nor Japan television audiences establish those inputs. Display U.S.-only endorsement earnings as unknown until geographically scoped evidence supports an amount. Missing evidence is not zero actual earnings.
+
+## Round 2 comparator and finance evidence audit
+
+- MLB league reporting, Anthony DiComo, December 11, 2024. [Soto agreement finalized](https://www.mlb.com/news/juan-soto-agrees-to-contract-with-mets). Fact: finalized Soto terms: 15 years, $765m; no deferrals; $75m bonus; five-season opt-out. Limit: signed contract unavailable. Analytical judgment: this is a useful nominal and payment-structure comparator. It is not a net-value ranking. Normalize service length, timing, options, role and performance, alternatives, and commercial cash flows before comparing owner returns. Do not treat the absence of deferral as the absence of time-value discounting for future salaries.
+- IRS primary, Revenue Ruling 2023-18, October 2023 rates. [Official rate table](https://www.irs.gov/pub/irs-drop/rr-23-18.pdf), Table 1, PDF page 2, checked as image and text on October 13, 2026. Fact: annual-compounding mid-term AFR is 4.43%. This supports Fred's rate chain with CBA Article XXIII and resolves the prescribed-rate choice against AP's later 4.33% printing. It does not establish the exact contract-specific valuation worksheet.
+- Audit of `/private/tmp/st1-fred-finance.md`: year-end timing and December 31, 2023 valuation date are explicit approximations. Actual deferred payments fall July 1. Keep the original-decision payment DCF separate from an October 13, 2026 remaining-obligation valuation, prescribed CBT values, and reserve funding. The CBA funding language supports the second July 1 deadline and continuous outstanding-PV maintenance. The 2024 earning season therefore reaches its deadline July 1, 2026. Actual reserve balances, amendments, investment income and top-ups remain unverified. Counting reserve allocations plus later payouts as separate compensation costs would double count. The appendix states these limits adequately. This review covers wording and source evidence, not a duplicate arithmetic audit.
+- Recheck: Savant's 2024, 2025 and 2026 selected rows matched the Round 1 notes. Exact selected values and limitations are in `/private/tmp/st1-baseball-facts.json`.

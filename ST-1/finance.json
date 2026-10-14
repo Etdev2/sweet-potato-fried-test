@@ -1,0 +1,374 @@
+{
+  "schema_version": 1,
+  "author": "Fred Cedar",
+  "agent_id": "/root/fred",
+  "retrieved_date": "2026-10-13",
+  "currency": "USD",
+  "status": "illustrative salary-payment DCF and hypothetical club contribution sensitivity; not audited actuals",
+  "valuation": {
+    "date": "2023-12-31",
+    "perspective": "original-decision illustration using public contract terms; not claimed actual signing-date precision",
+    "timing": "all modeled payments at calendar year end",
+    "years": 20,
+    "pretax": true,
+    "nominal_dollars": true,
+    "discount_rates": [
+      0.03,
+      0.05,
+      0.07
+    ],
+    "growth_rate": 0.0,
+    "service_period": "2024-2033",
+    "deferred_payment_period": "2034-2043",
+    "excludes": [
+      "incremental CBT cash tax",
+      "benefits",
+      "insurance",
+      "incremental capital expenditure",
+      "working capital",
+      "funding liquidity and investment returns",
+      "alternative roster cost",
+      "other club contribution",
+      "terminal value",
+      "player endorsement income"
+    ]
+  },
+  "nominal_contract": {
+    "total_usd": 700000000,
+    "service_period_paid_usd": 20000000,
+    "deferred_paid_usd": 680000000,
+    "source_ids": [
+      "MLB1"
+    ]
+  },
+  "player_payment_schedule": [
+    {
+      "t": 1,
+      "year": 2024,
+      "player_payment_usd": 2000000
+    },
+    {
+      "t": 2,
+      "year": 2025,
+      "player_payment_usd": 2000000
+    },
+    {
+      "t": 3,
+      "year": 2026,
+      "player_payment_usd": 2000000
+    },
+    {
+      "t": 4,
+      "year": 2027,
+      "player_payment_usd": 2000000
+    },
+    {
+      "t": 5,
+      "year": 2028,
+      "player_payment_usd": 2000000
+    },
+    {
+      "t": 6,
+      "year": 2029,
+      "player_payment_usd": 2000000
+    },
+    {
+      "t": 7,
+      "year": 2030,
+      "player_payment_usd": 2000000
+    },
+    {
+      "t": 8,
+      "year": 2031,
+      "player_payment_usd": 2000000
+    },
+    {
+      "t": 9,
+      "year": 2032,
+      "player_payment_usd": 2000000
+    },
+    {
+      "t": 10,
+      "year": 2033,
+      "player_payment_usd": 2000000
+    },
+    {
+      "t": 11,
+      "year": 2034,
+      "player_payment_usd": 68000000
+    },
+    {
+      "t": 12,
+      "year": 2035,
+      "player_payment_usd": 68000000
+    },
+    {
+      "t": 13,
+      "year": 2036,
+      "player_payment_usd": 68000000
+    },
+    {
+      "t": 14,
+      "year": 2037,
+      "player_payment_usd": 68000000
+    },
+    {
+      "t": 15,
+      "year": 2038,
+      "player_payment_usd": 68000000
+    },
+    {
+      "t": 16,
+      "year": 2039,
+      "player_payment_usd": 68000000
+    },
+    {
+      "t": 17,
+      "year": 2040,
+      "player_payment_usd": 68000000
+    },
+    {
+      "t": 18,
+      "year": 2041,
+      "player_payment_usd": 68000000
+    },
+    {
+      "t": 19,
+      "year": 2042,
+      "player_payment_usd": 68000000
+    },
+    {
+      "t": 20,
+      "year": 2043,
+      "player_payment_usd": 68000000
+    }
+  ],
+  "present_value_sensitivities": [
+    {
+      "discount_rate": 0.03,
+      "service_period_player_payment_pv_usd": 17060405.673551656,
+      "deferred_payment_pv_usd": 431614497.6102179,
+      "total_player_payment_pv_usd": 448674903.2837696,
+      "ten_year_annuity_factor": 8.530202836775828,
+      "salary_only_equivalent_annual_contribution_usd": 52598386.212977305
+    },
+    {
+      "discount_rate": 0.05,
+      "service_period_player_payment_pv_usd": 15443469.858369624,
+      "deferred_payment_pv_usd": 322352328.1081516,
+      "total_player_payment_pv_usd": 337795797.96652126,
+      "ten_year_annuity_factor": 7.721734929184812,
+      "salary_only_equivalent_annual_contribution_usd": 43746101.24077162
+    },
+    {
+      "discount_rate": 0.07,
+      "service_period_player_payment_pv_usd": 14047163.081865199,
+      "deferred_payment_pv_usd": 242789423.91168177,
+      "total_player_payment_pv_usd": 256836586.99354696,
+      "ten_year_annuity_factor": 7.0235815409326,
+      "salary_only_equivalent_annual_contribution_usd": 36567751.865160786
+    }
+  ],
+  "cbt": {
+    "approximate_annual_payroll_charge_usd": 46000000,
+    "is_cash_tax_bill": false,
+    "is_signing_date_dcf": false,
+    "primary_prescribed_historical_input_rate": 0.0443,
+    "precise_contract_specific_calculation_verified": false,
+    "reported_rate_conflict": {
+      "AP23": 0.0443,
+      "AP24": 0.0433
+    },
+    "resolution": "CBA annual October prior-year federal mid-term method plus IRS October 2023 annual mid-term AFR supports 4.43%. Do not reproduce AP exact dollars without contract conventions. Use approximately $46m annually.",
+    "source_ids": [
+      "MLB1",
+      "CBA1",
+      "IRS1",
+      "AP23",
+      "AP24"
+    ]
+  },
+  "funding": {
+    "requirement": "Present-value funding by second July 1 after earning season; maintain current outstanding-payment PV without interruption; Article XVI 5% rate can be amended under its stated condition.",
+    "actual_funding_records_available": false,
+    "first_2024_obligation_deadline_inference": "2026-07-01",
+    "double_count_warning": "Funding allocation and final player payment are not two compensation expenses. A liquidity model must reconcile reserve inflows, returns, top-ups and withdrawals.",
+    "source_ids": [
+      "CBA1"
+    ]
+  },
+  "sponsorship_sensitivity": {
+    "is_hypothetical": true,
+    "duration_years": 10,
+    "receipt_timing": "year end 2024-2033",
+    "growth_rate": 0.0,
+    "discount_rate": 0.05,
+    "formula": "annual_contribution = gross_receipts * attribution_fraction * retained_net_contribution_margin - incremental_fixed_cost",
+    "margin_definition": "Fraction after delivery costs, commissions and assumed club revenue sharing; before modeled salary payments, incremental CBT cash tax, capex and separately excluded costs.",
+    "attribution_definition": "Fraction incremental to Ohtani compared with the alternative; all fractions are assumptions, not observations.",
+    "cases": [
+      {
+        "hypothetical_annual_gross_receipts_usd": 100000000,
+        "attribution_fraction": 0.25,
+        "retained_net_contribution_margin": 0.2,
+        "incremental_fixed_cost_usd": 0,
+        "annual_attributable_contribution_usd": 5000000.0,
+        "contribution_pv_at_5pct_usd": 38608674.64592406,
+        "contribution_less_salary_payment_pv_usd": -299187123.3205972,
+        "salary_only_gross_revenue_hurdle_usd_per_year": 874922024.8154324
+      },
+      {
+        "hypothetical_annual_gross_receipts_usd": 100000000,
+        "attribution_fraction": 0.25,
+        "retained_net_contribution_margin": 0.4,
+        "incremental_fixed_cost_usd": 0,
+        "annual_attributable_contribution_usd": 10000000.0,
+        "contribution_pv_at_5pct_usd": 77217349.29184812,
+        "contribution_less_salary_payment_pv_usd": -260578448.67467314,
+        "salary_only_gross_revenue_hurdle_usd_per_year": 437461012.4077162
+      },
+      {
+        "hypothetical_annual_gross_receipts_usd": 100000000,
+        "attribution_fraction": 0.25,
+        "retained_net_contribution_margin": 0.6,
+        "incremental_fixed_cost_usd": 0,
+        "annual_attributable_contribution_usd": 15000000.0,
+        "contribution_pv_at_5pct_usd": 115826023.93777218,
+        "contribution_less_salary_payment_pv_usd": -221969774.02874908,
+        "salary_only_gross_revenue_hurdle_usd_per_year": 291640674.9384775
+      },
+      {
+        "hypothetical_annual_gross_receipts_usd": 100000000,
+        "attribution_fraction": 0.5,
+        "retained_net_contribution_margin": 0.2,
+        "incremental_fixed_cost_usd": 0,
+        "annual_attributable_contribution_usd": 10000000.0,
+        "contribution_pv_at_5pct_usd": 77217349.29184812,
+        "contribution_less_salary_payment_pv_usd": -260578448.67467314,
+        "salary_only_gross_revenue_hurdle_usd_per_year": 437461012.4077162
+      },
+      {
+        "hypothetical_annual_gross_receipts_usd": 100000000,
+        "attribution_fraction": 0.5,
+        "retained_net_contribution_margin": 0.4,
+        "incremental_fixed_cost_usd": 0,
+        "annual_attributable_contribution_usd": 20000000.0,
+        "contribution_pv_at_5pct_usd": 154434698.58369625,
+        "contribution_less_salary_payment_pv_usd": -183361099.38282502,
+        "salary_only_gross_revenue_hurdle_usd_per_year": 218730506.2038581
+      },
+      {
+        "hypothetical_annual_gross_receipts_usd": 100000000,
+        "attribution_fraction": 0.5,
+        "retained_net_contribution_margin": 0.6,
+        "incremental_fixed_cost_usd": 0,
+        "annual_attributable_contribution_usd": 30000000.0,
+        "contribution_pv_at_5pct_usd": 231652047.87554437,
+        "contribution_less_salary_payment_pv_usd": -106143750.0909769,
+        "salary_only_gross_revenue_hurdle_usd_per_year": 145820337.46923876
+      },
+      {
+        "hypothetical_annual_gross_receipts_usd": 100000000,
+        "attribution_fraction": 1.0,
+        "retained_net_contribution_margin": 0.2,
+        "incremental_fixed_cost_usd": 0,
+        "annual_attributable_contribution_usd": 20000000.0,
+        "contribution_pv_at_5pct_usd": 154434698.58369625,
+        "contribution_less_salary_payment_pv_usd": -183361099.38282502,
+        "salary_only_gross_revenue_hurdle_usd_per_year": 218730506.2038581
+      },
+      {
+        "hypothetical_annual_gross_receipts_usd": 100000000,
+        "attribution_fraction": 1.0,
+        "retained_net_contribution_margin": 0.4,
+        "incremental_fixed_cost_usd": 0,
+        "annual_attributable_contribution_usd": 40000000.0,
+        "contribution_pv_at_5pct_usd": 308869397.1673925,
+        "contribution_less_salary_payment_pv_usd": -28926400.79912877,
+        "salary_only_gross_revenue_hurdle_usd_per_year": 109365253.10192905
+      },
+      {
+        "hypothetical_annual_gross_receipts_usd": 100000000,
+        "attribution_fraction": 1.0,
+        "retained_net_contribution_margin": 0.6,
+        "incremental_fixed_cost_usd": 0,
+        "annual_attributable_contribution_usd": 60000000.0,
+        "contribution_pv_at_5pct_usd": 463304095.75108874,
+        "contribution_less_salary_payment_pv_usd": 125508297.78456748,
+        "salary_only_gross_revenue_hurdle_usd_per_year": 72910168.73461938
+      }
+    ],
+    "interpretation": "Contribution-minus-salary balance is a salary-only illustration, not actual club return or proof of breakeven. Zero modeled fixed cost is a simplification, not evidence of zero actual cost."
+  },
+  "endorsement_classification": {
+    "verified_agreement": "Partnership existence and scope supported by a primary announcement. No income amount inferred.",
+    "verified_contracted_amount": "Requires monetary terms and period supported by disclosed agreement or audited reporting. No such athlete amount obtained.",
+    "third_party_estimate": "Named estimator, geographic scope, revenue components, period and gross/net basis required.",
+    "us_only_amount": null,
+    "unknown_is_zero": false,
+    "player_endorsement_income_counted_as_club_revenue": false
+  },
+  "owners": {
+    "rights_checks": "Mara",
+    "attribution_audit": "Fred",
+    "sports_and_injury_context_evidence": "Nico",
+    "deck_and_source_display": "Maren",
+    "commercial_decision": "Carolina",
+    "coordination": "Codex"
+  },
+  "math_audit": {
+    "completed": [
+      "Schedule sums to $700m, with $20m plus $680m.",
+      "Direct sum equals independent Decimal calculation within $0.00001.",
+      "Direct sum equals annuity closed form within $0.00001.",
+      "PV declines as discount rate rises."
+    ],
+    "remaining": [
+      "Peer review year indexes, dollar units and signs.",
+      "Verify slide rounding against JSON.",
+      "Review audience interpretation of CBT versus DCF.",
+      "Obtain exact contract dates before claiming precise contractual PV.",
+      "Add funding reserve reconciliation before presenting liquidity model.",
+      "Obtain incremental receipts, margins, cash CBT exposure and alternative roster assumptions before club valuation."
+    ]
+  },
+  "unsupported_claims": [
+    "best deal ever proved",
+    "actual contract breakeven proved",
+    "actual ledger errors",
+    "grounds for actual personnel firing"
+  ],
+  "sources": {
+    "MLB1": {
+      "url": "https://www.mlb.com/news/shohei-ohtani-dodgers-deal-deferrals-explained",
+      "type": "league reporting",
+      "limit": "Unnamed source for full payment terms; approximate CBT."
+    },
+    "CBA1": {
+      "url": "https://www.mlbplayers.com/_files/ugd/4d23dc_d6dfc2344d2042de973e37de62484da5.pdf",
+      "type": "MLBPA primary agreement",
+      "locations": "Article XVI printed pp.89-90; Article XXIII definitions printed p.116 and E(6) pp.136-137",
+      "limit": "Actual club funding records and subsequent amendments unavailable."
+    },
+    "IRS1": {
+      "url": "https://www.irs.gov/pub/irs-drop/rr-23-18.pdf",
+      "type": "government primary",
+      "locations": "Rev. Rul. 2023-18 Table 1, October 2023 annual mid-term AFR"
+    },
+    "ANA1": {
+      "url": "https://www.anahd.co.jp/group/en/pr/202404/20240402.html",
+      "type": "sponsor primary announcement",
+      "limit": "Partnership existence; no disclosed fee or isolated Ohtani attribution."
+    },
+    "AP23": {
+      "url": "https://apnews.com/article/shohei-otani-dodgers-3fe44e39efc42674f75b5233cc01b149",
+      "type": "secondary contract reporting",
+      "limit": "4.43% report; not signed contract or official calculation."
+    },
+    "AP24": {
+      "url": "https://apnews.com/article/largest-mlb-contracts-c979a30e05e576011a9c172719eda040",
+      "type": "secondary reporting supplied by Nico",
+      "limit": "4.33% report conflicts with prescribed primary rate."
+    }
+  }
+}
