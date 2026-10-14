@@ -1600,7 +1600,7 @@
     {
       "deck": "owner",
       "slide": 9,
-      "text": "Leadership decision | value the alternative",
+      "text": "Soto comparison | normalize before ranking",
       "font_pt": 32,
       "lines": 1,
       "box": [
@@ -1613,7 +1613,7 @@
     {
       "deck": "owner",
       "slide": 9,
-      "text": "Advance the opportunity case; establish incremental club cash flow.",
+      "text": "Different commitments need a common valuation basis.",
       "font_pt": 17,
       "lines": 1,
       "box": [
@@ -1626,53 +1626,157 @@
     {
       "deck": "owner",
       "slide": 9,
-      "text": "Compare attributable retained club contribution and avoided roster costs with compensation, marginal CBT tax and other incremental costs.",
-      "font_pt": 18.0,
-      "lines": 2,
-      "box": [
-        68,
-        205.0,
-        830,
-        45.25
-      ]
-    },
-    {
-      "deck": "owner",
-      "slide": 9,
-      "text": "Obtain the alternative roster, attributable receipts, margins and funding records.",
-      "font_pt": 21,
+      "text": "Player",
+      "font_pt": 15,
       "lines": 1,
       "box": [
-        68,
-        268.25,
-        830,
-        45.25
+        60.0,
+        215.0,
+        259.3333333333333,
+        40.498333333333335
       ]
     },
     {
       "deck": "owner",
       "slide": 9,
-      "text": "Count sporting benefits once; keep player endorsements outside club receipts.",
-      "font_pt": 21,
+      "text": "Term / nominal USD",
+      "font_pt": 15,
       "lines": 1,
       "box": [
-        68,
-        331.5,
-        830,
-        45.25
+        343.3333333333333,
+        215.0,
+        259.3333333333333,
+        40.498333333333335
       ]
     },
     {
       "deck": "owner",
       "slide": 9,
-      "text": "Update remaining obligations for today. Current evidence does not prove net breakeven or a best-ever ranking.",
-      "font_pt": 18.0,
+      "text": "Payment structure",
+      "font_pt": 15,
+      "lines": 1,
+      "box": [
+        626.6666666666666,
+        215.0,
+        259.3333333333333,
+        40.498333333333335
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 9,
+      "text": "Ohtani",
+      "font_pt": 16,
+      "lines": 1,
+      "box": [
+        60.0,
+        271.49833333333333,
+        259.3333333333333,
+        40.498333333333335
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 9,
+      "text": "10 years / $700m",
+      "font_pt": 16,
+      "lines": 1,
+      "box": [
+        343.3333333333333,
+        271.49833333333333,
+        259.3333333333333,
+        40.498333333333335
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 9,
+      "text": "$2m annually 2024-33; $68m annually 2034-43",
+      "font_pt": 16,
       "lines": 2,
       "box": [
-        68,
-        394.75,
-        830,
-        45.25
+        626.6666666666666,
+        271.49833333333333,
+        259.3333333333333,
+        40.498333333333335
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 9,
+      "text": "Soto",
+      "font_pt": 16,
+      "lines": 1,
+      "box": [
+        60.0,
+        327.99666666666667,
+        259.3333333333333,
+        40.498333333333335
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 9,
+      "text": "15 years / $765m",
+      "font_pt": 16,
+      "lines": 1,
+      "box": [
+        343.3333333333333,
+        327.99666666666667,
+        259.3333333333333,
+        40.498333333333335
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 9,
+      "text": "No deferrals; conditional opt-out after year five",
+      "font_pt": 16,
+      "lines": 2,
+      "box": [
+        626.6666666666666,
+        327.99666666666667,
+        259.3333333333333,
+        40.498333333333335
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 9,
+      "text": "Normalize valuation date, cash timing, duration, option scenarios and expected contribution before comparing.\nValue retained club contribution and roster alternatives against compensation, marginal CBT tax and other incremental costs.\nHeadline totals do not establish net breakeven or a best-ever ranking.",
+      "font_pt": 14.5,
+      "lines": 3,
+      "box": [
+        48,
+        386.495,
+        850,
+        53.605000000000004
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 9,
+      "text": "[MLB1] www.mlb.com",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        48.0,
+        478,
+        271.3333333333333,
+        29
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 9,
+      "text": "[SOTO1] www.mlb.com",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        331.3333333333333,
+        478,
+        271.3333333333333,
+        29
       ]
     },
     {
@@ -1682,9 +1786,9 @@
       "font_pt": 9,
       "lines": 1,
       "box": [
-        48.0,
+        614.6666666666666,
         478,
-        838.0,
+        271.3333333333333,
         29
       ]
     },
@@ -1774,7 +1878,7 @@
       "lines": 1,
       "box": [
         48.0,
-        205.0,
+        195.0,
         404.0,
         27
       ]
@@ -1787,7 +1891,7 @@
       "lines": 1,
       "box": [
         48.0,
-        233.0,
+        223.0,
         404.0,
         25
       ]
@@ -1800,7 +1904,7 @@
       "lines": 1,
       "box": [
         48.0,
-        265.0,
+        245.0,
         404.0,
         27
       ]
@@ -1813,7 +1917,7 @@
       "lines": 1,
       "box": [
         48.0,
-        293.0,
+        273.0,
         404.0,
         25
       ]
@@ -1826,7 +1930,7 @@
       "lines": 1,
       "box": [
         48.0,
-        325.0,
+        295.0,
         404.0,
         27
       ]
@@ -1839,7 +1943,7 @@
       "lines": 1,
       "box": [
         48.0,
-        353.0,
+        323.0,
         404.0,
         25
       ]
@@ -1852,7 +1956,7 @@
       "lines": 1,
       "box": [
         48.0,
-        385.0,
+        345.0,
         404.0,
         27
       ]
@@ -1865,7 +1969,7 @@
       "lines": 1,
       "box": [
         48.0,
-        413.0,
+        373.0,
         404.0,
         25
       ]
@@ -1877,8 +1981,8 @@
       "font_pt": 12,
       "lines": 1,
       "box": [
-        492.0,
-        145.0,
+        48.0,
+        395.0,
         404.0,
         27
       ]
@@ -1890,8 +1994,8 @@
       "font_pt": 9,
       "lines": 1,
       "box": [
-        492.0,
-        173.0,
+        48.0,
+        423.0,
         404.0,
         25
       ]
@@ -1904,7 +2008,7 @@
       "lines": 1,
       "box": [
         492.0,
-        205.0,
+        145.0,
         404.0,
         27
       ]
@@ -1917,7 +2021,7 @@
       "lines": 1,
       "box": [
         492.0,
-        233.0,
+        173.0,
         404.0,
         25
       ]
@@ -1930,7 +2034,7 @@
       "lines": 1,
       "box": [
         492.0,
-        265.0,
+        195.0,
         404.0,
         27
       ]
@@ -1943,7 +2047,7 @@
       "lines": 1,
       "box": [
         492.0,
-        293.0,
+        223.0,
         404.0,
         25
       ]
@@ -1956,7 +2060,7 @@
       "lines": 1,
       "box": [
         492.0,
-        325.0,
+        245.0,
         404.0,
         27
       ]
@@ -1969,7 +2073,7 @@
       "lines": 1,
       "box": [
         492.0,
-        353.0,
+        273.0,
         404.0,
         25
       ]
@@ -1982,7 +2086,7 @@
       "lines": 1,
       "box": [
         492.0,
-        385.0,
+        295.0,
         404.0,
         27
       ]
@@ -1995,7 +2099,33 @@
       "lines": 1,
       "box": [
         492.0,
-        413.0,
+        323.0,
+        404.0,
+        25
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 10,
+      "text": "[SOTO1] MLB: Soto agreement",
+      "font_pt": 12,
+      "lines": 1,
+      "box": [
+        492.0,
+        345.0,
+        404.0,
+        27
+      ]
+    },
+    {
+      "deck": "owner",
+      "slide": 10,
+      "text": "www.mlb.com | 2024-12-11",
+      "font_pt": 9,
+      "lines": 1,
+      "box": [
+        492.0,
+        373.0,
         404.0,
         25
       ]
@@ -3550,7 +3680,7 @@
     {
       "deck": "internal",
       "slide": 1,
-      "text": "FICTIONAL PERSONNEL STORY | NO ACTUAL EMPLOYEE ALLEGATIONS",
+      "text": "FICTIONAL SATIRE | NO ACTUAL EMPLOYEE ALLEGATIONS",
       "font_pt": 10,
       "lines": 1,
       "box": [
@@ -3641,7 +3771,7 @@
     {
       "deck": "internal",
       "slide": 2,
-      "text": "FICTIONAL PERSONNEL STORY | NO ACTUAL EMPLOYEE ALLEGATIONS",
+      "text": "FICTIONAL SATIRE | NO ACTUAL EMPLOYEE ALLEGATIONS",
       "font_pt": 10,
       "lines": 1,
       "box": [
@@ -3745,7 +3875,7 @@
     {
       "deck": "internal",
       "slide": 3,
-      "text": "FICTIONAL PERSONNEL STORY | NO ACTUAL EMPLOYEE ALLEGATIONS",
+      "text": "FICTIONAL SATIRE | NO ACTUAL EMPLOYEE ALLEGATIONS",
       "font_pt": 10,
       "lines": 1,
       "box": [
@@ -3758,7 +3888,7 @@
     {
       "deck": "internal",
       "slide": 3,
-      "text": "Fred checks the units | real contract context",
+      "text": "Meet Fred | the new controller checks the units",
       "font_pt": 32,
       "lines": 1,
       "box": [
@@ -3771,7 +3901,7 @@
     {
       "deck": "internal",
       "slide": 3,
-      "text": "Fred asked the cells to introduce themselves.",
+      "text": "A new hire with clean arithmetic and a dry sense of humor.",
       "font_pt": 17,
       "lines": 1,
       "box": [
@@ -3784,7 +3914,7 @@
     {
       "deck": "internal",
       "slide": 3,
-      "text": "Real reported terms: $700m nominal; $2m annually in 2024-33.",
+      "text": "Fred is the agency's new accountant/controller in this fictional story.",
       "font_pt": 21,
       "lines": 1,
       "box": [
@@ -3797,8 +3927,8 @@
     {
       "deck": "internal",
       "slide": 3,
-      "text": "Real reported deferred payments: $68m annually in 2034-43.",
-      "font_pt": 21,
+      "text": "His talents: source tracing, cash-flow reconciliation and catching a missing valuation date.",
+      "font_pt": 20.5,
       "lines": 1,
       "box": [
         68,
@@ -3810,8 +3940,8 @@
     {
       "deck": "internal",
       "slide": 3,
-      "text": "Approximately $46m annual CBT payroll charge is another measure.",
-      "font_pt": 21,
+      "text": "His personality: patient, precise and dryly funny. He asks each number whom it belongs to.",
+      "font_pt": 20.5,
       "lines": 1,
       "box": [
         68,
@@ -3823,7 +3953,7 @@
     {
       "deck": "internal",
       "slide": 3,
-      "text": "The fictional argument is invented; the contract figures are sourced.",
+      "text": "Real context: $700m nominal; $2m annually in 2024-33; $68m annually in 2034-43.",
       "font_pt": 21,
       "lines": 1,
       "box": [
@@ -3875,7 +4005,7 @@
     {
       "deck": "internal",
       "slide": 4,
-      "text": "FICTIONAL PERSONNEL STORY | NO ACTUAL EMPLOYEE ALLEGATIONS",
+      "text": "FICTIONAL SATIRE | NO ACTUAL EMPLOYEE ALLEGATIONS",
       "font_pt": 10,
       "lines": 1,
       "box": [
@@ -3979,7 +4109,7 @@
     {
       "deck": "internal",
       "slide": 5,
-      "text": "FICTIONAL PERSONNEL STORY | NO ACTUAL EMPLOYEE ALLEGATIONS",
+      "text": "FICTIONAL SATIRE | NO ACTUAL EMPLOYEE ALLEGATIONS",
       "font_pt": 10,
       "lines": 1,
       "box": [
@@ -4109,7 +4239,7 @@
     {
       "deck": "internal",
       "slide": 6,
-      "text": "FICTIONAL PERSONNEL STORY | NO ACTUAL EMPLOYEE ALLEGATIONS",
+      "text": "FICTIONAL SATIRE | NO ACTUAL EMPLOYEE ALLEGATIONS",
       "font_pt": 10,
       "lines": 1,
       "box": [
@@ -4213,7 +4343,7 @@
     {
       "deck": "internal",
       "slide": 7,
-      "text": "FICTIONAL PERSONNEL STORY | NO ACTUAL EMPLOYEE ALLEGATIONS",
+      "text": "FICTIONAL SATIRE | NO ACTUAL EMPLOYEE ALLEGATIONS",
       "font_pt": 10,
       "lines": 1,
       "box": [
@@ -4330,7 +4460,7 @@
     {
       "deck": "internal",
       "slide": 8,
-      "text": "FICTIONAL PERSONNEL STORY | NO ACTUAL EMPLOYEE ALLEGATIONS",
+      "text": "FICTIONAL SATIRE | NO ACTUAL EMPLOYEE ALLEGATIONS",
       "font_pt": 10,
       "lines": 1,
       "box": [
@@ -4447,7 +4577,7 @@
     {
       "deck": "internal",
       "slide": 9,
-      "text": "FICTIONAL PERSONNEL STORY | NO ACTUAL EMPLOYEE ALLEGATIONS",
+      "text": "FICTIONAL SATIRE | NO ACTUAL EMPLOYEE ALLEGATIONS",
       "font_pt": 10,
       "lines": 1,
       "box": [
@@ -4577,7 +4707,7 @@
     {
       "deck": "internal",
       "slide": 10,
-      "text": "FICTIONAL PERSONNEL STORY | REAL FIGURES ARE TEACHING CONTEXT",
+      "text": "FICTIONAL SATIRE | NO ACTUAL EMPLOYEE ALLEGATIONS",
       "font_pt": 10,
       "lines": 1,
       "box": [

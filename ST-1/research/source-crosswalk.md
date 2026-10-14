@@ -13,6 +13,7 @@ Grok's E-IDs organize shared research. Decks and the financial report retain the
 | JERSEY2024 | E14 | MLBShop.com rank; purchaser geography and profit unknown |
 | SAVANT | E16 | Dated regular-season results; baseball innings notation preserved |
 | MVP24, MVP25 | E17 | Awards; WAR comparator separately audited |
+| SOTO1 | E19 | Contract-structure comparator; normalize dates, term, options and contribution before value ranking |
 | FRED_MODEL | Not an external fact | Shared illustrative finance.json, assumptions and arithmetic |
 
 E06, E08, E10, E11, E13, E15 and E18 are additional context in Grok's ledger. The decks do not rely on those rows for numerical valuation headlines. E10 remains a secondhand estimate. E18 is a contested retrospective market-cost illustration; see final-finance-audit.md. No source establishes U.S.-only endorsement income or actual net club contract return.

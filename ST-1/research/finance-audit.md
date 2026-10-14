@@ -1,6 +1,6 @@
 # Mara Cedar finance QA
 
-Audited October 13, 2026 against st1-finance.json and st1-fred-finance.md. I ran an independent Python Decimal recomputation at 50-digit precision, rather than relying on Fred's reported checks. No source research was repeated.
+Audited October 13, 2026 against ../finance.json and ../financial-report.md. I ran an independent Python Decimal recomputation at 50-digit precision, rather than relying on Fred's reported checks. No source research was repeated.
 
 ## Actual checks
 

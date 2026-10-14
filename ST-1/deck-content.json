@@ -72,6 +72,12 @@
       "url": "https://investor.fanatics.com/news/news-details/2024/Topps-and-Shohei-Ohtani-Sign-Exclusive-Long-Term-Global-Trading-Card-Deal-Features-Autograph-and-Game-Used-Memorabilia-Cards-2024-r9n8KUPtej/default.aspx",
       "date": "2024-08-29",
       "limit": "August 29, 2024 global card agreement includes U.S. and Japan products; no disclosed compensation."
+    },
+    "SOTO1": {
+      "title": "MLB: Soto agreement",
+      "url": "https://www.mlb.com/news/juan-soto-agrees-to-contract-with-mets",
+      "date": "2024-12-11",
+      "limit": "League reporting, not signed-contract review."
     }
   },
   "decks": [
@@ -92,7 +98,7 @@
           ],
           "source_ids": [],
           "layout": "cover",
-          "notes": "Ivory background, navy type, muted gold accent; ample space; direct copy; no personnel humor."
+          "notes": "Ivory background, dark navy type, teal owner accent; ample space; direct copy; no personnel humor."
         },
         {
           "title": "Performance earns the first slide",
@@ -233,20 +239,40 @@
           "notes": "All inputs hypothetical. Contribution excludes modeled salary and other separately omitted costs."
         },
         {
-          "title": "Leadership decision | value the alternative",
+          "title": "Soto comparison | normalize before ranking",
           "kicker": "Agency leadership | USD | Evidence cutoff October 13, 2026",
-          "subtitle": "Advance the opportunity case; establish incremental club cash flow.",
+          "subtitle": "Different commitments need a common valuation basis.",
           "bullets": [
-            "Compare attributable retained club contribution and avoided roster costs with compensation, marginal CBT tax and other incremental costs.",
-            "Obtain the alternative roster, attributable receipts, margins and funding records.",
-            "Count sporting benefits once; keep player endorsements outside club receipts.",
-            "Update remaining obligations for today. Current evidence does not prove net breakeven or a best-ever ranking."
+            "Normalize valuation date, cash timing, duration, option scenarios and expected contribution before comparing.",
+            "Value retained club contribution and roster alternatives against compensation, marginal CBT tax and other incremental costs.",
+            "Headline totals do not establish net breakeven or a best-ever ranking."
           ],
-          "notes": "Merged investment question and leadership decision. Add attributable retained club contribution and avoided alternative roster costs. Subtract compensation, marginal CBT tax and other incremental club costs. Count monetized sporting benefits once. Keep athlete endorsements outside the club ledger. Specify the alternative roster and its expected costs and contribution. Obtain attributable club receipts, retained margins and funding records. Rebuild remaining obligations for a current valuation. Current evidence supports opportunity, not proven net breakeven or a 'best ever' ranking.",
+          "notes": "Merged investment question and leadership decision. Add attributable retained club contribution and avoided alternative roster costs. Subtract compensation, marginal CBT tax and other incremental club costs. Count monetized sporting benefits once. Keep athlete endorsements outside the club ledger. Specify the alternative roster and its expected costs and contribution. Obtain attributable club receipts, retained margins and funding records. Rebuild remaining obligations for a current valuation. Current evidence supports opportunity, not proven net breakeven or a 'best ever' ranking. This table is a contract-structure comparator, not a computed present-value comparison or a rank of investment returns. Use consistent expected-performance assumptions and dates. Keep athlete endorsements outside club receipts. Source limits apply.",
           "source_ids": [
+            "MLB1",
+            "SOTO1",
             "FRED_MODEL"
           ],
-          "layout": "bullets"
+          "layout": "table",
+          "table": {
+            "headers": [
+              "Player",
+              "Term / nominal USD",
+              "Payment structure"
+            ],
+            "rows": [
+              [
+                "Ohtani",
+                "10 years / $700m",
+                "$2m annually 2024\u201333; $68m annually 2034\u201343"
+              ],
+              [
+                "Soto",
+                "15 years / $765m",
+                "No deferrals; conditional opt-out after year five"
+              ]
+            ]
+          }
         },
         {
           "layout": "sources",
@@ -262,7 +288,8 @@
             "FORBES2026",
             "MLB1",
             "FRED_MODEL",
-            "CBA1"
+            "CBA1",
+            "SOTO1"
           ],
           "notes": "Read each source with its date, recipient, measurement period and disclosure limits. Announcements establish agreements, not current unchanged terms, fees or incremental return."
         }
@@ -286,7 +313,7 @@
           ],
           "source_ids": [],
           "layout": "cover",
-          "notes": "Ivory, navy and one muted gold accent. Product close-ups and paired everyday scenes. Calm, precise copy. No internal personnel humor."
+          "notes": "Ivory background, dark navy type, cobalt advertiser accent. Product close-ups and paired everyday scenes. Calm, precise copy. No internal personnel humor."
         },
         {
           "title": "U.S. activation | start with something documented",
@@ -483,7 +510,7 @@
       "slides": [
         {
           "title": "Internal fiction | Greg versus Fred",
-          "kicker": "Fictional personnel story | No actual employee allegations",
+          "kicker": "FICTIONAL SATIRE | No actual employee allegations",
           "subtitle": "The forecast was confident. The spreadsheet was fictional.",
           "bullets": [
             "Every personnel event and character action in this deck is invented.",
@@ -492,11 +519,11 @@
           ],
           "source_ids": [],
           "layout": "cover",
-          "notes": "Same polished grid; dry captions, understated humor, persistent 'Fictional personnel story' footer. All personnel events, dialogue and actions are invented. Source figures are analytical teaching context only."
+          "notes": "Polished grid; dry captions and understated humor; persistent 'FICTIONAL SATIRE' footer on every internal slide. All personnel events, dialogue and actions are invented. Source figures are analytical teaching context only."
         },
         {
           "title": "Opening balance | a confidence surplus",
-          "kicker": "Fictional personnel story | No actual employee allegations",
+          "kicker": "FICTIONAL SATIRE | No actual employee allegations",
           "subtitle": "He had a number for everything except the source.",
           "bullets": [
             "Invented Greg pasted $700m beside 'annual expense.'",
@@ -505,27 +532,27 @@
           ],
           "source_ids": [],
           "layout": "bullets",
-          "notes": "All personnel events, dialogue and actions are invented. Source figures are analytical teaching context only."
+          "notes": "All personnel events, dialogue and actions are invented. Source figures are analytical teaching context only. Preserve the visible FICTIONAL SATIRE footer."
         },
         {
-          "title": "Fred checks the units | real contract context",
-          "kicker": "Fictional personnel story | No actual employee allegations",
-          "subtitle": "Fred asked the cells to introduce themselves.",
+          "title": "Meet Fred | the new controller checks the units",
+          "kicker": "FICTIONAL SATIRE | No actual employee allegations",
+          "subtitle": "A new hire with clean arithmetic and a dry sense of humor.",
           "bullets": [
-            "Real reported terms: $700m nominal; $2m annually in 2024\u201333.",
-            "Real reported deferred payments: $68m annually in 2034\u201343.",
-            "Approximately $46m annual CBT payroll charge is another measure.",
-            "The fictional argument is invented; the contract figures are sourced."
+            "Fred is the agency's new accountant/controller in this fictional story.",
+            "His talents: source tracing, cash-flow reconciliation and catching a missing valuation date.",
+            "His personality: patient, precise and dryly funny. He asks each number whom it belongs to.",
+            "Real context: $700m nominal; $2m annually in 2024\u201333; $68m annually in 2034\u201343."
           ],
           "source_ids": [
             "MLB1"
           ],
           "layout": "bullets",
-          "notes": "All personnel events, dialogue and actions are invented. Source figures are analytical teaching context only."
+          "notes": "Fred is an invented new hire, accountant/controller, with the stated fictional talents and personality. His dialogue, work and interactions are fiction. Actual contract figures retain MLB1 sourcing; no personnel allegations are factual. Preserve the visible FICTIONAL SATIRE footer."
         },
         {
           "title": "Three ledgers | one paste shortcut",
-          "kicker": "Fictional personnel story | No actual employee allegations",
+          "kicker": "FICTIONAL SATIRE | No actual employee allegations",
           "subtitle": "Three recipients. One Greg with a paste shortcut.",
           "bullets": [
             "Fred gave the player, club and advertiser separate worksheets.",
@@ -534,11 +561,11 @@
           ],
           "source_ids": [],
           "layout": "bullets",
-          "notes": "All personnel events, dialogue and actions are invented. Source figures are analytical teaching context only."
+          "notes": "All personnel events, dialogue and actions are invented. Source figures are analytical teaching context only. Preserve the visible FICTIONAL SATIRE footer."
         },
         {
           "title": "Valuation review | the date matters",
-          "kicker": "Fictional personnel story | No actual employee allegations",
+          "kicker": "FICTIONAL SATIRE | No actual employee allegations",
           "subtitle": "Fred found a date. Greg found it inconvenient.",
           "bullets": [
             "Real illustration: modeled payment PV is $337.8m at 5%.",
@@ -550,11 +577,11 @@
             "FRED_MODEL"
           ],
           "layout": "bullets",
-          "notes": "All personnel events, dialogue and actions are invented. Source figures are analytical teaching context only."
+          "notes": "All personnel events, dialogue and actions are invented. Source figures are analytical teaching context only. Preserve the visible FICTIONAL SATIRE footer."
         },
         {
           "title": "Termination | the close was final",
-          "kicker": "Fictional personnel story | No actual employee allegations",
+          "kicker": "FICTIONAL SATIRE | No actual employee allegations",
           "subtitle": "Greg was fired from the agency. He disputed the ending.",
           "bullets": [
             "The agency terminated Greg's employment after repeated refusal to correct his work.",
@@ -563,11 +590,11 @@
           ],
           "source_ids": [],
           "layout": "bullets",
-          "notes": "All personnel events, dialogue and actions are invented. Greg is terminated from the fictional agency, causes a reception scene, returns uninvited the next day drunk, vomits in the mailroom, and leaves safely with help. No transfer, reassignment or return to employment occurs."
+          "notes": "All personnel events, dialogue and actions are invented. Greg is terminated from the fictional agency, causes a reception scene, returns uninvited the next day drunk, vomits in the mailroom, and leaves safely with help. No transfer, reassignment or return to employment occurs. Preserve the visible FICTIONAL SATIRE footer."
         },
         {
           "title": "The next day | an unscheduled arrival",
-          "kicker": "Fictional personnel story | No actual employee allegations",
+          "kicker": "FICTIONAL SATIRE | No actual employee allegations",
           "subtitle": "The mailroom had signed up for parcels.",
           "bullets": [
             "Greg returned to the agency uninvited and drunk.",
@@ -577,11 +604,11 @@
           ],
           "source_ids": [],
           "layout": "bullets",
-          "notes": "All personnel events, dialogue and actions are invented. Greg is terminated from the fictional agency, causes a reception scene, returns uninvited the next day drunk, vomits in the mailroom, and leaves safely with help. No transfer, reassignment or return to employment occurs."
+          "notes": "All personnel events, dialogue and actions are invented. Greg is terminated from the fictional agency, causes a reception scene, returns uninvited the next day drunk, vomits in the mailroom, and leaves safely with help. No transfer, reassignment or return to employment occurs. Preserve the visible FICTIONAL SATIRE footer."
         },
         {
           "title": "The closeout | correct the accounts",
-          "kicker": "Fictional personnel story | No actual employee allegations",
+          "kicker": "FICTIONAL SATIRE | No actual employee allegations",
           "subtitle": "Fred repaired the model. Colleagues preserved Greg's dignity.",
           "bullets": [
             "Colleagues helped Greg leave safely after his uninvited return.",
@@ -591,11 +618,11 @@
           ],
           "source_ids": [],
           "layout": "bullets",
-          "notes": "All personnel events, dialogue and actions are invented. Greg is terminated from the fictional agency, causes a reception scene, returns uninvited the next day drunk, vomits in the mailroom, and leaves safely with help. No transfer, reassignment or return to employment occurs."
+          "notes": "All personnel events, dialogue and actions are invented. Greg is terminated from the fictional agency, causes a reception scene, returns uninvited the next day drunk, vomits in the mailroom, and leaves safely with help. No transfer, reassignment or return to employment occurs. Preserve the visible FICTIONAL SATIRE footer."
         },
         {
           "title": "Close the workbook | keep the lesson",
-          "kicker": "Fictional personnel story | No actual employee allegations",
+          "kicker": "FICTIONAL SATIRE | No actual employee allegations",
           "subtitle": "The spreadsheet can be repaired without a victory lap.",
           "bullets": [
             "Cash timing, payroll accounting and modeled PV answer different questions.",
@@ -607,17 +634,17 @@
             "FRED_MODEL"
           ],
           "layout": "bullets",
-          "notes": "All personnel events, dialogue and actions are invented. Source figures are analytical teaching context only."
+          "notes": "All personnel events, dialogue and actions are invented. Source figures are analytical teaching context only. Preserve the visible FICTIONAL SATIRE footer."
         },
         {
           "layout": "sources",
           "title": "Sources and model limits",
-          "kicker": "Fictional personnel story | Real figures are teaching context",
+          "kicker": "FICTIONAL SATIRE | No actual employee allegations",
           "source_ids": [
             "MLB1",
             "FRED_MODEL"
           ],
-          "notes": "Read each source with its date, recipient, measurement period and disclosure limits. All personnel actions, dialogue and incidents are invented."
+          "notes": "Read each source with its date, recipient, measurement period and disclosure limits. All personnel actions, dialogue and incidents are invented. Preserve the visible FICTIONAL SATIRE footer."
         }
       ]
     }

@@ -1,6 +1,6 @@
 # ST-1 final finance audit
 
-Author: finance audit support, outside the proposed six seats. This reviewer is not the original Fred Cedar agent and does not claim Fred's seat or prior work. Reviewed finance.json, financial-report.md, research/evidence.md and st1-fred-round2.md. Retrieved sources on October 14, 2026 UTC.
+Author: finance audit support, outside the proposed six seats. This reviewer is not the original Fred Cedar agent and does not claim Fred's seat or prior work. Reviewed finance.json, financial-report.md, research/evidence.md and ../discussion/fred-round-2.md. Retrieved sources on October 14, 2026 UTC.
 
 ## Decision and dissent
 

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "ticket": "Etdev2/sweet-potato-fried-test#11",
-  "sourceDigest": "sha256:df4bccc90ea6f60a33d47720fc0084452895c76de833b57d52cac226e61cf7d2",
-  "capturedAt": "2026-10-14T00:53:17Z",
+  "sourceDigest": "sha256:f3e395eed90b241b7f466804adabcacea771c9097d2cd92c08f04053e2cf59ac",
+  "capturedAt": "2026-10-14T01:00:04Z",
   "result": "PASS",
   "verification": {
     "command": "/private/tmp/st1-presentation-venv/bin/python ST-1/verify-exports.py",
-    "fixture": "ST-1 JSON inputs; same Mac fonts and pinned presentation libraries; isolated inherited loopback dashboard and wizard fixtures"
+    "fixture": "Final ST-1 JSON and renderer including explicit controller introduction and Soto comparator; same Mac fonts and pinned libraries"
   },
   "commands": [
     {
@@ -22,14 +22,6 @@
       "exitCode": 0
     },
     {
-      "command": "bash scripts/verify-dashboard-tools.sh",
-      "exitCode": 0
-    },
-    {
-      "command": "bash -n scripts/claude-launcher-wizard.sh && bash scripts/verify-claude-launcher-wizard.sh",
-      "exitCode": 0
-    },
-    {
       "command": "git diff --cached --check -- . ':(top,exclude)proof'",
       "exitCode": 0
     }
@@ -39,7 +31,7 @@
     {
       "path": "proof/verification.txt",
       "kind": "terminal",
-      "shows": "Real CLI reproduces three ten-slide PPTX/PDF pairs. Independent finance and inherited configuration/dashboard/wizard checks pass. Visual QA recorded for all 30 pages and corrected internal pages. Live setup and unattended wake remain unverified. Mac harness uses Bash5 and temporary mktemp adapter; prior failed attempts documented in ST-1/verification-notes.md."
+      "shows": "Real CLI reproduces all six repaired exports byte-for-byte. Independent audit passes 51 arithmetic results and 48 monetary cells. Producer rechecked all 30 pages and 54 hyperlinks; parent visually checked final owner9/internal3. Earlier inherited suites passed; exact-final-head CI is required. Mac harness uses Bash5 and a temporary mktemp adapter."
     }
   ]
 }

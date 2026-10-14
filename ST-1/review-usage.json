@@ -1,0 +1,21 @@
+{
+  "standing": "measured",
+  "coverage": "Literal official-client modelUsage snapshot for the initial artifact-review invocation; partial experiment coverage. Native workers unavailable. Do not sum with earlier/later snapshots without establishing counter semantics.",
+  "modelUsage": {
+    "claude-opus-5-5": {
+      "inputTokens": 24,
+      "outputTokens": 13251,
+      "thinkingTokens": 4187,
+      "cacheReadInputTokens": 562247,
+      "cacheCreationInputTokens": 109961,
+      "webSearchRequests": 0,
+      "costUSD": 1.2572534000000002,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "canonicalModel": "claude-opus-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "cost_limit": "Provider reports list-price basis, not a verified subscription invoice or incremental cash charge."
+}

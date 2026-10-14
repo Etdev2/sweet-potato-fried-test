@@ -5,7 +5,7 @@
       "pdf_pages": 10,
       "expected_pages": 10,
       "visible_text_parity": "pass",
-      "hyperlinks": 34,
+      "hyperlinks": 38,
       "issues": []
     },
     {
@@ -26,14 +26,24 @@
     }
   ],
   "scratch_path_scan": "pass",
+  "controller_introduction": "pass",
+  "contract_comparator": "pass, structure and normalization limits visible; no computed return ranking",
   "story_spec": "Agency termination, uninvited next-day return, drunken mailroom incident and safe exit are explicit fictional events.",
   "input_sha256": {
-    "content": "d5462c9660e713fa1b646dbf059b5e75311b6b6973275b8e854a1111f47e94bf",
-    "finance": "6bb7b1789d63507723e769f0ceb08509403ccbf5d65d91c46d5d74e8176061b6",
-    "renderer": "ee3854651eae4679fb9eb9e7f07d8a563d9f4597dade8e336ef65fc8603999ea"
+    "content": "3b9132d4d5718bab42f321af045f79cca14dc4b46ef739738e2dda13387e3f35",
+    "finance": "4fc5417411a4b05fac1735ad14651b7bd7be421344423b9e044b2b1e5ba3c9c4",
+    "renderer": "6be5ace53e2a381762e336153e242a8376a49e042e1ffa51e0c4698442d1c653"
   },
-  "manual_review": "All 30 pages inspected; final internal pages 6-8 re-inspected after narrative correction.",
-  "byte_identical_replay": true,
-  "compared_export_files": 6,
-  "owner_advertiser_unchanged_after_narrative_patch": true
+  "manual_review": "All 30 latest pages inspected; owner 9/10 and internal 3 inspected at full size. Affected speaker notes checked.",
+  "cli_replay": {
+    "exit_code": 0,
+    "byte_identical": true,
+    "compared_export_files": 6,
+    "method": "Actual Python CLI invocation using identical stable content and finance inputs."
+  },
+  "affected_speaker_notes": {
+    "owner_slide_9": "pass, comparator scope, limits and Soto source retained",
+    "internal_slide_3": "pass, invented role, talents, personality and real contract source retained"
+  },
+  "qa_stop_utc": "2026-10-14 00:59:27 UTC"
 }

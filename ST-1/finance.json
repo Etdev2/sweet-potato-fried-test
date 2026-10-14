@@ -311,22 +311,23 @@
   "owners": {
     "rights_checks": "Mara",
     "attribution_audit": "Fred",
-    "sports_and_injury_context_evidence": "Nico",
     "deck_and_source_display": "Maren",
     "commercial_decision": "Carolina",
-    "coordination": "Codex"
+    "coordination": "Grok, assigned exercise coordinator; final-seat ACK requested",
+    "integration_and_publication": "Codex",
+    "sports_and_dated_availability_evidence": "Nico"
   },
   "math_audit": {
     "completed": [
       "Schedule sums to $700m, with $20m plus $680m.",
       "Direct sum equals independent Decimal calculation within $0.00001.",
       "Direct sum equals annuity closed form within $0.00001.",
-      "PV declines as discount rate rises."
+      "PV declines as discount rate rises.",
+      "Independent audit checked 51 JSON arithmetic comparisons and 48 report monetary cells, including year indexes, signs and units.",
+      "Producer and parent checked deck finance values and rounding against this JSON.",
+      "Independent review checked disclosed CBT versus original-decision DCF interpretation."
     ],
     "remaining": [
-      "Peer review year indexes, dollar units and signs.",
-      "Verify slide rounding against JSON.",
-      "Review audience interpretation of CBT versus DCF.",
       "Obtain exact contract dates before claiming precise contractual PV.",
       "Add funding reserve reconciliation before presenting liquidity model.",
       "Obtain incremental receipts, margins, cash CBT exposure and alternative roster assumptions before club valuation."

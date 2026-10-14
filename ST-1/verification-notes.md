@@ -1,6 +1,6 @@
 # Verification record
 
-The actual renderer replay, independent finance audit and control-room configuration check passed on the release inputs. Producer QA records all 30 inspected pages, matching PDF/PPTX text and 50 hyperlinks. Parent rechecked the corrected fictional internal pages 6–8 and verified all six release bytes and input hashes.
+The actual renderer replay, independent finance audit and control-room configuration check passed on the release inputs. Producer QA records all 30 inspected pages, matching PDF/PPTX text and 54 hyperlinks after the repair. Parent rechecked the corrected fictional internal pages 6–8, plus final owner page 9 and internal page 3 after independent review and verified all six release bytes and input hashes.
 
 The first proof run exposed two environment/format problems. Dashboard fixtures could not bind their temporary loopback HTTP server inside the local sandbox. Rerunning with that local-server permission passed all 11 existing fixtures. Git classified the owner PDF as text and flagged PDF cross-reference whitespace. Narrow attributes classify the six generated presentation formats as binary; no source whitespace rule changed.
 

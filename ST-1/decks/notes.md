@@ -3,7 +3,7 @@
 
 ## 1. Agency leadership | Ohtani's Dodgers contract
 
-Ivory background, navy type, muted gold accent; ample space; direct copy; no personnel humor.
+Ivory background, dark navy type, teal owner accent; ample space; direct copy; no personnel humor.
 
 Slide copy:
 Assess the Dodgers salary commitment against an alternative roster.
@@ -142,17 +142,22 @@ Sources:
 Limit: Illustrative original-decision payment DCF dated December 31, 2023; nominal pretax USD, year-end timing; excludes other club costs.
 
 
-## 9. Leadership decision | value the alternative
+## 9. Soto comparison | normalize before ranking
 
-Merged investment question and leadership decision. Add attributable retained club contribution and avoided alternative roster costs. Subtract compensation, marginal CBT tax and other incremental club costs. Count monetized sporting benefits once. Keep athlete endorsements outside the club ledger. Specify the alternative roster and its expected costs and contribution. Obtain attributable club receipts, retained margins and funding records. Rebuild remaining obligations for a current valuation. Current evidence supports opportunity, not proven net breakeven or a 'best ever' ranking.
+Merged investment question and leadership decision. Add attributable retained club contribution and avoided alternative roster costs. Subtract compensation, marginal CBT tax and other incremental club costs. Count monetized sporting benefits once. Keep athlete endorsements outside the club ledger. Specify the alternative roster and its expected costs and contribution. Obtain attributable club receipts, retained margins and funding records. Rebuild remaining obligations for a current valuation. Current evidence supports opportunity, not proven net breakeven or a 'best ever' ranking. This table is a contract-structure comparator, not a computed present-value comparison or a rank of investment returns. Use consistent expected-performance assumptions and dates. Keep athlete endorsements outside club receipts. Source limits apply.
 
 Slide copy:
-Compare attributable retained club contribution and avoided roster costs with compensation, marginal CBT tax and other incremental costs.
-Obtain the alternative roster, attributable receipts, margins and funding records.
-Count sporting benefits once; keep player endorsements outside club receipts.
-Update remaining obligations for today. Current evidence does not prove net breakeven or a best-ever ranking.
+Normalize valuation date, cash timing, duration, option scenarios and expected contribution before comparing.
+Value retained club contribution and roster alternatives against compensation, marginal CBT tax and other incremental costs.
+Headline totals do not establish net breakeven or a best-ever ranking.
 
 Sources:
+[MLB1] MLB: Ohtani contract deferrals explained 2023-12-12
+https://www.mlb.com/news/shohei-ohtani-dodgers-deal-deferrals-explained
+Limit: League reporting cites an unnamed source for full terms; CBT amount approximate.
+[SOTO1] MLB: Soto agreement 2024-12-11
+https://www.mlb.com/news/juan-soto-agrees-to-contract-with-mets
+Limit: League reporting, not signed-contract review.
 [FRED_MODEL] Fred Cedar: illustrative original-decision payment DCF model valuation date 2023-12-31; prepared 2026-10-13
 ../finance.json
 Limit: Illustrative original-decision payment DCF dated December 31, 2023; nominal pretax USD, year-end timing; excludes other club costs.
@@ -196,13 +201,16 @@ Limit: Illustrative original-decision payment DCF dated December 31, 2023; nomin
 [CBA1] MLBPA: 2022–2026 Basic Agreement 2022–2026 agreement
 https://www.mlbplayers.com/_files/ugd/4d23dc_d6dfc2344d2042de973e37de62484da5.pdf
 Limit: Article XVI funding and Article XXIII CBT are separate; actual funding records unavailable.
+[SOTO1] MLB: Soto agreement 2024-12-11
+https://www.mlb.com/news/juan-soto-agrees-to-contract-with-mets
+Limit: League reporting, not signed-contract review.
 
 # Two modes. One standard.
 
 
 ## 1. U.S. advertiser proposal | Switch Audio
 
-Ivory, navy and one muted gold accent. Product close-ups and paired everyday scenes. Calm, precise copy. No internal personnel humor.
+Ivory background, dark navy type, cobalt advertiser accent. Product close-ups and paired everyday scenes. Calm, precise copy. No internal personnel humor.
 
 Slide copy:
 Proposed campaign for a fictional audio brand.
@@ -355,7 +363,7 @@ Limit: Worldwide estimate, May 1, 2025 to May 1, 2026; multiple off-field revenu
 ## 1. Internal fiction | Greg versus Fred
 
 Fictional story, personnel events and dialogue. No claims about actual misconduct.
-Same polished grid; dry captions, understated humor, persistent 'Fictional personnel story' footer. All personnel events, dialogue and actions are invented. Source figures are analytical teaching context only.
+Polished grid; dry captions and understated humor; persistent 'FICTIONAL SATIRE' footer on every internal slide. All personnel events, dialogue and actions are invented. Source figures are analytical teaching context only.
 
 Slide copy:
 Every personnel event and character action in this deck is invented.
@@ -369,7 +377,7 @@ Sources:
 ## 2. Opening balance | a confidence surplus
 
 Fictional story, personnel events and dialogue. No claims about actual misconduct.
-All personnel events, dialogue and actions are invented. Source figures are analytical teaching context only.
+All personnel events, dialogue and actions are invented. Source figures are analytical teaching context only. Preserve the visible FICTIONAL SATIRE footer.
 
 Slide copy:
 Invented Greg pasted $700m beside 'annual expense.'
@@ -380,16 +388,16 @@ Sources:
 
 
 
-## 3. Fred checks the units | real contract context
+## 3. Meet Fred | the new controller checks the units
 
 Fictional story, personnel events and dialogue. No claims about actual misconduct.
-All personnel events, dialogue and actions are invented. Source figures are analytical teaching context only.
+Fred is an invented new hire, accountant/controller, with the stated fictional talents and personality. His dialogue, work and interactions are fiction. Actual contract figures retain MLB1 sourcing; no personnel allegations are factual. Preserve the visible FICTIONAL SATIRE footer.
 
 Slide copy:
-Real reported terms: $700m nominal; $2m annually in 2024–33.
-Real reported deferred payments: $68m annually in 2034–43.
-Approximately $46m annual CBT payroll charge is another measure.
-The fictional argument is invented; the contract figures are sourced.
+Fred is the agency's new accountant/controller in this fictional story.
+His talents: source tracing, cash-flow reconciliation and catching a missing valuation date.
+His personality: patient, precise and dryly funny. He asks each number whom it belongs to.
+Real context: $700m nominal; $2m annually in 2024–33; $68m annually in 2034–43.
 
 Sources:
 [MLB1] MLB: Ohtani contract deferrals explained 2023-12-12
@@ -400,7 +408,7 @@ Limit: League reporting cites an unnamed source for full terms; CBT amount appro
 ## 4. Three ledgers | one paste shortcut
 
 Fictional story, personnel events and dialogue. No claims about actual misconduct.
-All personnel events, dialogue and actions are invented. Source figures are analytical teaching context only.
+All personnel events, dialogue and actions are invented. Source figures are analytical teaching context only. Preserve the visible FICTIONAL SATIRE footer.
 
 Slide copy:
 Fred gave the player, club and advertiser separate worksheets.
@@ -414,7 +422,7 @@ Sources:
 ## 5. Valuation review | the date matters
 
 Fictional story, personnel events and dialogue. No claims about actual misconduct.
-All personnel events, dialogue and actions are invented. Source figures are analytical teaching context only.
+All personnel events, dialogue and actions are invented. Source figures are analytical teaching context only. Preserve the visible FICTIONAL SATIRE footer.
 
 Slide copy:
 Real illustration: modeled payment PV is $337.8m at 5%.
@@ -431,7 +439,7 @@ Limit: Illustrative original-decision payment DCF dated December 31, 2023; nomin
 ## 6. Termination | the close was final
 
 Fictional story, personnel events and dialogue. No claims about actual misconduct.
-All personnel events, dialogue and actions are invented. Greg is terminated from the fictional agency, causes a reception scene, returns uninvited the next day drunk, vomits in the mailroom, and leaves safely with help. No transfer, reassignment or return to employment occurs.
+All personnel events, dialogue and actions are invented. Greg is terminated from the fictional agency, causes a reception scene, returns uninvited the next day drunk, vomits in the mailroom, and leaves safely with help. No transfer, reassignment or return to employment occurs. Preserve the visible FICTIONAL SATIRE footer.
 
 Slide copy:
 The agency terminated Greg's employment after repeated refusal to correct his work.
@@ -445,7 +453,7 @@ Sources:
 ## 7. The next day | an unscheduled arrival
 
 Fictional story, personnel events and dialogue. No claims about actual misconduct.
-All personnel events, dialogue and actions are invented. Greg is terminated from the fictional agency, causes a reception scene, returns uninvited the next day drunk, vomits in the mailroom, and leaves safely with help. No transfer, reassignment or return to employment occurs.
+All personnel events, dialogue and actions are invented. Greg is terminated from the fictional agency, causes a reception scene, returns uninvited the next day drunk, vomits in the mailroom, and leaves safely with help. No transfer, reassignment or return to employment occurs. Preserve the visible FICTIONAL SATIRE footer.
 
 Slide copy:
 Greg returned to the agency uninvited and drunk.
@@ -460,7 +468,7 @@ Sources:
 ## 8. The closeout | correct the accounts
 
 Fictional story, personnel events and dialogue. No claims about actual misconduct.
-All personnel events, dialogue and actions are invented. Greg is terminated from the fictional agency, causes a reception scene, returns uninvited the next day drunk, vomits in the mailroom, and leaves safely with help. No transfer, reassignment or return to employment occurs.
+All personnel events, dialogue and actions are invented. Greg is terminated from the fictional agency, causes a reception scene, returns uninvited the next day drunk, vomits in the mailroom, and leaves safely with help. No transfer, reassignment or return to employment occurs. Preserve the visible FICTIONAL SATIRE footer.
 
 Slide copy:
 Colleagues helped Greg leave safely after his uninvited return.
@@ -475,7 +483,7 @@ Sources:
 ## 9. Close the workbook | keep the lesson
 
 Fictional story, personnel events and dialogue. No claims about actual misconduct.
-All personnel events, dialogue and actions are invented. Source figures are analytical teaching context only.
+All personnel events, dialogue and actions are invented. Source figures are analytical teaching context only. Preserve the visible FICTIONAL SATIRE footer.
 
 Slide copy:
 Cash timing, payroll accounting and modeled PV answer different questions.
@@ -492,7 +500,7 @@ Limit: Illustrative original-decision payment DCF dated December 31, 2023; nomin
 ## 10. Sources and model limits
 
 Fictional story, personnel events and dialogue. No claims about actual misconduct.
-Read each source with its date, recipient, measurement period and disclosure limits. All personnel actions, dialogue and incidents are invented.
+Read each source with its date, recipient, measurement period and disclosure limits. All personnel actions, dialogue and incidents are invented. Preserve the visible FICTIONAL SATIRE footer.
 
 Slide copy:
 

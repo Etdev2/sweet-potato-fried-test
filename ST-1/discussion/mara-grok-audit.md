@@ -10,4 +10,4 @@ E09 should describe historical announcements and documented U.S. products or pla
 
 The answer-key WAR-times-market-rate comparison is a modeled market comparator. It does not establish Dodgers cash receipts, profit, or actual contract breakeven. Review the model's underlying methodology and counterfactual before using it as a conclusion.
 
-I reran the portable Decimal audit against repository finance.json and financial-report.md. All 51 arithmetic results and 48 rounded monetary cells pass. The command, input hashes, complete script, raw output, and exit status are in st1-mara-audit-raw.md. No repository file was changed.
+I reran the portable Decimal audit against repository finance.json and financial-report.md. All 51 arithmetic results and 48 rounded monetary cells pass. The portable script is [audit-finance.py](../audit-finance.py). The committed rerun command, raw output and exit status are in [proof/verification.txt](../../proof/verification.txt). The final bundle supersedes the original scratch inputs. No repository file was changed.

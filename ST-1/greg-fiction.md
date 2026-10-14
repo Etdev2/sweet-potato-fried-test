@@ -6,6 +6,8 @@ Greg presented his forecast in the large conference room because the small one c
 
 The first slide had a dollar sign, six zeroes, and no date. The second had a photograph of a stadium. Greg considered these mutually corroborating sources.
 
+Fred, the fictional agency's newly hired accountant and controller, had a talent for tracing sources and reconciling cash flows. He was patient, precise, and dryly funny. He spotted missing valuation dates before he spotted the office biscuits.
+
 Fred asked which money belonged to the player, which belonged to the club, and which belonged to the advertiser.
 
 "Commercial money," Greg said.

@@ -280,7 +280,15 @@ def render(content,finance,out,fixture=False):
     if side:pg.bullets(side,610,y+12,285,bh-40,18)
     caption=s['chart'].get('caption',s.get('callout',''))
     if caption:pg.text(caption,48,440,850,35,11,minsize=10,c=p['muted'])
-   elif layout=='table':draw_table(pg,s['table'],48,y,850,bh-35)
+   elif layout=='table':
+    explanatory=s.get('bullets',[])
+    if explanatory and did=='owner':
+     caption='\n'.join(explanatory); captionh=len(wrap(caption,850,14.5))*14.5*1.23
+     tableh=bh-captionh-12
+     if tableh<120:raise ValueError(f'{did} slide {number}: table and limitations need shorter copy')
+     draw_table(pg,s['table'],48,y,850,tableh)
+     pg.text(caption,48,y+tableh+12,850,captionh+.1,14.5,c=p['muted'])
+    else:draw_table(pg,s['table'],48,y,850,bh-35)
    elif layout=='cards':
     cards=s['cards'];n=len(cards)
     if n not in (2,3,4):raise ValueError('Cards layout requires 2-4 cards')
