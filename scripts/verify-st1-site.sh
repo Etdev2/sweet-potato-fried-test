@@ -35,7 +35,10 @@ step "Unit and contract tests"
 npm run --silent test
 
 step "Production build"
-npm run --silent build
+# Next.js ends some progress lines with a space. Strip it, so a proof bundle
+# that records this output passes the repository's whitespace check. pipefail
+# keeps a failed build failing.
+npm run --silent build 2>&1 | sed 's/[[:space:]]*$//'
 
 step "Browser tests against the production build"
 if [ -n "${ST1_PROOF_DIR:-}" ]; then

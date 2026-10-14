@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "ticket": "Etdev2/sweet-potato-fried-test#14",
-  "sourceDigest": "sha256:5519ed5fc74170372a96bc84b8ab99c96fda66ff68e84d133a6ef19995c7483a",
-  "capturedAt": "2026-10-14T01:32:38Z",
+  "sourceDigest": "sha256:6465aa880867212c194af0d4a273b5ec9abc674a401d66f05facd3a17bf60c8f",
+  "capturedAt": "2026-10-14T01:35:53Z",
   "result": "PASS",
   "verification": {
     "command": "ST1_PROOF_DIR=\"$PWD/proof\" bash scripts/verify-st1-site.sh",
