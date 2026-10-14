@@ -24,7 +24,7 @@
 | --- | --- |
 | Clock out (UTC) | 2026-10-14 00:57:19 UTC, agent-reported repair completion |
 | Outcome | Scoped deliverables and two peer rounds completed; integrated into ST-1 |
-| Pull requests | Etdev2/sweet-potato-fried-test#12 |
+| Pull requests | Draft Etdev2/sweet-potato-fried-test#12; release #13 |
 | Tokens | |
 | Token standing | unavailable |
 | Token coverage | |

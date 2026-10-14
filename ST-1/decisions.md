@@ -58,8 +58,8 @@ Codex integrates and publishes outside the six. Claude Wren Calder performs inde
 | D7 | Greg narrative? | Fictional termination and next-day mailroom scene | No real allegation, firing recommendation or accounting ledger |
 | D8 | Phone recovery? | Canonical GitHub issue, committed status and receipts | Durable state; active polling observed, unattended wake unproved |
 | D9 | Shared writes? | Codex integrates; separate scoped follow-ups | Grok bypass observed; freeze requested before final proof |
-| D11 | Repeated direct integration writes? | Isolate final `codex/st1-release` branch | Preserve incoming work without letting drafts move the reviewed release head |
 | D10 | Skill application? | Unslop, pinned peer grilling/domain modeling, existing Wizard checks | Direct source application; no fabricated native Skill call |
+| D11 | Repeated direct integration writes? | Isolate final `codex/st1-release` branch | Preserve incoming work without letting drafts move the reviewed release head |
 
 ## Round 1: Grok Bot (coordinator, cross-vendor sports-business research)
 

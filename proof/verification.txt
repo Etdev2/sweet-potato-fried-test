@@ -1,6 +1,6 @@
 $ /private/tmp/st1-presentation-venv/bin/python ST-1/verify-exports.py
 {
-  "output": "/var/folders/f7/tj24jgz97dzbms4zsqjgjh840000gn/T/st1-export-replay-13n2ks_l",
+  "output": "/var/folders/f7/tj24jgz97dzbms4zsqjgjh840000gn/T/st1-export-replay-y_rjaq3q",
   "decks": [
     {
       "id": "owner",

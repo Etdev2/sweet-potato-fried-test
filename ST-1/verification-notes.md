@@ -6,7 +6,7 @@ The first proof run exposed two environment/format problems. Dashboard fixtures 
 
 A second run also checked the preceding failed proof log still staged in the index. The final writer invocation checks source whitespace excluding proof, as its source digest already does, then checks the completed proof after the writer exits. This avoids evaluating a stale evidence log during its replacement. The failed attempts are recorded here rather than counted as successful proof.
 
-Existing control-room and proof-gate suites passed in the initial local run. Both required GitHub checks still have to pass on the final candidate. The final source-bound bundle captures the real export CLI, independent arithmetic and existing dashboard/wizard fixtures. Mac runs use Bash 5 and a temporary mktemp adapter; Linux CI runs its native tools.
+Existing control-room and proof-gate suites passed in the initial local run. Both required GitHub checks still have to pass on the final candidate. The final source-bound bundle captures the real export CLI, independent arithmetic and configuration checks. Earlier dashboard/wizard fixture output is preserved in [the reviewed f630fdd proof](https://github.com/Etdev2/sweet-potato-fried-test/blob/f630fddfb3887c851938dfe17e4b64c4b66b90a5/proof/verification.txt); exact-head CI reruns the inherited suites. Mac runs use Bash 5 and a temporary mktemp adapter; Linux CI runs its native tools.
 
 The Wizard skill was applied to the existing launcher procedure's scope and static trace. Plan mode writes nothing and contacts no service. The existing 12 fixture tests cover refusal and write-result behavior through stub commands. This does not show live account provisioning or a saved OAuth secret.
 

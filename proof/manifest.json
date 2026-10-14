@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "ticket": "Etdev2/sweet-potato-fried-test#11",
-  "sourceDigest": "sha256:764878ae7fc3d1608562eb5f8311412cbe6ec6a91167495e932eca441e7f6167",
-  "capturedAt": "2026-10-14T01:02:31Z",
+  "sourceDigest": "sha256:59e19876d522bf1c59f48db62beae05c8067748ed151cd605900594855cff722",
+  "capturedAt": "2026-10-14T01:06:37Z",
   "result": "PASS",
   "verification": {
     "command": "/private/tmp/st1-presentation-venv/bin/python ST-1/verify-exports.py",
-    "fixture": "Final ST-1 JSON and renderer after review repairs, plus audited optional Grok script and isolated release branch; same Mac fonts/libraries"
+    "fixture": "Final accepted ST-1 inputs and isolated release after metadata closeout; same Mac fonts and pinned libraries"
   },
   "commands": [
     {
@@ -31,7 +31,7 @@
     {
       "path": "proof/verification.txt",
       "kind": "terminal",
-      "shows": "Real CLI reproduces all six repaired exports. Finance audit and configuration pass. Producer inspected 30 pages and 54 hyperlinks; parent checked owner9/internal3. Incoming Grok drafts preserved and final branch isolated. Live setup and unattended wake unverified. Earlier fixtures passed; exact-head Linux CI required."
+      "shows": "Real CLI reproduces three ten-slide PPTX/PDF pairs; independent finance audit passes 51 arithmetic comparisons and 48 report cells; control-room configuration valid. Visual QA and initial/focused Claude review recorded in ST-1. Inherited fixtures captured at earlier reviewed head and rerun by exact-head CI. Unattended wake unproved; pending Grok receipts disclosed."
     }
   ]
 }
