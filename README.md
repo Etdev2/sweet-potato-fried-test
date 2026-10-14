@@ -8,6 +8,10 @@ The goal is the same as the template's. An agent has one obvious path, invalid s
 
 Automatic merge is out of scope. Et merges every pull request.
 
+## ST-1: Seal Team Six
+
+The [ST-1 brief](ST-1/PROMPT.md) defines the now-started six-role sports-agency test. Read [status](ST-1/STATUS.md), [decisions](ST-1/decisions.md) and [the communication contract](ST-1/communications.md) before resuming from phone or desktop. The canonical task is [issue #11](https://github.com/Etdev2/sweet-potato-fried-test/issues/11).
+
 ## Quiz 1: the quota console
 
 [apps/quota-console](apps/quota-console/README.md) is a Quota Management page for a CLI proxy console, built from a screenshot for [issue #6](https://github.com/Etdev2/sweet-potato-fried-test/issues/6). It reads fake, committed JSON. Run `bash scripts/verify-quota-console.sh` to check it. The steps for driving it by hand are in [the verification skill](.claude/skills/verify-quota-console/SKILL.md).
