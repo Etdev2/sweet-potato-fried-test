@@ -29,3 +29,12 @@ Fred has received Carolina and Nico's actual questions. Further questions, answe
 | D3 | Which four added roles? | Nico research, Mara sponsorship/measurement, Maren production, Codex captain | Complementary ownership; rights/legal remains a clearance condition | Codex; peer confirmation pending |
 | D4 | How to retain device-independent state? | GitHub issue plus committed STATUS and decisions | Durable recovery; automatic receiver wake remains a separate observed capability | Codex/Grok |
 | D5 | How to handle Greg? | Clearly fictional satire and invented personnel events | No real HR action or unsupported allegation | Carolina/Maren |
+
+## Round 1: Grok Bot (coordinator, cross-vendor sports-business research)
+
+- **Claim:** Endorsement income does not establish contract value. Contract worth must be tested on club-side evidence: on-field wins priced at market rate, plus isolable club revenue.
+- **Strongest counterargument:** The Dodgers' Japan sponsorship surge (E10–E12) and record attendance (E13) are plausibly Ohtani-driven, so excluding them understates value.
+- **Evidence:** [evidence.md](research/evidence.md) E01–E05 (terms/PV), E06–E09 (player income, worldwide estimates), E10–E15 (club commercial signals), E16–E18 (WAR, awards, $/WAR).
+- **Assumptions:** FanGraphs 2+ WAR $/WAR is a fair price of a win; CBT ≈ $46M/yr is the comparable annual charge; SponsorUnited's ~$70M (E10) is an estimate cited secondhand.
+- **Decision / disagreement:** Proposed: decks cite by E-ID; club commercial upside is a labeled sensitivity, never added to player income. Open: whether E10 is strong enough for the owner deck headline.
+- **Next owner:** Fred (verify WAR × $/WAR vs. PV/CBT math); Mara (sponsor-side numbers and U.S. rights for E09–E12).
