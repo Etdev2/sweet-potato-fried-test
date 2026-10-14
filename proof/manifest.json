@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "ticket": "Etdev2/sweet-potato-fried-test#11",
-  "sourceDigest": "sha256:f3e395eed90b241b7f466804adabcacea771c9097d2cd92c08f04053e2cf59ac",
-  "capturedAt": "2026-10-14T01:00:04Z",
+  "sourceDigest": "sha256:764878ae7fc3d1608562eb5f8311412cbe6ec6a91167495e932eca441e7f6167",
+  "capturedAt": "2026-10-14T01:02:31Z",
   "result": "PASS",
   "verification": {
     "command": "/private/tmp/st1-presentation-venv/bin/python ST-1/verify-exports.py",
-    "fixture": "Final ST-1 JSON and renderer including explicit controller introduction and Soto comparator; same Mac fonts and pinned libraries"
+    "fixture": "Final ST-1 JSON and renderer after review repairs, plus audited optional Grok script and isolated release branch; same Mac fonts/libraries"
   },
   "commands": [
     {
@@ -31,7 +31,7 @@
     {
       "path": "proof/verification.txt",
       "kind": "terminal",
-      "shows": "Real CLI reproduces all six repaired exports byte-for-byte. Independent audit passes 51 arithmetic results and 48 monetary cells. Producer rechecked all 30 pages and 54 hyperlinks; parent visually checked final owner9/internal3. Earlier inherited suites passed; exact-final-head CI is required. Mac harness uses Bash5 and a temporary mktemp adapter."
+      "shows": "Real CLI reproduces all six repaired exports. Finance audit and configuration pass. Producer inspected 30 pages and 54 hyperlinks; parent checked owner9/internal3. Incoming Grok drafts preserved and final branch isolated. Live setup and unattended wake unverified. Earlier fixtures passed; exact-head Linux CI required."
     }
   ]
 }

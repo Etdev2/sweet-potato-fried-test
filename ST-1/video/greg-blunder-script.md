@@ -1,6 +1,6 @@
 # The Greg blunder: the $700 million fumble
 
-YouTube sports-news parody special. Runtime about 10 minutes at roughly 150 spoken words per minute. Fictional comedy about an exercise character. Real figures cite `ST-1/research/evidence.md` by E-ID in the footnotes.
+Optional Grok-authored written draft for a YouTube sports-news parody. This is not a rendered video or a required ST-1 deck. Runtime about 10 minutes at roughly 150 spoken words per minute. Fictional comedy about an exercise character. Real figures cite [the evidence register](../research/evidence.md) by E-ID in the footnotes. Codex corrected valuation and attribution wording after the incoming draft. The original is retained at commit 15970db247359b2cd2ca211691a9ed9bb145c0e4.
 
 Cast: ANCHOR, NARRATOR (voice-over), GREG, FRED (accounting bot), EXEC (Angels executive), ANALYST, FANS 1 to 5, TOURIST.
 
@@ -28,7 +28,7 @@ NARRATOR: To understand the blunder, you have to understand the player. Shohei O
 
 ANALYST: *(at a tactics board, drawing one circle around two players)* Most teams pay one star to hit and another to pitch. The Dodgers pay one man to do both, and he uses one roster spot.
 
-NARRATOR: Off the field, Forbes and Sportico each project about $125 million in endorsements for 2026. That would be a record for any athlete.³
+NARRATOR: Off the field, Forbes and Sportico publish roughly $125 million worldwide off-field estimates for 2026. Their definitions and periods differ; these are estimates, not disclosed U.S. fees.³
 
 *Graphic: "$125M, 2026 estimate, worldwide. Paid to Ohtani, not to the team."*
 
@@ -66,7 +66,7 @@ NARRATOR: Here's what was on page two. Ohtani deferred $680 million of the $700 
 
 *Graphic: "Present value, AP luxury-tax method: about $461M. Luxury-tax charge: about $46M a year."⁵*
 
-ANALYST: Money paid in 2043 costs less than money paid today. On the luxury-tax books, the $700 million deal works out to about $461 million in today's dollars, or about $46 million a year. Greg panicked at seventy. The real charge is forty-six.
+ANALYST: Money paid in 2043 costs less than money paid today. AP reported about $461 million under the prescribed luxury-tax valuation method, or about $46 million in annual CBT payroll charge. That is not today's remaining liability, actual cash tax, or our original-decision payment DCF. The club also has deferred-compensation funding obligations. Greg read the headline and skipped the definitions.
 
 ANCHOR: So what did the Dodgers do?
 
@@ -94,17 +94,17 @@ FRED: There are no formulas. There is a coffee ring. Recalculating.
 
 *Fred's "face," a monitor with two dots and a line, turns into a spreadsheet.*
 
-FRED: Step one. Price of a win. FanGraphs reports that teams paid about $13.9 million per win in 2025 for free agents projected at two or more wins above replacement.⁶
+FRED: Step one. Price of a win. FanGraphs estimates about $13.9 million per projected win for the 2025 free-agent cohort projected at two or more WAR, using its multi-year and inflation assumptions.⁶
 
 FRED: Step two. Ohtani's 2025 FanGraphs value was 9.4 wins above replacement, the best in the National League.²
 
-*Graphic: "9.4 x $13.9M = about $131M. Illustrative. Pending controller sign-off."*
+*Graphic: "9.4 x $13.9M = about $131M. Retrospective market-cost proxy. Not profit or ten-year contract value."*
 
-FRED: Nine point four times thirteen point nine is about $131 million of on-field value for one season. His luxury-tax charge is about $46 million a year.
+FRED: Using the unrounded $13.91 million rate, nine point four times thirteen point nine one is $130.754 million. That is an illustrative market-cost proxy applied to realized output, not cash income or proven contract value. The roughly $46 million CBT charge is a separate payroll measure.
 
-ANALYST: And that's before anything off the field.
+ANALYST: Can we add every sponsorship dollar?
 
-FRED: Correct. In 2024 the Dodgers added 12 Japan-based sponsors, an estimated $70 million in new sponsorship revenue.⁷ In 2025 they drew 4,012,470 fans at home, a franchise record and the most in baseball.⁸ I can't credit all of that to one player. I can tell you it didn't go down.
+FRED: No. We need attributable retained club contribution and must avoid counting the same benefit twice. In 2024 the Dodgers added 12 Japan-based sponsors, about $70 million in estimated club sponsorship revenue growth in a secondhand report. Ohtani-specific causation and retained profit are unverified.⁷ In 2025 they drew 4,012,470 fans at home, a franchise record and the most in baseball.⁸ That count describes attendance, not incremental Ohtani sales or retained profit. I cannot assign the gains to one player without a credible comparison.
 
 *Graphic: "12 Japan-based partners (2024, estimate). 4.01M home attendance (2025)."*
 
@@ -124,7 +124,9 @@ NARRATOR: In this fictional universe, the Angels got one more shot to bring Ohta
 
 GREG: History repeats itself. Too expensive.
 
-EXEC: Greg, Fred's report says he's worth almost three times what he costs against the tax.
+EXEC: Greg, Fred's illustrative one-season market proxy is nearly three times the CBT payroll charge. Does that settle the contract?
+
+FRED: No. A ten-year club return needs future contribution, all incremental costs and an alternative roster. The ratio is not profit.
 
 GREG: Fred is a toaster.
 
@@ -208,7 +210,7 @@ ANCHOR: Doctors expect a full recovery. Sources say Greg has already called the 
 
 *Studio. FRED's monitor now sits in the co-anchor chair, wearing a tiny tie.*
 
-FRED: A contract is more than its price tag. You count the wins, the tickets, the sponsors and the country watching at home. Greg read one number. I read the payment schedule.
+FRED: A contract is more than its price tag. We compare future retained club contribution and roster alternatives against compensation and other costs. Ticket counts, worldwide attention and player endorsements cannot replace that model. Greg read one number. I read the payment schedule.
 
 ANCHOR: That's the Greg blunder. Fred, we salute you.
 
@@ -222,13 +224,13 @@ FRED: Saluting is not in my budget. I will nod.
 
 ## Disclaimer
 
-This is fictional parody. Greg, Fred, the Angels' second chance, the Ohio rumor, the mail room scene and the Catalina incident never happened. Greg is a good-natured exercise character, and nothing here describes any real person's conduct. Ohtani's contract, statistics and commercial figures are real and are cited below. Endorsement figures are worldwide estimates of Ohtani's personal income, not Dodgers revenue. The $131 million figure is an illustration pending Fred's sign-off.
+This is fictional parody. Greg, Fred, the Angels' second chance, the Ohio rumor, the mail room scene and the Catalina incident never happened. Greg is a good-natured exercise character, and nothing here describes any real person's conduct. Ohtani's contract, statistics and commercial figures are real and are cited below. Endorsement figures are worldwide estimates of Ohtani's personal income, not Dodgers revenue. The $131 million figure passed arithmetic review only. Its retrospective market-cost methodology cannot establish club profit or whole-contract value. The approximately $461 million figure is AP-reported CBT-method valuation, not today's liability. The extra scenes are optional fiction; no video has been generated.
 
 ## Footnotes (ST-1 evidence IDs)
 
 1. E16. Baseball Savant regular-season statistics, 2024 and 2025.
 2. E17. BBWAA MVP results (four MVPs, all unanimous); MLB.com, 2025 FanGraphs WAR 9.4, best in the NL.
-3. E07 and E08. Forbes and Sportico 2026 projections, about $125 million, worldwide estimates.
+3. E07 and E08. Forbes and Sportico 2026 projections, roughly $125 million worldwide off-field estimates; definitions and periods differ, not disclosed U.S. fees.
 4. E01 and E02. MLB.com and AP: $700 million total, $680 million deferred, $68 million a year 2034 to 2043, no interest.
 5. E03 and E04. AP luxury-tax present value $460,767,685 (rounded to about $461 million); luxury-tax charge about $46 million a year.
 6. E18. FanGraphs, 2025 market rate for 2+ WAR free agents, $13.91 million per win (rounded to $13.9 million).

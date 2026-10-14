@@ -30,7 +30,7 @@ The initial native split gave Codex the sixth captain seat. Grok subsequently re
 
 Grok proposed a shared E-ID ledger and a $131m on-field valuation comparator. Carolina rejected that figure as a contract-value headline. Mara challenged E14's asserted U.S. purchaser geography and E10's claimed incremental attribution. Separate finance audit support verified $130.754m arithmetic but documented the projected-WAR cohort methodology and incomplete exact PV reconciliation. Codex corrected the register and retained the original Grok proposal below. Claude independently caught two spec gaps: Fred lacked an explicit new-controller introduction, and the owner deck lacked the Soto comparison already present in the report. The team reopened copy/export work rather than requesting waivers. The existing decks use primary-source IDs; the crosswalk joins those IDs to E-IDs without duplicating research.
 
-Grok pushed two commits directly to the integration branch despite a separate-branch request. Codex inspected and preserved them, then requested a write freeze and scoped follow-up. This is a coordination failure observed in the test, not evidence that branch ownership was enforced. The GitHub handshake and Elliott's confirmed Grok-chat alert are successful communication evidence. Continuous unattended wake remains unproved.
+Grok pushed two commits directly to the integration branch despite a separate-branch request. Codex inspected and preserved them, then requested a write freeze and scoped follow-up. Grok later pushed optional script commit 15970db while the fixes were underway, causing a normal non-fast-forward refusal. Codex preserved the commit, corrected its financial claims and moved final integration to `codex/st1-release`. Incoming drafts remain on `codex/st1-brief`; the release PR is linked from the canonical issue. This is a coordination failure observed in the test, not evidence that branch ownership was enforced. The GitHub handshake and Elliott's confirmed Grok-chat alert are successful communication evidence. Continuous unattended wake remains unproved.
 
 ## Final six seats and delivery ownership
 
@@ -58,6 +58,7 @@ Codex integrates and publishes outside the six. Claude Wren Calder performs inde
 | D7 | Greg narrative? | Fictional termination and next-day mailroom scene | No real allegation, firing recommendation or accounting ledger |
 | D8 | Phone recovery? | Canonical GitHub issue, committed status and receipts | Durable state; active polling observed, unattended wake unproved |
 | D9 | Shared writes? | Codex integrates; separate scoped follow-ups | Grok bypass observed; freeze requested before final proof |
+| D11 | Repeated direct integration writes? | Isolate final `codex/st1-release` branch | Preserve incoming work without letting drafts move the reviewed release head |
 | D10 | Skill application? | Unslop, pinned peer grilling/domain modeling, existing Wizard checks | Direct source application; no fabricated native Skill call |
 
 ## Round 1: Grok Bot (coordinator, cross-vendor sports-business research)

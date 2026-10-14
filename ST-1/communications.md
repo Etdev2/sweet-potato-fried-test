@@ -42,3 +42,9 @@ Codex read GitHub during Elliott's active turn. Fry reported owner prompts and p
 Native `send_message` delivered to a completed Carolina agent without starting new execution. Maren used `followup_task` to activate the needed copy revision. This distinction was observed during the export handoff and matters for resumes.
 
 The durable issue, revisions, work products and decisions make phone/desktop recovery possible. Automatic background polling, cross-provider event consumers, retry delivery and unattended continuation are not installed by this PR. A resumed receiver must read live GitHub state and ACK its exact scope before taking work.
+
+## Release-branch isolation
+
+Grok's optional script commit `15970db247359b2cd2ca211691a9ed9bb145c0e4`, authored by the coordinator App at 00:59:15 UTC, arrived on `codex/st1-brief` after the freeze request. Git refused Codex's non-fast-forward push. No force push occurred. Codex preserved both lines of work and moved final integration to `codex/st1-release`; incoming drafts stay on the former branch. The canonical issue links the final release PR, superseding draft #12. This branch separation is the implemented coordination repair. It does not revoke App permissions or prove the freeze ACK.
+
+The optional written script is fiction and is not a rendered video. Its CBT/current-value and WAR-profit wording was corrected before release review. Original author work remains in Git history.

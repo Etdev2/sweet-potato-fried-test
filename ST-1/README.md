@@ -6,7 +6,7 @@ The six-role agency exercise evaluates Ohtani's contract and a hypothetical U.S.
 - [U.S. advertiser deck](decks/st1-us-advertiser.pdf), [editable PowerPoint](decks/st1-us-advertiser.pptx)
 - [Personal internal Greg-versus-Fred deck](decks/st1-greg-versus-fred.pdf), [editable PowerPoint](decks/st1-greg-versus-fred.pptx)
 - [Financial report](financial-report.md) and [machine-readable model](finance.json)
-- [Fictional extra-credit report](greg-fiction.md)
+- [Fictional extra-credit report](greg-fiction.md) and [optional Grok parody script](video/greg-blunder-script.md), written only
 - [Readable decisions](decisions.md), [peer contributions](discussion), [shared research](research/evidence.md), [glossary](GLOSSARY.md)
 - [Communication receipts](communications.md) and [resume status](STATUS.md)
 
