@@ -1,0 +1,630 @@
+/* Page colors. The three deck palettes below come from ST-1/render.py, so a
+   web slide wears the same colors as its exported PDF. */
+:root {
+  color-scheme: light;
+  --page: #f4f3ee;
+  --surface: #ffffff;
+  --ink: #17202b;
+  --muted: #56616f;
+  --line: #dcdfe3;
+  --accent: #0b5cad;
+  --bg: #ffffff;
+  --card: #ffffff;
+  --tint: #eef1f4;
+  --fiction: #8f2f1c;
+}
+
+[data-deck="owner"] {
+  --bg: #f5f8fa;
+  --ink: #142a40;
+  --accent: #007f83;
+  --muted: #506274;
+  --card: #ffffff;
+  --tint: #ddedee;
+}
+
+[data-deck="advertiser"] {
+  --bg: #fcf8ec;
+  --ink: #17265e;
+  --accent: #2459e0;
+  --muted: #566079;
+  --card: #ffffff;
+  --tint: #e7edff;
+}
+
+[data-deck="internal"] {
+  --bg: #fff4e6;
+  --ink: #302825;
+  --accent: #b84a32;
+  --muted: #745f54;
+  --card: #ffffff;
+  --tint: #f7ddc6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--ink);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+a {
+  color: var(--accent);
+  text-underline-offset: 0.15em;
+}
+
+a:focus-visible,
+summary:focus-visible,
+.chart-bar:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  text-wrap: balance;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.skip {
+  position: absolute;
+  left: -999px;
+}
+
+.skip:focus {
+  left: 1rem;
+  top: 0.5rem;
+  background: var(--surface);
+  padding: 0.5rem 0.75rem;
+  z-index: 10;
+}
+
+/* Site frame */
+
+.site-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1.5rem;
+  padding: 0.9rem 1rem;
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+}
+
+.site-name {
+  font-weight: 700;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.site-head nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.1rem;
+  font-size: 0.95rem;
+}
+
+main {
+  max-width: 62rem;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+}
+
+.site-foot {
+  max-width: 62rem;
+  margin: 0 auto;
+  padding: 1.25rem 1rem 2.5rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* Home */
+
+.eyebrow {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+}
+
+.intro h1 {
+  margin: 0.3rem 0 0.75rem;
+  font-size: clamp(1.7rem, 4.5vw, 2.6rem);
+}
+
+.lead {
+  max-width: 44rem;
+  margin: 0 0 1.5rem;
+  font-size: 1.1rem;
+  color: var(--muted);
+}
+
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  gap: 0.75rem;
+  margin: 0 0 2rem;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.4rem;
+  padding: 0.9rem 1rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+}
+
+.tile dt {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.tile dd {
+  margin: 0;
+  font-size: 1.7rem;
+  font-weight: 650;
+}
+
+.deck-list,
+.more-list,
+.slides {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.deck-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.deck-card {
+  padding: 1rem 1.1rem;
+  background: var(--bg);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--accent);
+  border-radius: 0.5rem;
+}
+
+.deck-card h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.2rem;
+}
+
+.deck-card p {
+  margin: 0 0 0.6rem;
+  color: var(--muted);
+}
+
+.deck-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1rem;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.more-list li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 0.75rem;
+  padding: 0.7rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.more-list span {
+  color: var(--muted);
+}
+
+/* Fiction labels */
+
+.fiction-tag {
+  display: inline-block;
+  margin: 0 0 0.5rem;
+  padding: 0.1rem 0.5rem;
+  border: 1px solid var(--fiction);
+  border-radius: 0.25rem;
+  color: var(--fiction);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.fiction-banner {
+  margin: 1rem 0;
+  padding: 0.75rem 1rem;
+  background: var(--surface);
+  border-left: 4px solid var(--fiction);
+  color: var(--ink);
+}
+
+/* Deck page */
+
+.deck-head h1 {
+  margin: 0 0 0.4rem;
+  font-size: clamp(1.6rem, 4vw, 2.3rem);
+}
+
+.slides {
+  display: grid;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-height: min(34rem, 56.25vw);
+  padding: clamp(1.1rem, 3.5vw, 2.5rem);
+  background: var(--bg);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 0.6rem;
+}
+
+.slide-kicker {
+  margin: 0 0 0.6rem;
+  color: var(--muted);
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+}
+
+.slide-head h2 {
+  margin: 0;
+  font-size: clamp(1.35rem, 3.4vw, 2.1rem);
+}
+
+.slide[data-layout="cover"] {
+  justify-content: center;
+  border-left: 0.6rem solid var(--accent);
+}
+
+.slide[data-layout="cover"] h2 {
+  font-size: clamp(1.7rem, 4.6vw, 2.9rem);
+}
+
+.slide-subtitle {
+  margin: 0.5rem 0 0;
+  color: var(--muted);
+  font-size: clamp(1rem, 2.2vw, 1.25rem);
+}
+
+.slide-body {
+  flex: 1;
+}
+
+.slide-bullets {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+}
+
+.slide-bullets li {
+  position: relative;
+  padding-left: 1.25rem;
+}
+
+.slide-bullets li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 0.4rem;
+  height: 0.4rem;
+  background: var(--accent);
+}
+
+.slide-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr));
+  gap: 0.75rem;
+  margin: 0 0 1.25rem;
+}
+
+.slide-card {
+  padding: 0.8rem 0.9rem;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 0.4rem;
+}
+
+.slide-card dt {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.slide-card dd {
+  margin: 0;
+}
+
+.slide-card-value {
+  font-size: 1.6rem;
+  font-weight: 650;
+}
+
+.slide-card-detail {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.slide-chart {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.slide-callout {
+  margin: 1rem 0 0;
+  color: var(--muted);
+}
+
+.slide-sources {
+  display: grid;
+  gap: 0.6rem;
+  margin: 0;
+  padding-left: 1.4rem;
+}
+
+.source-date {
+  color: var(--muted);
+}
+
+.source-limit {
+  display: block;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.slide-foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.slide-foot .fiction-tag {
+  margin: 0;
+}
+
+.slide-cites {
+  flex: 1 1 14rem;
+}
+
+.slide-number {
+  margin-left: auto;
+  font-variant-numeric: tabular-nums;
+}
+
+.slide-notes {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.slide-notes p {
+  margin: 0.4rem 0 0;
+}
+
+/* Tables */
+
+.table-scroll {
+  overflow-x: auto;
+  margin: 0 0 1.25rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--card);
+  font-size: 0.95rem;
+}
+
+th,
+td {
+  padding: 0.55rem 0.7rem;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+thead th {
+  background: var(--tint);
+  font-weight: 650;
+}
+
+/* Charts. One series, so the mark wears the deck accent and all text stays in ink. */
+
+.chart {
+  margin: 0;
+  padding: 0.9rem 1rem;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 0.4rem;
+}
+
+.chart figcaption {
+  display: grid;
+  gap: 0.1rem;
+}
+
+.chart-unit,
+.chart-caption {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.chart-caption {
+  margin: 0.4rem 0 0;
+}
+
+.chart-scroll {
+  overflow-x: auto;
+}
+
+.chart-canvas {
+  position: relative;
+}
+
+.chart-canvas svg {
+  display: block;
+}
+
+.chart-grid {
+  stroke: var(--line);
+  stroke-width: 1;
+}
+
+.chart-axis {
+  stroke: var(--muted);
+  stroke-width: 1;
+}
+
+.chart-tick {
+  fill: var(--muted);
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+}
+
+.chart-value {
+  fill: var(--ink);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.chart-hit {
+  fill: transparent;
+}
+
+.chart-mark {
+  fill: var(--accent);
+}
+
+.chart-bar {
+  outline-offset: -2px;
+}
+
+.chart-bar[data-active="true"] .chart-hit {
+  fill: var(--tint);
+}
+
+.chart-tip {
+  position: absolute;
+  transform: translate(-50%, -100%);
+  display: grid;
+  padding: 0.3rem 0.55rem;
+  background: var(--ink);
+  color: #ffffff;
+  border-radius: 0.3rem;
+  font-size: 0.8rem;
+  line-height: 1.3;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.chart-tip-value {
+  font-weight: 650;
+}
+
+.chart-table {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.chart-table table {
+  margin-top: 0.5rem;
+}
+
+.report-charts {
+  display: grid;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+/* Long-form pages */
+
+.page {
+  padding: clamp(1rem, 3vw, 2rem);
+  background: var(--surface);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 0.6rem;
+}
+
+.prose {
+  max-width: 46rem;
+  overflow-wrap: anywhere;
+}
+
+.prose h1 {
+  margin-top: 0;
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+}
+
+.prose h2 {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+}
+
+.prose code {
+  font-size: 0.9em;
+}
+
+.prose pre {
+  overflow-x: auto;
+  padding: 0.75rem;
+  background: var(--tint);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .chart-hit {
+    transition: fill 120ms ease;
+  }
+}
+
+/* A grid or flex child refuses to shrink below its content by default. These
+   let a wide chart or table scroll inside its own box on a phone. */
+.slides > li,
+.slide,
+.slide-body,
+.slide-chart > *,
+.report-charts > *,
+.chart,
+.page,
+.prose {
+  min-width: 0;
+}

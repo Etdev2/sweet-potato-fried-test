@@ -1,0 +1,31 @@
+name: ST-1 site
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  st1-site:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: apps/st1-site/package-lock.json
+      - name: Install dependencies from the lockfile
+        working-directory: apps/st1-site
+        run: npm ci --no-audit --no-fund --engine-strict
+      - name: Install the browser the tests drive
+        working-directory: apps/st1-site
+        run: npx playwright install --with-deps chromium
+      # The registered verification command: typecheck, lint, unit tests,
+      # production build, then browser tests against that build.
+      - name: Verify the ST-1 site
+        run: bash scripts/verify-st1-site.sh

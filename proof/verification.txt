@@ -1,43 +1,81 @@
-$ /private/tmp/st1-presentation-venv/bin/python ST-1/verify-exports.py
-{
-  "output": "/var/folders/f7/tj24jgz97dzbms4zsqjgjh840000gn/T/st1-export-replay-y_rjaq3q",
-  "decks": [
-    {
-      "id": "owner",
-      "slides": 10,
-      "pptx": "st1-owner-agency.pptx",
-      "pdf": "st1-owner-agency.pdf"
-    },
-    {
-      "id": "advertiser",
-      "slides": 10,
-      "pptx": "st1-us-advertiser.pptx",
-      "pdf": "st1-us-advertiser.pdf"
-    },
-    {
-      "id": "internal",
-      "slides": 10,
-      "pptx": "st1-greg-versus-fred.pptx",
-      "pdf": "st1-greg-versus-fred.pdf"
-    }
-  ]
-}
-PASS: byte-identical real CLI replay: st1-greg-versus-fred.pptx
-PASS: byte-identical real CLI replay: st1-owner-agency.pptx
-PASS: byte-identical real CLI replay: st1-us-advertiser.pptx
-PASS: byte-identical real CLI replay: st1-greg-versus-fred.pdf
-PASS: byte-identical real CLI replay: st1-owner-agency.pdf
-PASS: byte-identical real CLI replay: st1-us-advertiser.pdf
-PASS: six release files and producer input hashes; same installed fonts/libraries
-[exit 0]
+$ ST1_PROOF_DIR="$PWD/proof" bash scripts/verify-st1-site.sh
 
-$ python3 ST-1/audit-finance.py --finance ST-1/finance.json --report ST-1/financial-report.md
-PASS: 20 payment indexes, years, amounts and $700m total; 51 JSON arithmetic comparisons; 48 Markdown monetary cells; ledger exclusions and CBT flags; advertiser $5m/25% and $5m/$40.
-Maximum JSON recomputation error in USD or dimensionless annuity factor: 2.6405191270754443751942427136141032E-7
-Rate 0.03 PV USD 448674903.284 annual hurdle USD 52598386.213
-Rate 0.05 PV USD 337795797.967 annual hurdle USD 43746101.241
-Rate 0.07 PV USD 256836586.994 annual hurdle USD 36567751.865
-At 5% $100m receipts, 100% attribution, 40% margin: balance USD -28926400.79912877
+== Typecheck
+
+== Lint with type information, zero warnings
+
+== Unit and contract tests
+
+ RUN  v5.0.4 /Users/et/dev/sweet-potato-fried-test/apps/st1-site
+
+
+ Test Files  2 passed (2)
+      Tests  20 passed (20)
+   Start at  18:35:43
+   Duration  221ms (import 63%, tests 24%, transform 9%, worker 4%)
+
+
+== Production build
+Copied 6 deck exports into public/downloads, hashes verified.
+▲ Next.js 16.4.0 (Turbopack)
+✓ Running next.config.ts took 19ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 447ms
+  Running TypeScript ...
+  Finished TypeScript in 1044ms ...
+  Collecting page data using 8 workers ...
+  Generating static pages using 8 workers (0/9) ...
+  Generating static pages using 8 workers (2/9)
+  Generating static pages using 8 workers (4/9)
+  Generating static pages using 8 workers (6/9)
+✓ Generating static pages using 8 workers (9/9) in 495ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /decisions
+├   /decks/[deckId]
+│ ├ ● /decks/owner
+│ ├ ● /decks/advertiser
+│ └ ● /decks/internal
+├ ○ /report
+└ ○ /story
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
+
+== Browser tests against the production build
+
+Running 20 tests using 5 workers
+
+  ✓   5 [desktop] › e2e/site.spec.ts:40:3 › owner deck renders ten slides and offers both downloads (840ms)
+  ✓   3 [desktop] › e2e/site.spec.ts:40:3 › internal deck renders ten slides and offers both downloads (845ms)
+  ✓   1 [desktop] › e2e/site.spec.ts:40:3 › advertiser deck renders ten slides and offers both downloads (842ms)
+  ✓   4 [desktop] › e2e/site.spec.ts:20:1 › home page shows the contract figures and links the three decks (859ms)
+  ✓   2 [desktop] › e2e/site.spec.ts:57:1 › every slide of the internal deck carries the fiction label, and no other deck does (1.1s)
+  ✓   7 [desktop] › e2e/site.spec.ts:109:1 › the story is labelled as fiction and the decisions page renders (318ms)
+  ✓   8 [desktop] › e2e/site.spec.ts:117:1 › an unknown deck is a 404 (356ms)
+  ✓   9 [desktop] › e2e/site.spec.ts:97:1 › the finance report renders its tables and both model charts (467ms)
+  ✓   6 [desktop] › e2e/site.spec.ts:71:1 › the payment chart shows a value on hover or tap, on focus, and as a table (671ms)
+  ✓  10 [desktop] › e2e/site.spec.ts:122:1 › no page scrolls sideways or logs an error (527ms)
+  ✓  11 [phone] › e2e/site.spec.ts:40:3 › owner deck renders ten slides and offers both downloads (740ms)
+  ✓  12 [phone] › e2e/site.spec.ts:20:1 › home page shows the contract figures and links the three decks (907ms)
+  ✓  15 [phone] › e2e/site.spec.ts:40:3 › internal deck renders ten slides and offers both downloads (407ms)
+  ✓  13 [phone] › e2e/site.spec.ts:40:3 › advertiser deck renders ten slides and offers both downloads (428ms)
+  ✓  14 [phone] › e2e/site.spec.ts:57:1 › every slide of the internal deck carries the fiction label, and no other deck does (491ms)
+  ✓  17 [phone] › e2e/site.spec.ts:97:1 › the finance report renders its tables and both model charts (321ms)
+  ✓  18 [phone] › e2e/site.spec.ts:109:1 › the story is labelled as fiction and the decisions page renders (242ms)
+  ✓  19 [phone] › e2e/site.spec.ts:117:1 › an unknown deck is a 404 (236ms)
+  ✓  16 [phone] › e2e/site.spec.ts:71:1 › the payment chart shows a value on hover or tap, on focus, and as a table (561ms)
+  ✓  20 [phone] › e2e/site.spec.ts:122:1 › no page scrolls sideways or logs an error (394ms)
+
+  20 passed (5.3s)
+
+PASS: ST-1 site.
 [exit 0]
 
 $ bash scripts/check-control-room.sh
@@ -46,5 +84,5 @@ projects.json is valid.
 Control-room data is valid.
 [exit 0]
 
-$ git diff --cached --check -- . ':(top,exclude)proof'
+$ git diff --cached --check origin/main
 [exit 0]

@@ -1,0 +1,9 @@
+node_modules/
+.next/
+next-env.d.ts
+*.tsbuildinfo
+test-results/
+playwright-report/
+# Copied from ST-1/decks by scripts/sync-assets.mjs at build time.
+public/downloads/
+.vercel/
