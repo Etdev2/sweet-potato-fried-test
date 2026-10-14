@@ -1,495 +1,530 @@
-# Grok Imagine prompt pack: The Greg blunder
+# Grok Imagine prompt pack: The Greg blunder (documentary cut)
 
-Source script: [greg-blunder-script.md](greg-blunder-script.md) (commit 15970db). Fictional parody. 64 shots, 600 seconds total, 16:9. Elliott generates the clips and edits them together.
+Source script: [greg-blunder-script.md](greg-blunder-script.md). Fictional parody shot like a sports documentary. 63 shots, 600 seconds, 16:9, 1183 spoken words. Elliott generates the clips and edits them together. Every spoken line below matches the script word for word.
 
 ## Grok Imagine limits this pack is built on
 
-Checked October 13, 2026. Grok Imagine changes often, so run one test clip before generating the full batch.
+Checked October 13, 2026. Run one test clip before the full batch.
 
 | Limit | What the sources say | Source |
 | --- | --- | --- |
 | Clip length | 1 to 15 seconds per generation, default 8 | [xAI docs, video generation](https://docs.x.ai/developers/model-capabilities/video/generation); [xAI Imagine API page](https://x.ai/api/imagine) |
-| Longer scenes | Stitch separate clips, or use video extension, which adds 2 to 10 new seconds from the last frame | [thoxakihiko prompt guide](https://github.com/thoxakihiko/grok-imagine-prompt-1.5-guide/tree/main) (community guide, cross-checked against xAI docs) |
-| Aspect ratio | 16:9 is supported (also 9:16, 1:1, 4:3, 3:4, 3:2, 2:3; API also lists 21:9 and 5:2). Image-to-video keeps the source image's ratio | xAI Imagine API page |
+| Longer shots | Video extension adds 2 to 10 new seconds from the last frame | [thoxakihiko prompt guide](https://github.com/thoxakihiko/grok-imagine-prompt-1.5-guide/tree/main) (community, cross-checked against xAI docs) |
+| Aspect ratio | 16:9 supported, plus 9:16, 1:1, 4:3, 3:4, 3:2, 2:3 (API also lists 21:9, 5:2). Image-to-video keeps the source image's ratio | xAI Imagine API page |
 | Resolution | 480p, 720p, 1080p. Reference-to-video tops out at 720p | xAI docs |
-| Audio | Native audio in the same pass: dialogue with lip-sync, sound effects, ambience, music | [Vercel AI Gateway model page](https://vercel.com/ai-gateway/models/grok-imagine-video-1.5); [Morphic guide](https://morphic.com/resources/how-to/grok-imagine-video-1-5-guide) |
-| Character consistency | Reference-to-video takes up to 14 reference images and 3 voice references on grok-imagine-video-1.5 | [xAI Imagine overview](https://docs.x.ai/developers/model-capabilities/imagine) |
-| Prompt structure | One subject, one action, one camera move, lighting, then sound. Put the first action first, because the clip follows prompt order. For image-to-video, describe motion and sound only | Morphic guide; thoxakihiko guide |
+| Audio | Generated in the same pass: dialogue with lip-sync, effects, ambience, music | [Vercel AI Gateway model page](https://vercel.com/ai-gateway/models/grok-imagine-video-1.5); [Morphic guide](https://morphic.com/resources/how-to/grok-imagine-video-1-5-guide) |
+| Character consistency | Reference-to-video takes up to 14 reference images and 3 voice references | [xAI Imagine overview](https://docs.x.ai/developers/model-capabilities/imagine) |
+| Prompt structure | One subject, one action, one camera move, then lighting and sound. The clip follows prompt order. For image-to-video, describe motion and sound only | Morphic guide; thoxakihiko guide |
 
-Uncertain:
-- Consumer-app limits may differ from the API. One July 2026 article reports 720p on SuperGrok and 480p on X Premium ([AI Business Weekly](https://aibusinessweekly.net/p/grok-video-generation)).
-- Lip-sync quality for longer lines is unverified. One review calls it "functional," not studio grade.
-- Legible on-screen text and numbers are not documented anywhere. This pack keeps every graphic and number out of the video prompt and adds them in the edit, so figures stay exact.
+Uncertain: consumer-app limits may differ from the API (one July 2026 report says 720p on SuperGrok, 480p on X Premium, [AI Business Weekly](https://aibusinessweekly.net/p/grok-video-generation)). Lip-sync quality on long lines is unverified. Text rendering inside generated video is undocumented, so every number and card goes in during editing.
 
 ## Workflow
 
-1. Generate one still per character with Grok Imagine Image from the character sheet below. Save them as `ref-greg.png`, `ref-fred.png`, and so on.
-2. For each shot, use reference-to-video with the matching stills attached, or image-to-video from a still of that shot. Paste the global style line, then the character tokens for everyone in frame, then the shot prompt.
-3. Generate at 16:9, 720p, at the duration listed. Short lines (FRED, GREG, EXEC, FANS) can use native lip-sync audio. Record ANCHOR, NARRATOR and ANALYST lines longer than about 12 words as voiceover and lay them in during editing.
-4. Add every on-screen graphic and number in the editor, copied from this pack.
+1. Make one still per character with Grok Imagine Image from the character sheet. Save as `ref-greg.png`, `ref-fred.png`, and so on.
+2. For each shot, paste the global style line, then the character tokens for everyone in frame, then the shot prompt. Attach the matching reference stills.
+3. Generate at 16:9, 720p, at the listed length. Shots over 15 seconds: generate 15 seconds, then extend.
+4. Record NARRATOR and all interview answers as voiceover in one session. Use Grok's native audio for ambience and effects only, and for short recreation lines if the lip-sync holds.
+5. Add every card, lower-third and number in the editor, copied from this pack.
 
 ## Global style line (paste first in every prompt)
 
-> Stylized 3D cartoon, bright saturated colors, soft studio lighting, sports-news parody look with clean broadcast graphics space at the bottom of frame, no real logos, no real brand names, no real people's likenesses, 16:9.
+> Stylized 3D cartoon characters filmed like a serious sports documentary: muted film color, soft grain, shallow depth of field, single-source window light for interviews, VHS texture and gate weave for recreations, slow deliberate camera, no real logos, no network branding, no real brand names, no real people's likenesses, 16:9.
 
 ## Character sheet (paste the token text exactly, every time)
 
 | Token | Paste this |
 | --- | --- |
 | GREG | a cartoon man in his 40s, friendly round face, slightly sunburned pink cheeks and nose, short dark hair, blue mirrored sunglasses, loud red-and-yellow Hawaiian shirt with green palm-leaf print, khaki shorts, clumsy overconfident posture |
-| GREG-BEACH | GREG, plus a black wetsuit worn half-zipped under the open Hawaiian shirt, snorkel mask pushed up on his forehead, holding a fishing pole with a tiny orange fish dangling from the line |
-| FRED | a sleek friendly white accounting robot, rounded rectangular body, flat monitor for a face glowing soft blue, two white dot eyes and a short line mouth on the screen, thin metal arms, small blue status LEDs on the chest |
-| ANCHOR | a cartoon news anchor, woman in her 50s, silver bob haircut, navy blazer, calm serious expression, seated at a glass news desk |
-| ANALYST | a cartoon sports analyst, tall man in his 30s, short curly hair, rolled shirtsleeves, green tie, energetic hand gestures |
-| EXEC | a cartoon team executive, bald man in his 60s, grey suit, red tie, worried eyebrows |
-| STAR | a generic baseball star seen only in silhouette or from behind, plain white jersey with the number 17, plain blue cap with no logo, face never shown |
-| FANS | cartoon baseball fans outside a generic stadium, mixed ages, plain team-color shirts with no logos |
+| GREG-BEACH | GREG, plus a black wetsuit worn half-zipped under the open Hawaiian shirt, snorkel mask pushed up on his forehead, holding a fishing pole with a tiny orange fish on the line |
+| FRED | a sleek friendly white accounting robot, rounded rectangular body, flat monitor face glowing soft blue with two white dot eyes and a short line mouth, thin metal arms, small blue status LEDs on the chest |
+| EXEC | a cartoon former team executive, bald man in his 60s, grey suit, red tie, tired worried eyebrows |
+| ANALYST | a cartoon baseball analyst, tall man in his 30s, short curly hair, rolled shirtsleeves, green tie, calm measured gestures |
+| COLLEAGUE | a cartoon woman in her 50s, reading glasses on a chain, oatmeal cardigan, kind face, holding a mug |
+| FAN | a cartoon lifelong fan, man in his 60s, grey stubble, plain blue team-color jersey with no logo or lettering |
+| FAN 2 | a cartoon fan in his 30s, beard, plain grey t-shirt |
+| STAR | a generic baseball star seen only in silhouette or from behind, plain white jersey with the number 17, plain cap with no logo, face never shown |
 
-Sets (reuse wording): NEWSROOM = glass news desk, blue and white video wall, city skyline backdrop. BOARDROOM = long wooden table, seven chairs, window over a generic stadium, red accents. SERVER ROOM = dark room, humming server racks, blinking blue LEDs. STADIUM = generic open-air ballpark at night, full stands, no signage text.
+Sets: LIBRARY (ANALYST interviews) = leather chair, dark bookshelves out of focus, window light from left. OFFICE (EXEC) = dim office, venetian-blind shadows. KITCHEN (COLLEAGUE) = warm kitchen, window light. DARK STUDIO (FRED) = black backdrop, one key light. BOARDROOM (recreations) = long wooden table, seven chairs, faded color. Every ballpark is generic, with no signage text.
 
 ## Shot list
 
-Format: ID | time | seconds | prompt | camera | graphics (edit) | audio lines | SFX/music. Every graphic and number is copied from the script.
-
-### Cold open (0:00 to 0:30)
-
-**S01** | 0:00 | 8s
-- Prompt: NEWSROOM. Red light bars sweep across the video wall, then settle. Empty desk.
-- Camera: fast push-in toward the desk.
-- Graphics: ticker "BREAKING: ANGELS FRONT OFFICE IN CHAOS"
-- Audio: none.
-- SFX/music: breaking-news sting, drum hits.
-
-**S02** | 0:08 | 12s
-- Prompt: ANCHOR at NEWSROOM desk holds one sheet of paper at arm's length, then sets it down and looks into the lens.
-- Camera: medium shot, static.
-- Graphics: ticker continues.
-- Audio (VO): ANCHOR: "Good evening. Tonight's story isn't a trade or an injury. It's an accountant. His name is Greg, and he may have made the most expensive mistake in sports history. Twice."
-- SFX/music: low tension bed.
-
-**S03** | 0:20 | 6s
-- Prompt: ANCHOR leans forward slightly and raises one eyebrow.
-- Camera: close-up, slow push-in.
-- Audio (lip-sync or VO): ANCHOR: "We checked the math three times. Our accountant checked it a fourth time. Our accountant is a robot."
-- SFX/music: bed holds.
-
-**S04** | 0:26 | 4s
-- Prompt: Abstract gold light streaks collide in the center of the frame on a dark blue background.
-- Camera: static.
-- Graphics: title card "THE GREG BLUNDER"
-- Audio: none.
-- SFX/music: drumline hit, whoosh.
-
-### Who is the star? (0:30 to 1:45)
-
-**S05** | 0:30 | 12s
-- Prompt: STADIUM. STAR, seen from behind at home plate, swings and sends a ball high into the night sky. The crowd jumps.
-- Camera: low angle behind the batter, slow tilt up following the ball.
-- Audio (VO): NARRATOR: "To understand the blunder, you have to understand the player. Shohei Ohtani hits. He also pitches."
-- SFX/music: bat crack, crowd roar, upbeat sports theme.
-
-**S06** | 0:42 | 10s
-- Prompt: STADIUM. STAR in silhouette on the pitcher's mound winds up and throws. A batter swings and misses.
-- Camera: wide side angle, static.
-- Graphics: "2024: 54 HR, 59 SB"
-- Audio (VO): NARRATOR: "In 2024 he hit 54 home runs and stole 59 bases."
-- SFX/music: glove pop, crowd cheer.
-
-**S07** | 0:52 | 8s
-- Prompt: STADIUM. STAR in silhouette jogs around the bases as fireworks burst above the stands.
-- Camera: wide, slow pan.
-- Graphics: "2025: 55 HR"
-- Audio (VO): NARRATOR: "In 2025 he hit 55 more and went back to the mound."
-- SFX/music: fireworks, theme continues.
-
-**S08** | 1:00 | 12s
-- Prompt: Four gold trophies rise one at a time from a glossy blue floor and glow.
-- Camera: slow dolly left to right.
-- Graphics: "4 MVP awards. All unanimous."
-- Audio: none.
-- SFX/music: four rising chimes.
-
-**S09** | 1:12 | 10s
-- Prompt: NEWSROOM side set. ANALYST at a touchscreen tactics board draws one big circle around two small player icons with his finger.
-- Camera: medium shot, slight push-in.
-- Audio (VO): ANALYST: "Most teams pay one star to hit and another to pitch. The Dodgers pay one man to do both, and he uses one roster spot."
-- SFX/music: marker squeak.
-
-**S10** | 1:22 | 10s
-- Prompt: Cartoon gold coins pour down from the top of frame into a tall glass column that fills to the top. Blue background.
-- Camera: static, centered.
-- Graphics: "$125M, 2026 estimate, worldwide. Paid to Ohtani, not to the team."
-- Audio (VO): NARRATOR: "Off the field, Forbes and Sportico each project about $125 million in endorsements for 2026. That would be a record for any athlete."
-- SFX/music: coins clinking.
-
-**S11** | 1:32 | 13s
-- Prompt: ANALYST turns from the tactics board to face the lens and taps his temple.
-- Camera: medium close-up, static.
-- Audio (VO): ANALYST: "Put the brands aside for a second. That money goes to him. What the team gets is the wins. Keep that in mind, because Greg didn't."
-- SFX/music: theme fades.
-
-### The first fumble (1:45 to 3:00)
-
-**S12** | 1:45 | 10s
-- Prompt: Sepia-toned STADIUM exterior on a sunny day, empty parking lot, one reserved spot marked by a plain yellow sign with a star symbol.
-- Camera: slow push-in on the parking spot.
-- Graphics: sepia filter; ticker "FLASHBACK: FREE AGENCY"
-- Audio (VO): NARRATOR: "Free agency. The Angels already knew him. They had the clubhouse, the fans and the parking spot with his name on it. All they had to do was say yes."
-- SFX/music: old-film flicker, soft piano.
-
-**S13** | 1:55 | 8s
-- Prompt: Sepia BOARDROOM. Seven executives, EXEC at the head, look up as GREG stands at the far end holding a big calculator upside down.
-- Camera: wide shot down the length of the table.
-- Audio: none.
-- SFX/music: clock ticking.
-
-**S14** | 2:03 | 8s
-- Prompt: GREG puffs out his chest and raises the upside-down calculator.
-- Camera: medium shot of GREG, slight low angle.
-- Audio (lip-sync): GREG: "Seven hundred million dollars. For a baseball player. Gentlemen, I've run the numbers."
-- SFX/music: none.
-
-**S15** | 2:11 | 10s
-- Prompt: EXEC asks a question, eyebrows raised. GREG turns the calculator screen toward the table with a proud grin.
-- Camera: over-the-shoulder from EXEC toward GREG.
-- Graphics: insert of the calculator display "0.00L"
-- Audio (lip-sync): EXEC: "What do they say?" GREG: "They say 'no.'"
-- SFX/music: record scratch on "no."
-
-**S16** | 2:21 | 6s
-- Prompt: A young intern in the background flinches and drops a paper coffee cup, which splashes on the carpet.
-- Camera: medium shot, quick.
-- Audio: none.
-- SFX/music: cup splat.
-
-**S17** | 2:27 | 10s
-- Prompt: EXEC leans forward, worried. GREG waves a hand dismissively.
-- Camera: alternating medium shots, or one wide two-shot.
-- Audio (lip-sync): EXEC: "Did you read the payment schedule?" GREG: "I read the first number. The first number was enough."
-- SFX/music: none.
-
-**S18** | 2:37 | 13s
-- Prompt: Sepia BOARDROOM empties slowly as executives walk out, leaving GREG alone, smiling.
-- Camera: slow pull-back.
-- Audio (VO): NARRATOR: "According to our entirely made-up insiders, Greg's analysis stopped at the headline. He never opened page two."
-- SFX/music: soft piano.
-
-**S19** | 2:50 | 10s
-- Prompt: Extreme close-up of a stapled paper contract on the table. The top corner lifts a little in a breeze, showing page two untouched.
-- Camera: macro, slow push-in.
-- Audio: none.
-- SFX/music: paper rustle, one dramatic sting.
-
-### The deal Greg missed (3:00 to 4:15)
-
-**S20** | 3:00 | 12s
-- Prompt: Clean white studio. A giant glossy gold block shatters into one small block and many smaller blocks that float into a row.
-- Camera: static wide.
-- Graphics: "$700M" breaking into "$2M a year now" and "$68M a year, 2034 to 2043"
-- Audio (VO): NARRATOR: "Here's what was on page two. Ohtani deferred $680 million of the $700 million. He takes $2 million a year while he plays."
-- SFX/music: glass shatter, bright synth.
-
-**S21** | 3:12 | 10s
-- Prompt: A row of ten gold blocks slides along a timeline and lands far off to the right.
-- Camera: slow pan following the blocks.
-- Graphics: timeline "2034 to 2043. No interest."
-- Audio (VO): NARRATOR: "The rest arrives in $68 million payments from 2034 to 2043, with no interest."
-- SFX/music: sliding whoosh.
-
-**S22** | 3:22 | 15s
-- Prompt: NEWSROOM side set. ANALYST points at the video wall, which shows a large blue bar shrinking into a smaller bar.
-- Camera: medium shot, slow push-in.
-- Graphics: "Present value, AP luxury-tax method: about $461M. Luxury-tax charge: about $46M a year."
-- Audio (VO): ANALYST: "Money paid in 2043 costs less than money paid today. On the luxury-tax books, the $700 million deal works out to about $461 million in today's dollars, or about $46 million a year. Greg panicked at seventy. The real charge is forty-six."
-- SFX/music: light synth bed.
-
-**S23** | 3:37 | 8s
-- Prompt: ANCHOR at NEWSROOM desk turns toward the ANALYST and asks a question.
-- Camera: two-shot.
-- Audio (lip-sync): ANCHOR: "So what did the Dodgers do?"
-- SFX/music: bed holds.
-
-**S24** | 3:45 | 10s
-- Prompt: ANALYST grins and mimes signing a paper with a flourish.
-- Camera: medium close-up.
-- Audio (lip-sync): ANALYST: "They signed him before Greg found his reading glasses."
-- SFX/music: rimshot.
-
-**S25** | 3:55 | 10s
-- Prompt: Confetti cannons fire over the NEWSROOM desk. One piece of confetti lands in ANCHOR's coffee mug.
-- Camera: wide, then static.
-- Audio: none.
-- SFX/music: confetti pop, party horn.
-
-**S26** | 4:05 | 10s
-- Prompt: ANCHOR looks into the mug, shrugs, and drinks the coffee.
-- Camera: close-up.
-- Audio: none.
-- SFX/music: sip, music button.
-
-### Enter Fred (4:15 to 5:15)
-
-**S27** | 4:15 | 15s
-- Prompt: SERVER ROOM. The lights dim. FRED rolls in from the dark and his monitor face lights up blue.
-- Camera: slow dolly toward FRED.
-- Audio (VO): NARRATOR: "Back at our agency, a new hire was reviewing the books. His name is Fred. Fred is an accounting bot. Fred has never taken a lunch break, because Fred doesn't know what lunch is."
-- SFX/music: server hum, soft electronic theme.
-
-**S28** | 4:30 | 10s
-- Prompt: FRED turns to a grey metal filing cabinet. His screen shows a loading bar.
-- Camera: medium shot.
-- Audio (lip-sync, robotic voice): FRED: "Initiating audit of predecessor's work."
-- SFX/music: beep.
-
-**S29** | 4:40 | 12s
-- Prompt: A filing drawer slides open by itself and folders spill onto the floor. One folder lands face up in the center.
-- Camera: high angle looking down at the floor.
-- Graphics: folder label "VIBES"
-- Audio: none.
-- SFX/music: drawer slide, papers flutter.
-
-**S30** | 4:52 | 8s
-- Prompt: FRED holds up a single sheet of paper and tilts his monitor face, puzzled.
-- Camera: close-up on FRED.
-- Graphics: insert of a spreadsheet with one cell reading "Too much"
-- Audio (lip-sync): FRED: "Predecessor's model contains one spreadsheet. The spreadsheet contains one cell. The cell reads 'Too much.'"
-- SFX/music: cooling fans whir louder.
-
-**S31** | 5:00 | 15s
-- Prompt: FRED stares at the sheet in silence, then his screen fills with scrolling blue numbers.
-- Camera: slow push-in on FRED's screen.
-- Audio (lip-sync, after a 3-second pause): FRED: "There are no formulas. There is a coffee ring. Recalculating."
-- SFX/music: fans whir, processing chirps.
-
-### Fred runs the numbers (5:15 to 6:30)
-
-**S32** | 5:15 | 12s
-- Prompt: FRED's monitor face changes into a glowing spreadsheet grid. He gestures to a floating holographic panel.
-- Camera: medium shot, slow orbit.
-- Graphics: "$13.9M per win, 2025 (FanGraphs)"
-- Audio (VO in FRED's voice): FRED: "Step one. Price of a win. FanGraphs reports that teams paid about $13.9 million per win in 2025 for free agents projected at two or more wins above replacement."
-- SFX/music: spreadsheet clicks.
-
-**S33** | 5:27 | 10s
-- Prompt: STAR silhouette appears on the holographic panel next to FRED, glowing.
-- Camera: static.
-- Graphics: "2025: 9.4 WAR, best in the NL"
-- Audio (VO): FRED: "Step two. Ohtani's 2025 FanGraphs value was 9.4 wins above replacement, the best in the National League."
-- SFX/music: chime.
-
-**S34** | 5:37 | 12s
-- Prompt: Two holographic stacks of coins appear: a tall stack on the left and a short stack on the right. FRED points at each.
-- Camera: medium wide.
-- Graphics: "9.4 x $13.9M = about $131M. Illustrative. Pending controller sign-off." Right stack: "about $46M a year"
-- Audio (VO): FRED: "Nine point four times thirteen point nine is about $131 million of on-field value for one season. His luxury-tax charge is about $46 million a year."
-- SFX/music: coin stack sounds.
-
-**S35** | 5:49 | 6s
-- Prompt: ANALYST in NEWSROOM side set nods and holds up a finger.
-- Camera: medium close-up.
-- Audio (lip-sync): ANALYST: "And that's before anything off the field."
-- SFX/music: none.
-
-**S36** | 5:55 | 15s
-- Prompt: FRED stands beside a holographic panel showing twelve small generic building icons appearing one by one, then a full stadium crowd icon.
-- Camera: slow push-in.
-- Graphics: "12 Japan-based partners (2024, estimate). 4.01M home attendance (2025)."
-- Audio (VO): FRED: "Correct. In 2024 the Dodgers added 12 Japan-based sponsors, an estimated $70 million in new sponsorship revenue. In 2025 they drew 4,012,470 fans at home, a franchise record and the most in baseball. I can't credit all of that to one player. I can tell you it didn't go down."
-- SFX/music: twelve soft pops, crowd swell.
-
-**S37** | 6:10 | 10s
-- Prompt: FRED's LEDs flicker red, his screen glitches, and small sparks pop from his shoulders.
-- Camera: close-up, slight shake.
-- Audio (lip-sync, voice pitching up): FRED: "Greg... passed... on... this?"
-- SFX/music: electric crackle, alarm beep.
-
-**S38** | 6:20 | 10s
-- Prompt: A tiny robotic arm unfolds from FRED's side and sprays a tiny fire extinguisher at his own shoulder. White mist. FRED's screen returns to calm blue.
-- Camera: medium shot.
-- Audio (lip-sync): FRED: "I'm fine. That was an emotion. I have deleted it."
-- SFX/music: extinguisher hiss, calm beep.
-
-### The second chance (6:30 to 7:30)
-
-**S39** | 6:30 | 8s
-- Prompt: BOARDROOM in full color. GREG stands at a whiteboard covered with dollar signs and a frowning face.
-- Camera: wide.
-- Graphics: ticker "SOURCES: ANGELS GET SECOND SHOT"; whiteboard text "$$$ = BAD" added in edit.
-- Audio (VO): NARRATOR: "In this fictional universe, the Angels got one more shot to bring Ohtani back to Anaheim."
-- SFX/music: tense strings.
-
-**S40** | 6:38 | 8s
-- Prompt: GREG taps the whiteboard twice with a marker and shakes his head confidently.
-- Camera: medium shot.
-- Audio (lip-sync): GREG: "History repeats itself. Too expensive."
-- SFX/music: marker taps.
-
-**S41** | 6:46 | 8s
-- Prompt: EXEC slides a thick report across the table toward GREG.
-- Camera: over-the-shoulder from GREG.
-- Audio (lip-sync): EXEC: "Greg, Fred's report says he's worth almost three times what he costs against the tax."
-- SFX/music: paper slide.
-
-**S42** | 6:54 | 6s
-- Prompt: GREG pushes the report back without looking at it.
-- Camera: close-up on GREG.
-- Audio (lip-sync): GREG: "Fred is a toaster."
-- SFX/music: none.
-
-**S43** | 7:00 | 8s
-- Prompt: A black speakerphone in the middle of the table lights up blue. Everyone leans toward it.
-- Camera: top-down on the table.
-- Audio (VO, robotic, slightly tinny): FRED: "I am a certified controller. I also don't make toast. I checked."
-- SFX/music: speaker crackle.
-
-**S44** | 7:08 | 6s
-- Prompt: GREG folds his arms and squints at the speakerphone through his mirrored sunglasses.
-- Camera: close-up.
-- Audio (lip-sync then VO): GREG: "Then what do you make?" FRED: "Corrections."
-- SFX/music: rimshot.
-
-**S45** | 7:14 | 6s
-- Prompt: EXEC puts his face in his hands.
-- Camera: medium shot.
-- Audio (VO): NARRATOR: "The Angels listened to Greg. Again."
-- SFX/music: sad trombone.
-
-**S46** | 7:20 | 10s
-- Prompt: STADIUM crowd boos. A hot dog in a bun flies past the lens in slow motion, mustard leading.
-- Camera: crowd wide, then slow-motion close pass.
-- Audio: none.
-- SFX/music: crowd boos, slow-motion whoosh.
-
-### Fallout: the Ohio rumor (7:30 to 8:15)
-
-**S47** | 7:30 | 10s
-- Prompt: ANCHOR at NEWSROOM desk, straight face, a cartoon map of the United States on the wall behind her.
-- Camera: medium shot.
-- Graphics: ticker "ANGELS EXPLORING... OHIO?"
-- Audio (VO): ANCHOR: "Fictional sources tell us a frustrated Angels front office is now 'exploring opportunities in Ohio.'"
-- SFX/music: quirky pizzicato.
-
-**S48** | 7:40 | 10s
-- Prompt: EXEC in his grey suit stands at the edge of a tall green cornfield holding a folded paper map upside down.
-- Camera: wide, static.
-- Audio (lip-sync): EXEC: "Is Columbus nice in April?"
-- SFX/music: wind, crickets.
-
-**S49** | 7:50 | 15s
-- Prompt: A red tractor drives past behind EXEC. EXEC waves. The cartoon farmer driving it does not wave back.
-- Camera: wide, slow pan with the tractor.
-- Audio: none.
-- SFX/music: tractor engine.
-
-**S50** | 8:05 | 10s
-- Prompt: ANALYST in NEWSROOM side set shrugs, then answers ANCHOR with a deadpan face.
-- Camera: two-shot.
-- Audio (VO and lip-sync): ANALYST: "If your accountant costs you the best player on Earth twice, you start looking at maps. Usually other people's maps." ANCHOR: "Has anyone told Ohio?" ANALYST: "Ohio has not been told."
-- SFX/music: pizzicato button.
-
-### Fans react (8:15 to 9:00)
-
-**S51** | 8:15 | 9s
-- Prompt: FANS, outside STADIUM. A woman in a plain blue shirt talks to the lens, pointing angrily.
-- Camera: handheld medium close-up.
-- Graphics: lower third "FAN 1"
-- Audio (lip-sync): FAN 1: "Greg cost us Shohei. Twice. Revoke his parking spot. Then paint over it."
-- SFX/music: street crowd ambience.
-
-**S52** | 8:24 | 12s
-- Prompt: FANS. A cheerful man in a plain white shirt holds a calculator to his heart.
-- Camera: handheld medium close-up.
-- Audio (lip-sync): FAN 2: "I'd let Fred do my taxes. I'd let Fred raise my kids. Fred would remember their birthdays."
-- SFX/music: ambience.
-
-**S53** | 8:36 | 12s
-- Prompt: FANS. A man in a plain grey t-shirt with printed words on the front talks, then pulls the shirt off and turns it inside out.
-- Camera: handheld medium shot.
-- Graphics: shirt text "GREG WAS RIGHT", then "FRED" (add in edit)
-- Audio (lip-sync): FAN 3: "I made this before the numbers came out."
-- SFX/music: ambience, fabric rustle.
-
-**S54** | 8:48 | 6s
-- Prompt: FANS. A young kid holding a big foam finger looks up, confused.
-- Camera: handheld close-up at kid height.
-- Audio (lip-sync): FAN 4: "Who's Greg?"
-- SFX/music: ambience.
-
-**S55** | 8:54 | 6s
-- Prompt: FANS. An older man pats the kid's head and nods.
-- Camera: two-shot.
-- Audio (lip-sync): FAN 5: "Exactly."
-- SFX/music: music sting.
-
-### Greg's last day (9:00 to 9:15)
-
-**S56** | 9:00 | 10s
-- Prompt: Grainy black-and-white security camera view of an office mail room. GREG hugs a grey trash can next to a postage machine. A stack of envelopes slides slowly off a shelf. Played for slapstick; no gross detail.
-- Camera: fixed high corner angle, static.
-- Graphics: timestamp overlay "8:02 AM", soft blur over GREG
-- Audio (VO): NARRATOR: "Our CFO let Greg go. Greg came back the next morning and was last seen in the mail room. Witnesses describe him as 'very loud' and 'not dry.'"
-- SFX/music: fluorescent buzz.
-
-**S57** | 9:10 | 5s
-- Prompt: Same security view. The envelopes finish falling.
-- Camera: static.
-- Audio (VO): NARRATOR: "We'll leave it there, out of respect for the mail room." FRED (off-screen): "I have ordered new envelopes."
-- SFX/music: paper flop.
-
-### The Catalina incident (9:15 to 9:40)
-
-**S58** | 9:15 | 6s
-- Prompt: Sunny island harbor with white boats and palm trees. GREG-BEACH strolls along the dock, waving the fishing pole.
-- Camera: wide, slow pan.
-- Graphics: ticker "DEVELOPING: GREG SPOTTED ON CATALINA ISLAND"
-- Audio (VO): ANCHOR: "Days later, Greg turned up on Catalina Island, celebrating what he called his freedom."
-- SFX/music: seagulls, ukulele.
-
-**S59** | 9:21 | 5s
-- Prompt: A sunburned cartoon tourist holding a rainbow shave ice talks to the lens. In the background, GREG-BEACH shouts at a passing ferry.
-- Camera: handheld medium close-up.
-- Audio (lip-sync): TOURIST: "He kept yelling 'Too expensive!' at the ferry. The ferry didn't care."
-- SFX/music: ferry horn.
-
-**S60** | 9:26 | 6s
-- Prompt: GREG-BEACH reaches for a small boat, slips on the wet dock in slow motion, and lands on his backside. Seagulls scatter. One seagull lands, grabs his snorkel mask, and flies off. Cartoon slapstick, no injury shown.
-- Camera: medium wide, slow motion.
-- Audio (VO): NARRATOR: "He headed down the Avalon dock toward a boat he believed was his. It was not his boat."
-- SFX/music: slide whistle, splash, seagull squawks.
-
-**S61** | 9:32 | 4s
-- Prompt: A cartoon rescue helicopter lifts off from the harbor carrying a stretcher with GREG-BEACH waving a thumbs up, one foot in a big white cast.
-- Camera: wide, tilt up.
-- Audio (VO): NARRATOR: "Greg broke his ankle and was airlifted to Hoag Hospital in Newport Beach." FRED: "Air ambulance plus emergency room. Estimated cost exceeds Greg's entire forecasting budget. He should have asked me first."
-- SFX/music: helicopter rotor.
-
-**S62** | 9:36 | 4s
-- Prompt: ANCHOR at NEWSROOM desk gives a small reassuring smile.
-- Camera: medium close-up.
-- Audio (VO): ANCHOR: "Doctors expect a full recovery. Sources say Greg has already called the helicopter 'overpriced.'"
-- SFX/music: light button.
-
-### Outro (9:40 to 10:00)
-
-**S63** | 9:40 | 12s
-- Prompt: NEWSROOM. FRED sits in the co-anchor chair next to ANCHOR, wearing a tiny navy tie. He speaks to the lens.
-- Camera: two-shot, slow push-in on FRED.
-- Audio (lip-sync and VO): FRED: "A contract is more than its price tag. You count the wins, the tickets, the sponsors and the country watching at home. Greg read one number. I read the payment schedule." ANCHOR: "That's the Greg blunder. Fred, we salute you."
-- SFX/music: theme returns.
-
-**S64** | 9:52 | 8s
-- Prompt: FRED dips his monitor face one small notch in a nod. Lights fade.
-- Camera: close-up, static, fade to black.
-- Graphics: end card "Subscribe for Part 3: GREG ON CRUTCHES". Disclaimer card (see below).
-- Audio (lip-sync): FRED: "Saluting is not in my budget. I will nod."
-- SFX/music: theme button, end.
+Each shot gives the ID, start time, length, prompt, camera, graphics, audio lines and SFX/music. Add the token text for each character named in capitals.
+
+### Cold open (0:00)
+
+**S01** | 0:00 | 6s
+- Prompt: Grainy VHS-texture footage of an empty generic ballpark at dawn, mist over the outfield grass, one row of seats lit by low sun.
+- Camera: Locked-off wide, very slow push-in.
+- Graphics (add in edit): Film grain, light gate weave.
+- Audio: NARRATOR: "Every office has a story it doesn't tell at parties. Ours starts here."
+- SFX/music: Single sustained low piano note. Distant wind.
+
+**S02** | 0:06 | 10s
+- Prompt: Archival-style footage, faded colors: an office hallway in the 1990s style, a man in a loud Hawaiian shirt seen only from behind, walking away under flickering fluorescent lights. GREG.
+- Camera: Slow push-in from far end of the hallway.
+- Graphics (add in edit): VHS tracking lines at the edges.
+- Audio: NARRATOR: "What if I told you the most expensive decision in baseball was made by one man, with one calculator, in about four seconds?"
+- SFX/music: Piano melody begins, slow and minor.
+
+**S03** | 0:16 | 9s
+- Prompt: Close-up, grainy: a large desk calculator held upside down in a man's hands on a wooden boardroom table.
+- Camera: Macro, slow push-in.
+- Graphics (add in edit): none
+- Audio: NARRATOR: "What if I told you he was holding it upside down, and nobody in the room said a word?"
+- SFX/music: Strings enter softly under piano.
+
+**S04** | 0:25 | 10s
+- Prompt: Archival-style footage of a generic stadium at night, full crowd, seen from high in the upper deck, slightly overexposed.
+- Camera: Slow tilt down to the field.
+- Graphics (add in edit): none
+- Audio: NARRATOR: "And what if I told you he would get a second chance, and make the same call again, with more confidence?"
+- SFX/music: Strings swell, then pull back.
+
+**S05** | 0:35 | 3s
+- Prompt: Black screen. A single desk lamp clicks on over an empty interview chair in a dark room.
+- Camera: Static.
+- Graphics (add in edit): none
+- Audio: NARRATOR: "This is the story of Greg."
+- SFX/music: Lamp click. Piano holds one chord.
+
+**S06** | 0:38 | 10s
+- Prompt: Sit-down interview: COLLEAGUE in a cardigan in a warm kitchen set, holding a mug with both hands, window light.
+- Camera: Medium close-up, slow push-in.
+- Graphics (add in edit): Lower-third: "FORMER COLLEAGUE OF GREG"
+- Audio: COLLEAGUE: "Greg was our accountant for nine years. He was good with receipts. He was very good with receipts. Contracts were newer."
+- SFX/music: Kitchen ambience, piano under.
+
+### Title (0:48)
+
+**S07** | 0:48 | 8s
+- Prompt: Plain black card. White serif title text fades up slowly, then a smaller line below it.
+- Camera: Static.
+- Graphics (add in edit): Title card: "THE GREG BLUNDER" then smaller "a documentary". No network or series logos.
+- Audio: none
+- SFX/music: Piano resolves on one note. Silence.
+
+### Chapter 1: The player (0:56)
+
+**S08** | 0:56 | 3s
+- Prompt: Black card with white serif chapter text.
+- Camera: Static.
+- Graphics (add in edit): Chapter card: "I. THE PLAYER"
+- Audio: none
+- SFX/music: Room tone.
+
+**S09** | 0:59 | 16s (generate 15s, then extend 1s)
+- Prompt: Grainy archival-style recreation: STAR in silhouette at home plate swings, the ball rises into a night sky, crowd blurred behind.
+- Camera: Slow motion, low angle, slow tilt up.
+- Graphics (add in edit): Lower note: "2024: 54 HR, 59 SB (E16)"
+- Audio: NARRATOR: "He is a hitter. He is also a pitcher. In 2024, Shohei Ohtani hit 54 home runs and stole 59 bases. In 2025 he hit 55 more, and he went back to the mound."
+- SFX/music: Muffled crowd roar under piano.
+
+**S10** | 1:15 | 8s
+- Prompt: STAR in silhouette on a pitcher's mound at dusk, winding up, in slow motion. Grain, warm faded color.
+- Camera: Long lens, slow push-in.
+- Graphics (add in edit): Lower note: "4 MVP awards, all unanimous (E17)"
+- Audio: NARRATOR: "Four Most Valuable Player awards. Every vote, every time, unanimous. Nobody in baseball had seen anything like it."
+- SFX/music: Strings hold.
+
+**S11** | 1:23 | 17s (generate 15s, then extend 2s)
+- Prompt: Sit-down interview: ANALYST in a leather chair in a dark library set, one window light from the left, bookshelves out of focus.
+- Camera: Medium close-up, imperceptible push-in.
+- Graphics (add in edit): Lower-third: "THE ANALYST / Baseball economics"
+- Audio: ANALYST: "Most teams pay one player to hit and another player to pitch. The Dodgers pay one man to do both jobs, and he only takes up one roster spot. Do the math. Greg did not."
+- SFX/music: Room tone, faint clock.
+
+**S12** | 1:40 | 17s (generate 15s, then extend 2s)
+- Prompt: Slow pan across a dim archival-style table covered in old newspapers and sponsor brochures with blank, unreadable covers. Gold desk lamp light.
+- Camera: Slow lateral dolly.
+- Graphics (add in edit): Lower note: "$125M, 2026 estimate, worldwide. Paid to Ohtani, not to the team. (E07, E08)"
+- Audio: NARRATOR: "Off the field, Forbes and Sportico each project about $125 million in endorsements for 2026. A record for any athlete. That money goes to the player. The team gets the wins. Greg would forget that."
+- SFX/music: Piano returns.
+
+### Chapter 2: The first fumble (1:57)
+
+**S13** | 1:57 | 3s
+- Prompt: Black card with white serif chapter text.
+- Camera: Static.
+- Graphics (add in edit): Chapter card: "II. THE FIRST FUMBLE"
+- Audio: none
+- SFX/music: Room tone.
+
+**S14** | 2:00 | 14s
+- Prompt: Sit-down interview: EXEC in a grey suit in a dim office set, venetian-blind shadows across the wall, hands folded.
+- Camera: Medium close-up, slow push-in.
+- Graphics (add in edit): Lower-third: "FORMER ANGELS EXECUTIVE"
+- Audio: EXEC: "We knew him. He'd played for us. We had the clubhouse, the fans, even the parking spot. All we had to do was say yes. That was the whole plan."
+- SFX/music: Piano, sparse.
+
+**S15** | 2:14 | 8s
+- Prompt: Grainy VHS recreation: BOARDROOM, seven executives around a long table, GREG standing at the far end holding a big calculator upside down, chest puffed out.
+- Camera: Wide, static, slight camcorder wobble.
+- Graphics (add in edit): Overlay: "RECREATION"
+- Audio: NARRATOR: "The meeting lasted eleven minutes." GREG: "Seven hundred million dollars. For a baseball player. Gentlemen, I've run the numbers."
+- SFX/music: Camcorder hiss, clock ticking.
+
+**S16** | 2:22 | 5s
+- Prompt: Grainy VHS recreation: GREG turns the calculator screen toward the table with a proud grin. An executive's coffee cup tips over in the background.
+- Camera: Medium, handheld.
+- Graphics (add in edit): Insert: calculator display "0.00L"
+- Audio: EXEC: "What do they say?" GREG: "They say no." NARRATOR: "The room went quiet."
+- SFX/music: Silence, then a cup clatter.
+
+**S17** | 2:27 | 13s
+- Prompt: Sit-down interview: EXEC stares at the floor, then up to the interviewer, off-lens.
+- Camera: Close-up, very slow push-in.
+- Graphics (add in edit): none
+- Audio: EXEC: "I asked him if he'd read the payment schedule. He said, 'I read the first number. The first number was enough.' I think about that every day."
+- SFX/music: Long pause in room tone.
+
+**S18** | 2:40 | 10s
+- Prompt: Sit-down interview: COLLEAGUE in a cardigan in a warm kitchen set, holding a mug with both hands.
+- Camera: Medium close-up, static.
+- Graphics (add in edit): Lower-third: "FORMER COLLEAGUE OF GREG"
+- Audio: COLLEAGUE: "Greg was a confident man. He was confident about lunch. He was confident about the stapler. He never opened page two of anything."
+- SFX/music: Faint kitchen ambience.
+
+**S19** | 2:50 | 9s
+- Prompt: Sit-down interview: COLLEAGUE smiles fondly into her mug.
+- Camera: Close-up, static.
+- Graphics (add in edit): none
+- Audio: COLLEAGUE: "He once sent back a birthday cake because the candles were a recurring cost. We loved him. We still do."
+- SFX/music: Kitchen ambience.
+
+**S20** | 2:59 | 4s
+- Prompt: Extreme close-up, grainy: a stapled contract on a table; the top corner lifts in a breeze, page two untouched.
+- Camera: Macro, static.
+- Graphics (add in edit): none
+- Audio: none
+- SFX/music: Paper rustle. One low string note.
+
+### Chapter 3: Page two (3:03)
+
+**S21** | 3:03 | 3s
+- Prompt: Black card with white serif chapter text.
+- Camera: Static.
+- Graphics (add in edit): Chapter card: "III. PAGE TWO"
+- Audio: none
+- SFX/music: Room tone.
+
+**S22** | 3:06 | 19s (generate 15s, then extend 4s)
+- Prompt: Archival-style slow pan down a typed contract page on a desk, a hand-drawn timeline in pencil running from left to right, warm lamp light.
+- Camera: Top-down, slow drift.
+- Graphics (add in edit): Graphic: "$700M total. $680M deferred. $2M a year now. $68M a year, 2034 to 2043. No interest. (E01, E02)"
+- Audio: NARRATOR: "Page two said this. Ohtani deferred $680 million of the $700 million. He takes $2 million a year while he plays. The rest arrives in $68 million payments from 2034 to 2043, with no interest. Greg had read page one."
+- SFX/music: Piano, slow arpeggio.
+
+**S23** | 3:25 | 17s (generate 15s, then extend 2s)
+- Prompt: Sit-down interview: ANALYST leans forward, elbows on knees.
+- Camera: Close-up, slow push-in.
+- Graphics (add in edit): Graphic: "Present value, AP luxury-tax method: about $461M. Luxury-tax charge: about $46M a year. (E03, E04)"
+- Audio: ANALYST: "Money paid in 2043 costs less than money paid today. On the luxury-tax books, that deal is about $461 million in today's dollars. About $46 million a year. Greg saw seventy. The real charge was forty-six."
+- SFX/music: Room tone.
+
+**S24** | 3:42 | 5s
+- Prompt: Grainy recreation: a pen signs a contract in slow motion on a table in a generic blue-accented office; confetti drifts down past the lens out of focus.
+- Camera: Macro, slow motion.
+- Graphics (add in edit): none
+- Audio: NARRATOR: "The Dodgers signed him before Greg found his reading glasses."
+- SFX/music: Strings rise, then a single pluck.
+
+**S25** | 3:47 | 9s
+- Prompt: Sit-down interview: EXEC, silent, rubs his forehead and exhales.
+- Camera: Close-up, static.
+- Graphics (add in edit): none
+- Audio: EXEC: "I still have the calculator. It's in my desk. I don't know why I kept it. I think it's evidence."
+- SFX/music: Room tone, long silence after the line.
+
+**S26** | 3:56 | 18s (generate 15s, then extend 3s)
+- Prompt: Sit-down interview: ANALYST in the library set, raising one hand to make a fair point.
+- Camera: Medium close-up, static.
+- Graphics (add in edit): Lower note: "Deferred pay must be funded in advance under the labor agreement (E05)"
+- Audio: ANALYST: "To be fair to Greg, deferred money is still money. The Dodgers have to fund it years in advance under the labor agreement. It is a real cost. It is just not seven hundred million dollars of cost."
+- SFX/music: Room tone.
+
+### Chapter 4: The machine (4:14)
+
+**S27** | 4:14 | 3s
+- Prompt: Black card with white serif chapter text.
+- Camera: Static.
+- Graphics (add in edit): Chapter card: "IV. THE MACHINE"
+- Audio: none
+- SFX/music: Room tone.
+
+**S28** | 4:17 | 13s
+- Prompt: SERVER ROOM at night, blue LEDs blinking in sequence. FRED rolls slowly out of the dark and his monitor face lights up blue.
+- Camera: Slow dolly toward FRED.
+- Graphics (add in edit): none
+- Audio: NARRATOR: "Back at our agency, a new hire was reviewing the books. His name was Fred. Fred is an accounting bot. Fred has never taken a lunch break."
+- SFX/music: Server hum. Piano in a higher register.
+
+**S29** | 4:30 | 11s
+- Prompt: Sit-down interview: FRED seated upright in an interview chair in a dark studio, single key light, monitor face glowing soft blue.
+- Camera: Medium close-up, slow push-in.
+- Graphics (add in edit): Lower-third: "FRED / Controller"
+- Audio: FRED: "I was asked to audit my predecessor's work. A drawer opened. Folders fell out. One was labeled 'Vibes.' I picked it up. I opened it."
+- SFX/music: Quiet electronic hum.
+
+**S30** | 4:41 | 4s
+- Prompt: Grainy recreation: folders spill across a grey office floor; one lands face up in the center.
+- Camera: High angle, slow motion.
+- Graphics (add in edit): Folder label: "VIBES"
+- Audio: none
+- SFX/music: Papers flutter, one low string note.
+
+**S31** | 4:45 | 13s
+- Prompt: Sit-down interview: FRED tilts his monitor face slightly, as if remembering.
+- Camera: Close-up, very slow push-in.
+- Graphics (add in edit): Insert: spreadsheet with one cell: "Too much"
+- Audio: FRED: "His model contained one spreadsheet. The spreadsheet contained one cell. The cell read 'Too much.' There were no formulas. There was a coffee ring. I recalculated."
+- SFX/music: Long pause. Fan whir.
+
+### Chapter 5: The numbers (4:58)
+
+**S32** | 4:58 | 3s
+- Prompt: Black card with white serif chapter text.
+- Camera: Static.
+- Graphics (add in edit): Chapter card: "V. THE NUMBERS"
+- Audio: none
+- SFX/music: Room tone.
+
+**S33** | 5:01 | 11s
+- Prompt: FRED's monitor face shows a slowly scrolling blue spreadsheet grid; reflections of the numbers move across his white casing.
+- Camera: Macro on the screen, slow push-in.
+- Graphics (add in edit): Graphic: "$13.9M per win, 2025 (FanGraphs, E18). 2025: 9.4 WAR, best in the NL (E17)."
+- Audio: FRED: "FanGraphs puts the price of a win in 2025 at about $13.9 million. Ohtani produced 9.4 wins above replacement. The best in the National League."
+- SFX/music: Soft clicks, piano.
+
+**S34** | 5:12 | 14s
+- Prompt: Grainy archival-style footage: two stacks of old coins on a dark table, one tall, one short, lit by a single lamp.
+- Camera: Slow lateral dolly between the stacks.
+- Graphics (add in edit): Graphic: "9.4 x $13.9M = about $131M. Illustrative, pending controller sign-off. Luxury-tax charge: about $46M a year."
+- Audio: FRED: "That is about $131 million of on-field value in one season. Against about $46 million a year on the tax. Before tickets. Before sponsors. Before a whole country tuned in."
+- SFX/music: Strings, slow.
+
+**S35** | 5:26 | 11s
+- Prompt: Sit-down interview: ANALYST in the library set, measured.
+- Camera: Medium close-up, slow push-in.
+- Graphics (add in edit): none
+- Audio: ANALYST: "Fred's math is a sketch. Wins are not dollars in a bank. But cut his number in half and you are still above forty-six."
+- SFX/music: Room tone.
+
+**S36** | 5:37 | 15s
+- Prompt: Archival-style footage of a full generic ballpark at golden hour, slow pan across the crowd, faces soft and blurred.
+- Camera: Slow pan.
+- Graphics (add in edit): Graphic: "12 Japan-based partners, about $70M (2024, estimate, E10). 4,012,470 home attendance (2025, E13)."
+- Audio: NARRATOR: "In 2024, the Dodgers added 12 Japan-based sponsors, an estimated $70 million in new sponsorship revenue. In 2025, they drew 4,012,470 fans at home. A franchise record. The most in baseball."
+- SFX/music: Muffled crowd, piano.
+
+**S37** | 5:52 | 10s
+- Prompt: Sit-down interview: FRED, still. His LEDs flicker red once, then return to blue.
+- Camera: Close-up, static.
+- Graphics (add in edit): none
+- Audio: FRED: "I cannot credit all of that to one player. I can tell you it did not go down. And Greg passed on this."
+- SFX/music: A single electric crackle.
+
+**S38** | 6:02 | 5s
+- Prompt: Sit-down interview: FRED, a tiny wisp of smoke rising from his shoulder. A small robotic arm pats it out.
+- Camera: Close-up, static.
+- Graphics (add in edit): none
+- Audio: FRED: "I'm fine. That was an emotion. I have deleted it."
+- SFX/music: Soft hiss. Silence.
+
+**S39** | 6:07 | 6s
+- Prompt: Grainy recreation: a thick bound report lands on a boardroom table with a thud.
+- Camera: Top-down, static.
+- Graphics (add in edit): none
+- Audio: NARRATOR: "Fred filed his report. It was forty pages long. Greg read the title."
+- SFX/music: Thud. Piano.
+
+### Chapter 6: Again (6:13)
+
+**S40** | 6:13 | 3s
+- Prompt: Black card with white serif chapter text.
+- Camera: Static.
+- Graphics (add in edit): Chapter card: "VI. AGAIN"
+- Audio: none
+- SFX/music: Room tone.
+
+**S41** | 6:16 | 12s
+- Prompt: Grainy VHS recreation: BOARDROOM in faded color. GREG at a whiteboard covered in dollar signs and a frowning face, tapping it with a marker.
+- Camera: Wide, slow push-in.
+- Graphics (add in edit): Overlay: "RECREATION". Whiteboard: "$$$ = BAD"
+- Audio: NARRATOR: "In this story, the Angels got one more chance to bring him back to Anaheim. Greg had not changed his mind. Greg had made a whiteboard."
+- SFX/music: Clock ticking. Piano returns, darker.
+
+**S42** | 6:28 | 9s
+- Prompt: Grainy VHS recreation: GREG shakes his head confidently. EXEC slides a thick report across the table toward him.
+- Camera: Medium, handheld.
+- Graphics (add in edit): none
+- Audio: GREG: "History repeats itself. Too expensive." EXEC: "Greg, Fred's report says he's worth almost three times what he costs against the tax."
+- SFX/music: Paper slide.
+
+**S43** | 6:37 | 7s
+- Prompt: Grainy VHS recreation: GREG pushes the report back without looking. A black speakerphone in the middle of the table glows blue.
+- Camera: Top-down on the table.
+- Graphics (add in edit): none
+- Audio: GREG: "Fred is a toaster." FRED: "I am a certified controller." GREG: "Then what do you make?" FRED: "Corrections."
+- SFX/music: Speaker crackle.
+
+**S44** | 6:44 | 10s
+- Prompt: Sit-down interview: EXEC, eyes closed for a moment, then opens them.
+- Camera: Close-up, very slow push-in.
+- Graphics (add in edit): none
+- Audio: EXEC: "We listened to Greg. Again. I want that on the record. Not once. Twice. I have a son. He asks me about it."
+- SFX/music: Long silence in room tone.
+
+**S45** | 6:54 | 3s
+- Prompt: Archival-style slow motion: a stadium crowd booing, blurred; a hot dog tumbles through the frame, mustard first.
+- Camera: Slow motion, static.
+- Graphics (add in edit): none
+- Audio: NARRATOR: "The fans had seen enough."
+- SFX/music: Muffled boos under a slow string swell.
+
+### Chapter 7: Ohio (6:57)
+
+**S46** | 6:57 | 3s
+- Prompt: Black card with white serif chapter text.
+- Camera: Static.
+- Graphics (add in edit): Chapter card: "VII. OHIO"
+- Audio: none
+- SFX/music: Room tone.
+
+**S47** | 7:00 | 9s
+- Prompt: EXEC in a grey suit stands alone at the edge of a tall cornfield at dusk, holding a folded paper map upside down. A red tractor passes far behind him.
+- Camera: Extreme wide, locked off.
+- Graphics (add in edit): Overlay: "Fictional rumor"
+- Audio: NARRATOR: "Then the rumor began. An Angels front office, people said, was exploring opportunities in Ohio." EXEC: "Is Columbus nice in April?"
+- SFX/music: Wind, crickets, distant tractor.
+
+**S48** | 7:09 | 12s
+- Prompt: Sit-down interview: ANALYST, deadpan, in the library set.
+- Camera: Medium close-up, static.
+- Graphics (add in edit): none
+- Audio: ANALYST: "If your accountant costs you the best player on Earth twice, you start looking at maps. Usually other people's maps. And Ohio has not been told."
+- SFX/music: Room tone.
+
+### Chapter 8: The people (7:21)
+
+**S49** | 7:21 | 3s
+- Prompt: Black card with white serif chapter text.
+- Camera: Static.
+- Graphics (add in edit): Chapter card: "VIII. THE PEOPLE"
+- Audio: none
+- SFX/music: Room tone.
+
+**S50** | 7:24 | 16s (generate 15s, then extend 1s)
+- Prompt: Sit-down interview: FAN in a plain blue team-color jersey with no logo, seated on bleachers in an empty ballpark at dusk.
+- Camera: Medium close-up, slow push-in.
+- Graphics (add in edit): Lower-third: "LIFELONG FAN"
+- Audio: FAN: "Greg cost us Shohei. Twice. I'd let Fred do my taxes. I'd let Fred raise my kids. My son asked me, 'Who's Greg?' I said, 'Exactly.' Fred never would have done that to us."
+- SFX/music: Distant ballpark wind.
+
+**S51** | 7:40 | 10s
+- Prompt: Archival-style footage: a plain grey t-shirt with printed words, turned inside out by unseen hands; the inside reads differently.
+- Camera: Close-up, slow motion.
+- Graphics (add in edit): Lower-third: "ANOTHER FAN". Shirt text: "GREG WAS RIGHT" then "FRED"
+- Audio: FAN 2: "I made a 'Greg Was Right' shirt. I made it before the numbers came out. I wear it inside out now."
+- SFX/music: Piano, a little lighter.
+
+### Chapter 9: The mail room (7:50)
+
+**S52** | 7:50 | 3s
+- Prompt: Black card with white serif chapter text.
+- Camera: Static.
+- Graphics (add in edit): Chapter card: "IX. THE MAIL ROOM"
+- Audio: none
+- SFX/music: Room tone.
+
+**S53** | 7:53 | 15s
+- Prompt: Grainy black-and-white security-camera footage of an office mail room. A blurred figure in a Hawaiian shirt hugs a grey trash can by a postage machine. Envelopes slide slowly off a shelf. No gross detail.
+- Camera: Fixed high corner angle.
+- Graphics (add in edit): Timestamp overlay: "8:02 AM". Blur over the figure.
+- Audio: NARRATOR: "Greg was let go. The next morning, he came back. He was last seen in the mail room. He had a trash can. He had a plan. Only one of those worked."
+- SFX/music: Fluorescent buzz. Strings, very low.
+
+**S54** | 8:08 | 14s
+- Prompt: Sit-down interview: COLLEAGUE in the kitchen set, looks into her mug, chooses her words.
+- Camera: Close-up, static.
+- Graphics (add in edit): none
+- Audio: COLLEAGUE: "He was very loud. And he was not dry. We'll leave it there, out of respect for the mail room. He was a good man having a bad week."
+- SFX/music: Kitchen ambience.
+
+**S55** | 8:22 | 7s
+- Prompt: Sit-down interview: FRED in the dark studio.
+- Camera: Close-up, static.
+- Graphics (add in edit): none
+- Audio: FRED: "I ordered new envelopes. I did not bill Greg for them. That was my gift."
+- SFX/music: Electronic hum.
+
+### Chapter 10: Avalon (8:29)
+
+**S56** | 8:29 | 3s
+- Prompt: Black card with white serif chapter text.
+- Camera: Static.
+- Graphics (add in edit): Chapter card: "X. AVALON"
+- Audio: none
+- SFX/music: Gulls, distant.
+
+**S57** | 8:32 | 15s
+- Prompt: Faded home-video footage of a sunny island harbor, white boats, palm trees. GREG-BEACH walks the dock waving a fishing pole with a tiny orange fish.
+- Camera: Handheld wide, slow pan.
+- Graphics (add in edit): Overlay: "Catalina Island"
+- Audio: NARRATOR: "Days later, Greg was seen on Catalina Island, celebrating his freedom. He had a fishing pole, a snorkel mask, and a tiny fish. He kept yelling 'Too expensive!' at the ferry."
+- SFX/music: Gulls, water lapping, a ferry horn.
+
+**S58** | 8:47 | 14s
+- Prompt: Faded home-video footage: GREG-BEACH reaches for a small boat, slips on the wet dock in slow motion, sits down hard. A seagull takes his snorkel mask and flies off. Cartoon slapstick, no injury shown.
+- Camera: Slow motion, medium wide.
+- Graphics (add in edit): none
+- Audio: NARRATOR: "He walked down the Avalon dock toward a boat he believed was his. It was not his boat. The owner of the boat was very kind about it."
+- SFX/music: Slow-motion slip, gull squawk, then piano alone.
+
+**S59** | 9:01 | 14s
+- Prompt: A cartoon rescue helicopter lifts off from the harbor carrying a stretcher; GREG-BEACH gives a thumbs up, one foot in a white cast.
+- Camera: Wide, slow tilt up.
+- Graphics (add in edit): none
+- Audio: NARRATOR: "Greg broke his ankle. He was airlifted to Harbor Point Medical Center." FRED: "Air ambulance plus emergency room. Estimated cost exceeds Greg's entire forecasting budget. He should have asked me first."
+- SFX/music: Rotor wash fading into strings.
+
+### Epilogue (9:15)
+
+**S60** | 9:15 | 14s
+- Prompt: Sit-down interview: ANALYST in the library set, final answer.
+- Camera: Close-up, slowest push-in.
+- Graphics (add in edit): none
+- Audio: ANALYST: "People ask me if it's the best contract of all time. I tell them the honest thing. We will know in 2043. But Greg's answer was wrong both times."
+- SFX/music: Piano theme begins.
+
+**S61** | 9:29 | 7s
+- Prompt: Sit-down interview: EXEC in his office set, a small sad smile.
+- Camera: Close-up, static.
+- Graphics (add in edit): none
+- Audio: EXEC: "If I could go back, I'd turn the calculator over. That's it. That's the whole lesson."
+- SFX/music: Piano.
+
+**S62** | 9:36 | 18s (generate 15s, then extend 3s)
+- Prompt: Sit-down interview: FRED in the dark studio. The key light warms slightly.
+- Camera: Close-up, slowest push-in of the film.
+- Graphics (add in edit): none
+- Audio: FRED: "A contract is not a price tag. It is wins, tickets, sponsors, and a country watching at home. Greg saw a number. I saw a deal. I do not miss Greg. But I check page two every day."
+- SFX/music: Piano theme, full and slow.
+
+**S63** | 9:54 | 6s
+- Prompt: The empty interview chair from the cold open; the desk lamp clicks off. Black.
+- Camera: Static, fade to black.
+- Graphics (add in edit): End card: "Subscribe for Part 3: GREG ON CRUTCHES", then the disclaimer card.
+- Audio: NARRATOR: "Greg is expected to make a full recovery. He called the helicopter overpriced."
+- SFX/music: Final piano chord rings out.
 
 ## Assembly guide
 
-1. Order: S01 to S64 in sequence. Section start times match the script's timestamps.
-2. Runtime check: the shot durations add up to 600 seconds (10:00). The 9:00 to 9:40 sections hold about 110 spoken words in 40 seconds, which is faster than the rest of the script. Let those shots run 10 to 15 seconds long, or trim S57 and S61 lines. Expect a final cut of about 10:00 to 10:30.
-3. Voiceover: record ANCHOR, NARRATOR and ANALYST in one session, in a dry room, at about 150 words a minute. Use the same synthetic or human voice for FRED in every shot, slightly robotic, with a short pause before "Recalculating" and "Corrections." Attach a voice reference if you use reference-to-video.
-4. Native audio: keep Grok's generated SFX and ambience. Replace any generated dialogue that drifts from the script wording.
-5. Graphics: add every number from the Graphics lines in the editor, unchanged. Do not let the model render them.
-6. Disclaimer card (final 3 seconds, or the video description): "Fictional parody. Greg, Fred, the Angels' second chance, the Ohio rumor, the mail room scene and the Catalina incident never happened. Contract, statistics and commercial figures are real and cited in ST-1/research/evidence.md (E01 to E04, E07, E08, E10, E13, E16 to E18). Endorsement figures are worldwide estimates of Ohtani's personal income, not Dodgers revenue. The $131 million figure is illustrative."
-7. Safety check before publishing: no real logos, team wordmarks or real faces in any clip. Regenerate any clip where the model invents one.
+1. Order: S01 to the last shot in sequence. Shot lengths add up to 600 seconds (10:00).
+2. Pacing: lengths assume about 140 spoken words a minute plus a beat of silence after each line. Leave the silences in. The deadpan depends on them.
+3. Narrator: record slowly in a low register, close to the microphone, with no smile in the voice. Pause one full second after each "What if I told you" line.
+4. Interviews: record each talking head in one take where possible. Keep FRED's voice calm and slightly synthetic, the same in every shot.
+5. Cards: white serif text on black, fade in over one second. Use the generic card "a documentary" only. No network or series logos.
+6. Lower-thirds: thin white rule and small caps, bottom left, on screen for four seconds.
+7. Score: one melancholy piano theme with low strings, reused through every chapter, full only in the epilogue.
+8. Disclaimer card (final three seconds or the video description): "Fictional parody. Greg, Fred, the second chance, the Ohio rumor, the mail room scene, the Catalina incident and Harbor Point Medical Center are invented. Contract, statistics and commercial figures are real and cited in ST-1/research/evidence.md (E01 to E05, E07, E08, E10, E13, E16 to E18). Endorsement figures are worldwide estimates of Ohtani's personal income, not Dodgers revenue. The $131 million figure is illustrative."
+9. Before publishing, check every clip for real logos, team wordmarks or real faces. Regenerate any clip that has one.
