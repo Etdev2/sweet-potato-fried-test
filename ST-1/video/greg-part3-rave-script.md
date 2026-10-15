@@ -1,6 +1,6 @@
 # The Greg blunder. Part Three: The Drop
 
-Documentary parody with an authentic YouTube look. Runtime 9:00. 617 spoken words, at about 140 words a minute with a pause after each line, plus music-only rave sequences. Every spoken line matches `greg-part3-prompt-pack.md` word for word.
+Documentary parody with an authentic YouTube look. Runtime 9:00. 620 spoken words, at about 140 words a minute with a pause after each line, plus music-only rave sequences. Every spoken line matches `greg-part3-prompt-pack.md` word for word.
 
 Look: realistic people with invented faces, handheld cameras, real rooms, phone footage and drone shots. Greg is the same invented character from Parts 1 and 2. Only the rave is loud. The whole video is drug-free; any dazed moment is exhaustion, not intoxication. Music is Miss Monique-style melodic techno, original or licensed, never a real artist's track. The headliner is fictional and shown only from behind or in silhouette.
 
@@ -100,13 +100,13 @@ RYAN: Elliott texted me: my old forecaster is at your rave, be nice. I found him
 
 NARRATOR: Ryan handed him a glow stick and an energy drink. Greg read the nutrition label.
 
-[3:38] *In the crowd beside the sand stage, OMAR plants himself in front of GREG-BOOT and gives him a private glove show: fingertip LEDs tracing loops and figure-eights inches from Greg's face, then a wide-armed pose, leaning back, eyes to the sky. GREG-BOOT stares at the lights, mouth open, glow stick forgotten in his hand. Medium close-up, handheld, circling the two of them.*
+[3:38] *In the crowd beside the sand stage, OMAR in his "JESUS LOVES YOU" T-shirt plants himself in front of GREG-BOOT and gives him a private glove show: fingertip LEDs tracing loops and figure-eights inches from Greg's face, then a wide-armed pose, leaning back, eyes to the sky. The bold block letters on Omar's chest stay readable between the light trails. GREG-BOOT stares at the lights, mouth open, glow stick forgotten in his hand. Medium close-up, handheld, circling the two of them.*
 
-NARRATOR: Then Omar found him. Omar does light shows.
+NARRATOR: Then Omar found him. Omar gives everybody light shows.
 
-[3:46] *YouTube-style sit-down interview, lav mic visible, window or ring light, real room: OMAR, crate set, LED gloves resting on his knees, still glowing. Medium close-up, handheld, slight drift. Lower-third: "OMAR / Elliott's friend, lights"*
+[3:46] *YouTube-style sit-down interview, lav mic visible, window or ring light, real room: OMAR in his "JESUS LOVES YOU" T-shirt, crate set, LED gloves resting on his knees, still glowing. Medium close-up, handheld, slight drift. Lower-third: "OMAR / Elliott's friend, lights"*
 
-OMAR: I gave him the full show. He didn't blink for four minutes. After, he asked what the gloves cost.
+OMAR: I told him the lights are a gift. He didn't blink for four minutes. After, he asked what the gloves cost.
 
 [3:54] *YouTube-style sit-down interview, lav mic visible, window or ring light, real room: GREG-BOOT, beach chair set. Close-up, static.*
 
@@ -125,7 +125,7 @@ NARRATOR: The headliner played a set in the Miss Monique style. Twelve-minute bu
 
 [4:25] *Inside the crowd under the white arched shell canopy: dancers with glow sticks, phones and wristbands raised, haze, hazy white truss beams over raised hands in silhouette, a purple ceiling-style overhead wash from the rigs, sweat and sand, everyone facing the curved LED stage. Handheld, moving through the crowd at chest height.*
 
-[4:33] *A ring of ravers sits and kneels on the sand around OMAR as he spins light-up poi in full-arm circles, then sinks into a deep backbend, arms flung wide. The poi leave long, smeared light trails in rings and spirals, like a long-exposure photo, haze glowing around them. Wide, tripod at sand level, slow shutter look, gentle push-in.*
+[4:33] *A ring of ravers sits and kneels on the sand around OMAR in his "JESUS LOVES YOU" T-shirt as he spins light-up poi in full-arm circles, then sinks into a deep backbend, arms flung wide. The bold block letters on his chest stay readable as the poi leave long, smeared light trails in rings and spirals, like a long-exposure photo, haze glowing around them. Wide, tripod at sand level, slow shutter look, gentle push-in.*
 
 [4:41] *RYAN grabs GREG-BOOT by the wrist and pulls him through the crowd toward the stage barrier, GREG-BOOT hopping on the good foot, the boot swinging, dancers stepping aside and cheering him on, hazy white truss beams and a purple overhead wash crossing above them. Handheld, backpedaling in front of them through the crowd.*
 

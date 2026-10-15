@@ -1,6 +1,6 @@
 # Grok Imagine prompt pack: The Greg blunder, Part Three: The Drop
 
-Source script: [greg-part3-rave-script.md](greg-part3-rave-script.md). 63 shots, 9:00, 617 spoken words. Script and pack are generated from one shot list, so the spoken lines match. Limits and workflow follow the Part 1 and 2 pack (`grok-prompt-pack.md`).
+Source script: [greg-part3-rave-script.md](greg-part3-rave-script.md). 63 shots, 9:00, 620 spoken words. Script and pack are generated from one shot list, so the spoken lines match. Limits and workflow follow the Part 1 and 2 pack (`grok-prompt-pack.md`).
 
 ## Settings for every clip
 
@@ -29,7 +29,7 @@ Add to every rave shot: "outdoor beach stage on sand by the water, curved layere
 | FRED | an AI controller: a desk terminal with a glowing blue screen and a small speaker grille, no face, calm synthetic voice |
 | JADE | a realistic woman in her 20s with an invented face, braids, sequined bucket hat, glow paint on one cheek, oversized plain black t-shirt |
 | RYAN | a realistic man about 35 with an invented face, lanky build, dark curly hair, tanned skin, plain teal t-shirt, an energetic grin; a generic character description, not based on any real person or photo |
-| OMAR | a realistic man about 40 with an invented face, wiry build, tousled dark curly hair, fitted charcoal long-sleeve rash guard, khaki cargo pants, LED gloves or light-up poi, an intense, joyful showman expression; a generic character description, not based on any real person or photo |
+| OMAR | a realistic man about 40 with an invented face, wiry build, tousled dark curly hair, a plain T-shirt that reads exactly "JESUS LOVES YOU" in bold block letters across the chest, khaki cargo pants, LED gloves or light-up poi, an intense joyful showman expression; Christian raver who gives light shows; a generic character description, not based on any real person or photo |
 | CAROLYN | a realistic woman in her 40s with an invented face, red top, white skirt, glow bracelets on both wrists, a big laugh; a generic character description, not based on any real person or photo |
 | MARCEL | a realistic man in his 40s with an invented face, teal floral aloha shirt, white shorts, sandals, a wide grin; a generic character description, not based on any real person or photo |
 | HEADLINER | a fictional DJ shown only from behind or as a dark silhouette against the stage LED screens, black hoodie, headphones on one ear, face never shown, not based on any real DJ |
@@ -264,18 +264,18 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 - Native audio cue: Glow stick snap. Can hiss. Kick drum louder.
 
 **P3-S27** | 3:38 | 8s | 8s, 16:9, 1080p
-- Prompt: In the crowd beside the sand stage, OMAR plants himself in front of GREG-BOOT and gives him a private glove show: fingertip LEDs tracing loops and figure-eights inches from Greg's face, then a wide-armed pose, leaning back, eyes to the sky. GREG-BOOT stares at the lights, mouth open, glow stick forgotten in his hand.
+- Prompt: In the crowd beside the sand stage, OMAR in his "JESUS LOVES YOU" T-shirt plants himself in front of GREG-BOOT and gives him a private glove show: fingertip LEDs tracing loops and figure-eights inches from Greg's face, then a wide-armed pose, leaning back, eyes to the sky. The bold block letters on Omar's chest stay readable between the light trails. GREG-BOOT stares at the lights, mouth open, glow stick forgotten in his hand.
 - Camera: Medium close-up, handheld, circling the two of them.
 - Graphics (add in edit): none
-- Audio: NARRATOR: "Then Omar found him. Omar does light shows."
+- Audio: NARRATOR: "Then Omar found him. Omar gives everybody light shows."
 - Native audio cue: Kick drum, crowd murmur, a soft whoosh as the gloves pass the camera.
 - Reference slots: REF-VEN-04
 
 **P3-S28** | 3:46 | 8s | 8s, 16:9, 1080p
-- Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: OMAR, crate set, LED gloves resting on his knees, still glowing.
+- Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: OMAR in his "JESUS LOVES YOU" T-shirt, crate set, LED gloves resting on his knees, still glowing.
 - Camera: Medium close-up, handheld, slight drift.
 - Graphics (add in edit): Lower-third: "OMAR / Elliott's friend, lights"
-- Audio: OMAR: "I gave him the full show. He didn't blink for four minutes. After, he asked what the gloves cost."
+- Audio: OMAR: "I told him the lights are a gift. He didn't blink for four minutes. After, he asked what the gloves cost."
 - Native audio cue: Muffled set behind him.
 
 **P3-S29** | 3:54 | 9s | 9s, 16:9, 1080p
@@ -320,7 +320,7 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 - Reference slots: REF-VEN-01, REF-VEN-02, REF-VEN-04
 
 **P3-S34** | 4:33 | 8s | 8s, 16:9, 1080p
-- Prompt: A ring of ravers sits and kneels on the sand around OMAR as he spins light-up poi in full-arm circles, then sinks into a deep backbend, arms flung wide. The poi leave long, smeared light trails in rings and spirals, like a long-exposure photo, haze glowing around them.
+- Prompt: A ring of ravers sits and kneels on the sand around OMAR in his "JESUS LOVES YOU" T-shirt as he spins light-up poi in full-arm circles, then sinks into a deep backbend, arms flung wide. The bold block letters on his chest stay readable as the poi leave long, smeared light trails in rings and spirals, like a long-exposure photo, haze glowing around them.
 - Camera: Wide, tripod at sand level, slow shutter look, gentle push-in.
 - Graphics (add in edit): none
 - Audio: none
@@ -557,11 +557,11 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 
 Three prompts Elliott can generate on their own, outside the film. Paste the global style line and the OMAR token text first. No reference photos of Omar.
 
-**OMAR-LS-01: Glove show, close.** 10s, 16:9, 1080p. OMAR at night on a beach, haze behind him, faces the camera and runs an LED glove show: ten fingertip lights in tight loops, tracers and figure-eights, hands snapping from fast to slow. He ends wide-armed, leaning back, eyes to the sky. Camera: medium close-up, handheld, slow orbit. Audio: melodic techno, kick drum, crowd murmur.
+**OMAR-LS-01: Glove show, close.** 10s, 16:9, 1080p. OMAR at night on a beach in a T-shirt that reads exactly "JESUS LOVES YOU" in bold block letters across the chest, haze behind him, faces the camera and runs an LED glove show: ten fingertip lights in tight loops, tracers and figure-eights, hands snapping from fast to slow. The shirt text stays readable. He ends wide-armed, leaning back, eyes to the sky. Camera: medium close-up, handheld, slow orbit. Audio: melodic techno, kick drum, crowd murmur.
 
-**OMAR-LS-02: Poi ring, long exposure.** 10s, 16:9, 1080p. OMAR spins light-up poi at the center of a ring of seated and kneeling ravers on the sand. The poi draw long, smeared light trails in circles and spirals, like a long-exposure photo. He sinks into a deep backbend, arms flung wide, then rises into a spin. Camera: wide, tripod at sand level, slow-shutter look, gentle push-in. Audio: poi whir, techno build, cheers on each pose.
+**OMAR-LS-02: Poi ring, long exposure.** 10s, 16:9, 1080p. OMAR in a T-shirt that reads exactly "JESUS LOVES YOU" in bold block letters across the chest spins light-up poi at the center of a ring of seated and kneeling ravers on the sand. The poi draw long, smeared light trails in circles and spirals, like a long-exposure photo. The shirt text stays readable between spins. He sinks into a deep backbend, arms flung wide, then rises into a spin. Camera: wide, tripod at sand level, slow-shutter look, gentle push-in. Audio: poi whir, techno build, cheers on each pose.
 
-**OMAR-LS-03: Silhouette against lasers.** 8s, 16:9, 1080p. OMAR on a low sand dune, silhouetted against green laser beams and haze, holds a dramatic pose with glowing gloves raised, then sweeps both arms down in one slow arc that leaves a light trail. Full commitment, joyful. Camera: low angle, wide, static. Audio: a held synth chord, then a kick drum lands.
+**OMAR-LS-03: Silhouette against lasers.** 8s, 16:9, 1080p. OMAR on a low sand dune in his "JESUS LOVES YOU" T-shirt, backlit so the bold block letters read as a dark shape on his chest against green laser beams and haze, holds a dramatic pose with glowing gloves raised, then sweeps both arms down in one slow arc that leaves a light trail. Full commitment, joyful. Camera: low angle, wide, static. Audio: a held synth chord, then a kick drum lands.
 
 ## Assembly notes
 
