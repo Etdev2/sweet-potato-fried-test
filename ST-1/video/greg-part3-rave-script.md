@@ -1,19 +1,19 @@
 # The Greg blunder. Part Three: The Drop
 
-Documentary parody with an authentic YouTube look. Runtime 9:00. 620 spoken words, at about 140 words a minute with a pause after each line, plus music-only rave sequences. Every spoken line matches `greg-part3-prompt-pack.md` word for word.
+Documentary parody with an authentic YouTube look. Runtime 9:00. 660 spoken words, at about 140 words a minute with a pause after each line, plus music-only rave sequences. Every spoken line matches `greg-part3-prompt-pack.md` word for word.
 
-Look: realistic people with invented faces, handheld cameras, real rooms, phone footage and drone shots. Greg is the same invented character from Parts 1 and 2. Only the rave is loud. The whole video is drug-free; any dazed moment is exhaustion, not intoxication. Music is Miss Monique-style melodic techno, original or licensed, never a real artist's track. The headliner is fictional and shown only from behind or in silhouette.
+Look: realistic people with invented faces, handheld cameras, real rooms, phone footage and drone shots. Greg is the same invented character from Parts 1 and 2. Only the rave is loud. The whole video is free of drugs, alcohol, and implied substances; Greg's euphoria comes from the music and two energy drinks. The deck-party stumble is travel exhaustion, nothing else. Music is Miss Monique-style melodic techno, original or licensed, never a real artist's track. The headliner is fictional and shown only from behind or in silhouette.
 
 
 ## [0:00] Cold open
 
-[0:00] *Cruise ship outdoor wooden deck at night: deep blue, purple and magenta club lights cutting through haze, white railings, cabin balconies and lifeboats behind a casual crowd holding red cups. No ship name or logo. Wide, handheld, slow pan across the deck. Lower note: "The night before Avalon"*
+[0:00] *Cruise ship outdoor wooden deck at night: deep blue, purple and magenta club lights cutting through haze, white railings, cabin balconies and lifeboats behind a casual crowd holding clear cups of ice water and phones. No ship name or logo. Wide, handheld, slow pan across the deck. Lower note: "The night before Avalon"*
 
 NARRATOR: The night before Avalon, Greg went to the deck party.
 
 [0:08] *GREG-BOOT near a white railing on the night deck, half-asleep on his feet, chin dipping then jerking up, bobbing slightly out of time with the music. Blue and magenta light on his face. Medium, handheld, slight bob with him.*
 
-[0:15] *GREG-BOOT stumbles hard forward on the wooden deck; an invented woman with long dark hair, a beige patterned maxi skirt, a dark top and a light-blue denim jacket over her shoulders catches him in an awkward, dazed hug. Both look startled and tired from standing too long, not drunk. Crowd with red cups under blue and purple lights behind them. Medium, handheld, a quick catch-up step as he falls.*
+[0:15] *GREG-BOOT stumbles hard forward on the wooden deck; an invented woman with long dark hair, a beige patterned maxi skirt, a dark top and a light-blue denim jacket over her shoulders catches him in an awkward, dazed hug. Both look startled and tired from standing too long after a travel day. Crowd with clear water cups under blue and purple lights behind them. Medium, handheld, a quick catch-up step as he falls.*
 
 NARRATOR: He lasted forty minutes. Exhaustion got him. A stranger got him next.
 
@@ -84,23 +84,23 @@ NARRATOR: The stage went up on the beach in an afternoon. By nine you could hear
 
 [2:50] *LED screens on the outdoor beach stage show slow starry blue and teal floating particles; the curved neon-green and white LED bands glow behind the DJ booth, a small lit pyramid to one side, the white arched shell canopy overhead, crowd silhouetted in front. Wide, handheld from mid crowd, slight sway.*
 
-[2:58] *GREG-BOOT at the edge of the sand, neon glow bracelet next to his orange festival wristband, looking up at the truss beam lights and neon-green LED bands with his mouth slightly open, the beams reflected in his mirrored sunglasses. Close-up, handheld, slow push-in.*
+[2:58] *GREG-BOOT at the edge of the sand, neon glow bracelet next to his orange festival wristband, staring up at the truss beam lights and neon-green LED bands with his jaw dropped and eyes wide, the beams reflected in his mirrored sunglasses, starting to bounce on his good foot. Close-up, handheld, slow push-in.*
 
-NARRATOR: Greg stood at the edge of the sand for twenty minutes. Witnesses describe him as stationary.
+NARRATOR: Greg stood at the edge of the sand with his mouth open. The beams did the rest.
 
 [3:08] *YouTube-style sit-down interview, lav mic visible, window or ring light, real room: a realistic woman in her 20s with an invented face, braids, a sequined bucket hat, glow paint on one cheek, seated on a lifeguard stand at night, laser light passing over her. Medium close-up, handheld, slight drift. Lower-third: "JADE / Raver"*
 
-JADE: There was a guy in a walking boot just looking at the speakers like they owed him money. I asked if he was okay. He said he was running the numbers.
+JADE: There was a guy in a walking boot staring at the lasers like they were a sunrise. Ten minutes later he was hugging strangers and asking their names.
 
 [3:20] *YouTube-style sit-down interview, lav mic visible, window or ring light, real room: RYAN, glow stick tucked behind his ear, seated on an overturned crate beside the sand stage at night, laser light passing over him. Medium close-up, handheld, slight drift. Lower-third: "RYAN / Elliott's friend"*
 
 RYAN: Elliott texted me: my old forecaster is at your rave, be nice. I found him by the speakers doing long division.
 
-[3:30] *RYAN walks up to GREG-BOOT at the edge of the sand, cracks a green glow stick and puts it in his hand, then gives him a cold unbranded energy drink can. GREG-BOOT turns the can to read the label. Medium, handheld, following RYAN in.*
+[3:30] *RYAN walks up to GREG-BOOT at the edge of the sand, cracks a green glow stick and puts it in his hand, then gives him a cold unbranded energy drink can. GREG-BOOT reads the label, opens it, takes a long drink, and his face goes wide-eyed and bright. Medium, handheld, following RYAN in.*
 
-NARRATOR: Ryan handed him a glow stick and an energy drink. Greg read the nutrition label.
+NARRATOR: Ryan handed him a glow stick and the first energy drink. Greg read the label. Then his whole face woke up.
 
-[3:38] *In the crowd beside the sand stage, OMAR in his "JESUS LOVES YOU" T-shirt plants himself in front of GREG-BOOT and gives him a private glove show: fingertip LEDs tracing loops and figure-eights inches from Greg's face, then a wide-armed pose, leaning back, eyes to the sky. The bold block letters on Omar's chest stay readable between the light trails. GREG-BOOT stares at the lights, mouth open, glow stick forgotten in his hand. Medium close-up, handheld, circling the two of them.*
+[3:38] *In the crowd beside the sand stage, OMAR in his "JESUS LOVES YOU" T-shirt plants himself in front of GREG-BOOT and gives him a private glove show: fingertip LEDs tracing loops and figure-eights inches from Greg's face, then a wide-armed pose, leaning back, eyes to the sky. The bold block letters on Omar's chest stay readable between the light trails. GREG-BOOT watches with his jaw dropped, eyes huge, glow stick forgotten, then pulls Omar into a sudden grateful hug. Medium close-up, handheld, circling the two of them.*
 
 NARRATOR: Then Omar found him. Omar gives everybody light shows.
 
@@ -110,7 +110,7 @@ OMAR: I told him the lights are a gift. He didn't blink for four minutes. After,
 
 [3:54] *YouTube-style sit-down interview, lav mic visible, window or ring light, real room: GREG-BOOT, beach chair set. Close-up, static.*
 
-GREG: Ticket, bracelet, ferry back. It came to less than one Ohtani at-bat. I did the math. Then I stopped doing the math.
+GREG: One energy drink in. Glow stick in my hand. I stopped doing the math. Everybody suddenly looked like someone I already knew.
 
 
 ## [4:03] XV. The build
@@ -127,17 +127,19 @@ NARRATOR: The headliner played a set in the Miss Monique style. Twelve-minute bu
 
 [4:33] *A ring of ravers sits and kneels on the sand around OMAR in his "JESUS LOVES YOU" T-shirt as he spins light-up poi in full-arm circles, then sinks into a deep backbend, arms flung wide. The bold block letters on his chest stay readable as the poi leave long, smeared light trails in rings and spirals, like a long-exposure photo, haze glowing around them. Wide, tripod at sand level, slow shutter look, gentle push-in.*
 
-[4:41] *RYAN grabs GREG-BOOT by the wrist and pulls him through the crowd toward the stage barrier, GREG-BOOT hopping on the good foot, the boot swinging, dancers stepping aside and cheering him on, hazy white truss beams and a purple overhead wash crossing above them. Handheld, backpedaling in front of them through the crowd.*
+[4:41] *RYAN presses a second cold unbranded energy drink into GREG-BOOT's hand and pulls him through the crowd toward the stage barrier. GREG-BOOT hops on the good foot, boot swinging, already wearing a few colorful kandi bracelets traded from strangers, hugging people as he passes, wide euphoric grin, hazy white truss beams and a purple overhead wash crossing above them. Handheld, backpedaling in front of them through the crowd.*
+
+NARRATOR: Ryan gave him the second energy drink. Greg did not read the label this time.
 
 [4:49] *YouTube-style sit-down interview, lav mic visible, window or ring light, real room: ELLIOTT, OFFICE set, a phone in his hand. Close-up, slight drift. Lower-third: "ELLIOTT / Chief Financial Officer"*
 
 ELLIOTT: Carolina sent me a video at eleven at night. No caption. I watched it four times. I knew the shirt before I knew the face.
 
-[5:01] *Shaky vertical phone video, pillarboxed: GREG-BOOT in the middle of the crowd in his dark pineapple Hawaiian shirt and navy shark-print board shorts, slowly starting to nod his head, orange festival wristband and glow bracelet raised. Handheld phone, zooming in and out. Overlay: "VIDEO SENT TO ELLIOTT, 11:02 PM"*
+[5:01] *Shaky vertical phone video, pillarboxed: GREG-BOOT in the middle of the crowd in his dark pineapple Hawaiian shirt and navy shark-print board shorts, kandi bracelets stacking up both forearms, glow sticks in both hands, orange festival wristband still on, dancing hard on his good foot with a wide-eyed euphoric grin, hugging a stranger mid-bounce. Handheld phone, zooming in and out. Overlay: "VIDEO SENT TO ELLIOTT, 11:02 PM"*
 
 [5:10] *YouTube-style sit-down interview, lav mic visible, window or ring light, real room: GREG-BOOT, beach chair set, eyes on the water. Close-up, slow push-in.*
 
-GREG: The song kept building and building. I kept thinking, it's too long, it's too much. And then I thought, maybe I always say that.
+GREG: The song kept building. I hugged three people I had just met. One of them put a kandi bracelet on my arm. I still have it.
 
 
 ## [5:20] XVI. The drop
@@ -148,21 +150,21 @@ GREG: The song kept building and building. I kept thinking, it's too long, it's 
 
 [5:30] *The drop hits: a full deep-red wash floods the outdoor beach stage and crowd, white and neon-green truss beams fan out over the sand and water, LED screens burst into dense teal particle storms, CO2 jets blast white plumes from the stage front, phones and wristbands in the air. Wide, handheld, the camera jolted by the bass.*
 
-[5:38] *At the front barrier, RYAN hoists GREG-BOOT onto his shoulders as the drop lands. GREG-BOOT rises above the crowd, both arms up, the black walking boot raised high in the air, glow stick in his fist, deep-red wash and neon-green LED bands behind him. Medium wide, handheld from the barrier, tilting up.*
+[5:38] *At the front barrier, RYAN hoists GREG-BOOT onto his shoulders as the drop lands. GREG-BOOT rises above the crowd, both arms up stacked with colorful kandi bracelets, the black walking boot raised high, glow sticks in both fists, wide-eyed euphoric grin, deep-red wash and neon-green LED bands behind him. Medium wide, handheld from the barrier, tilting up.*
 
-[5:46] *GREG-BOOT in the crowd, both arms up, dancing with his weight on the good foot, the boot planted like an anchor, a huge grin, deep-red wash and white truss beams crossing above him, phones and wristbands raised around him. Medium, handheld, circling him.*
+[5:46] *GREG-BOOT in the crowd, nonstop dancing on his good foot, boot planted like an anchor, both arms up thick with traded kandi bracelets, glow sticks whipping, jaw dropped in a wide euphoric laugh as he pulls a stranger into a quick hug, deep-red wash and white truss beams crossing above him. Medium, handheld, circling him.*
 
 [5:54] *A few feet away in the crowd, CAROLYN and MARCEL spot GREG-BOOT dancing on one foot. They point, grab each other, then turn to him and cheer, arms pumping, MARCEL yelling and clapping over his head, CAROLYN jumping in place. Medium, handheld, swinging from the couple to GREG-BOOT and back.*
 
 [6:02] *YouTube-style sit-down interview, lav mic visible, window or ring light, real room: CAROLYN and MARCEL side by side on the crate set, laser light passing over them. Medium two-shot, handheld, slight drift. Lower-third: "CAROLYN & MARCEL / Ravers"*
 
-MARCEL: We didn't know him. We cheered anyway.
+MARCEL: We didn't know him. He hugged us anyway.
 
-CAROLYN: The boot had rhythm.
+CAROLYN: The boot had rhythm. The kandi kept growing.
 
 [6:09] *Drone shot at night pulling back and up from the beach: the outdoor stage's curved LED bands and white arched shell glowing red then green over the crowd, beams over Isthmus Cove, the Isthmus pier, the dark moored-boat field, the narrow neck of land behind the stage and the open Pacific beyond it. Drone, slow pull back and rise.*
 
-NARRATOR: For eight minutes, the man who passed on seven hundred million dollars didn't pass on anything.
+NARRATOR: Two energy drinks, one long build, and for eight minutes the man who passed on seven hundred million dollars didn't pass on anything.
 
 [6:19] *Drone shot at night flying slowly along the narrow isthmus from Isthmus Cove toward Catalina Harbor: the outdoor beach stage's neon-green and white beams and magenta accents fan out over both bays at once, skimming the water of Isthmus Cove on one side and the Little Harbor cove on the other, the dark green hills on either side, the open Pacific beyond. Drone, slow lateral track along the neck, steady altitude.*
 
@@ -176,7 +178,7 @@ MARKUS: I don't follow techno. I followed the boot. The boot never missed a beat
 
 [6:57] *YouTube-style sit-down interview, lav mic visible, window or ring light, real room: RYAN, crate set, grinning. Close-up, handheld.*
 
-RYAN: I've had a lot of people on my shoulders. Nobody ever held up a medical boot before. The whole front row cheered for the boot.
+RYAN: I've had a lot of people on my shoulders. Nobody ever held up a medical boot and a pile of kandi before. The whole front row cheered for the boot.
 
 [7:07] *FRED's desk terminal, screen glowing blue, a faint neon-green reflection drifting across it. Close-up, static.*
 
@@ -189,13 +191,13 @@ FRED: The drop arrived at minute twelve, as forecast. Greg did not ask me. I am 
 
 [7:21] *Haze drifting over an emptying beach on Isthmus Cove after the set, the outdoor stage's LED bands dimming, the white arched shell canopy going dark, a few dancers sitting on the sand, moored boats rocking, the dark green hills behind. Wide, tripod, slow pan. Lower note: "1:14 AM"*
 
-NARRATOR: After the set, Greg stayed on the sand until the crew turned off the lights.
+NARRATOR: After the set, Greg kept dancing. He hugged the crew. He danced until the lights went out.
 
-[7:31] *GREG-BOOT and JADE sit on the sand sharing a bottle of water, he points at the truss rigs and LED bands being packed up and explains something with his hands. Medium wide, handheld, from behind and to the side.*
+[7:31] *GREG-BOOT, arms stacked with colorful kandi bracelets, still bouncing on his good foot, pulls JADE into a sweaty happy hug, then they sit on the sand with bottles of water while he points at the truss rigs coming down, talking fast, glow sticks stuck in the sand beside them. Medium wide, handheld, from behind and to the side.*
 
 [7:41] *YouTube-style sit-down interview, lav mic visible, window or ring light, real room: JADE, lifeguard stand set, laughing. Close-up, handheld.*
 
-JADE: He explained the cost of the lasers per minute. Then he said it was worth it. He seemed surprised he said it.
+JADE: He thanked me like we'd known each other for years. Then he asked if I wanted to trade kandi. His arms were already full.
 
 [7:50] *YouTube-style sit-down interview, lav mic visible, window or ring light, real room: CAROLINA, CREATIVE STUDIO set, warm. Close-up, static.*
 
@@ -206,9 +208,9 @@ CAROLINA: As a brand story, it's redemption. Same shirt. New ending. The audienc
 
 [8:02] *Black card. White text fades up. Static. Card: "EPILOGUE"*
 
-[8:06] *Dawn on the Isthmus Cove beach: the outdoor stage half dismantled, white shell canopy frame still up, gulls on the sand, GREG-BOOT asleep in a beach chair, orange festival wristband and faded glow bracelet on his wrist, the moored boats and the Isthmus pier in soft light, green hills behind. Wide, tripod, very slow push-in.*
+[8:06] *Dawn on the Isthmus Cove beach: the outdoor stage half dismantled, white shell canopy frame still up, gulls on the sand, GREG-BOOT asleep in a beach chair after dancing until sunrise, colorful kandi bracelets stacked up both forearms, orange festival wristband and faded glow bracelets still on, two empty unbranded energy drink cans by the chair leg, the moored boats and the Isthmus pier in soft light, green hills behind. Wide, tripod, very slow push-in.*
 
-NARRATOR: Greg nearly missed his ship. The ship waited. He did not ask how much that cost.
+NARRATOR: Greg danced until sunrise. He nearly missed his ship. The ship waited.
 
 [8:16] *YouTube-style sit-down interview, lav mic visible, window or ring light, real room: ELLIOTT, OFFICE set, the warmest light. Close-up, slight drift.*
 
@@ -216,11 +218,11 @@ ELLIOTT: I fired Greg for stopping at the first number. Watching that video, he 
 
 [8:30] *YouTube-style sit-down interview, lav mic visible, window or ring light, real room: GREG-BOOT, beach chair set, now at dawn, sunglasses down. Close-up, tripod.*
 
-GREG: People ask if I regret the memo. I regret the dock. The memo, I've made my peace with. I'm having the time of my life. Write that down.
+GREG: People ask if I regret the memo. I regret the dock. Last night was the music and two energy drinks. I'm having the time of my life. Write that down.
 
-[8:43] *GREG-BOOT walks carefully down the Isthmus pier toward the waiting shore boat back to Avalon, stepping around a wet patch, orange festival wristband on his right wrist, moored boats and green hills around him. Wide, from behind, handheld, slight sway.*
+[8:43] *GREG-BOOT walks carefully down the Isthmus pier toward the waiting shore boat back to Avalon, stepping around a wet patch, orange festival wristband and a stack of colorful kandi bracelets on both arms, moored boats and green hills around him. Wide, from behind, handheld, slight sway.*
 
-[8:53] *The empty beach chair on the sand at dawn, a faded glow bracelet left on the armrest. Fade to black. Static, fade to black. End card: disclaimer (see assembly notes).*
+[8:53] *The empty beach chair on the sand at dawn, a faded glow bracelet and a few colorful kandi bracelets left on the armrest, two empty energy drink cans in the sand. Fade to black. Static, fade to black. End card: disclaimer (see assembly notes).*
 
 
 ## [9:00] End

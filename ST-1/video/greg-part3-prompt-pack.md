@@ -1,6 +1,10 @@
 # Grok Imagine prompt pack: The Greg blunder, Part Three: The Drop
 
-Source script: [greg-part3-rave-script.md](greg-part3-rave-script.md). 63 shots, 9:00, 620 spoken words. Script and pack are generated from one shot list, so the spoken lines match. Limits and workflow follow the Part 1 and 2 pack (`grok-prompt-pack.md`).
+Source script: [greg-part3-rave-script.md](greg-part3-rave-script.md). 63 shots, 9:00, 660 spoken words. Script and pack are generated from one shot list, so the spoken lines match. Limits and workflow follow the Part 1 and 2 pack (`grok-prompt-pack.md`).
+
+## Test shots
+
+Start here for look and character checks: **P3-S01** to **P3-S03** (cruise-deck cold open) and Omar's **P3-S27** (glove show with Greg).
 
 ## Settings for every clip
 
@@ -22,7 +26,7 @@ Add to every rave shot: "outdoor beach stage on sand by the water, curved layere
 | Token | Paste this |
 | --- | --- |
 | GREG | a realistic man in his early 40s with an invented face, short slightly thinning dark hair, round friendly face, a bit sunburned, blue mirrored sunglasses pushed up on his head, a dark short-sleeve button-down Hawaiian shirt with a light pineapple and palm-frond print and sleeves slightly rolled, dark jeans, an orange festival wristband on his right wrist |
-| GREG-BOOT | GREG in the same dark Hawaiian pineapple-and-palm shirt with sleeves slightly rolled and blue mirrored sunglasses, navy board shorts with a small white repeating shark print instead of jeans, a black medical walking boot on his right foot and a white sneaker on his left, an orange festival wristband on his right wrist |
+| GREG-BOOT | GREG in the same dark Hawaiian pineapple-and-palm shirt with sleeves slightly rolled and blue mirrored sunglasses, navy board shorts with a small white repeating shark print instead of jeans, a black medical walking boot on his right foot and a white sneaker on his left, an orange festival wristband on his right wrist; at the rave he turns wide-eyed and euphoric, stacks colorful kandi bracelets up both forearms traded from strangers, and carries glow sticks; no drugs or alcohol |
 | ELLIOTT | a realistic CFO in his late 30s to 40s with an invented face, neat short hair, navy suit, open collar, calm |
 | CAROLINA | a realistic woman in her late 30s with an invented face, dark shoulder-length hair, cream blazer, minimal gold jewelry, warm and sharp |
 | MARKUS | a realistic man in his 60s with an invented face, fictional owner Markus Schultz, silver hair, charcoal suit, no tie |
@@ -61,7 +65,7 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 ### Cold open (0:00)
 
 **P3-S01** | 0:00 | 8s | 8s, 16:9, 1080p
-- Prompt: Cruise ship outdoor wooden deck at night: deep blue, purple and magenta club lights cutting through haze, white railings, cabin balconies and lifeboats behind a casual crowd holding red cups. No ship name or logo.
+- Prompt: Cruise ship outdoor wooden deck at night: deep blue, purple and magenta club lights cutting through haze, white railings, cabin balconies and lifeboats behind a casual crowd holding clear cups of ice water and phones. No ship name or logo.
 - Camera: Wide, handheld, slow pan across the deck.
 - Graphics (add in edit): Lower note: "The night before Avalon"
 - Audio: NARRATOR: "The night before Avalon, Greg went to the deck party."
@@ -73,11 +77,11 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 - Camera: Medium, handheld, slight bob with him.
 - Graphics (add in edit): none
 - Audio: none
-- Native audio cue: Muffled deck music. A red cup clinks on a rail.
+- Native audio cue: Muffled deck music. A plastic cup clinks on a rail.
 - Reference slots: REF-LOC-05
 
 **P3-S03** | 0:15 | 9s | 9s, 16:9, 1080p
-- Prompt: GREG-BOOT stumbles hard forward on the wooden deck; an invented woman with long dark hair, a beige patterned maxi skirt, a dark top and a light-blue denim jacket over her shoulders catches him in an awkward, dazed hug. Both look startled and tired from standing too long, not drunk. Crowd with red cups under blue and purple lights behind them.
+- Prompt: GREG-BOOT stumbles hard forward on the wooden deck; an invented woman with long dark hair, a beige patterned maxi skirt, a dark top and a light-blue denim jacket over her shoulders catches him in an awkward, dazed hug. Both look startled and tired from standing too long after a travel day. Crowd with clear water cups under blue and purple lights behind them.
 - Camera: Medium, handheld, a quick catch-up step as he falls.
 - Graphics (add in edit): none
 - Audio: NARRATOR: "He lasted forty minutes. Exhaustion got him. A stranger got him next."
@@ -235,10 +239,10 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 - Reference slots: REF-VEN-01, REF-VEN-02, REF-VEN-04
 
 **P3-S23** | 2:58 | 10s | 10s, 16:9, 1080p
-- Prompt: GREG-BOOT at the edge of the sand, neon glow bracelet next to his orange festival wristband, looking up at the truss beam lights and neon-green LED bands with his mouth slightly open, the beams reflected in his mirrored sunglasses.
+- Prompt: GREG-BOOT at the edge of the sand, neon glow bracelet next to his orange festival wristband, staring up at the truss beam lights and neon-green LED bands with his jaw dropped and eyes wide, the beams reflected in his mirrored sunglasses, starting to bounce on his good foot.
 - Camera: Close-up, handheld, slow push-in.
 - Graphics (add in edit): none
-- Audio: NARRATOR: "Greg stood at the edge of the sand for twenty minutes. Witnesses describe him as stationary."
+- Audio: NARRATOR: "Greg stood at the edge of the sand with his mouth open. The beams did the rest."
 - Native audio cue: Arpeggio climbing. Bass muffled, as if heard from outside.
 - Reference slots: REF-VEN-01
 
@@ -246,7 +250,7 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 - Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: a realistic woman in her 20s with an invented face, braids, a sequined bucket hat, glow paint on one cheek, seated on a lifeguard stand at night, laser light passing over her.
 - Camera: Medium close-up, handheld, slight drift.
 - Graphics (add in edit): Lower-third: "JADE / Raver"
-- Audio: JADE: "There was a guy in a walking boot just looking at the speakers like they owed him money. I asked if he was okay. He said he was running the numbers."
+- Audio: JADE: "There was a guy in a walking boot staring at the lasers like they were a sunrise. Ten minutes later he was hugging strangers and asking their names."
 - Native audio cue: Muffled set behind her.
 
 **P3-S25** | 3:20 | 10s | 10s, 16:9, 1080p
@@ -257,14 +261,14 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 - Native audio cue: Muffled set behind him.
 
 **P3-S26** | 3:30 | 8s | 8s, 16:9, 1080p
-- Prompt: RYAN walks up to GREG-BOOT at the edge of the sand, cracks a green glow stick and puts it in his hand, then gives him a cold unbranded energy drink can. GREG-BOOT turns the can to read the label.
+- Prompt: RYAN walks up to GREG-BOOT at the edge of the sand, cracks a green glow stick and puts it in his hand, then gives him a cold unbranded energy drink can. GREG-BOOT reads the label, opens it, takes a long drink, and his face goes wide-eyed and bright.
 - Camera: Medium, handheld, following RYAN in.
 - Graphics (add in edit): none
-- Audio: NARRATOR: "Ryan handed him a glow stick and an energy drink. Greg read the nutrition label."
+- Audio: NARRATOR: "Ryan handed him a glow stick and the first energy drink. Greg read the label. Then his whole face woke up."
 - Native audio cue: Glow stick snap. Can hiss. Kick drum louder.
 
 **P3-S27** | 3:38 | 8s | 8s, 16:9, 1080p
-- Prompt: In the crowd beside the sand stage, OMAR in his "JESUS LOVES YOU" T-shirt plants himself in front of GREG-BOOT and gives him a private glove show: fingertip LEDs tracing loops and figure-eights inches from Greg's face, then a wide-armed pose, leaning back, eyes to the sky. The bold block letters on Omar's chest stay readable between the light trails. GREG-BOOT stares at the lights, mouth open, glow stick forgotten in his hand.
+- Prompt: In the crowd beside the sand stage, OMAR in his "JESUS LOVES YOU" T-shirt plants himself in front of GREG-BOOT and gives him a private glove show: fingertip LEDs tracing loops and figure-eights inches from Greg's face, then a wide-armed pose, leaning back, eyes to the sky. The bold block letters on Omar's chest stay readable between the light trails. GREG-BOOT watches with his jaw dropped, eyes huge, glow stick forgotten, then pulls Omar into a sudden grateful hug.
 - Camera: Medium close-up, handheld, circling the two of them.
 - Graphics (add in edit): none
 - Audio: NARRATOR: "Then Omar found him. Omar gives everybody light shows."
@@ -282,7 +286,7 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 - Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: GREG-BOOT, beach chair set.
 - Camera: Close-up, static.
 - Graphics (add in edit): none
-- Audio: GREG: "Ticket, bracelet, ferry back. It came to less than one Ohtani at-bat. I did the math. Then I stopped doing the math."
+- Audio: GREG: "One energy drink in. Glow stick in my hand. I stopped doing the math. Everybody suddenly looked like someone I already knew."
 - Native audio cue: Waves.
 
 
@@ -327,11 +331,11 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 - Native audio cue: Build continues. Poi whir. The ring cheers on each pose.
 
 **P3-S35** | 4:41 | 8s | 8s, 16:9, 1080p
-- Prompt: RYAN grabs GREG-BOOT by the wrist and pulls him through the crowd toward the stage barrier, GREG-BOOT hopping on the good foot, the boot swinging, dancers stepping aside and cheering him on, hazy white truss beams and a purple overhead wash crossing above them.
+- Prompt: RYAN presses a second cold unbranded energy drink into GREG-BOOT's hand and pulls him through the crowd toward the stage barrier. GREG-BOOT hops on the good foot, boot swinging, already wearing a few colorful kandi bracelets traded from strangers, hugging people as he passes, wide euphoric grin, hazy white truss beams and a purple overhead wash crossing above them.
 - Camera: Handheld, backpedaling in front of them through the crowd.
 - Graphics (add in edit): none
-- Audio: none
-- Native audio cue: Build, rising snare roll, crowd whoops as they pass.
+- Audio: NARRATOR: "Ryan gave him the second energy drink. Greg did not read the label this time."
+- Native audio cue: Build, rising snare roll, crowd whoops as they pass. Can crack.
 - Reference slots: REF-VEN-01, REF-VEN-04
 
 **P3-S36** | 4:49 | 12s | 12s, 16:9, 1080p
@@ -342,7 +346,7 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 - Native audio cue: Room tone.
 
 **P3-S37** | 5:01 | 9s | 9s, 16:9, 1080p
-- Prompt: Shaky vertical phone video, pillarboxed: GREG-BOOT in the middle of the crowd in his dark pineapple Hawaiian shirt and navy shark-print board shorts, slowly starting to nod his head, orange festival wristband and glow bracelet raised.
+- Prompt: Shaky vertical phone video, pillarboxed: GREG-BOOT in the middle of the crowd in his dark pineapple Hawaiian shirt and navy shark-print board shorts, kandi bracelets stacking up both forearms, glow sticks in both hands, orange festival wristband still on, dancing hard on his good foot with a wide-eyed euphoric grin, hugging a stranger mid-bounce.
 - Camera: Handheld phone, zooming in and out.
 - Graphics (add in edit): Overlay: "VIDEO SENT TO ELLIOTT, 11:02 PM"
 - Audio: none
@@ -353,7 +357,7 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 - Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: GREG-BOOT, beach chair set, eyes on the water.
 - Camera: Close-up, slow push-in.
 - Graphics (add in edit): none
-- Audio: GREG: "The song kept building and building. I kept thinking, it's too long, it's too much. And then I thought, maybe I always say that."
+- Audio: GREG: "The song kept building. I hugged three people I had just met. One of them put a kandi bracelet on my arm. I still have it."
 - Native audio cue: Waves. A single sustained pad note.
 
 
@@ -383,7 +387,7 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 - Reference slots: REF-VEN-01, REF-VEN-02, REF-VEN-04
 
 **P3-S42** | 5:38 | 8s | 8s, 16:9, 1080p
-- Prompt: At the front barrier, RYAN hoists GREG-BOOT onto his shoulders as the drop lands. GREG-BOOT rises above the crowd, both arms up, the black walking boot raised high in the air, glow stick in his fist, deep-red wash and neon-green LED bands behind him.
+- Prompt: At the front barrier, RYAN hoists GREG-BOOT onto his shoulders as the drop lands. GREG-BOOT rises above the crowd, both arms up stacked with colorful kandi bracelets, the black walking boot raised high, glow sticks in both fists, wide-eyed euphoric grin, deep-red wash and neon-green LED bands behind him.
 - Camera: Medium wide, handheld from the barrier, tilting up.
 - Graphics (add in edit): none
 - Audio: none
@@ -391,7 +395,7 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 - Reference slots: REF-VEN-01, REF-VEN-04
 
 **P3-S43** | 5:46 | 8s | 8s, 16:9, 1080p
-- Prompt: GREG-BOOT in the crowd, both arms up, dancing with his weight on the good foot, the boot planted like an anchor, a huge grin, deep-red wash and white truss beams crossing above him, phones and wristbands raised around him.
+- Prompt: GREG-BOOT in the crowd, nonstop dancing on his good foot, boot planted like an anchor, both arms up thick with traded kandi bracelets, glow sticks whipping, jaw dropped in a wide euphoric laugh as he pulls a stranger into a quick hug, deep-red wash and white truss beams crossing above him.
 - Camera: Medium, handheld, circling him.
 - Graphics (add in edit): none
 - Audio: none
@@ -410,14 +414,14 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 - Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: CAROLYN and MARCEL side by side on the crate set, laser light passing over them.
 - Camera: Medium two-shot, handheld, slight drift.
 - Graphics (add in edit): Lower-third: "CAROLYN & MARCEL / Ravers"
-- Audio: MARCEL: "We didn't know him. We cheered anyway."; CAROLYN: "The boot had rhythm."
+- Audio: MARCEL: "We didn't know him. He hugged us anyway."; CAROLYN: "The boot had rhythm. The kandi kept growing."
 - Native audio cue: Muffled set behind them.
 
 **P3-S46** | 6:09 | 10s | 10s, 16:9, 1080p
 - Prompt: Drone shot at night pulling back and up from the beach: the outdoor stage's curved LED bands and white arched shell glowing red then green over the crowd, beams over Isthmus Cove, the Isthmus pier, the dark moored-boat field, the narrow neck of land behind the stage and the open Pacific beyond it.
 - Camera: Drone, slow pull back and rise.
 - Graphics (add in edit): none
-- Audio: NARRATOR: "For eight minutes, the man who passed on seven hundred million dollars didn't pass on anything."
+- Audio: NARRATOR: "Two energy drinks, one long build, and for eight minutes the man who passed on seven hundred million dollars didn't pass on anything."
 - Native audio cue: Drop rolls on, heard from above, wind on the drone.
 - Reference slots: REF-LOC-01, REF-LOC-02, REF-VEN-01, REF-VEN-02, REF-VEN-04, REF-VEN-05
 
@@ -455,7 +459,7 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 - Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: RYAN, crate set, grinning.
 - Camera: Close-up, handheld.
 - Graphics (add in edit): none
-- Audio: RYAN: "I've had a lot of people on my shoulders. Nobody ever held up a medical boot before. The whole front row cheered for the boot."
+- Audio: RYAN: "I've had a lot of people on my shoulders. Nobody ever held up a medical boot and a pile of kandi before. The whole front row cheered for the boot."
 - Native audio cue: Muffled set behind him.
 
 **P3-S52** | 7:07 | 10s | 10s, 16:9, 1080p
@@ -480,12 +484,12 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 - Prompt: Haze drifting over an emptying beach on Isthmus Cove after the set, the outdoor stage's LED bands dimming, the white arched shell canopy going dark, a few dancers sitting on the sand, moored boats rocking, the dark green hills behind.
 - Camera: Wide, tripod, slow pan.
 - Graphics (add in edit): Lower note: "1:14 AM"
-- Audio: NARRATOR: "After the set, Greg stayed on the sand until the crew turned off the lights."
+- Audio: NARRATOR: "After the set, Greg kept dancing. He hugged the crew. He danced until the lights went out."
 - Native audio cue: Crowd dispersing, distant laughter, waves returning.
 - Reference slots: REF-LOC-01, REF-LOC-02, REF-VEN-01, REF-VEN-02
 
 **P3-S55** | 7:31 | 10s | 10s, 16:9, 1080p
-- Prompt: GREG-BOOT and JADE sit on the sand sharing a bottle of water, he points at the truss rigs and LED bands being packed up and explains something with his hands.
+- Prompt: GREG-BOOT, arms stacked with colorful kandi bracelets, still bouncing on his good foot, pulls JADE into a sweaty happy hug, then they sit on the sand with bottles of water while he points at the truss rigs coming down, talking fast, glow sticks stuck in the sand beside them.
 - Camera: Medium wide, handheld, from behind and to the side.
 - Graphics (add in edit): none
 - Audio: none
@@ -496,7 +500,7 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 - Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: JADE, lifeguard stand set, laughing.
 - Camera: Close-up, handheld.
 - Graphics (add in edit): none
-- Audio: JADE: "He explained the cost of the lasers per minute. Then he said it was worth it. He seemed surprised he said it."
+- Audio: JADE: "He thanked me like we'd known each other for years. Then he asked if I wanted to trade kandi. His arms were already full."
 - Native audio cue: Waves.
 
 **P3-S57** | 7:50 | 12s | 12s, 16:9, 1080p
@@ -517,10 +521,10 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 - Native audio cue: Soft piano returns.
 
 **P3-S59** | 8:06 | 10s | 10s, 16:9, 1080p
-- Prompt: Dawn on the Isthmus Cove beach: the outdoor stage half dismantled, white shell canopy frame still up, gulls on the sand, GREG-BOOT asleep in a beach chair, orange festival wristband and faded glow bracelet on his wrist, the moored boats and the Isthmus pier in soft light, green hills behind.
+- Prompt: Dawn on the Isthmus Cove beach: the outdoor stage half dismantled, white shell canopy frame still up, gulls on the sand, GREG-BOOT asleep in a beach chair after dancing until sunrise, colorful kandi bracelets stacked up both forearms, orange festival wristband and faded glow bracelets still on, two empty unbranded energy drink cans by the chair leg, the moored boats and the Isthmus pier in soft light, green hills behind.
 - Camera: Wide, tripod, very slow push-in.
 - Graphics (add in edit): none
-- Audio: NARRATOR: "Greg nearly missed his ship. The ship waited. He did not ask how much that cost."
+- Audio: NARRATOR: "Greg danced until sunrise. He nearly missed his ship. The ship waited."
 - Native audio cue: Gulls, waves, a shore boat horn at the pier.
 - Reference slots: REF-LOC-01, REF-LOC-02
 
@@ -535,11 +539,11 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 - Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: GREG-BOOT, beach chair set, now at dawn, sunglasses down.
 - Camera: Close-up, tripod.
 - Graphics (add in edit): none
-- Audio: GREG: "People ask if I regret the memo. I regret the dock. The memo, I've made my peace with. I'm having the time of my life. Write that down."
+- Audio: GREG: "People ask if I regret the memo. I regret the dock. Last night was the music and two energy drinks. I'm having the time of my life. Write that down."
 - Native audio cue: Waves. Piano.
 
 **P3-S62** | 8:43 | 10s | 10s, 16:9, 1080p
-- Prompt: GREG-BOOT walks carefully down the Isthmus pier toward the waiting shore boat back to Avalon, stepping around a wet patch, orange festival wristband on his right wrist, moored boats and green hills around him.
+- Prompt: GREG-BOOT walks carefully down the Isthmus pier toward the waiting shore boat back to Avalon, stepping around a wet patch, orange festival wristband and a stack of colorful kandi bracelets on both arms, moored boats and green hills around him.
 - Camera: Wide, from behind, handheld, slight sway.
 - Graphics (add in edit): none
 - Audio: none
@@ -547,7 +551,7 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 - Reference slots: REF-LOC-01, REF-LOC-02
 
 **P3-S63** | 8:53 | 7s | 7s, 16:9, 1080p
-- Prompt: The empty beach chair on the sand at dawn, a faded glow bracelet left on the armrest. Fade to black.
+- Prompt: The empty beach chair on the sand at dawn, a faded glow bracelet and a few colorful kandi bracelets left on the armrest, two empty energy drink cans in the sand. Fade to black.
 - Camera: Static, fade to black.
 - Graphics (add in edit): End card: disclaimer (see assembly notes).
 - Audio: none
@@ -569,6 +573,6 @@ Three prompts Elliott can generate on their own, outside the film. Paste the glo
 2. Pacing. Keep the first half quiet. The rave chapters (XIV to XVI) run louder and faster. After each burst, cut straight back to a plain interview.
 3. The drop (P3-S40 to P3-S42). Hold the blackout a full two seconds before the drop hits.
 4. Music. Use original or licensed melodic techno in a Miss Monique style. Don't use her tracks, name or likeness. The HEADLINER is never shown from the front.
-5. Greg looks the same as in Parts 1 and 2. Generate one still each of GREG-BOOT, RYAN, OMAR, CAROLYN and MARCEL from the token text and reuse them. Never use a real photo of any of them.
+5. Greg keeps the pineapple Hawaiian shirt, shark board shorts, boot and orange wristband from earlier; add kandi stacks in later rave stills. Generate one still each of GREG-BOOT (early and full-kandi), RYAN, OMAR, CAROLYN and MARCEL from the token text and reuse them. Never use a real photo of any of them. No drugs, alcohol, or substance cues in any frame.
 6. Check every clip for real logos, ship names, readable signage or real faces, and regenerate any that has one.
 7. Disclaimer card at the end: "Fictional parody. Greg (invented face, not based on any real person), Fred, Elliott as CFO, Carolina, Markus Schultz, Jade, Ryan, Omar, Carolyn and Marcel (invented looks, not their likenesses), the headliner and the Sand Stage event are invented. The real Dodgers ownership is not depicted. Miss Monique-style describes the music genre only. She does not appear and is not involved. Avalon and Two Harbors appear as locations."
