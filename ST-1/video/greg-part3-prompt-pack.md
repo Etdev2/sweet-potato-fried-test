@@ -1,6 +1,6 @@
 # Grok Imagine prompt pack: The Greg blunder, Part Three: The Drop
 
-Source script: [greg-part3-rave-script.md](greg-part3-rave-script.md). 58 shots, 8:30, 584 spoken words. Script and pack are generated from one shot list, so the spoken lines match. Limits and workflow follow the Part 1 and 2 pack (`grok-prompt-pack.md`).
+Source script: [greg-part3-rave-script.md](greg-part3-rave-script.md). 60 shots, 8:45, 595 spoken words. Script and pack are generated from one shot list, so the spoken lines match. Limits and workflow follow the Part 1 and 2 pack (`grok-prompt-pack.md`).
 
 ## Settings for every clip
 
@@ -30,30 +30,32 @@ Add to every rave shot: "concert-grade production, real lasers and haze, LED wal
 | JADE | a realistic woman in her 20s with an invented face, braids, sequined bucket hat, glow paint on one cheek, oversized plain black t-shirt |
 | RYAN | a realistic man about 35 with an invented face, lanky build, dark curly hair, tanned skin, plain teal t-shirt, an energetic grin; a generic character description, not based on any real person or photo |
 | OMAR | a realistic man about 40 with an invented face, wiry build, tousled dark curly hair, fitted charcoal long-sleeve rash guard, khaki cargo pants, LED gloves or light-up poi, an intense, joyful showman expression; a generic character description, not based on any real person or photo |
+| CAROLYN | a realistic woman in her 40s with an invented face, red top, white skirt, glow bracelets on both wrists, a big laugh; a generic character description, not based on any real person or photo |
+| MARCEL | a realistic man in his 40s with an invented face, teal floral aloha shirt, white shorts, sandals, a wide grin; a generic character description, not based on any real person or photo |
 | HEADLINER | a fictional DJ shown only from behind or as a dark silhouette against the LED wall, black hoodie, headphones on one ear, face never shown, not based on any real DJ |
 
-Interview sets. GREG-BOOT: a folding beach chair on the Isthmus Cove sand at Two Harbors, boot propped on a cooler, moored boats and green hills behind (dusk for most bites, dawn for the last). ELLIOTT: glass-walled conference room. CAROLINA: bright home office with mood boards. MARKUS: home study with a window. JADE: a lifeguard stand at night with laser light passing over. RYAN and OMAR: an overturned crate beside the sand stage at night. FRED: a desk in a quiet home office.
+Interview sets. GREG-BOOT: a folding beach chair on the Isthmus Cove sand at Two Harbors, boot propped on a cooler, moored boats and green hills behind (dusk for most bites, dawn for the last). ELLIOTT: glass-walled conference room. CAROLINA: bright home office with mood boards. MARKUS: home study with a window. JADE: a lifeguard stand at night with laser light passing over. RYAN, OMAR, and CAROLYN with MARCEL: an overturned crate beside the sand stage at night. FRED: a desk in a quiet home office.
 
 ## Reference image placeholders (location and venue only)
 
-Location slots are filled with Elliott's Two Harbors photos in `refs/`. Venue slots stay open for his rave pictures. Use them for places and stage design only. Never attach a real photo of Greg, Ryan, Omar or anyone else. Those three come from the character sheet text and generated stills.
+Location slots are filled with Elliott's Two Harbors photos in `refs/`. Venue slots stay open for his rave pictures. Use them for places and stage design only. Never attach a real photo of Greg, Ryan, Omar, Carolyn, Marcel or anyone else. They all come from the character sheet text and generated stills.
 
 | Slot | File name | What it shows | Used in |
 | --- | --- | --- | --- |
-| REF-LOC-01 | refs/two-harbors-catalina-harbor.png | Elliott's photo: hilltop view of a turquoise cove with pier and moorings, green hills, village, ocean beyond | P3-S04, P3-S17, P3-S29, P3-S41, P3-S42, P3-S49, P3-S54, P3-S57 |
-| REF-LOC-02 | refs/two-harbors-aerial.png | Elliott's photo: aerial of Isthmus Cove, moored-boat field, pier, beach, village, far harbor through the neck | P3-S17, P3-S29, P3-S41, P3-S42, P3-S44, P3-S49, P3-S54, P3-S57 |
+| REF-LOC-01 | refs/two-harbors-catalina-harbor.png | Elliott's photo: hilltop view of a turquoise cove with pier and moorings, green hills, village, ocean beyond | P3-S04, P3-S17, P3-S29, P3-S43, P3-S44, P3-S51, P3-S56, P3-S59 |
+| REF-LOC-02 | refs/two-harbors-aerial.png | Elliott's photo: aerial of Isthmus Cove, moored-boat field, pier, beach, village, far harbor through the neck | P3-S17, P3-S29, P3-S43, P3-S44, P3-S46, P3-S51, P3-S56, P3-S59 |
 | REF-LOC-03 | refs/two-harbors-coast.png | Elliott's photo: aerial of coastline, campground and winding road above a blue bay with boats | P3-S04 |
 | REF-LOC-04 | ref-avalon-pier.jpg (open) | Avalon pier and tender landing, daytime | P3-S02, P3-S03, P3-S12 |
 | REF-LOC-05 | ref-cruise-ship-anchored.jpg (open) | Cruise ship anchored off Avalon (logos removed) | P3-S01 |
 | REF-VEN-01 | ref-stage-truss-lasers.jpg (open) | Beach stage truss with laser rig | P3-S18 |
 | REF-VEN-02 | ref-led-wall.jpg (open) | LED wall and DJ booth layout | P3-S19, P3-S28, P3-S37, P3-S38 |
-| REF-VEN-03 | ref-laser-over-water.jpg (open) | Laser fan over water | P3-S17, P3-S29, P3-S41, P3-S42 |
-| REF-VEN-04 | ref-crowd-haze.jpg (open) | Crowd in haze, view from mid floor | P3-S19, P3-S24, P3-S28, P3-S30, P3-S32, P3-S34, P3-S37, P3-S38, P3-S39, P3-S40, P3-S41, P3-S44 |
-| REF-VEN-05 | ref-drone-beach-night.jpg (open) | Drone angle over a beach event at night | P3-S17, P3-S41, P3-S42 |
+| REF-VEN-03 | ref-laser-over-water.jpg (open) | Laser fan over water | P3-S17, P3-S29, P3-S43, P3-S44 |
+| REF-VEN-04 | ref-crowd-haze.jpg (open) | Crowd in haze, view from mid floor | P3-S19, P3-S24, P3-S28, P3-S30, P3-S32, P3-S34, P3-S37, P3-S38, P3-S39, P3-S40, P3-S41, P3-S43, P3-S46 |
+| REF-VEN-05 | ref-drone-beach-night.jpg (open) | Drone angle over a beach event at night | P3-S17, P3-S43, P3-S44 |
 
 In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC-03 are ready in `refs/`; the rest attach once Elliott supplies them.
 
-## Shot list (58 shots, 8:30)
+## Shot list (60 shots, 8:45)
 
 
 ### Cold open (0:00)
@@ -371,7 +373,22 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 - Native audio cue: Drop continues at full volume.
 - Reference slots: REF-VEN-04
 
-**P3-S41** | 5:36 | 10s | 10s, 16:9, 1080p
+**P3-S41** | 5:36 | 8s | 8s, 16:9, 1080p
+- Prompt: A few feet away in the crowd, CAROLYN and MARCEL spot GREG-BOOT dancing on one foot. They point, grab each other, then turn to him and cheer, arms pumping, MARCEL yelling and clapping over his head, CAROLYN jumping in place.
+- Camera: Medium, handheld, swinging from the couple to GREG-BOOT and back.
+- Graphics (add in edit): none
+- Audio: none
+- Native audio cue: Drop continues. Two voices whooping close to the mic.
+- Reference slots: REF-VEN-04
+
+**P3-S42** | 5:44 | 7s | 7s, 16:9, 1080p
+- Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: CAROLYN and MARCEL side by side on the crate set, laser light passing over them.
+- Camera: Medium two-shot, handheld, slight drift.
+- Graphics (add in edit): Lower-third: "CAROLYN & MARCEL / Ravers"
+- Audio: MARCEL: "We didn't know him. We cheered anyway."; CAROLYN: "The boot had rhythm."
+- Native audio cue: Muffled set behind them.
+
+**P3-S43** | 5:51 | 10s | 10s, 16:9, 1080p
 - Prompt: Drone shot at night pulling back and up from the beach: the crowd, the lasers over Isthmus Cove, the Isthmus pier, the dark moored-boat field, the narrow neck of land behind the stage and the open Pacific beyond it.
 - Camera: Drone, slow pull back and rise.
 - Graphics (add in edit): none
@@ -379,7 +396,7 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 - Native audio cue: Drop rolls on, heard from above, wind on the drone.
 - Reference slots: REF-LOC-01, REF-LOC-02, REF-VEN-03, REF-VEN-04, REF-VEN-05
 
-**P3-S42** | 5:46 | 10s | 10s, 16:9, 1080p
+**P3-S44** | 6:01 | 10s | 10s, 16:9, 1080p
 - Prompt: Drone shot at night flying slowly along the narrow isthmus from Isthmus Cove toward Catalina Harbor: the stage's green and white lasers fan out over both bays at once, beams skimming the water of Isthmus Cove on one side and the Little Harbor cove on the other, the dark green hills on either side, the open Pacific beyond.
 - Camera: Drone, slow lateral track along the neck, steady altitude.
 - Graphics (add in edit): none
@@ -387,14 +404,14 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 - Native audio cue: Drop continues, softer from altitude, wind on the drone.
 - Reference slots: REF-LOC-01, REF-LOC-02, REF-VEN-03, REF-VEN-05
 
-**P3-S43** | 5:56 | 8s | 8s, 16:9, 1080p
+**P3-S45** | 6:11 | 8s | 8s, 16:9, 1080p
 - Prompt: Close-up of the walking boot on the sand, keeping time, tapping once per beat, glow-stick light flickering across it.
 - Camera: Low close-up, handheld.
 - Graphics (add in edit): none
 - Audio: none
 - Native audio cue: Kick drum, boot thump in sync.
 
-**P3-S44** | 6:04 | 8s | 8s, 16:9, 1080p
+**P3-S46** | 6:19 | 8s | 8s, 16:9, 1080p
 - Prompt: A tunnel of green laser beams fans low over the crowd's raised hands, haze glowing, confetti drifting down through the light, the Isthmus pier and moored boats lit beyond the stage.
 - Camera: Handheld from mid crowd, slow tilt up.
 - Graphics (add in edit): none
@@ -402,21 +419,21 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 - Native audio cue: Drop continues, crowd singing a wordless melody.
 - Reference slots: REF-LOC-02, REF-VEN-04
 
-**P3-S45** | 6:12 | 12s | 12s, 16:9, 1080p
+**P3-S47** | 6:27 | 12s | 12s, 16:9, 1080p
 - Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: MARKUS, study set, reading glasses on, watching a tablet.
 - Camera: Close-up, slight drift.
 - Graphics (add in edit): Lower-third: "MARKUS SCHULTZ / Owner (fictional)"
 - Audio: MARKUS: "I don't follow techno. I followed the boot. The boot never missed a beat. That's more than I can say for his forecasts."
 - Native audio cue: Faint drop audio from the tablet.
 
-**P3-S46** | 6:24 | 10s | 10s, 16:9, 1080p
+**P3-S48** | 6:39 | 10s | 10s, 16:9, 1080p
 - Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: RYAN, crate set, grinning.
 - Camera: Close-up, handheld.
 - Graphics (add in edit): none
 - Audio: RYAN: "I've had a lot of people on my shoulders. Nobody ever held up a medical boot before. The whole front row cheered for the boot."
 - Native audio cue: Muffled set behind him.
 
-**P3-S47** | 6:34 | 10s | 10s, 16:9, 1080p
+**P3-S49** | 6:49 | 10s | 10s, 16:9, 1080p
 - Prompt: FRED's desk terminal, screen glowing blue, a faint laser-green reflection drifting across it.
 - Camera: Close-up, static.
 - Graphics (add in edit): none
@@ -424,16 +441,16 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 - Native audio cue: Office hum, faint bass.
 
 
-### XVII. After (6:44)
+### XVII. After (6:59)
 
-**P3-S48** | 6:44 | 4s | Editor card, not generated
+**P3-S50** | 6:59 | 4s | Editor card, not generated
 - Prompt: Black card. White text fades up.
 - Camera: Static.
 - Graphics (add in edit): Card: "XVII. AFTER"
 - Audio: none
 - Native audio cue: Last chord of the set, fading.
 
-**P3-S49** | 6:48 | 10s | 10s, 16:9, 1080p
+**P3-S51** | 7:03 | 10s | 10s, 16:9, 1080p
 - Prompt: Haze drifting over an emptying beach on Isthmus Cove after the set, stage lights dimming, a few dancers sitting on the sand, moored boats rocking, the dark green hills behind.
 - Camera: Wide, tripod, slow pan.
 - Graphics (add in edit): Lower note: "1:14 AM"
@@ -441,21 +458,21 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 - Native audio cue: Crowd dispersing, distant laughter, waves returning.
 - Reference slots: REF-LOC-01, REF-LOC-02
 
-**P3-S50** | 6:58 | 10s | 10s, 16:9, 1080p
+**P3-S52** | 7:13 | 10s | 10s, 16:9, 1080p
 - Prompt: GREG-BOOT and JADE sit on the sand sharing a bottle of water, he points at the lasers being packed up and explains something with his hands.
 - Camera: Medium wide, handheld, from behind and to the side.
 - Graphics (add in edit): none
 - Audio: none
 - Native audio cue: Waves. Muffled talk. Truss clanking.
 
-**P3-S51** | 7:08 | 11s | 11s, 16:9, 1080p
+**P3-S53** | 7:23 | 11s | 11s, 16:9, 1080p
 - Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: JADE, lifeguard stand set, laughing.
 - Camera: Close-up, handheld.
 - Graphics (add in edit): none
 - Audio: JADE: "He explained the cost of the lasers per minute. Then he said it was worth it. He seemed surprised he said it."
 - Native audio cue: Waves.
 
-**P3-S52** | 7:19 | 12s | 12s, 16:9, 1080p
+**P3-S54** | 7:34 | 12s | 12s, 16:9, 1080p
 - Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: CAROLINA, CREATIVE STUDIO set, warm.
 - Camera: Close-up, static.
 - Graphics (add in edit): none
@@ -463,16 +480,16 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 - Native audio cue: Room tone.
 
 
-### Epilogue (7:31)
+### Epilogue (7:46)
 
-**P3-S53** | 7:31 | 4s | Editor card, not generated
+**P3-S55** | 7:46 | 4s | Editor card, not generated
 - Prompt: Black card. White text fades up.
 - Camera: Static.
 - Graphics (add in edit): Card: "EPILOGUE"
 - Audio: none
 - Native audio cue: Soft piano returns.
 
-**P3-S54** | 7:35 | 10s | 10s, 16:9, 1080p
+**P3-S56** | 7:50 | 10s | 10s, 16:9, 1080p
 - Prompt: Dawn on the Isthmus Cove beach: the stage half dismantled, gulls on the sand, GREG-BOOT asleep in a beach chair, glow bracelet faded, the moored boats and the Isthmus pier in soft light, green hills behind.
 - Camera: Wide, tripod, very slow push-in.
 - Graphics (add in edit): none
@@ -480,21 +497,21 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 - Native audio cue: Gulls, waves, a shore boat horn at the pier.
 - Reference slots: REF-LOC-01, REF-LOC-02
 
-**P3-S55** | 7:45 | 14s | 14s, 16:9, 1080p
+**P3-S57** | 8:00 | 14s | 14s, 16:9, 1080p
 - Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: ELLIOTT, OFFICE set, the warmest light.
 - Camera: Close-up, slight drift.
 - Graphics (add in edit): none
 - Audio: ELLIOTT: "I fired Greg for stopping at the first number. Watching that video, he stayed for the whole song. I'm glad. I'd still like him to read page two."
 - Native audio cue: Piano.
 
-**P3-S56** | 7:59 | 13s | 13s, 16:9, 1080p
+**P3-S58** | 8:14 | 13s | 13s, 16:9, 1080p
 - Prompt: YouTube-style sit-down interview, lav mic visible, window or ring light, real room: GREG-BOOT, beach chair set, now at dawn, sunglasses down.
 - Camera: Close-up, tripod.
 - Graphics (add in edit): none
 - Audio: GREG: "People ask if I regret the memo. I regret the dock. The memo, I've made my peace with. I'm having the time of my life. Write that down."
 - Native audio cue: Waves. Piano.
 
-**P3-S57** | 8:12 | 10s | 10s, 16:9, 1080p
+**P3-S59** | 8:27 | 10s | 10s, 16:9, 1080p
 - Prompt: GREG-BOOT walks carefully down the Isthmus pier toward the waiting shore boat back to Avalon, stepping around a wet patch, glow bracelet on his wrist, moored boats and green hills around him.
 - Camera: Wide, from behind, handheld, slight sway.
 - Graphics (add in edit): none
@@ -502,7 +519,7 @@ In each shot below, a line "Reference slots" names what to attach. LOC-01 to LOC
 - Native audio cue: Boot on wood. Gulls. One distant kick drum, then silence.
 - Reference slots: REF-LOC-01, REF-LOC-02
 
-**P3-S58** | 8:22 | 8s | 8s, 16:9, 1080p
+**P3-S60** | 8:37 | 8s | 8s, 16:9, 1080p
 - Prompt: The empty beach chair on the sand at dawn, a faded glow bracelet left on the armrest. Fade to black.
 - Camera: Static, fade to black.
 - Graphics (add in edit): End card: disclaimer (see assembly notes).
@@ -525,6 +542,6 @@ Three prompts Elliott can generate on their own, outside the film. Paste the glo
 2. Pacing. Keep the first half quiet. The rave chapters (XIV to XVI) run louder and faster. After each burst, cut straight back to a plain interview.
 3. The drop (P3-S37 to P3-S39). Hold the blackout a full two seconds before the drop hits.
 4. Music. Use original or licensed melodic techno in a Miss Monique style. Don't use her tracks, name or likeness. The HEADLINER is never shown from the front.
-5. Greg looks the same as in Parts 1 and 2. Generate one still each of GREG-BOOT, RYAN and OMAR from the token text and reuse them. Never use a real photo of Greg, Ryan or Omar.
+5. Greg looks the same as in Parts 1 and 2. Generate one still each of GREG-BOOT, RYAN, OMAR, CAROLYN and MARCEL from the token text and reuse them. Never use a real photo of any of them.
 6. Check every clip for real logos, ship names, readable signage or real faces, and regenerate any that has one.
-7. Disclaimer card at the end: "Fictional parody. Greg (invented face, not based on any real person), Fred, Elliott as CFO, Carolina, Markus Schultz, Jade, Ryan and Omar (invented looks, not their likenesses), the headliner and the Sand Stage event are invented. The real Dodgers ownership is not depicted. Miss Monique-style describes the music genre only. She does not appear and is not involved. Avalon and Two Harbors appear as locations."
+7. Disclaimer card at the end: "Fictional parody. Greg (invented face, not based on any real person), Fred, Elliott as CFO, Carolina, Markus Schultz, Jade, Ryan, Omar, Carolyn and Marcel (invented looks, not their likenesses), the headliner and the Sand Stage event are invented. The real Dodgers ownership is not depicted. Miss Monique-style describes the music genre only. She does not appear and is not involved. Avalon and Two Harbors appear as locations."

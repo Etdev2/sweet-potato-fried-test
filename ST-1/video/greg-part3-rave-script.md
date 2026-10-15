@@ -1,6 +1,6 @@
 # The Greg blunder. Part Three: The Drop
 
-Documentary parody with an authentic YouTube look. Runtime 8:30. 584 spoken words, at about 140 words a minute with a pause after each line, plus music-only rave sequences. Every spoken line matches `greg-part3-prompt-pack.md` word for word.
+Documentary parody with an authentic YouTube look. Runtime 8:45. 595 spoken words, at about 140 words a minute with a pause after each line, plus music-only rave sequences. Every spoken line matches `greg-part3-prompt-pack.md` word for word.
 
 Look: realistic people with invented faces, handheld cameras, real rooms, phone footage and drone shots. Greg is the same invented character from Parts 1 and 2. Only the rave is loud. Music is Miss Monique-style melodic techno, original or licensed, never a real artist's track. The headliner is fictional and shown only from behind or in silhouette.
 
@@ -142,73 +142,81 @@ GREG: The song kept building and building. I kept thinking, it's too long, it's 
 
 [5:28] *GREG-BOOT in the crowd, both arms up, dancing with his weight on the good foot, the boot planted like an anchor, a huge grin, laser beams crossing above him. Medium, handheld, circling him.*
 
-[5:36] *Drone shot at night pulling back and up from the beach: the crowd, the lasers over Isthmus Cove, the Isthmus pier, the dark moored-boat field, the narrow neck of land behind the stage and the open Pacific beyond it. Drone, slow pull back and rise.*
+[5:36] *A few feet away in the crowd, CAROLYN and MARCEL spot GREG-BOOT dancing on one foot. They point, grab each other, then turn to him and cheer, arms pumping, MARCEL yelling and clapping over his head, CAROLYN jumping in place. Medium, handheld, swinging from the couple to GREG-BOOT and back.*
+
+[5:44] *YouTube-style sit-down interview, lav mic visible, window or ring light, real room: CAROLYN and MARCEL side by side on the crate set, laser light passing over them. Medium two-shot, handheld, slight drift. Lower-third: "CAROLYN & MARCEL / Ravers"*
+
+MARCEL: We didn't know him. We cheered anyway.
+
+CAROLYN: The boot had rhythm.
+
+[5:51] *Drone shot at night pulling back and up from the beach: the crowd, the lasers over Isthmus Cove, the Isthmus pier, the dark moored-boat field, the narrow neck of land behind the stage and the open Pacific beyond it. Drone, slow pull back and rise.*
 
 NARRATOR: For eight minutes, the man who passed on seven hundred million dollars didn't pass on anything.
 
-[5:46] *Drone shot at night flying slowly along the narrow isthmus from Isthmus Cove toward Catalina Harbor: the stage's green and white lasers fan out over both bays at once, beams skimming the water of Isthmus Cove on one side and the Little Harbor cove on the other, the dark green hills on either side, the open Pacific beyond. Drone, slow lateral track along the neck, steady altitude.*
+[6:01] *Drone shot at night flying slowly along the narrow isthmus from Isthmus Cove toward Catalina Harbor: the stage's green and white lasers fan out over both bays at once, beams skimming the water of Isthmus Cove on one side and the Little Harbor cove on the other, the dark green hills on either side, the open Pacific beyond. Drone, slow lateral track along the neck, steady altitude.*
 
-[5:56] *Close-up of the walking boot on the sand, keeping time, tapping once per beat, glow-stick light flickering across it. Low close-up, handheld.*
+[6:11] *Close-up of the walking boot on the sand, keeping time, tapping once per beat, glow-stick light flickering across it. Low close-up, handheld.*
 
-[6:04] *A tunnel of green laser beams fans low over the crowd's raised hands, haze glowing, confetti drifting down through the light, the Isthmus pier and moored boats lit beyond the stage. Handheld from mid crowd, slow tilt up.*
+[6:19] *A tunnel of green laser beams fans low over the crowd's raised hands, haze glowing, confetti drifting down through the light, the Isthmus pier and moored boats lit beyond the stage. Handheld from mid crowd, slow tilt up.*
 
-[6:12] *YouTube-style sit-down interview, lav mic visible, window or ring light, real room: MARKUS, study set, reading glasses on, watching a tablet. Close-up, slight drift. Lower-third: "MARKUS SCHULTZ / Owner (fictional)"*
+[6:27] *YouTube-style sit-down interview, lav mic visible, window or ring light, real room: MARKUS, study set, reading glasses on, watching a tablet. Close-up, slight drift. Lower-third: "MARKUS SCHULTZ / Owner (fictional)"*
 
 MARKUS: I don't follow techno. I followed the boot. The boot never missed a beat. That's more than I can say for his forecasts.
 
-[6:24] *YouTube-style sit-down interview, lav mic visible, window or ring light, real room: RYAN, crate set, grinning. Close-up, handheld.*
+[6:39] *YouTube-style sit-down interview, lav mic visible, window or ring light, real room: RYAN, crate set, grinning. Close-up, handheld.*
 
 RYAN: I've had a lot of people on my shoulders. Nobody ever held up a medical boot before. The whole front row cheered for the boot.
 
-[6:34] *FRED's desk terminal, screen glowing blue, a faint laser-green reflection drifting across it. Close-up, static.*
+[6:49] *FRED's desk terminal, screen glowing blue, a faint laser-green reflection drifting across it. Close-up, static.*
 
 FRED: The drop arrived at minute twelve, as forecast. Greg did not ask me. I am choosing not to mention it.
 
 
-## [6:44] XVII. After
+## [6:59] XVII. After
 
-[6:44] *Black card. White text fades up. Static. Card: "XVII. AFTER"*
+[6:59] *Black card. White text fades up. Static. Card: "XVII. AFTER"*
 
-[6:48] *Haze drifting over an emptying beach on Isthmus Cove after the set, stage lights dimming, a few dancers sitting on the sand, moored boats rocking, the dark green hills behind. Wide, tripod, slow pan. Lower note: "1:14 AM"*
+[7:03] *Haze drifting over an emptying beach on Isthmus Cove after the set, stage lights dimming, a few dancers sitting on the sand, moored boats rocking, the dark green hills behind. Wide, tripod, slow pan. Lower note: "1:14 AM"*
 
 NARRATOR: After the set, Greg stayed on the sand until the crew turned off the lights.
 
-[6:58] *GREG-BOOT and JADE sit on the sand sharing a bottle of water, he points at the lasers being packed up and explains something with his hands. Medium wide, handheld, from behind and to the side.*
+[7:13] *GREG-BOOT and JADE sit on the sand sharing a bottle of water, he points at the lasers being packed up and explains something with his hands. Medium wide, handheld, from behind and to the side.*
 
-[7:08] *YouTube-style sit-down interview, lav mic visible, window or ring light, real room: JADE, lifeguard stand set, laughing. Close-up, handheld.*
+[7:23] *YouTube-style sit-down interview, lav mic visible, window or ring light, real room: JADE, lifeguard stand set, laughing. Close-up, handheld.*
 
 JADE: He explained the cost of the lasers per minute. Then he said it was worth it. He seemed surprised he said it.
 
-[7:19] *YouTube-style sit-down interview, lav mic visible, window or ring light, real room: CAROLINA, CREATIVE STUDIO set, warm. Close-up, static.*
+[7:34] *YouTube-style sit-down interview, lav mic visible, window or ring light, real room: CAROLINA, CREATIVE STUDIO set, warm. Close-up, static.*
 
 CAROLINA: As a brand story, it's redemption. Same shirt. New ending. The audience loves a man who finally waits for the drop.
 
 
-## [7:31] Epilogue
+## [7:46] Epilogue
 
-[7:31] *Black card. White text fades up. Static. Card: "EPILOGUE"*
+[7:46] *Black card. White text fades up. Static. Card: "EPILOGUE"*
 
-[7:35] *Dawn on the Isthmus Cove beach: the stage half dismantled, gulls on the sand, GREG-BOOT asleep in a beach chair, glow bracelet faded, the moored boats and the Isthmus pier in soft light, green hills behind. Wide, tripod, very slow push-in.*
+[7:50] *Dawn on the Isthmus Cove beach: the stage half dismantled, gulls on the sand, GREG-BOOT asleep in a beach chair, glow bracelet faded, the moored boats and the Isthmus pier in soft light, green hills behind. Wide, tripod, very slow push-in.*
 
 NARRATOR: Greg nearly missed his ship. The ship waited. He did not ask how much that cost.
 
-[7:45] *YouTube-style sit-down interview, lav mic visible, window or ring light, real room: ELLIOTT, OFFICE set, the warmest light. Close-up, slight drift.*
+[8:00] *YouTube-style sit-down interview, lav mic visible, window or ring light, real room: ELLIOTT, OFFICE set, the warmest light. Close-up, slight drift.*
 
 ELLIOTT: I fired Greg for stopping at the first number. Watching that video, he stayed for the whole song. I'm glad. I'd still like him to read page two.
 
-[7:59] *YouTube-style sit-down interview, lav mic visible, window or ring light, real room: GREG-BOOT, beach chair set, now at dawn, sunglasses down. Close-up, tripod.*
+[8:14] *YouTube-style sit-down interview, lav mic visible, window or ring light, real room: GREG-BOOT, beach chair set, now at dawn, sunglasses down. Close-up, tripod.*
 
 GREG: People ask if I regret the memo. I regret the dock. The memo, I've made my peace with. I'm having the time of my life. Write that down.
 
-[8:12] *GREG-BOOT walks carefully down the Isthmus pier toward the waiting shore boat back to Avalon, stepping around a wet patch, glow bracelet on his wrist, moored boats and green hills around him. Wide, from behind, handheld, slight sway.*
+[8:27] *GREG-BOOT walks carefully down the Isthmus pier toward the waiting shore boat back to Avalon, stepping around a wet patch, glow bracelet on his wrist, moored boats and green hills around him. Wide, from behind, handheld, slight sway.*
 
-[8:22] *The empty beach chair on the sand at dawn, a faded glow bracelet left on the armrest. Fade to black. Static, fade to black. End card: disclaimer (see assembly notes).*
+[8:37] *The empty beach chair on the sand at dawn, a faded glow bracelet left on the armrest. Fade to black. Static, fade to black. End card: disclaimer (see assembly notes).*
 
 
-## [8:30] End
+## [8:45] End
 
 ---
 
 ## Disclaimer
 
-Fictional parody in the form of a YouTube documentary. Greg, Fred, Elliott as CFO, Carolina, Markus Schultz, Jade, Ryan and Omar as written here, the headliner, the flyer, the Sand Stage event and the cruise are invented. Every character has an invented face and is not based on a real person or real photos. Ryan and Omar are real friends of Elliott's. On screen they are written characters with invented looks, and their photos and likenesses are not used. The real Dodgers ownership is not depicted. Avalon and Two Harbors (Isthmus Cove and Catalina Harbor) appear as locations only. The rave at Two Harbors is invented. "Miss Monique-style" describes a genre of music. Miss Monique does not appear, is not depicted and has no involvement. No real brand logos appear.
+Fictional parody in the form of a YouTube documentary. Greg, Fred, Elliott as CFO, Carolina, Markus Schultz, Jade, Ryan, Omar, Carolyn and Marcel as written here, the headliner, the flyer, the Sand Stage event and the cruise are invented. Every character has an invented face, and no real photos are used. Ryan, Omar, Carolyn and Marcel are real people Elliott knows. On screen they are written characters with invented looks, and their photos and likenesses are not used. The real Dodgers ownership is not depicted. Avalon and Two Harbors (Isthmus Cove and Catalina Harbor) appear as locations only. The rave at Two Harbors is invented. "Miss Monique-style" describes a genre of music. Miss Monique does not appear, is not depicted and has no involvement. No real brand logos appear.
